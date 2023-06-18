@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+    cursor:crosshair;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #222333;
+    background: #fff;
+}
+
+main {
+    width: 50vw;
+    padding: 5vh 5vw;
+    float: left;
+}
+
+aside {
+    width: 40vw;
+    padding: 0;
+    float: right;
+}
+
+@media (orientation: portrait) {
+    main {
+        width: 80vw;
+    }
+    aside {
+        width: 90vw;
+    }
+}
+
+h1 {
+    margin-left: -0.25rem;
+}
+
+a {
+    color: #222;
+    font-weight: bold;
+}
+
+a:hover{
+    color:#000;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+p {
+    line-break: 1.8;
+    margin-bottom: 0.8rem;
+    font-size:1.4rem;
+}
+
+p:first-of-type {
+    margin-top: 5vw;
+}
+
+p#accept{
+    margin-top:2rem;
+    margin-left:-0.3rem;
+    font-size:1.1rem;
+}
+
+p#accept a{
+    text-decoration: none;
+    background: #eee;
+    box-shadow: 2px 2px 3px #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    line-height: 1rem;
+}
+
+p#accept a:hover {
+    background: #ddd;
+    box-shadow: 1px 1px 2px #bbb;
+}
+
+
+/* Lo que sigue se usa sólo en page.html  */
+
+header,
+footer {
+    width: 90vw;
+    margin: 0;
+    padding: 5vh 5vw;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div a {
+    display: block;
+    background: #eee;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.2);
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+footer div a:hover {
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+}
+
+footer div#controles {
+    background: #fff;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+}
+
+footer div#controles input[type="color"] {
+    border: none;
+    background: #fff;
+    padding: 3px 5px;
+    width: 2rem;
+}
+
+footer div#controles input[type="range"] {
+    width: 4rem;
+    margin: 0 0.5rem;
+}

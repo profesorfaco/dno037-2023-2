@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <link href="style.css" rel="stylesheet" />
+        <title>DNO037 | Evaluación Nº1</title>
+    </head>
+    <body>
+        <main>
+            <h1>¿Quieres dibujar a <span id="title"></span>?</h1>
+            <p>Siendo las <span id="time"></span> hrs., te desafío a dibujar a este digimon de nivel <span id="level"></span> en la <span id="next"></span>.</p>
+            <p>¡Pero tienes que dibujarlo de memoria! Una vez aceptes el desafío, no podrás volver a verlo.</p>
+            <p id="accept"></p>
+        </main>
+        <aside></aside>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js" integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            var datos;
+            var datosArreglados;
+            var x;
+            var lasHoras = "HH";
+            var losMinutos = "MM";
+
+            function preload() {
+                datos = loadJSON("https://digimon-api.vercel.app/api/digimon");
+            }
+            function setup() {
+                datosArreglados = Object.values(datos);
+                //Yo revisaría cómo se usa la siguiente x en la línea 36 
+                x = Math.floor(random(0, (datosArreglados.length)-1));
+                select("#title").html("NombreDelDigimon");
+                select("#time").html(lasHoras + ":" + losMinutos);
+                select("#level").html("NivelDelDigimon");
+                var elAside = select("aside");
+                createImg(datosArreglados[x].img).parent(elAside).style("width", "100%");
+                createA("page.html?data=" + "NombreDelDigimon", "siguiente página").parent("next");
+                createA("page.html?data=" + "NombreDelDigimon", "Acepto, dibujaré a " + "NombreDelDigimon" + " 💰").parent("accept");
+                noCanvas();
+            }
+        </script>
+    </body>
+</html>
