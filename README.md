@@ -6,7 +6,7 @@ Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del p
 
 ### Descripción abreviada en 3 partes:
 
-- Conserva su nombre desde el año 2010, pero no conserva el mismo programa en su versión 17.
+- Conserva su nombre desde el año 2010, pero no conserva el mismo programa en su versión 17, ofrecida en segundo semestre de 2023.
 
 - Las versiones más recientes ofrecen una introducción al desarrollo de Aplicaciones Web, por la vía del FrontEnd.
 
