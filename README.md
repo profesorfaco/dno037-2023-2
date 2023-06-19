@@ -8,7 +8,7 @@ Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del p
 
 - Conserva su nombre desde el año 2010, pero no conserva el mismo programa en su versión 17, ofrecida en segundo semestre de 2023.
 
-- Esta versión, y las más recientes, ofrecen una introducción al desarrollo de Aplicaciones Web, por la vía del FrontEnd.
+- Esta versión, y las más recientes, ofrecen una introducción al desarrollo de Aplicaciones Web, por la vía del [Front-end](https://es.wikipedia.org/wiki/Desarrollo_web_Front-end).
 
 - Introducción que exige la constante ejercitación y publicación de resultados en [GitHub](https://github.com/).
 
