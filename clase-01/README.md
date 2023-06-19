@@ -26,7 +26,9 @@ Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo
 
 ### Práctica (para la clase)
 
-Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con [index.html](https://github.com/profesorfaco/dno037-2023-1/blob/main/clase-01/index.html):
+
+
+Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con https://profesorfaco.github.io/dno037-2023-2/clase-01/index.html
 
 Allí podemos ver la estructura típica de toda página HTML: 
 
@@ -38,13 +40,14 @@ Allí podemos ver la estructura típica de toda página HTML:
 </html>
 ```
 
-Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un [style.css](https://github.com/profesorfaco/dno037-2023-1/blob/main/clase-01/style.css):
+Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un https://profesorfaco.github.io/dno037-2023-2/clase-01/style.css
 
 ```
 <link href="style.css" rel="stylesheet" />
 ```
 
-Ahora volvamos al [index.html](https://github.com/profesorfaco/dno037-2023-1/blob/main/clase-01/index.html), y veamos las líneas al final del cuerpo (`<body></body>`), dentro de unas etiquetas de script (`<script></script>`). 
+
+Ahora volvamos al index.html, y veamos las líneas al final del cuerpo (`<body></body>`), dentro de unas etiquetas de script (`<script></script>`). 
 
 Allí podemos ver una [variable de JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables#%C2%BFqu%C3%A9_es_una_variable); esta variable se llama `palabras` y contiene un arreglo con 8 cadenas de caracteres entre comillas. 
 
@@ -56,9 +59,9 @@ Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro 
 
 El contenido de la variable se aprovecha para programar algo sencillo, con la ayuda de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JS que reinterpreta Processing para la Web.
 
-Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a [page.html](https://github.com/profesorfaco/dno037-2023-1/blob/main/clase-01/page.html), donde se programa otra cosa sencilla con p5.js (`<script></script>`).
+Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a https://profesorfaco.github.io/dno037-2023-2/clase-01/page.html, donde se programa otra cosa sencilla con p5.js (`<script></script>`).
 
-**Llegando a este punto, ya conviene llevar los [documentos preparados](https://profesorfaco.github.io/dno037-2023-1/clase-01) al editor de código fuente en su computador.** 
+**Llegando a este punto, ya conviene llevar los [documentos preparados](https://profesorfaco.github.io/dno037-2023-2/clase-01) al editor de código fuente en su computador.** 
 
 Abriendo los documentos preparados en el editor de código fuente en su computador, podrá hacer los ajustes que el profesor indicará. Para no perderse, es muy recomendable poner atención y presentar sus dudas de inmediato (presentarlas al profesor, no a compañeros, para no quitarles la posibilidad de poner atención).
 
