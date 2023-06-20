@@ -126,8 +126,9 @@ Esta modalidad NO aplica en:
 
 ### Referencias en línea
 
-- [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [JavaScript Para Gatos](https://jsparagatos.com/)
 - [Tecnología para desarrolladores web | MDN](https://developer.mozilla.org/es/docs/Web)
+- [The Coding Train > Tracks > Code! Programming with p5.js](https://thecodingtrain.com/tracks/code-programming-with-p5-js)
+- [The Coding Train	> Tracks > Topics in Native JavaScript](https://thecodingtrain.com/tracks/topics-in-native-javascript)
 
 Se agregarán más referencias en el `README.md` de cada clase.
