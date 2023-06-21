@@ -6,15 +6,15 @@
 
 Escribir "código fuente" implica describir y/o programar. 
 
-Para reconocer los lenguajes de descripción y programación que son claves para el desarollo de sitios web profesionales o prototipos avanzados de aplicaciones web, trabajaremos con un "editor de código fuente".
+Para reconocer los lenguajes de descripción y programación que son claves para el desarollo de sitios web profesionales o prototipos avanzados de aplicaciones web, trabajaremos con un editor de código fuente ([Sublime Text](https://www.sublimetext.com/) o [Phoenix Code Editor](https://phcode.dev/)).
 
-Los colores en un editor de código fuente "nos darán indicaciones" para poder escribir nuestro código fuente con:
+El editor de código fuente nos darán indicaciones para poder escribir respuesta a las siguientes preguntas, cada una con un lenguaje distinto:
 
-- **HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web (qué es lo que contiene la página). HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>` → Podemos complementar esta breve introducción a HTML con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
+- **¿Qué es lo que contiene la página? Se responde con HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web. HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>` → Podemos complementar esta breve introducción a HTML con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
 
-- **CSS (Cascading Style Sheets)**. Lenguaje estándar que describe la presentación de las páginas web (cómo se muestra lo que contiene la página). CSS3 es la versión más reciente de este lenguaje. Su unidad más básica es la regla. Cada regla se inicia con un selector, seguido de paréntesis de llave `{…}`. Tal paréntesis contiene un bloque de declaraciones. En tal bloque, cada declaración se separa de otra mediante punto y coma `;`. Una declaración se compone del par `propiedad: valor`. Con todo lo dicho, una regla se escribirá, generalmente, de la siguiente manera: `selector{ propiedad: valor; }`  →  Podemos complementar esta breve introducción a CSS con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics (no es necesario realizar el ejercicio que allí se propone).
+- **¿Cómo se muestra lo que contiene la página? Se responde con CSS (Cascading Style Sheets)**. Lenguaje estándar que describe la presentación de las páginas web. CSS3 es la versión más reciente de este lenguaje. Su unidad más básica es la regla. Cada regla se inicia con un selector, seguido de paréntesis de llave `{…}`. Tal paréntesis contiene un bloque de declaraciones. En tal bloque, cada declaración se separa de otra mediante punto y coma `;`. Una declaración se compone del par `propiedad: valor`. Con todo lo dicho, una regla se escribirá, generalmente, de la siguiente manera: `selector{ propiedad: valor; }`  →  Podemos complementar esta breve introducción a CSS con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics (no es necesario realizar el ejercicio que allí se propone).
 
-- **JS (JavaScript)**. Lenguaje de programación que controla el comportamiento de las páginas web (qué hace la página). Con JS se pueden escribir secuencias de instrucciones con las que una computadora realizará una tarea determinada. Su estructura puede variar dependiendo de la lógica de cada instrucción, la [versión](https://www.w3schools.com/js/js_versions.asp) en uso, la *library* en la que nos apoyemos, o el *framework* de programación en el que se basa el trabajo; podemos imaginar que una *library* como una selección de ingredientes listos para poder preparar determinado tipo de comida, mientras que el *framework* te permite preparar un banquete si es que ya tienes suficiente experiencia en la cocina → Podemos complementar esta breve introducción a JS con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+- **¿Qué hace la página? Se responde con JS (JavaScript)**. Lenguaje de programación que controla el comportamiento de las páginas web. Con JS se pueden escribir secuencias de instrucciones con las que una computadora realizará una tarea determinada. Su estructura puede variar dependiendo de la lógica de cada instrucción, la [versión](https://www.w3schools.com/js/js_versions.asp) en uso, la *library* en la que nos apoyemos para resolver algo específico, o el *framework* de programación con el que se levanta todo el trabajo → Podemos complementar esta breve introducción a JS con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript
 
 Los lenguajes de descripción pueden dominarse en un menor tiempo que los lenguajes de programación; HTML puede dominarse tan pronto se memorizan [los elementos HTML](https://developer.mozilla.org/es/docs/Web/HTML/Element) y sus [atributos](https://developer.mozilla.org/es/docs/Web/HTML/Attributes); CSS podría exigir algo más que HTML, porque implica memorizar propiedades, valores y sus unidades, además de [los selectores](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors) (para seleccionar elementos del HTML por tipo, atributo, identidad, clase, pseudoclase y un largo etcétera). 
 
@@ -28,7 +28,7 @@ Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo
 
 Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con https://profesorfaco.github.io/dno037-2023-2/clase-01/index.html
 
-Si nos asomamos al código fuente, allí encontraremos la estructura típica de toda página HTML: 
+Si nos asomamos a su código fuente, allí encontraremos la estructura típica de toda página HTML: 
 
 ```
 <!DOCTYPE html>
@@ -38,7 +38,7 @@ Si nos asomamos al código fuente, allí encontraremos la estructura típica de 
 </html>
 ```
 
-Dentro de la cabeza (`<head></head>`), podemos ver un vínculo **link** cuya **ref**erencia es un https://profesorfaco.github.io/dno037-2023-2/clase-01/style.css que se **rel**aciona con la página como una **stylesheet**.
+Dentro de la cabeza (`<head></head>`), podemos ver un **link** cuya **ref**erencia es un [style.css](https://profesorfaco.github.io/dno037-2023-2/clase-01/style.css) que se **rel**aciona con la página como una **stylesheet**.
 
 Allí podemos leer la estructura típica de toda hoja de estilo CSS, donde encontramos una serie de reglas con la misma estructura de un selector antes de unos paréntesis de llave que contienen declaraciones separadas por punto y coma:  `* { margin: 0; padding: 0; }`
 
@@ -62,7 +62,7 @@ Para continuar reconociendo los lenguajes mencionados más arriba, y seguir apro
 
 Abriendo los documentos preparados en el editor de código fuente en su computador, podrá hacer los ajustes que el profesor indicará. 
 
-Para no perderse, es muy recomendable poner atención y presentar sus dudas de inmediato. ¡Preséntelas al profesor! No a compañeros, así no les quita la posibilidad de concentrarse ni caen en "el juego del teléfono" o el "según yo…"
+Para no perderse, es muy recomendable poner atención y presentar sus dudas de inmediato. Por favor preséntelas al profesor. No a compañeros; así no les quita la posibilidad de concentrarse ni cae en "el juego del teléfono" o la trampa del "según yo…" (porque todo es según lo que corresponde al lenguaje en cuestión).
 
 #### Importante
 
