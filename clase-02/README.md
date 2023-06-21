@@ -126,7 +126,11 @@ La variable `f`, que contiene un objeto, usa paréntesis de llave que en su inte
 
 Las variables `g` y `h` son mezclas de las anteriores.
 
-Las variables de nombre `f`, `g` y `h` pueden verse como un **JSON**. Lo que les faltan son unas comillas que podemos ver antes de los dos puntos en https://raw.githubusercontent.com/profesorfaco/dno037-2023-1/main/clase-02/regiones.json
+Las variables de nombre `f`, `g` y `h` pueden verse como un **JSON**. Lo que les faltan son unas comillas que podemos ver, por ejemplo, antes de los dos puntos en `"quote"`, `"song"` y `"album"`:
+
+```
+{"quote":"I'm shining like fireworks over your sad, empty town.","song":"Dear John","album":"Speak Now"}
+```
 
 - - - - - - - - - - - - -
 
