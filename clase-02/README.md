@@ -48,7 +48,7 @@ Esto es así porque los contenidos depende de consultas programadas:
 
 La primera consulta nos permitirá trabajar con [la sentencia `if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). Y la segunda nos permitirá asomarnos por primera vez a [JSON](https://www.json.org/json-es.html), un formato ligero de intercambio de datos.
 
-Pero antes del asomarnos a tal formato ligero de intercambio de datos, conviene saber algunas cosas sobre datos en programación.
+A propósito de tal intercambio, conviene aclarar algunas cosas sobre datos en programación.
 
 Partamos con el número 18261884. 
 
@@ -78,9 +78,13 @@ A estos dos tipos de datos, podemos agregar:
 
 ¡En el tipo de dato numérico y booleano no se usan comillas, pero cuando se tienen caracteres aislados o en cadena, sí!
 
-Mencionamos `int`, `float`, `bool`, `char` y `string`, porque son palabras que en lenguajes de programación más clásicos se reservan para **declarar que tal variable almacenará tal tipo de dato. Pero en JavaScript podemos crear toda variables con una única palabra reservada,`var`**. También podemos usar `let` y `const`. Para entender la diferencia, nos conviene consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
+Mencionamos `int`, `float`, `bool`, `char` y `string`, porque son palabras que en lenguajes de programación más clásicos se reservan para **declarar que tal variable almacenará tal tipo de dato. Pero en JavaScript podemos crear toda variables con una única palabra reservada,`var`**. También podemos usar `let` y `const`. Para entender la diferencia, conviene: 
 
-Usando únicamente `var`, en JavaScript podemos asignar como contenido de la variable todas las siguientes alternativas:
+- consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
+
+- ver el video [let vs var - Topics of JavaScript/ES6](https://www.youtube.com/watch?v=q8SHaDQdul0) (12 mins.)
+
+Pero insistamos en el `var` para explorar las siguientes alternativas:
 
 ```
 var a = 18261884;
@@ -116,17 +120,17 @@ var h = [
     }
 ];
 ```
-**Lo que cambia viene después del signo igual `=`, que en este caso está asignando contenido a cada variable.** 
+**Lo que cambia viene después del signo igual `=`, que en este caso está asignando contenido a cada variable (es lo que se guarda dentro de ella si es que la pensamos como una caja).** 
 
-Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. 
+Las variables de nombre `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. 
 
-La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas (si fuesen números o booleanos no las usarían). 
+La variable de nombre `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas (si fuesen números o booleanos no las usarían). 
 
-La variable `f`, que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de `nombre:valor`. 
+La variable de nombre `f`, que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de `nombre:valor`. 
 
-Las variables `g` y `h` son mezclas de las anteriores.
+Las variables de nombres `g` y `h` son mezclas de las anteriores.
 
-Las variables de nombre `f`, `g` y `h` pueden verse como un **JSON**. Lo que les faltan son unas comillas que podemos ver, por ejemplo, antes de los dos puntos en `"quote"`, `"song"` y `"album"`:
+Las variables de nombres `f`, `g` y `h` pueden verse como un **JSON**. Lo que les faltan son unas comillas que podemos ver, por ejemplo, antes de los dos puntos en `"quote"`, `"song"` y `"album"`:
 
 ```
 {"quote":"I'm shining like fireworks over your sad, empty town.","song":"Dear John","album":"Speak Now"}
@@ -136,7 +140,7 @@ Las variables de nombre `f`, `g` y `h` pueden verse como un **JSON**. Lo que les
 
 ### Práctica (para la clase)
 
-Antes de llevar los [documentos preparados](https://profesorfaco.github.io/dno037-2023-1/clase-02) al editor de código fuente en su computador, conviene:
+Antes de llevar los [documentos preparados](https://profesorfaco.github.io/dno037-2023-2/clase-02) al editor de código fuente en su computador, conviene:
 
 - revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
 
@@ -144,7 +148,7 @@ Antes de llevar los [documentos preparados](https://profesorfaco.github.io/dno03
 
 - contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
 
-#### Ejercicio
+#### Importante
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
