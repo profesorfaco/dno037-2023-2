@@ -34,7 +34,7 @@ Por la manipulación del DOM **podríamos encontrar inconcruencias entre** dos v
 
 Para que esta diferencia quede muy clara, aprovechen:
 
-https://profesorfaco.github.io/dno037-2023-1/clase-02/ejemplo.html
+https://profesorfaco.github.io/dno037-2023-2/clase-02/ejemplo.html
 
 Revisen las diferencias entre la vista del **código fuente de la página** y la de los **elementos de la página**
 
