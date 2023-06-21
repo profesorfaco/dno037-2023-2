@@ -38,13 +38,13 @@ https://profesorfaco.github.io/dno037-2023-2/clase-02/ejemplo.html
 
 Revisen las diferencias entre la vista del **código fuente de la página** y la de los **elementos de la página**
 
-Noten que en el código fuente faltan contenidos que sí están en la visualización y en los elementos de la página.
+Noten que en el código fuente faltan contenidos que sí están en la visualización que ofrece el navegador y en los elementos de la página.
 
 Esto es así porque los contenidos depende de consultas programadas:
 
 - Consulta por el momento en que se carga la página, con el [constructor `Date()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date)
 
-- Consulta a una [API swiftie](https://taylorswiftapi.onrender.com/get), con la función [loadJSON() de p5.js](https://p5js.org/es/reference/#/p5/loadJSON)
+- Consulta a una [API *swiftie*](https://taylorswiftapi.onrender.com/get), con la función [loadJSON() de p5.js](https://p5js.org/es/reference/#/p5/loadJSON)
 
 La primera consulta nos permitirá trabajar con [la sentencia `if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). Y la segunda nos permitirá asomarnos por primera vez a [JSON](https://www.json.org/json-es.html), un formato ligero de intercambio de datos.
 
