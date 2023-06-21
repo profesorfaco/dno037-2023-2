@@ -28,7 +28,7 @@ Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo
 
 Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con https://profesorfaco.github.io/dno037-2023-2/clase-01/index.html
 
-Si no asomamos al código fuente, allí encontraremos la estructura típica de toda página HTML: 
+Si nos asomamos al código fuente, allí encontraremos la estructura típica de toda página HTML: 
 
 ```
 <!DOCTYPE html>
