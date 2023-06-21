@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+            * { margin: 0; padding: 0; transition: color ease 0.5s; }
+
+            html, body { min-height: 100%; }
+
+            body { font-family: 'DM Serif Display', serif; color: #eceff1; background: linear-gradient(#222233, #111122); }
+
+            a { color: #78909c; text-decoration: none; }
+
+            a:hover { color: #b0bec5; text-decoration: underline; }
+
+            header, main, footer { width: 80vw; margin: 0; padding: 5vh 10vw; }
+
+            header p{ display: flex; justify-content: space-between; margin: auto;}
+
+            main p{ font-size: calc(2rem + 2vw); line-height: 1.15; }
+
+            main p span { color: #b0bec5; }
+
+            footer { position: absolute; bottom: 0; }
+
+            footer p { font-size: 90%; letter-spacing: 0.05rem; display: flex; justify-content: space-between; margin: auto; }
+        </style>
+        <title>DNO037</title>
+    </head>
+    <body>
+        <header>
+            <p>
+                <span>&#9201 <span id="hora"></span> hrs.</span>
+                <span id="saludo"></span>
+            </p>
+        </header>
+        <main id="texto"></main>
+        <footer>
+            <div id="vinculos">
+                <p>
+                    <a href="#">NOMBRE APELLIDO</a>
+                    <a href="https://github.com/profesorfaco/dno037-2023-2">DNO37</a>
+                </p>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js" integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            // Un par de variables en las que guardo el momento en que se carga la página (Date)
+            var laHora = new Date().getHours();
+            var losMinutos = new Date().getMinutes();
+            // Pongo el contenido de las variables en el span con identidad hora
+            document.querySelector("#hora").innerHTML = laHora +":"+ losMinutos;
+
+            // Creo otra variable
+            var elSaludo;
+            // Según la hora, guardo una u otra cosa en la variable recién creada
+            if (5 < laHora && laHora < 12) {
+                elSaludo = "¡Buenos días! ";
+            } else if (11 < laHora && laHora < 21) {
+                elSaludo = "¡Buenas tardes! ";
+            } else {
+                elSaludo = "¡Buenas noches! ";
+            }
+            // Pongo el contenido de la variable en el span con identidad saludo
+            document.querySelector("#saludo").innerHTML = elSaludo;
+
+            // Creo otra variable más
+            var data;
+            // Guardo en la variable recién creada lo que me entregue una API
+            function preload() {
+                data = loadJSON("https://taylorswiftapi.onrender.com/get");
+            }
+            // En esta ocasión no necesito un canvas, pero sí necesito un párrafo
+            function setup() {
+                noCanvas();
+                createP(data.quote + "<span> —Taylor Swift</span>").parent("texto");
+            }
+        </script>
+    </body>
+</html>
