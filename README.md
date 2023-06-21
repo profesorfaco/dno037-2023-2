@@ -4,13 +4,15 @@
 
 Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del profesor [Felipe Alberto Cortez Orellana (FACO)](https://faco.cl/).
 
-### Descripción abreviada en 3 partes:
+### Descripción abreviada en 4 partes:
 
 - Conserva su nombre desde el año 2010, pero no conserva el mismo programa en su versión 17, ofrecida en segundo semestre de 2023.
 
-- Esta versión, y las más recientes, ofrecen una introducción al desarrollo de Aplicaciones Web, por la vía del [Front-end](https://es.wikipedia.org/wiki/Desarrollo_web_Front-end).
+- Esta versión ofrece una introducción al desarrollo de Aplicaciones Web, por la vía del [Front-end](https://es.wikipedia.org/wiki/Desarrollo_web_Front-end).
 
 - Introducción que exige la constante ejercitación y publicación de resultados en [GitHub](https://github.com/).
+
+- Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web.
 
 - - - - - - - - - -
 
