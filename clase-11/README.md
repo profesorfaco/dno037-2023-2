@@ -25,7 +25,7 @@ En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar
 
 Repitamos el mantra de Bootstrap: una o varias `col` pueden ir dentro de una `row` que, a su vez, va dentro de un `container`… aunque algunas veces podríamos meter una `row` dentro de una `col` para subdividirla.
 
-Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2023-1/clase-11/index.html).
+Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2023-2/clase-11/index.html).
 
 - - - - - - - 
 
