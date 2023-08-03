@@ -130,11 +130,7 @@ La variable de nombre `f`, que contiene un objeto, usa paréntesis de llave que 
 
 Las variables de nombres `g` y `h` son mezclas de las anteriores.
 
-Las variables de nombres `f`, `g` y `h` pueden verse como un **JSON**. Lo que les faltan son unas comillas que podemos ver, por ejemplo, antes de los dos puntos en `"quote"`, `"song"` y `"album"`:
-
-```
-{"quote":"I'm shining like fireworks over your sad, empty town.","song":"Dear John","album":"Speak Now"}
-```
+Las variables de nombres `f`, `g` y `h` [pueden verse como un **JSON**](https://taylorswiftapi.onrender.com/get). Lo que les faltan son unas comillas.
 
 - - - - - - - - - - - - -
 
@@ -144,9 +140,9 @@ Antes de llevar los [documentos preparados](https://profesorfaco.github.io/dno03
 
 - revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
 
-- tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/); y
+- tener abierta en una pestaña de su navegador la [página de referencias de **p5.js**](https://p5js.org/es/reference/); y
 
-- contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
+- tener abierta en otra pestaña de su navegador la página [html.com](https://html.com/tags/dl/)
 
 #### Importante
 

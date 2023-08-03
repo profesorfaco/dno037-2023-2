@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: color ease 0.5s;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: "DM Serif Display", serif;
+    color: #eceff1;
+    background: linear-gradient(#222233, #111122);
+}
+
+a {
+    color: #78909c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b0bec5;
+    text-decoration: underline;
+}
+
+header,
+main,
+footer {
+    width: 80vw;
+    margin: 0;
+    padding: 5vh 10vw;
+}
+
+header p {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+main p {
+    font-size: calc(2rem + 2vw);
+    line-height: 1.15;
+}
+
+main p span {
+    color: #b0bec5;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 90%;
+    letter-spacing: 0.05rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}

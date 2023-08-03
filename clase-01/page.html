@@ -18,7 +18,7 @@
         
         <div id="back"><a href="index.html">volver</a></div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js" integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js" integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <script>
             var palabra_pasada = new URLSearchParams(window.location.search).get('data');
@@ -28,9 +28,9 @@
                 background('#eceff1');
                 textSize(42);
             }
-            
+                        
             function draw() {
-                fill(random(0,255),random(0,255), random(0,255));
+                fill(155,170,180);
                 text(palabra_pasada, mouseX, mouseY);
             }
 

@@ -2,7 +2,7 @@
 
 * { margin: 0; padding: 0;}
 
-html, body { min-height: 100%; }
+html, body { min-height: 100%; overflow-x: hidden;}
 
 body {font-family: 'Space Grotesk', sans-serif; font-weight:400; color: #eceff1; background: linear-gradient(#222233, #111122); }
 
