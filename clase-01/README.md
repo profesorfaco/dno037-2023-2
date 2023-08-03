@@ -58,7 +58,7 @@ El contenido de la variable se aprovecha para programar algo sencillo, con la ay
 
 Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a https://profesorfaco.github.io/dno037-2023-2/clase-01/page.html, donde se programa algo más con p5.js (`<script></script>`).
 
-**Llegando a este punto, ya conviene llevar los [documentos preparados](https://profesorfaco.github.io/dno037-2023-2/clase-01) al editor de código fuente en su computador.** 
+**Llegando a este punto, ya conviene llevar los [documentos preparados](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-01/clase-01.zip) al editor de código fuente en su computador.** 
 
 Abriendo los documentos preparados en el editor de código fuente en su computador, podrá hacer los ajustes que el profesor indicará. 
 
