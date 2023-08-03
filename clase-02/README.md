@@ -136,7 +136,7 @@ Las variables de nombres `f`, `g` y `h` [pueden verse como un **JSON**](https://
 
 ### Práctica (para la clase)
 
-Antes de llevar los [documentos preparados](https://profesorfaco.github.io/dno037-2023-2/clase-02) al editor de código fuente en su computador, conviene:
+Antes de llevar los [documentos preparados](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-02/clase-02.zip) al editor de código fuente en su computador, conviene:
 
 - revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
 
