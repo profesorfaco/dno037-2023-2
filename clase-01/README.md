@@ -70,9 +70,15 @@ La práctica se completa cuando cada estudiante publica, [con GitHub Pages](http
 
 El ejercicio completo puede ser evaluado con:
 
-- **0 punto** → no logrado.
+- **0.00** → no logrado.
 
-- **1 punto** → logrado.
+- **0.75** → medianamente logrado.
+
+- **1.00** → logrado.
+
+- **1.50** → completamente logrado (logra y aporta).
+
+El puntaje que se obtenga será considerado en la Evaluación Nº1, de la [clase-03](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03).
 
 - - - - - - - 
 
