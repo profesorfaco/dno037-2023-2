@@ -51,11 +51,11 @@ Considerando los días **miércoles** entre 9 de agosto y 29 de noviembre, resul
 
 [Clase 02 → 16/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-02) → HTML5 + CSS3 + p5.js
 
-[Clase 03 → 23/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03) → HTML5 + CSS3 + p5.js
+**[Clase 03 → 23/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03) → Evaluación Nº2**
 
-**[Clase 04 → 30/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-04) → Evaluación Nº1**
+[Clase 04 → 30/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-04) → HTML5 + CSS3 + otras bibliotecas de JS (Semana Universitaria. Durante esta semana no se efectuarán evaluaciones académicas).
 
-[Clase 05 → 06/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-05) → HTML5 + CSS3 + otras bibliotecas de JS
+[Clase 05 → 06/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-05) → HTML5 + CSS3 + otras bibliotecas de JS (Jueves 7 inicia periodo para el retiro de un curso de la carga académica estudiantes)
 
 [Clase 06 → 13/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-06) → HTML5 + CSS3 + otras bibliotecas de JS
 
@@ -77,9 +77,11 @@ Clase 13 → 01/11/2023 → Día de Todos los Santos. Feriado legal.
 
 [Clase 15 → 15/11/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-15) → Diseño y desarrollo
 
-**[Clase 16 → 22/11/2020](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) → Pre-evaluación Nº4]**
+[Clase 16 → 22/11/2020](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-16) → Diseño y desarrollo
 
-**[Clase 17 → 29/11/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) → Evaluación Nº4**
+**[Clase 17 → 29/11/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) → Pre-evaluación Nº4**
+
+**[Clase 18 → 6/12/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-18) → Evaluación Nº4**
 
 
 **Cada clase se basará en modalidad de “aula invertida”**; esto transfiere a cada estudiante la responsabilidad de adelantar la revisión de la "teoría" en el README.md de cada clase. Para que quede más claro, en los primeros README.md el título de **Teoría** es seguido por un paréntesis **(para la casa)**. Si cada estudiante revisa esta "teoría para la casa", las clases de los miércoles podrán basarse en una práctica que organizará su comprensión, atendiendo a dudas puntuales.
