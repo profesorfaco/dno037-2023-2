@@ -9,7 +9,7 @@ Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages,
 | Pendiente | 1.0 |
 | Pendiente | 1.0 |
 | Pendiente | 1.0 |
-| Puntos acumulados por trabajo desarrollado entre las clases 1 y 3 | 3.0 |
+| Puntos acumulados por trabajo desarrollado entre las clases 1 y 2 | 3.0 |
 | Punto base | 1.0 |
 | TOTAL  | 7.0 |
 
