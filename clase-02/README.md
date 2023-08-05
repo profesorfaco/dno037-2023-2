@@ -124,13 +124,31 @@ La variable de nombre `f`, que contiene un objeto, usa paréntesis de llave que 
 
 Las variables de nombres `g` y `h` son mezclas de las anteriores.
 
-Las variables de nombres `f`, `g` y `h` [pueden verse como un **JSON**](https://taylorswiftapi.onrender.com/get). Lo que les faltan son unas comillas.
+**Las variables de nombres `f`, `g` y `h` pueden verse como un [JSON](https://www.json.org/json-es.html), sin serlo**. Para aclarar: 
+
+Así se puede ver un JSON: 
+```
+{
+    "quote": "The more I think about it now, the less I know, all I know is that you drove us off the road.",
+    "song": "All You Had To Do Was Stay",
+    "album": "1989"
+}
+```
+Y así se puede ver una variable de nombre swiftie dentro del script incrustado en un `*.html` o en un `*.js` aparte.
+```
+var swiftie = {
+    quote: "The more I think about it now, the less I know, all I know is that you drove us off the road.",
+    song: "All You Had To Do Was Stay",
+    album: "1989",
+};
+```
+La diferencia está en las comillas para el nombre, denominador o índice (que está ante de los dos puntos), además de un punto y coma pegado al paréntesis de llave que cierra, que conviene que sobre antes que falte.
 
 - - - - - - - - - - - - -
 
 ### Práctica (para la clase)
 
-Antes de llevar los [documentos preparados](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-02/clase-02.zip) al editor de código fuente en su computador, conviene:
+Antes de abrir los [documentos preparados](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-02/clase-02.zip) en el editor de código fuente en su computador, conviene:
 
 - revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
 
