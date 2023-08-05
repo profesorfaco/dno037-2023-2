@@ -32,11 +32,9 @@ Con el DOM podemos manipular una página así como cuando *photoshopeamos* una i
 
 Por la manipulación del DOM **podríamos encontrar inconcruencias entre** dos vista: la del **código fuente de la página** y la de los **elementos de la página**. Estirando la analogía: En el código fuente de la página ves el fenómeno tal como fue capturado, mientras que en la vista de elementos de la misma página está lo *photoshopeado* (lo que tenemos a la vista en toda la página del navegador).
 
-Para que esta diferencia quede muy clara, aprovechen:
+Para que esta diferencia quede muy clara, aprovechen [este ejemplo](https://profesorfaco.github.io/dno037-2023-2/clase-02/ejemplo.html)
 
-https://profesorfaco.github.io/dno037-2023-2/clase-02/ejemplo.html
-
-Revisen las diferencias entre la vista del **código fuente de la página** y la de los **elementos de la página**
+Revisen las diferencias entre la vista del **código fuente de la página** y la de los **elementos de la página** en [tal ejemplo](https://profesorfaco.github.io/dno037-2023-2/clase-02/ejemplo.html)
 
 Noten que en el código fuente faltan contenidos que sí están en la visualización que ofrece el navegador y en los elementos de la página.
 
@@ -46,9 +44,9 @@ Esto es así porque los contenidos depende de consultas programadas:
 
 - Consulta a una [API *swiftie*](https://taylorswiftapi.onrender.com/get), con la función [loadJSON() de p5.js](https://p5js.org/es/reference/#/p5/loadJSON)
 
-La primera consulta nos permitirá trabajar con [la sentencia `if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). Y la segunda nos permitirá asomarnos por primera vez a [JSON](https://www.json.org/json-es.html), un formato ligero de intercambio de datos.
+La primera consulta nos permitirá indicar hora y minutos, para decidir por el saludo con [la sentencia `if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). Y la segunda nos permitirá asomarnos por primera vez a [un JSON](https://taylorswiftapi.onrender.com/get).
 
-A propósito de tal intercambio, conviene aclarar algunas cosas sobre datos en programación.
+A propósito de asomarse a [un JSON](https://taylorswiftapi.onrender.com/get), conviene aclarar algunas cosas sobre datos en programación.
 
 Partamos con el número 18261884. 
 
