@@ -28,9 +28,9 @@ Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo
 
 ### Práctica (para la clase)
 
-Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con https://profesorfaco.github.io/dno037-2023-2/clase-01/index.html
+Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, que puede descargarse como un ZIP, que necesitan "des-zipear": https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-01/clase-01.zip
 
-Si nos asomamos a su código fuente, allí encontraremos la estructura típica de toda página HTML: 
+Una vez tengan la carpeta, es posible asomarnos al código fuente de index.html, donde encontraremos la estructura típica de toda página HTML: 
 
 ```
 <!DOCTYPE html>
@@ -42,11 +42,9 @@ Si nos asomamos a su código fuente, allí encontraremos la estructura típica d
 
 Dentro de la cabeza (`<head></head>`), podemos ver un **link** cuya **ref**erencia es un [style.css](https://profesorfaco.github.io/dno037-2023-2/clase-01/style.css) que se **rel**aciona con la página como una **stylesheet**.
 
-Allí podemos leer la estructura típica de toda hoja de estilo CSS, donde encontramos una serie de reglas con la misma estructura de un selector antes de unos paréntesis de llave que contienen declaraciones separadas por punto y coma:  `* { margin: 0; padding: 0; }`
+En el `style.css` podemos leer la estructura típica de toda hoja de estilo CSS, donde encontramos una serie de reglas con la misma estructura de un selector antes de unos paréntesis de llave que contienen declaraciones separadas por punto y coma:  `* { margin: 0; padding: 0; }`
 
-Ahora volvamos al https://profesorfaco.github.io/dno037-2023-2/clase-01/index.html
-
-En su código fuente leamos las líneas al final del cuerpo (`<body></body>`), dentro de unas etiquetas de script (`<script></script>`). 
+Ahora volvamos al `index.html` para leer las líneas que se ubican al final del cuerpo (`<body></body>`), dentro de unas etiquetas de script (`<script></script>`). 
 
 Allí podemos ver una [variable de JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables#%C2%BFqu%C3%A9_es_una_variable); esta variable se llama `palabras` y contiene un arreglo con 8 cadenas de caracteres entre comillas. 
 
@@ -58,13 +56,9 @@ Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro 
 
 El contenido de la variable se aprovecha para programar algo sencillo, con la ayuda de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JS que reinterpreta Processing para la Web.
 
-Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a https://profesorfaco.github.io/dno037-2023-2/clase-01/page.html, donde se programa algo más con p5.js (`<script></script>`).
+Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a `page.html`, donde se programa algo más con p5.js (`<script></script>`).
 
-**Llegando a este punto, ya conviene llevar los [documentos preparados](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-01/clase-01.zip) al editor de código fuente en su computador.** 
-
-Abriendo los documentos preparados en el editor de código fuente en su computador, podrá hacer los ajustes que el profesor indicará. 
-
-Para no perderse, es muy recomendable poner atención y presentar sus dudas de inmediato. Por favor preséntelas al profesor. No a compañeros; así no les quita la posibilidad de concentrarse ni cae en "el juego del teléfono" o la trampa del "según yo…" (porque todo es según lo que corresponde al lenguaje en cuestión).
+En lo que siga, será muy importante poner atención. De tal manera podría presentar sus dudas de inmediato al profesor, no a compañeros; así no les quita la posibilidad de concentrarse ni cae en "el juego del teléfono" o la trampa del "según yo…" (porque nada se resuelve según lo que se sospeche; todo se resuelve según la sintaxis del lenguaje en cuestión).
 
 #### Importante
 
