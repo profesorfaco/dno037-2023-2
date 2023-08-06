@@ -158,9 +158,11 @@ Antes de abrir los [documentos preparados](https://github.com/profesorfaco/dno03
 
 #### Importante
 
-La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
+La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
-El ejercicio completo puede ser evaluado con:
+La dirección de su página debe ser ingresada en el foro correspondiente a la clase: URL pendiente.
+
+Lo publicado en GitHub Pages e ingresado en el foro, será evaluado como:
 
 - **0.00** → no logrado.
 
@@ -168,7 +170,7 @@ El ejercicio completo puede ser evaluado con:
 
 - **1.00** → logrado.
 
-- **1.50** → completamente logrado (logra y aporta).
+- **1.50** → completamente logrado.
 
 El puntaje que se obtenga será considerado en la Evaluación Nº1, de la [clase-03](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03).
 
