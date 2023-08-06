@@ -74,7 +74,7 @@ var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächst
 
 Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro del arreglo. Las posiciones se identifican con un número, partiendo a la izquierda con el 0. Considerando lo recién dicho, `palabras[0]` refiere a `siguiente` y `palabras[7]` refiere a `다음의` 
 
-El contenido de la variable se aprovecha para programar algo sencillo, con la ayuda de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JS que reinterpreta [Processing](https://processing.org/) para la Web (la que fuimos a buscar con el primer `<script></script>`).
+El contenido de la variable se aprovecha para programar algo sencillo, con la ayuda de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JavaScript que reinterpreta [Processing](https://processing.org/) para la Web (biblioteca que fuimos a buscar con el primer `<script></script>`).
 
 Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a `page.html`, donde tenemos un contenido distintos en el segundo `<script></script>`.
 
