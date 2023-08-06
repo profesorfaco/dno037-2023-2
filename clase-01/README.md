@@ -28,11 +28,19 @@ Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo
 
 ### Práctica (para la clase)
 
-**En la práctica, que se resuelve presencialmente en sala**, cada estudiante puede presentar sus dudas de inmediato al profesor. Evite presentarlas a compañer@s, así no les quita la posibilidad de concentrarse ni cae en "el juego del teléfono" o la trampa del "según yo…": ¡Nada se resuelve según lo que se sospeche, todo se resuelve según las normas sintácticas y semánticas de los lenguajes que comienza a conocer!
+**Para la práctica de cada clase son necesarios algunos materiales**:
 
-Para comenzar a conocer las normas de los lenguajes mencionados más arriba (HTML, CSS y JavaScript), podemos aprovechar los documentos contenidos en esta carpeta, que puede descargarse como un ZIP, que necesitan "des-zipear": https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-01/clase-01.zip
+- una cuenta personal en [GitHub](https://github.com/join), y
 
-Una vez tengan la carpeta en su computador, ya abierta en su editor de código fuente, es posible asomarnos al código fuente de `index.html`, donde encontraremos la estructura típica de toda página HTML: 
+- un computador con conexión a Internet, editor de código fuente ([Sublime Text](https://www.sublimetext.com/) o [Phoenix Code Editor](https://phcode.dev/)), y navegador web ([Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/); **NO utilizaremos Safari**).
+
+Es muy necesario que desactive los traductores en su navegador web, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página", [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador)
+
+**En la práctica, que se resuelve presencialmente en sala**, cada estudiante puede presentar sus dudas de inmediato al profesor. Evite presentarlas a compañer@s, así no les quita la posibilidad de concentrarse ni cae en "el juego del teléfono" o la trampa del "según yo…": Nada se resuelve según lo que se sospeche, todo se resuelve según las normas sintácticas y semánticas de los lenguajes que comienza a conocer.
+
+Para comenzar a conocer las normas de los lenguajes mencionados más arriba (HTML, CSS y JavaScript), podemos aprovechar los documentos contenidos en esta carpeta, que puede descargarse como un ZIP: https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-01/clase-01.zip
+
+Una vez tengan la carpeta "des-zipeada" en su computador, y ya abierta en su editor de código fuente, es posible asomarnos al código fuente de `index.html`, donde encontraremos la estructura típica de toda página HTML: 
 
 ```
 <!DOCTYPE html>
@@ -46,7 +54,7 @@ Dentro de la cabeza (`<head></head>`), podemos ver un **link** cuya **ref**erenc
 
 En el `style.css` podemos leer la estructura típica de toda hoja de estilo CSS, donde encontramos una serie de reglas con la misma estructura de un selector antes de unos paréntesis de llave que contienen declaraciones separadas por punto y coma:  `* { margin: 0; padding: 0; }`
 
-Para notar que está conteniendo los siguientes elementos: 
+Si volvemos al código fuente de `index.html`, y nos fijamos en el `<body>…</body>`, nos encontraremos los siguientes elementos: 
 
 - [`<main></main>`](https://developer.mozilla.org/es/docs/Web/HTML/Element/main); 
 
@@ -58,7 +66,7 @@ Para notar que está conteniendo los siguientes elementos:
 
 Si, dos `<script></script>`. El primero va a buscar un *script*, y el segundo abre un espacio para un *script*.
 
-Si revisamos lo contenido en el segundo `<script></script>`, podemos ver una [variable de JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables#%C2%BFqu%C3%A9_es_una_variable); esta variable se llama `palabras` y contiene un arreglo con 8 cadenas de caracteres entre comillas. 
+Revisando lo contenido en el segundo `<script></script>`, podemos ver una [variable de JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables#%C2%BFqu%C3%A9_es_una_variable); esta variable se llama `palabras` y contiene un arreglo con 8 cadenas de caracteres entre comillas. 
 
 ```
 var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];
@@ -66,16 +74,17 @@ var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächst
 
 Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro del arreglo. Las posiciones se identifican con un número, partiendo a la izquierda con el 0. Considerando lo recién dicho, `palabras[0]` refiere a `siguiente` y `palabras[7]` refiere a `다음의` 
 
-El contenido de la variable se aprovecha para programar algo sencillo, con la ayuda de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JS que reinterpreta Processing para la Web (la que vamos a buscar con el primer `<script></script>`).
+El contenido de la variable se aprovecha para programar algo sencillo, con la ayuda de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JS que reinterpreta Processing para la Web (la que fuimos a buscar con el primer `<script></script>`).
 
 Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a `page.html`, donde tenemos un contenido distintos en el segundo `<script></script>`.
 
-
 #### Importante
 
-La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
+La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
-El ejercicio completo puede ser evaluado con:
+La dirección de su página debe ser ingresada en el foro correspondiente a la clase: URL pendiente.
+
+Lo publicado en GitHub Pages e ingresado en el foro, será evaluado como:
 
 - **0.00** → no logrado.
 
@@ -83,7 +92,7 @@ El ejercicio completo puede ser evaluado con:
 
 - **1.00** → logrado.
 
-- **1.50** → completamente logrado (logra y aporta).
+- **1.50** → completamente logrado.
 
 El puntaje que se obtenga será considerado en la Evaluación Nº1, de la [clase-03](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03).
 
