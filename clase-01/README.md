@@ -28,9 +28,11 @@ Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo
 
 ### Práctica (para la clase)
 
-Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, que puede descargarse como un ZIP, que necesitan "des-zipear": https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-01/clase-01.zip
+**En la práctica, que se resuelve presencialmente en sala**, cada estudiante puede presentar sus dudas de inmediato al profesor. Evite presentarlas a compañer@s, así no les quita la posibilidad de concentrarse ni cae en "el juego del teléfono" o la trampa del "según yo…": ¡Nada se resuelve según lo que se sospeche, todo se resuelve según las normas sintácticas y semánticas de los lenguajes que comienza a conocer!
 
-Una vez tengan la carpeta, es posible asomarnos al código fuente de index.html, donde encontraremos la estructura típica de toda página HTML: 
+Para comenzar a conocer los lenguajes mencionados más arriba (HTML, CSS y JavaScript), podemos aprovechar los documentos contenidos en esta carpeta, que puede descargarse como un ZIP, que necesitan "des-zipear": https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-01/clase-01.zip
+
+Una vez tengan la carpeta en su computador, ya abierta en su editor de código fuente, es posible asomarnos al código fuente de `index.html`, donde encontraremos la estructura típica de toda página HTML: 
 
 ```
 <!DOCTYPE html>
@@ -68,7 +70,6 @@ El contenido de la variable se aprovecha para programar algo sencillo, con la ay
 
 Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a `page.html`, donde tenemos un contenido distintos en el segundo `<script></script>`.
 
-En lo que siga, será muy importante poner atención. De tal manera podrían presentar sus dudas de inmediato al profesor, no a compañeros; así no les quita la posibilidad de concentrarse ni cae en "el juego del teléfono" o la trampa del "según yo…": Nada se resuelve según lo que se sospeche, todo se resuelve según las normas sintácticas y semánticas del lenguaje en cuestión).
 
 #### Importante
 
