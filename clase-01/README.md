@@ -40,13 +40,23 @@ Una vez tengan la carpeta, es posible asomarnos al código fuente de index.html,
 </html>
 ```
 
-Dentro de la cabeza (`<head></head>`), podemos ver un **link** cuya **ref**erencia es un [style.css](https://profesorfaco.github.io/dno037-2023-2/clase-01/style.css) que se **rel**aciona con la página como una **stylesheet**.
+Dentro de la cabeza (`<head></head>`), podemos ver un **link** cuya **ref**erencia es un `style.css` que se **rel**aciona con la página como una **stylesheet**.
 
 En el `style.css` podemos leer la estructura típica de toda hoja de estilo CSS, donde encontramos una serie de reglas con la misma estructura de un selector antes de unos paréntesis de llave que contienen declaraciones separadas por punto y coma:  `* { margin: 0; padding: 0; }`
 
-Ahora volvamos al `index.html` para leer las líneas que se ubican al final del cuerpo (`<body></body>`), dentro de unas etiquetas de script (`<script></script>`). 
+Para notar que está conteniendo los siguientes elementos: 
 
-Allí podemos ver una [variable de JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables#%C2%BFqu%C3%A9_es_una_variable); esta variable se llama `palabras` y contiene un arreglo con 8 cadenas de caracteres entre comillas. 
+- [`<main></main>`](https://developer.mozilla.org/es/docs/Web/HTML/Element/main); 
+
+- [`<div></div>`](https://developer.mozilla.org/es/docs/Web/HTML/Element/div); 
+
+- [`<script></script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script); y 
+
+- [`<script></script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+
+Si, dos `<script></script>`. El primero va a buscar un *script*, y el segundo abre un espacio para un *script*.
+
+Si revisamos lo contenido en el segundo `<script></script>`, podemos ver una [variable de JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables#%C2%BFqu%C3%A9_es_una_variable); esta variable se llama `palabras` y contiene un arreglo con 8 cadenas de caracteres entre comillas. 
 
 ```
 var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];
@@ -54,11 +64,11 @@ var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächst
 
 Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro del arreglo. Las posiciones se identifican con un número, partiendo a la izquierda con el 0. Considerando lo recién dicho, `palabras[0]` refiere a `siguiente` y `palabras[7]` refiere a `다음의` 
 
-El contenido de la variable se aprovecha para programar algo sencillo, con la ayuda de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JS que reinterpreta Processing para la Web.
+El contenido de la variable se aprovecha para programar algo sencillo, con la ayuda de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JS que reinterpreta Processing para la Web (la que vamos a buscar con el primer `<script></script>`).
 
-Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a `page.html`, donde se programa algo más con p5.js (`<script></script>`).
+Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a `page.html`, donde tenemos un contenido distintos en el segundo `<script></script>`.
 
-En lo que siga, será muy importante poner atención. De tal manera podría presentar sus dudas de inmediato al profesor, no a compañeros; así no les quita la posibilidad de concentrarse ni cae en "el juego del teléfono" o la trampa del "según yo…" (porque nada se resuelve según lo que se sospeche; todo se resuelve según la sintaxis del lenguaje en cuestión).
+En lo que siga, será muy importante poner atención. De tal manera podrían presentar sus dudas de inmediato al profesor, no a compañeros; así no les quita la posibilidad de concentrarse ni cae en "el juego del teléfono" o la trampa del "según yo…": Nada se resuelve según lo que se sospeche, todo se resuelve según las normas sintácticas y semánticas del lenguaje en cuestión).
 
 #### Importante
 
