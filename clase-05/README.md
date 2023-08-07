@@ -76,15 +76,23 @@ Y con el ejemplo del párrafo anterior podríamos encontrarle sentido a seguir u
 
 La práctica estará enfocada en jQuery, por lo que conviene tener a la manos las opciones de selectores y acciones que son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
-[Con jQuery prepararemos un portafolio](https://profesorfaco.github.io/dno037-2023-2/clase-07/). Su preparación servirá de adelanto a la evaluación Nº2.
+[Con jQuery prepararemos un portafolio](https://profesorfaco.github.io/dno037-2023-2/clase-05/). Su preparación servirá de adelanto a la evaluación Nº2.
 
-**El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2023-2/clase-07/)**.
+La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
-El ejercicio completo puede ser evaluado con:
+La dirección de su página debe ser ingresada en el foro correspondiente a la clase: URL pendiente.
 
-- **0 punto** → no logrado.
+Lo publicado en GitHub Pages e ingresado en el foro, será evaluado como:
 
-- **0,5 punto** → logrado.
+- **0.00** → no logrado.
+
+- **0.50** → medianamente logrado.
+
+- **0.75** → logrado.
+
+- **1.00** → completamente logrado.
+
+El puntaje que se obtenga será considerado en la Evaluación Nº2, de la [clase-08](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-08).
 
 - - - - - - - -
 
