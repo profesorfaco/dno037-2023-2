@@ -4,14 +4,7 @@
 
 ### Teoría
 
-Antes de explorar algunas de ellas, nos conviene hacer un último ejercicio con JSON, donde el que podríamos acceder a datos más últiles:
-
-- tiempo atmosférico: https://openweathermap.org/current#current_JSON
-- indicadores económicos diarios en Chile: https://mindicador.cl/api
-- movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
-- etcétera: https://github.com/juanbrujo/listado-apis-publicas-en-chile
-
-La primera, del tiempo atmosférico, es una API (Application Programming Interfaces) que conviene estudiar previo a la clase para poder resolver de manera más eficiente las consultas de la práctica: https://openweathermap.org/current
+Utilizaremos una API (Application Programming Interfaces) que conviene estudiar previo a la clase para poder resolver de manera más eficiente las consultas de la práctica: https://openweathermap.org/current
 
 Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que ya se ofrecen en línea. 
 
