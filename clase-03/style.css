@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:wght@100;300;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Piazzolla", serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+header,
+main,
+footer {
+    width: 80vw;
+    margin: 0;
+    padding: 0 10vw;
+}
+
+main {
+    min-height: 80vh;
+}
+
+header h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    line-height: 1;
+    padding: 3vh 0;
+}
+
+header h1 a {
+    font-size: calc(0.6rem + 0.6vw);
+    letter-spacing: 0.2vw;
+    font-weight: 700;
+}
+
+header h1 a:first-child {
+    font-size: calc(0.9rem + 0.9vw);
+    letter-spacing: 0;
+    font-weight: 500;
+}
+
+main p {
+    font-size: calc(1.8rem + 1.8vw);
+    line-height: 1.2;
+    padding: 10vh 0;
+}
+
+footer p {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    line-height: 1;
+    padding: 3vh 0;
+}
+
+footer p a {
+    font-weight: 500;
+}
