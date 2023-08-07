@@ -24,20 +24,23 @@ Vue.js es un Framework de JavaScript progresivo. No debes transformar todo tu c�
 
 ### Práctica
 
-En el [index.html](https://profesorfaco.github.io/dno037-2023-1/clase-06/) se muestra el resultado de los scripts ya explorados (en teoría). 
+### Práctica
 
-Exploremos las consultas por partes, para poder hacer modificaciones respecto de lo que se muestra.
+La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
-#### Ejercicio
+La dirección de su página debe ser ingresada en el foro correspondiente a la clase: URL pendiente.
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
+Lo publicado en GitHub Pages e ingresado en el foro, será evaluado como:
 
-El ejercicio completo puede ser evaluado con:
+- **0.00** → no logrado.
 
-- **0 punto** → no logrado.
+- **0.50** → medianamente logrado.
 
-- **1 punto** → logrado.
+- **0.75** → logrado.
 
+- **1.00** → completamente logrado.
+
+El puntaje que se obtenga será considerado en la Evaluación Nº2, de la [clase-08](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-08).
 - - - - - - - - - - - -
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-05) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07)
