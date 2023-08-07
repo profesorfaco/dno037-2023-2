@@ -40,7 +40,7 @@ Es muy necesario que desactive los traductores en su navegador web, porque la tr
 
 Para comenzar a conocer las normas de los lenguajes mencionados más arriba (HTML, CSS y JavaScript), podemos aprovechar los documentos contenidos en esta carpeta, que puede descargarse como un ZIP: https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-01/clase-01.zip
 
-Una vez tengan la carpeta "des-zipeada" en su computador, y ya abierta en su editor de código fuente, es posible asomarnos al código fuente de `index.html`, donde encontraremos la estructura típica de toda página HTML: 
+Una vez tengan la carpeta "des-zipeada" en su computador, y ya abierta en su editor de código fuente, es posible asomarnos al `index.html`, donde encontraremos la estructura típica de toda página HTML: 
 
 ```
 <!DOCTYPE html>
