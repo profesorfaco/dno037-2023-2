@@ -66,9 +66,6 @@ Las versiones más recientes de este lenguaje modernizado son comprendidas por l
 
 Y con el ejemplo del párrafo anterior podríamos encontrarle sentido a seguir usando jQuery: Podría haber personas usando Internet Explorer en un computador que no se ha actualizado por años. En tal caso sería preferible usar un [`jQuery.getJSON()`](https://api.jquery.com/jQuery.getJSON/#jQuery-getJSON-url-data-success) o un [`jQuery.get()`](https://api.jquery.com/jquery.get/) antes que un [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), como se hace en **este ejemplo**: 
 
-**https://profesorfaco.github.io/dno037-2023-1/clase-07/ejemplo/**
-
-
 - - - - - - -
 
 
