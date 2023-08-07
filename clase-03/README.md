@@ -10,7 +10,7 @@ Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages,
 | Pendiente (relacionado con `emoji.html`) | 1.0 |
 | Pendiente (relacionado con `swiftie.html`) | 1.0 |
 | Pendiente (relacionado con `cursos.html`) | 1.0 |
-| Puntos acumulados por trabajo desarrollado entre las clases 1 y 2 | 2.0 |
+| Puntos acumulados por trabajo desarrollado entre las clases [1](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-01) y [2](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-02) | 2.0 |
 | Punto base | 1.0 |
 | TOTAL  | 7.0 |
 
