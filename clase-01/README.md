@@ -54,7 +54,7 @@ Dentro de la cabeza (`<head></head>`), podemos ver un **link** cuya **ref**erenc
 
 En el `style.css` podemos leer la estructura típica de toda hoja de estilo CSS, donde encontramos una serie de reglas con la misma estructura de un selector antes de unos paréntesis de llave que contienen declaraciones separadas por punto y coma:  `* { margin: 0; padding: 0; }`
 
-Si volvemos al código fuente de `index.html`, y nos fijamos en el `<body>…</body>`, nos encontraremos los siguientes elementos: 
+Si volvemos al código fuente del `index.html`, y nos fijamos en su `<body>…</body>`, nos encontraremos los siguientes elementos: 
 
 - [`<main></main>`](https://developer.mozilla.org/es/docs/Web/HTML/Element/main); 
 
