@@ -102,13 +102,13 @@ Esta modalidad NO aplica en:
 
 ### Nota final
 
-**25%** → puntos acumulados entre clases 1 y 2 + puntaje obtenido en evaluación Nº1 (clase 3)
+**25%** → puntos acumulados entre clases 1 y 2 + puntaje obtenido en evaluación Nº1 ([Clase 03](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03#readme))
 
-**25%** → puntos acumulados entre clases 5, 6 y 7 + puntaje obtenido en evaluación Nº2 (clase 8)
+**25%** → puntos acumulados entre clases 5, 6 y 7 + puntaje obtenido en evaluación Nº2 ([Clase 08](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-08#readme))
 
-**25%** → puntos acumulados entre clases 10 y 11 + puntaje obtenido en evaluación Nº3 (clase 12)
+**25%** → puntos acumulados entre clases 10 y 11 + puntaje obtenido en evaluación Nº3 ([Clase 12](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-12#readme))
 
-**25%** → puntos acumulados entre clases 14 y 15 + puntaje obtenido en evaluación Nº4 (clases 16 y 17)
+**25%** → puntos acumulados entre clases 14 y 15 + puntaje obtenido en evaluación Nº4 (Clases 17 y Clase 18)
 
 **Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web**.
 
