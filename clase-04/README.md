@@ -4,7 +4,7 @@
 
 ### Teoría (para la casa)
 
-Antes de pasar a otras bibliotecas, y considerando la semana universitaria, echarles un último vistazo a p5.js, con especial énfasis al trabajo con datos (que luego nos será útil para trabajar con otras bibliotecas o sin bibliotecas de JavaScript).
+Antes de pasar a otras bibliotecas, y considerando la semana universitaria, daremos un último vistazo a p5.js, con especial énfasis al trabajo con datos (que luego nos será útil para trabajar con otras bibliotecas o sin bibliotecas de JavaScript).
 
 Recordemos que para comenzar a comprender JavaScript, aprovechamos [p5.js](https://p5js.org/es/): una biblioteca de JavaScript que es una reinterpretación de [Processing](https://processing.org/) para la web. Por tal reinterpretación, lo más común es que tenemos dos funciones, una que se ejecuta una única vez y otra que se ejecuta una y otra vez. 
 
