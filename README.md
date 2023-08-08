@@ -18,7 +18,7 @@ Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del p
 
 ### Materiales de trabajo
 
-Cada estudiante en este OPR debe contar con:
+Cada estudiante en este OPR debe disponer de:
 
 - cuenta personal en [GitHub](https://github.com/join), para:
 
