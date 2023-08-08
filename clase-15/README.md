@@ -2,7 +2,25 @@
 
 # Diseño y desarrollo
 
-Pendiente
+**Falta poco para la pre-entrega, que será evaluada sí y sólo sí tienen su sitio web en línea, sea como su primer sitio web profesional o prototipo avanzado de aplicación web.**.
+
+:rotating_light: :rotating_light: Recuerden revisar :rotating_light: :rotating_light: 
+
+Estos videos: 
+
+- [Cómo Configurar Tu Dominio Con GITHUB PAGES 2021 | Paso a Paso | Sin Morir en el Intento](https://youtu.be/rD8KoCn_nJc)
+
+- [Hosting gratuito con GitHub Pages y dominio personalizado](https://www.youtube.com/watch?v=nbUR1jzVI5g&t=328s)
+
+Y estos artículos: 
+
+- [Configurar GitHub Pages para usar dominios.cl](https://ggerena.medium.com/configurar-github-pages-para-usar-dominios-cl-13c1a644699f)
+
+- [Reglamentación para el funcionamiento del Registro de Nombres del Dominio .CL](https://www.nic.cl/normativa/reglamentacion.html)
+
+**¡Hoy se comienza a trabajar en su sitio, aprovechando lo aprendido sobre Bootstrap y demás!**
+
+Lo que vayan programando debe publicarse. Y lo que se publique conviene evaluarlo en cada actualización con [Google Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es), lo que implica revisar 4 dimensiones: Performance, Accessibility, Best Practices, SEO
 
 - - - - - - - 
 
