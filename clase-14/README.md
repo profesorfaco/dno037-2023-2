@@ -28,7 +28,7 @@ También leer:
 
 - - - - - - - - - - 
 
-#### Ejercicio
+#### Práctica
 
 Hoy sólo tendrán que usar el **`README.md` de un repositorio final. Este repositorio ya no lleva el nombre de la clase**. 
 
