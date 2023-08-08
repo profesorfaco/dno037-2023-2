@@ -65,7 +65,7 @@ La validez de tal estructura puede ser confirmada con servicios tales como:
 
 - https://codebeautify.org/jsonvalidator
 
-Si analizamos tal [JSON](https://www.json.org/json-es.html) como notación de JavaScript (razón de su nombre, iniciales de JavaScript Object Notation), notaremos que todo es contenido por un paréntesis cuadrado, por lo que se trata de un arreglo. Los elementos de este arreglo, que están separados por comas, son contenidos por paréntesis de llave, por lo que cada uno de los 4 elementos en este arreglo es un objeto. En cada objeto vemos dos pares de nombre: dato.
+Si analizamos tal [JSON](https://www.json.org/json-es.html) como notación de JavaScript (razón de su nombre, iniciales de JavaScript Object Notation), tenemos un arreglo (todo está contenido por paréntesis cuadrado). Los elementos de este arreglo, que están separados por comas, son contenidos por paréntesis de llave, por lo que cada uno de los 4 elementos en este arreglo es un objeto. En cada objeto vemos dos pares de nombre: dato.
 
 Tal estructura del JSON implica una forma de consultarlo. Si fuera otra su estructura, otra sería la forma de consultarlo:
 
