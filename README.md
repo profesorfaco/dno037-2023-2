@@ -104,7 +104,7 @@ Esta modalidad NO aplica en:
 
 **25%** → puntos acumulados entre clases 1 y 2 + puntaje obtenido en evaluación Nº1 (clase 3)
 
-**25%** → puntos acumulados entre clases 5 y 7 + puntaje obtenido en evaluación Nº2 (clase 8)
+**25%** → puntos acumulados entre clases 5, 6 y 7 + puntaje obtenido en evaluación Nº2 (clase 8)
 
 **25%** → puntos acumulados entre clases 10 y 11 + puntaje obtenido en evaluación Nº3 (clase 12)
 
