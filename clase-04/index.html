@@ -8,13 +8,11 @@
         <title>&#127891; DNO037</title>
     </head>
     <body>
-        <button onClick="window.location.reload()">CLICK</button>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"
-            integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+        <div>
+            <button id="identidad">EMOJIS</button>
+            <button onClick="window.location.reload()">REFRESH</button>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js" integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
             var datos, datosArreglados, boton;
             function preload() {
@@ -22,6 +20,7 @@
             }
             function setup() {
                 boton = select("#identidad");
+                boton.mouseClicked(masEmojis);
                 console.log(datos);
                 datosArreglados = Object.values(datos);
                 console.log(datosArreglados);
@@ -29,6 +28,8 @@
                 background(255, 253, 225)
                 textSize(100);
                 textAlign(CENTER, CENTER);
+            }
+            function masEmojis(){
                 datosArreglados.forEach((e)=>{
                     text(e.char,random(0,windowWidth),random(0,windowHeight));
                 });
