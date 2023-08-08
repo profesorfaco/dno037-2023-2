@@ -24,28 +24,6 @@ Y estos artículos:
 
 Lo que vayan programando debe publicarse. Y lo que se publique conviene evaluarlo en cada actualización con [Google Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es), lo que implica revisar 4 dimensiones: Performance, Accessibility, Best Practices, SEO
 
-Adelantando la pauta de la evaluación Nº4, con atención a la evaluación con Google Lighthouse conviene considerar:
-
-| Criterio | Pts. |
-|:---------|:----:|
-| `README.md` preparado en clase-14 | 1.0 |
-| Publicación de aproximación funcional en clase-15 | 1.0 |
-| Performance | 1.0 |
-| Accesibility | 1.0 |
-| Best Practices | 1.0 |
-| SEO | 1.0 |
-| Punto base | 1.0 |
-| **Nota** | **7.0** |
-
-Lo de `README.md` y aproximación funcional depende del logro de nivel curso, con énfasis en lo cualitativo.
-
-La evaluación de LightHubse depende de números que entregue la máquina, tranformando colores en puntaje:
-
-- Performance → 1 punto en verde | 0.5 en amarillo | 0 en rojo
-- Accessibility → 1 punto en verde | 0.5 en amarillo | 0 en rojo
-- Best Practices → 1 punto en verde | 0.5 en amarillo | 0 en rojo
-- SEO → 1 punto en verde | 0.5 en amarillo | 0 en rojo
-
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-14) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-16)
