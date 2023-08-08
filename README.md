@@ -88,7 +88,7 @@ Clase 13 → 01/11/2023 → Día de Todos los Santos. Feriado legal.
 
 Esta modalidad NO aplica en:
 
-- [Clase 04](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-04) → Evaluación Nº1
+- [Clase 04](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03) → Evaluación Nº1
 
 - [Clase 08](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-08) → Evaluación Nº2
 
@@ -102,7 +102,7 @@ Esta modalidad NO aplica en:
 
 ### Nota final
 
-**25%** → puntos acumulados entre clases 2 y 3 + puntaje obtenido en evaluación Nº1 (clase 4)
+**25%** → puntos acumulados entre clases 1 y 2 + puntaje obtenido en evaluación Nº1 (clase 3)
 
 **25%** → puntos acumulados entre clases 5 y 7 + puntaje obtenido en evaluación Nº2 (clase 8)
 
@@ -133,6 +133,8 @@ Esta modalidad NO aplica en:
 - [JavaScript Para Gatos](https://jsparagatos.com/)
 - [Tecnología para desarrolladores web | MDN](https://developer.mozilla.org/es/docs/Web)
 - [The Coding Train > Tracks > Code! Programming with p5.js](https://thecodingtrain.com/tracks/code-programming-with-p5-js)
+- [The Coding Train > Tracks > p5 Tips & Tricks](https://thecodingtrain.com/tracks/p5-tips-and-tricks)
 - [The Coding Train	> Tracks > Topics in Native JavaScript](https://thecodingtrain.com/tracks/topics-in-native-javascript)
+
 
 Se agregarán más referencias en el `README.md` de cada clase.
