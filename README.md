@@ -88,15 +88,15 @@ Clase 13 → 01/11/2023 → Día de Todos los Santos. Feriado legal.
 
 Esta modalidad NO aplica en:
 
-- [Clase 04](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03) → Evaluación Nº1
+- [Clase 03](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03) → Evaluación Nº1
 
 - [Clase 08](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-08) → Evaluación Nº2
 
 - [Clase 12](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-12) → Evaluación Nº3
 
-- [Clase 16](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-16) → Pre-evaluación Nº4
+- [Clase 17](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) → Pre-evaluación Nº4
 
-- [Clase 17](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) → Evaluación Nº4
+- [Clase 18](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-18) → Evaluación Nº4
 
 - - - - - - - -
 
