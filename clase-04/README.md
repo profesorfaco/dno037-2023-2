@@ -103,7 +103,7 @@ Con tal JSON, que tomaremos con un [`loadJSON()`](https://p5js.org/es/reference/
 
 - el [método `includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 
-Luego, cada estudiante tendrá que preparar su propio JSON con emojis tomados desde https://www.w3schools.com/charsets/ref_emoji.asp - Por ejemplo, puede preparar un JSON con emojis de signos zodiacales de clases aire, agua, tierra o fuego. Validar su estructura y luego subirlo a GitHub para seguir practicando.
+Luego, cada estudiante tendrá que preparar su propio JSON con emojis tomados desde https://www.w3schools.com/charsets/ref_emoji.asp - Por ejemplo, puede preparar un JSON con emojis de signos zodiacales, donde informe su nombre y si acaso es signo de aire, agua, tierra o fuego. Luego tiene que validar su estructura y subirlo a GitHub para seguir practicando.
 
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
