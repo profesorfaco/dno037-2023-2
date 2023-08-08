@@ -32,7 +32,7 @@ También leer:
 
 Hoy sólo tendrán que usar el **`README.md` de un repositorio final. Este repositorio ya no lleva el nombre de la clase**. 
 
-**Se recomienda que su nombre haga referencia al dominio que usarán**: En el mismo repositorio se trabajará en clases 14, [15](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-15), [16](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-16) y [17](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17). 
+**Se recomienda que su nombre haga referencia al dominio que usarán: En el mismo repositorio se trabajará en clases que quedan: 14, [15](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-15), [16](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-16), [17](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) y [18](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-18)**. 
 
 En el `README.md` deben publicar sus respuestas a las siguientes preguntas: 
 
