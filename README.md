@@ -108,7 +108,7 @@ Esta modalidad NO aplica en:
 
 **25%** → puntos acumulados entre clases 10 y 11 + puntaje obtenido en evaluación Nº3 ([Clase 12](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-12#readme))
 
-**25%** → puntos acumulados entre clases 14 y 15 + puntaje obtenido en evaluación Nº4 (Clases 17 y Clase 18)
+**25%** → puntos acumulados entre clases 14 y 15 + puntaje obtenido en evaluación Nº4 ([Clases 17](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) y [Clase 18](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-18))
 
 **Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web**.
 
