@@ -4,7 +4,7 @@
 
 **Esta es la última clase antes de la pre-entrega. Recuerden que le llamo pre-entrega, pero pueden considerarla entrega con opción de re-entrega**.
 
-En esta clase se comienza a "programar" su sitio web, con atención a las definciones de la clase recién pasada.
+En esta clase se comienza a "programar" su sitio web, con atención a las definciones de la clase recién pasada. Al finalizar la clase deben tener tener un Mínimo producto viable (MVP) en línea.
 
 :rotating_light: :rotating_light: Insisto, debe revisar :rotating_light: :rotating_light: 
 
@@ -20,9 +20,7 @@ Y estos artículos:
 
 - [Reglamentación para el funcionamiento del Registro de Nombres del Dominio .CL](https://www.nic.cl/normativa/reglamentacion.html)
 
-**¡Hoy se comienza a trabajar en su sitio, aprovechando lo aprendido sobre Bootstrap y demás!**
-
-Lo que vayan programando debe publicarse. Y lo que se publique conviene evaluarlo en cada actualización con [Google Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es), lo que implica revisar 4 dimensiones: Performance, Accessibility, Best Practices, SEO
+La pre-entrega de la próxima clase sólo es válida en un dominio definitivo.
 
 - - - - - - - 
 
