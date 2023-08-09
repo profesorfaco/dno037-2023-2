@@ -18,9 +18,7 @@ Y estos artículos:
 
 - [Reglamentación para el funcionamiento del Registro de Nombres del Dominio .CL](https://www.nic.cl/normativa/reglamentacion.html)
 
-**¡Hoy se comienza a trabajar en su sitio, aprovechando lo aprendido sobre Bootstrap y demás!**
-
-Lo que vayan programando debe publicarse. Y lo que se publique conviene evaluarlo en cada actualización con [Google Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es), lo que implica revisar 4 dimensiones: Performance, Accessibility, Best Practices, SEO
+**¡Hoy pueden mejorar el README.md ya evaluado, y comenzar a trabajar en el código fuente de su sitio web profesional o prototipo avanzado de aplicación web.**
 
 - - - - - - - 
 
