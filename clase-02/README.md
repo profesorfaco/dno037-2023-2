@@ -150,8 +150,6 @@ La diferencia está en las comillas para el nombre, denominador o índice (que e
 
 Antes de abrir los [documentos preparados](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-02/clase-02.zip) en el editor de código fuente en su computador, conviene:
 
-- revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
-
 - tener abierta en una pestaña de su navegador la [página de referencias de **p5.js**](https://p5js.org/es/reference/); y
 
 - tener abierta en otra pestaña de su navegador la página [html.com](https://html.com/tags/dl/)
