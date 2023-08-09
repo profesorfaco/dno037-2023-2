@@ -4,9 +4,9 @@
 
 | Criterio | Pts. |
 |:---------|:----:|
-| `README.md` preparado en clase-14 | 1.0 |
-| Publicación de aproximación funcional en clase-15 | 1.0 |
-| Performance | 1.0 |
+| `README.md` preparado en clase 14 y corregido en clase 15 | 1.0 |
+| MVP de clase 16 | 1.0 |
+| Performance en clase | 1.0 |
 | Accesibility | 1.0 |
 | Best Practices | 1.0 |
 | SEO | 1.0 |
@@ -15,7 +15,7 @@
 
 Lo de `README.md` y aproximación funcional depende del logro de nivel curso, con énfasis en lo cualitativo.
 
-La evaluación de LightHubse depende de números que entregue la máquina, tranformando colores en puntaje:
+La evaluación de LightHouse depende de números que entregue la máquina, tranformando colores en puntaje:
 
 - Performance → 1 punto en verde | 0.5 en amarillo | 0 en rojo
 - Accessibility → 1 punto en verde | 0.5 en amarillo | 0 en rojo
