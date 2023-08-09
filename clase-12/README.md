@@ -15,8 +15,6 @@ Continúe con las modificaciones atendiendo a la siguiente pauta de evaluación:
 | Punto base | 1.0 |
 | NOTA  | 7.0 |
 
-Tiene hasta las 12.50 hrs. para dejar las direcciones de página y repositorio en el foro que se abrirá al comienzo de la clase.
-
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-11) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-14)
