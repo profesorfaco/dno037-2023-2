@@ -96,6 +96,45 @@ Lo publicado en GitHub Pages e ingresado en el foro, será evaluado como:
 
 El puntaje que se obtenga será considerado en la Evaluación Nº1, de la [clase-03](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03).
 
+|	Nº	|	Cuenta en GitHub	|	Ejercicio	|	Puntos	|
+|:-----:|:----------------------------------|:----------------------------------------------|:---------:|
+|	1	|	https://github.com/nachooozzz	|	https://nachooozzz.github.io/DNM-Clase01/	|	0,75	|
+|	2	|	—	|	—	|	0	|
+|	3	|	—	|	—	|	0	|
+|	4	|	—	|	—	|	0	|
+|	5	|	https://github.com/sbirchmeier	|	https://sbirchmeier.github.io/clase1dnm/	|	0,75	|
+|	6	|	https://github.com/karlabo	|	https://karlabo.github.io/DNM-clase1/	|	1,00	|
+|	7	|	—	|	—	|	0	|
+|	8	|	https://github.com/isacicarelli	|	https://isacicarelli.github.io/diseno_nm/	|	0,75	|
+|	9	|	—	|	—	|	0	|
+|	10	|	https://github.com/vlecrz	|	https://vlecrz.github.io/nmclase1/	|	0,75	|
+|	11	|	https://github.com/nicru	|	https://nicru.github.io/dnm-1/	|	0,75	|
+|	12	|	—	|	—	|	0	|
+|	13	|	—	|	—	|	0	|
+|	14	|	https://github.com/daviidfdezz	|	https://daviidfdezz.github.io/dnmm/	|	0,75	|
+|	15	|	https://github.com/mjosegaete	|	https://mjosegaete.github.io/DNM_clase01/	|	0,75	|
+|	16	|	https://github.com/emilgatica	|	https://emilgatica.github.io/DNM_01/index.html	|	0,5	|
+|	17	|	https://github.com/kasu-exe	|	https://kasu-exe.github.io/DNM-01/index.html	|	0,75	|
+|	18	|	https://github.com/lucasgongorar	|	https://lucasgongorar.github.io/c01-opr-dnm/	|	0,75	|
+|	19	|	—	|	—	|	0	|
+|	20	|	https://github.com/smile-created	|	https://smile-created.github.io/Dnm-1/	|	0,75	|
+|	21	|	https://github.com/jimschenetzky	|	https://jimschenetzky.github.io/DNM_Clase_01/	|	0,75	|
+|	22	|	https://github.com/duzacs	|	https://duzacs.github.io/DNM-01/	|	0,75	|
+|	23	|	https://github.com/gjarryt	|	https://gjarryt.github.io/DNM_Clase-01/	|	0,75	|
+|	24	|	https://github.com/catalinakoller	|	https://catalinakoller.github.io/dnm-1/	|	0,75	|
+|	25	|	https://github.com/paulaluquej	|	https://paulaluquej.github.io/dnm-01/	|	0,75	|
+|	26	|	https://github.com/imenesesm	|	https://imenesesm.github.io/DNM-01/	|	0,75	|
+|	27	|	https://github.com/fernandaignacia	|	https://fernandaignacia.github.io/1-dnm/	|	0,75	|
+|	28	|	https://github.com/isidoramunoz	|	https://isidoramunoz.github.io/Dnm-1/	|	0,75	|
+|	29	|	https://github.com/susanrobles	|	https://susanrobles.github.io/dnm-1/	|	0,75	|
+|	30	|	https://github.com/trinirodriguez	|	https://trinirodriguez.github.io/Clase01/	|	0,75	|
+|	31	|	https://github.com/claurj	|	https://claurj.github.io/dnonm-1/	|	0,75	|
+|	32	|	—	|	—	|	0	|
+|	33	|	https://github.com/belensilvaf	|	https://belensilvaf.github.io/DNM-Clase-01/	|	0,75	|
+|	34	|	https://github.com/flospot	|	https://flospot.github.io/DNM_Clase01/	|	0,75	|
+|	35	|	https://github.com/gabivallejosb	|	https://gabivallejosb.github.io/DNO-y-Nuevos-Medios/	|	1,00	|
+|	36	|	—	|	—	|	0	|
+
 - - - - - - - 
 
 ###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-02)
