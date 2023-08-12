@@ -34,7 +34,7 @@ Hoy sólo tendrán que usar el **`README.md` de un repositorio final. Este repos
 
 **Se recomienda que su nombre haga referencia al dominio que usarán: En el mismo repositorio se trabajará en todas las clases que quedan: 14, [15](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-15), [16](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-16), [17](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) y [18](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-18)**. 
 
-En el `README.md` deben publicar sus respuestas a las siguientes preguntas: 
+En el `README.md` deben publicar sus respuestas concisas a las siguientes preguntas: 
 
 - **¿Para qué es esta propuesta? → objetivo general** → Describa, con una frase que comience con un verbo, el beneficio práctico que aportará el resultado de su trabajo.
 
@@ -63,6 +63,16 @@ Y para sacarle provecho al **uso de `README.md`**, apóyense en:
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 - https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+
+Al finalizar la clase, el README.md será evaluado según calidad de respuestas a las 4 preguntas:
+
+- **0.00** → no logrado.
+
+- **0.50** → medianamente logrado.
+
+- **0.75** → logrado.
+
+- **1.00** → completamente logrado.
 
 
 - - - - - - - 
