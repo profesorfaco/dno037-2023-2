@@ -13,8 +13,6 @@
 | Punto base | 1.0 |
 | **Nota** | **7.0** |
 
-Lo de `README.md` y aproximación funcional depende del logro de nivel curso, con énfasis en lo cualitativo.
-
 La evaluación de LightHouse depende de números que entregue la máquina, tranformando colores en puntaje:
 
 - Performance → 1 punto en verde | 0.5 en amarillo | 0 en rojo
