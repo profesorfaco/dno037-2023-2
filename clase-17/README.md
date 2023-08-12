@@ -2,6 +2,8 @@
 
 # Pre-evaluación Nº4
 
+Comom ya fue indicado, la pre-entrega será evaluada si y solo si el trabajo ya está en su dominio definitivo.
+
 | Criterio | Pts. |
 |:---------|:----:|
 | `README.md` preparado en clase 14 y corregido en clase 15 | 1.0 |
