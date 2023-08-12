@@ -20,6 +20,8 @@ Y estos artículos:
 
 **¡Hoy pueden mejorar el README.md ya evaluado, y comenzar a trabajar en el código fuente de su sitio web profesional o prototipo avanzado de aplicación web.**
 
+Recuerde que debe seguir trabajando en el trabajo en el mismo repositorio.
+
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-14) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-16)
