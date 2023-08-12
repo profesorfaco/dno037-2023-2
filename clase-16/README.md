@@ -4,7 +4,7 @@
 
 **Esta es la última clase antes de la pre-entrega. Recuerden que le llamo pre-entrega, pero pueden considerarla entrega con opción de re-entrega**.
 
-En esta clase se comienza a "programar" su sitio web, con atención a las definciones de la clase recién pasada. Al finalizar la clase deben tener tener un Mínimo producto viable (MVP) en línea.
+En esta clase se comienza a "programar" su sitio web, con atención a las definciones de la clase recién pasada. Al finalizar la clase deben tener tener un mínimo producto viable (MVP) en línea.
 
 :rotating_light: :rotating_light: Esta es la última oportunidad para revisar lo que sigue :rotating_light: :rotating_light: 
 
