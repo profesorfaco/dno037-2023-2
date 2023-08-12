@@ -32,19 +32,31 @@ También leer:
 
 Hoy sólo tendrán que usar el **`README.md` de un repositorio final. Este repositorio ya no lleva el nombre de la clase**. 
 
-**Se recomienda que su nombre haga referencia al dominio que usarán: En el mismo repositorio se trabajará en clases que quedan: 14, [15](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-15), [16](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-16), [17](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) y [18](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-18)**. 
+**Se recomienda que su nombre haga referencia al dominio que usarán: En el mismo repositorio se trabajará en todas las clases que quedan: 14, [15](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-15), [16](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-16), [17](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) y [18](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-18)**. 
 
 En el `README.md` deben publicar sus respuestas a las siguientes preguntas: 
 
-- **¿Para qué es esta propuesta? → objetivo general** → describa, con una frase que comience con un verbo, el beneficio práctico que aportará el resultado de su trabajo.
+- **¿Para qué es esta propuesta? → objetivo general** → Describa, con una frase que comience con un verbo, el beneficio práctico que aportará el resultado de su trabajo.
 
-- **¿Para quiénes es esta propuesta? → usuarios extremos y usuarios promedio** → describa a 2 usuarias/os ubicadas/os en los extremos de lo menos probable y 1 en lo más probable. Para cada descripción considere los 4 cuadrantes de la [proto-persona](https://uxmag.com/articles/using-proto-personas-for-executive-alignment) y parte de estos [*templates* de persona y escenario](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-14/fragmento-sazerac-book.pdf).
+- **¿Para quiénes es esta propuesta? → usuarios extremos y usuarios promedio** → Describa a 2 usuarias/os ubicadas/os en los extremos de lo menos probable y 1 en lo más probable. Para cada descripción considere los 4 cuadrantes de la [proto-persona](https://uxmag.com/articles/using-proto-personas-for-executive-alignment) y parte de estos [*templates* de persona y escenario](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-14/fragmento-sazerac-book.pdf).
 
-- **¿Qué existe que es similar a la propuesta? → antecedentes** → seleccione y describa 6 sitios o aplicaciones web. Se recomienda buscarlos en https://www.awwwards.com/websites/bootstrap/, https://www.instagram.com/webuistylist/ y https://www.instagram.com/web.inspirations/. Aproveche la ficha de clasificación de antecedentes de DSUC (p.80)
+- **¿Qué existe que es similar a la propuesta? → antecedentes** → seleccione y describa los aspectos positivos y negativos de 6 sitios o aplicaciones web. Se recomienda buscarlos en:
 
-- **¿Qué existe que puede inspirar la propuesta? → referentes** → prepare un moodboard con elementos visuales, distintos de sitios y aplicaciones web, que puedan aportar novedad a su diseño. Ej: https://create.vista.com/es/templates/mood-board/, https://www.canva.com/es_mx/crear/mood-boards/, https://www.freepik.com/blog/es/mood-boards-consejos-trucos-crearlos/, https://www.adobe.com/es/express/create/mood-board
+  - https://landings.dev/
 
-Para sacarle provecho al **uso de `README.md`**, apóyense en:
+  - https://godly.website/
+
+  - https://www.curated.design/
+
+  - https://onepagelove.com/
+
+  - https://saaslandingpage.com/
+
+  - https://www.awwwards.com/websites/bootstrap/
+
+- **¿Qué existe que puede inspirar la propuesta? → referentes** → prepare un moodboard con elementos visuales, distintos de sitios y aplicaciones web, que puedan aportar novedad a su diseño. Para este moodboard puede usar: https://create.vista.com/es/templates/mood-board/, https://www.canva.com/es_mx/crear/mood-boards/, https://www.adobe.com/es/express/create/mood-board  
+
+Y para sacarle provecho al **uso de `README.md`**, apóyense en:
 
 - https://devhints.io/markdown
 
