@@ -6,7 +6,7 @@
 
 En esta clase se comienza a "programar" su sitio web, con atención a las definciones de la clase recién pasada. Al finalizar la clase deben tener tener un Mínimo producto viable (MVP) en línea.
 
-:rotating_light: :rotating_light: Insisto, debe revisar :rotating_light: :rotating_light: 
+:rotating_light: :rotating_light: Esta es la última oportunidad para revisar lo que sigue :rotating_light: :rotating_light: 
 
 Estos videos: 
 
