@@ -18,7 +18,7 @@ Y estos artículos:
 
 - [Reglamentación para el funcionamiento del Registro de Nombres del Dominio .CL](https://www.nic.cl/normativa/reglamentacion.html)
 
-**¡Hoy pueden mejorar el README.md ya evaluado, y comenzar a trabajar en el código fuente de su sitio web profesional o prototipo avanzado de aplicación web.**
+**¡Hoy pueden mejorar el README.md ya evaluado (para cambiar su evaluación), y comenzar a trabajar en el código fuente de su sitio web profesional o prototipo avanzado de aplicación web.**
 
 Recuerde que debe seguir trabajando en el trabajo en el mismo repositorio.
 
