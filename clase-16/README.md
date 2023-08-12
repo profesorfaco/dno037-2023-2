@@ -4,9 +4,17 @@
 
 **Esta es la última clase antes de la pre-entrega. Recuerden que le llamo pre-entrega, pero pueden considerarla entrega con opción de re-entrega**.
 
-En esta clase se comienza a "programar" su sitio web, con atención a las definciones de la clase recién pasada. Al finalizar la clase deben tener tener un mínimo producto viable (MVP) en línea.
+En esta clase se comienza a "programar" su sitio web. Al finalizar la clase deben tener tener un mínimo producto viable (MVP) en línea. Este MVP será evaluado por cantidad y calidad de avance: 
 
-:rotating_light: :rotating_light: Esta es la última oportunidad para revisar lo que sigue :rotating_light: :rotating_light: 
+- **0.00** → no logrado.
+
+- **0.50** → medianamente logrado.
+
+- **0.75** → logrado.
+
+- **1.00** → completamente logrado.
+
+:rotating_light: :rotating_light: Esta semana es la última en la que es postergable la revisión de lo que sigue :rotating_light: :rotating_light: 
 
 Estos videos: 
 
@@ -20,7 +28,7 @@ Y estos artículos:
 
 - [Reglamentación para el funcionamiento del Registro de Nombres del Dominio .CL](https://www.nic.cl/normativa/reglamentacion.html)
 
-La pre-entrega de la próxima clase sólo es válida en un dominio definitivo.
+**¡La pre-entrega de la próxima clase sólo es válida en un dominio definitivo!**
 
 - - - - - - - 
 
