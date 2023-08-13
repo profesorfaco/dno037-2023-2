@@ -79,8 +79,7 @@ Tal estructura del JSON implica una forma de consultarlo. Si fuera otra su estru
 
 Si quiero un 🌭, tendría que programar una consulta al objeto en la posición 0 del arreglo, donde puedo tomar lo que tiene nombre emoji.
 
-Ahora, en otro asunto podemos seguir con 🌭, 🍔, 🍟 y 🌮: Agreguemos [ml5.js](https://ml5js.org/) y revisemos:
-
+Y podemos seguir con 🌭, 🍔, 🍟 y 🌮,  para agregar una nueva biblioteca: [ml5.js](https://ml5js.org/) para explorar algo de inteligencia artificial: 
 
 
 
