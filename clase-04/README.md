@@ -44,16 +44,20 @@ Si aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), pod
 ```
 [{
 	"emoji": "🌭",
-	"nombre": "completo"
+	"nombre": "completo",
+	"image":"https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo/completo.jpg"
 }, {
-	"emoji": "🌮",
-	"nombre": "taco"
-}, {
-	"emoji": "🌯",
-	"nombre": "shawarma"
+	"emoji": "🍔",
+	"nombre": "hamburguesa",
+	"image":"https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo/hamburguesa.jpg"
 }, {
 	"emoji": "🍟",
-	"nombre": "papitas"
+	"nombre": "papitas",
+	"image":"https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo/papitas.jpg"
+}, {
+	"emoji": "🌮",
+	"nombre": "taco",
+	"image":"https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo/taco.jpg"
 }]
 ```
 
@@ -75,21 +79,21 @@ Tal estructura del JSON implica una forma de consultarlo. Si fuera otra su estru
 
 Si quiero un 🌭, tendría que programar una consulta al objeto en la posición 0 del arreglo, donde puedo tomar lo que tiene nombre emoji.
 
-¡Al principio parece engorroso! Pero así es todo la primera vez que lo enfrentamos.
+Ahora, en otro asunto podemos seguir con 🌭, 🍔, 🍟 y 🌮: Agreguemos [ml5.js](https://ml5js.org/) y revisemos:
 
-Lo que pasa es que pronto se nos olvidan los primeros enfrentamientos con lo que supusimos engorroso: Con la práctica, la complejidad de cualquier cosa se *in-corpora* hasta no complicarnos más:
 
-> I distinguish between *complexity* and *complicated*. I use the world "complexity" to describe the state of the world. The word "complicated" describes a state of mind. —Donald A. Norman
 
-Y para practicar podemos cambiar el ejemplo por un JSON ya validado y puesto en línea, que pueden consultar directamente en la carpeta de esta clase:  
+
+- - - - - - - - - - - - -
+
+#### Práctica
+
+Para practicar podemos cambiar el ejemplo por un JSON ya validado y puesto en línea, que pueden consultar directamente en la carpeta de esta clase:  
 
 https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/emojis.json 
 
 ¡Noten la estructura de la URL! Hay un `https://raw.` al principio.
 
-- - - - - - - - - - - - -
-
-#### Práctica
 
 Primero trabajaremos con el JSON preparado y publicado en la carpeta de esta clase.
 
