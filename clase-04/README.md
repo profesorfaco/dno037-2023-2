@@ -81,20 +81,21 @@ Si quiero un 🌭, tendría que programar una consulta al objeto en la posición
 
 Y podemos seguir con 🌭, 🍔, 🍟 y 🌮,  para agregar una nueva biblioteca: [ml5.js](https://ml5js.org/) para explorar algo de inteligencia artificial: 
 
+https://profesorfaco.github.io/dno037-2023-2/clase-04/ejemplo.html
 
+Allí usamos esta biblioteca que nos proporciona acceso a los algoritmos y modelos de *machine leaning* en Javascript, trabajando con p5.js; por eso hay un ml y un 5 en su denominación.
+
+Si quieren probar con otras imágenes, la recomendación es ponerlas en línea, dentro de un repositorio de GitHub, después de haber ajustado su tamaño a 800x600 pixeles, con resolución de 72dpi, y haberla [optimizadao para en Photoshop](https://helpx.adobe.com/cl/photoshop-elements/using/optimizing-images.html), optimización que puede ser mejorada con https://tinypng.com/
 
 - - - - - - - - - - - - -
 
 #### Práctica
 
-Para practicar podemos cambiar el ejemplo por un JSON ya validado y puesto en línea, que pueden consultar directamente en la carpeta de esta clase:  
+Para practicar volveremos a un JSON ya validado y puesto en línea:  
 
 https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/emojis.json 
 
 ¡Noten la estructura de la URL! Hay un `https://raw.` al principio.
-
-
-Primero trabajaremos con el JSON preparado y publicado en la carpeta de esta clase.
 
 Con tal JSON, que tomaremos con un [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON) de p5.js, nos asomaremos a:
 
