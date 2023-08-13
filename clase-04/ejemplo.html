@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+        <style>
+            *, *::before, *::after {
+                margin: 0;
+                padding: 0;
+                font-weight: 300;
+            }
+
+            body {
+                font-family: 'IBM Plex Mono', monospace;
+                text-align: center;
+            }
+
+            main {
+                max-width: 600px;
+                margin: 5vh auto;
+            }
+
+            main p{
+                line-height: 1.38;
+                margin-bottom:2vh;
+            }
+
+            span#resultado em {
+                background: yellow;
+                font-style: normal;
+            }
+
+            @keyframes palpitar{
+                0%{opacity: 1;}
+                50%{opacity: .6;}
+                100%{opacity: 0;}
+            }
+
+            span#resultado > span {
+                animation:palpitar 1s alternate infinite;
+            }
+
+        </style>
+        <title>🤖 DNO037</title>
+    </head>
+    <body>
+        <main>
+            <p><span id="resultado"><span>Identificando</span></span></p>
+            <div id="aqui"></div>
+        </main>
+        <script>
+            // Initialize the Image Classifier method with MobileNet. A callback needs to be passed.
+            let classifier;
+
+            // A variable to hold the image we want to classify
+            let img;
+
+            function preload() {
+                classifier = ml5.imageClassifier("MobileNet");
+                img = loadImage("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo/completo.jpg");
+            }
+
+            function setup() {
+                createCanvas(600, 450).parent("aqui");
+                classifier.classify(img, gotResult);
+                image(img, 0, 0, width, height);
+            }
+
+            // A function to run when we get any errors and the results
+            function gotResult(error, results) {
+                // Display error in the console
+                if (error) {
+                    console.error(error);
+                } else {
+                    // The results are in an array ordered by confidence.
+                    console.log(results);
+                    select("#resultado").html(
+                        "Mi <a href='https://youtu.be/yNkAuWz5lnY?t=113' target='_blank' title='ml5.js: Image Classification with MobileNet'>entrenamiento</a> me hace ver: <em>" + results[0].label + "(" + Math.round(results[0].confidence * 100) + "%)</em>, <em>" + results[1].label + "(" + Math.round(results[1].confidence * 100) + "%)</em> o <em>" + results[2].label + "(" + Math.round(results[2].confidence * 100) + "%)</em>"
+                    );
+                }
+            }
+        </script>
+    </body>
+</html>
