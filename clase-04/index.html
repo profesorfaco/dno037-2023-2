@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Diseño y nuevos medios" />
+        <link href="style.css" rel="stylesheet" />
         <style>
             /* En lo que sigue hay harto de https://www.instagram.com/p/Cvqsjo0PYro/ */
             *, *::before, *::after {
@@ -63,13 +64,13 @@
                 datos = loadJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/emojis.json");
             }
             function setup() {
+                createCanvas(windowWidth, windowHeight).position(0,0).style("z-index", "-1");
+                background(255, 253, 225);
                 boton = select("#identidad");
                 boton.mouseClicked(masEmojis);
                 console.log(datos);
                 datosArreglados = Object.values(datos);
                 console.log(datosArreglados);
-                createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", "-1");
-                background(255, 253, 225);
                 textSize(75);
                 textAlign(CENTER, CENTER);
             }
