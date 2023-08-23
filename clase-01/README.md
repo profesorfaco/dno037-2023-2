@@ -113,7 +113,7 @@ El puntaje que se obtenga será considerado en la Evaluación Nº1, de la [clase
 |	13	|	—	|	—	|	0	|
 |	14	|	https://github.com/daviidfdezz	|	https://daviidfdezz.github.io/dnmm/	|	0,75	|
 |	15	|	https://github.com/mjosegaete	|	https://mjosegaete.github.io/DNM_clase01/	|	0,75	|
-|	16	|	https://github.com/emilgatica	|	https://emilgatica.github.io/DNM_01/index.html	|	0,5	|
+|	16	|	https://github.com/emilgatica	|	https://emilgatica.github.io/DNM_01/index.html	|	0,75	|
 |	17	|	https://github.com/kasu-exe	|	https://kasu-exe.github.io/DNM-01/index.html	|	0,75	|
 |	18	|	https://github.com/lucasgongorar	|	https://lucasgongorar.github.io/c01-opr-dnm/	|	0,75	|
 |	19	|	—	|	—	|	0	|
