@@ -202,7 +202,7 @@ El puntaje que se obtenga será considerado en la Evaluación Nº1, de la [clase
 |	26	|	https://github.com/fernandaignacia	|	https://fernandaignacia.github.io/dnm-02/ 	|	0,75	|
 |	27	|	https://github.com/isidoramunoz	|	https://isidoramunoz.github.io/Dnm-2/	|	0,5	|
 |	28	|	https://github.com/susanrobles	|	—	|	0	|
-|	29	|	https://github.com/trinirodriguez	|	https://trinirodriguez.github.io/Clase02/	|	0,75	|
+|	29	|	https://github.com/trinirodriguez	|	https://trinirodriguez.github.io/Clase02/	|	1	|
 |	30	|	https://github.com/claurj	|	https://claurj.github.io/dnonm-2/	|	0,75	|
 |	31	|	—	|	—	|	0	|
 |	32	|	https://github.com/belensilvaf	|	https://belensilvaf.github.io/DNM-Clase-02/ 	|	1	|
