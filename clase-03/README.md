@@ -2,7 +2,7 @@
 
 # Evaluación Nº1
 
-Cada estudiante **cuenta con el horario de clases** para publicar, con GitHub Pages, [su propia versión del sitio web](https://profesorfaco.github.io/dno037-2023-2/clase-03/) que es contenido en esta carpeta y se compone de las páginas [`cursos.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/cursos.html), [`emoji.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/emoji.html), [`index.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/index.html), [`swiftie.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/swiftie.html) y la hoja de estilo [`style.css`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/style.css).
+Cada estudiante **cuenta con el horario de clases** para publicar, con GitHub Pages, su propia versión [del sitio web](https://profesorfaco.github.io/dno037-2023-2/clase-03/) que es contenido en esta carpeta y se compone de las páginas [`cursos.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/cursos.html), [`emoji.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/emoji.html), [`index.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/index.html), [`swiftie.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/swiftie.html) y la hoja de estilo [`style.css`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/style.css).
 
 Lo que cada estudiante publique antes del final de la clase, será evaluado atendiendo a la siguiente pauta:
 
