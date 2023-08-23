@@ -14,7 +14,7 @@ function setup(){
 }
 
 function draw(){
-  //colocas acá lo que necesitas dibujar una y otra vez
+ //colocas acá lo que necesitas dibujar una y otra vez
 }
 ```
 
@@ -42,25 +42,25 @@ Si aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), pod
 
 ```
 [{
-	"char": "😀",
-	"dec": 128512,
-	"hex": "1F600",
-	"contented": true
+ "char": "😀",
+ "dec": 128512,
+ "hex": "1F600",
+ "contented": true
 }, {
-	"char": "😁",
-	"dec": 128513,
-	"hex": "1F601",
-	"contented": true
+ "char": "😁",
+ "dec": 128513,
+ "hex": "1F601",
+ "contented": true
 }, {
-	"char": "😕",
-	"dec": 128533,
-	"hex": "1F615",
-	"contented": false
+ "char": "😕",
+ "dec": 128533,
+ "hex": "1F615",
+ "contented": false
 }, {
-	"char": "😞",
-	"dec": 128542,
-	"hex": "1F61E",
-	"contented": false
+ "char": "😞",
+ "dec": 128542,
+ "hex": "1F61E",
+ "contented": false
 }]
 ```
 
@@ -84,19 +84,15 @@ Con atención a las líneas donde se lee:
 
 ```
 function emojiTrue() {
-	datosArreglados.forEach(e => {
-		if(e.contented == true){
-			text(e.char, random(0, windowWidth), random(0, windowHeight))
-		}
-	});
+ datosArreglados.forEach(e => {
+  if(e.contented == true){ text(e.char, random(0, windowWidth), random(0, windowHeight)) }
+ });
 }
 
 function emojiFalse() {
-	datosArreglados.forEach(e => {
-		if(e.contented == false){
-			text(e.char, random(0, windowWidth), random(0, windowHeight))
-		}
-	});
+ datosArreglados.forEach(e => {
+  if(e.contented == false){ text(e.char, random(0, windowWidth), random(0, windowHeight)) }
+ });
 }
 ```
 
