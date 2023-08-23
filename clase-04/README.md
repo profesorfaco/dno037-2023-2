@@ -112,14 +112,17 @@ Ahora, con esa lógica de funciones y condiciones podríamos pasar a otro asunto
 
 Hagamos de cuenta que una "máquina" ha "aprendido" a oir y reconocer las palabras: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
 
-A este aprendizaje de máquina (la intención es referir al *machine learning*) puede accederse de modo amigable si usamos la biblioteca ml5.js
+A este aprendizaje de máquina (la intención es referir al *machine learning*) se puede accederse de modo amigable y en web si usamos la **biblioteca ml5.js**
 
-Una biblioteca que está completamente integrada con p5.js, por lo que se puede poner a prueba en línea, mediante: 
+Se trata de una biblioteca de JavaScript que puede trabajar con p5.js: 
 
-Este ejemplo en el [p5.js Web Editor](https://editor.p5js.org/ml5/sketches/SoundClassification_speechcommand)
+Acá algunos ejemplos del modo en que trabajan juntas, disponibles en el Editor Web de p5.js: 
 
-Y este ejercicio con alguna modificaciones: 
+- https://editor.p5js.org/ml5/sketches/SoundClassification_speechcommand
 
+- https://editor.p5js.org/jernwerber/sketches/Uu4TPyYEu
+
+Pendiente
 
 - - - - - - - - - - - - -
 
