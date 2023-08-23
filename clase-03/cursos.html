@@ -7,33 +7,36 @@
         <link href="style.css" rel="stylesheet" />
         <title>&#127891; DNO037</title>
     </head>
-    <body>
+    <body style="background:#008C5B">
         <header>
             <h1>
                 <a href="index.html">Nombre Apellido</a>
+                <a href="cursos.html" style="text-decoration: line-through">CURSOS</a>
                 <a href="emoji.html">EMOJI</a>
                 <a href="swiftie.html">SWIFTIE</a>
-                <a href="cursos.html" style="text-decoration: line-through;">CURSOS</a>
             </h1>
         </header>
-        <main></main>
+        <main>
+            <div id="aqui"></div>
+        </main>
         <footer>
             <p><a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a> <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03">23 de agosto, 2023</a></p>
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js" integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
-            var h, s;
+            var data = {
+                name: "Inteligencia Artificial",
+                code: "IIC2613",
+                about: "Este curso enseña los conceptos fundamentales de inteligencia artificial y las metodologías utilizadas en este ámbito. En particular, el curso abarca las técnicas clásicas de resolución de problemas mediante la lógica deductiva, algoritmos de búsqueda, y técnicas de planificación. El curso también cubre los aspectos fundamentales de aprendizaje automático."
+            }
             function setup() {
-                createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", "-1");
-            }
-            function draw() {
-                colorMode(HSB, 360, 100, 100);
-                h = map(mouseX, 0, windowWidth, 0, 360);
-                s = map(mouseY, 0, windowHeight, 100, 0);
-                background(h, s, 55);
-            }
-            function windowResized() {
-                resizeCanvas(windowWidth, windowHeight);
+                noCanvas();
+                console.log(data);
+                var x = 0;
+                while (x < 5){
+                    createElement("dl", "<dt>" + data.name + " (" + data.code + ")</dt><dd>" + data.about + "</dd>").parent("aqui");
+                    x++;
+                }
             }
         </script>
     </body>

@@ -37,6 +37,8 @@ footer {
 
 main {
     min-height: 80vh;
+    display: flex;
+    align-items: center;    
 }
 
 header h1 {
@@ -59,10 +61,45 @@ header h1 a:first-child {
     font-weight: 500;
 }
 
-main p {
-    font-size: calc(1.8rem + 1.8vw);
-    line-height: 1.2;
-    padding: 10vh 0;
+main div{
+    padding:4vw 0;
+}
+
+main div p{
+    font-size:calc(1.38rem + 1.38vw);
+}
+
+main div p span{
+    font-weight: 500;
+}
+
+main div blockquote{
+    font-size:calc(1.62rem + 1.62vw);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+}
+
+main div dl {
+  display:block;
+  clear: both;
+  font-size: calc(0.8rem + 0.4vw); 
+  line-height: 1.4;
+}
+
+main div dl dt {
+    font-weight: 500;
+    display: inline-block;
+    float:left;
+    width:calc(30% - 2rem);
+    padding-right:2rem;
+}
+
+main div dl dd {
+    display: inline-block;
+    float:left;
+    width:70%;
+    padding-bottom: 1rem;
+    color:rgba(255,255,255,.7);
 }
 
 footer p {
