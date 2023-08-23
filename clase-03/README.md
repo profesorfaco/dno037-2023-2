@@ -2,14 +2,16 @@
 
 # Evaluación Nº1
 
-Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages, [su propia versión de un sitio web](https://profesorfaco.github.io/dno037-2023-2/clase-03/) en el que debe tomar como base los archivos `index.html` y `style.css` en esta carpeta, y aprovechar los códigos ya compartidos en las clases [01](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-01) y [02](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-02): 
+Cada estudiante **cuenta con el horario de clases** para publicar, con GitHub Pages, [su propia versión del sitio web](https://profesorfaco.github.io/dno037-2023-2/clase-03/) que es contenido en esta carpeta y se compone de las páginas [`cursos.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/cursos.html), [`emoji.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/emoji.html), [`index.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/index.html), [`swiftie.html`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/swiftie.html) y la hoja de estilo [`style.css`](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/style.css).
+
+Lo que cada estudiante publique antes del final de la clase, será evaluado atendiendo a la siguiente pauta:
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
-| Por modificaciones en `index.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
-| Por modificaciones en `cursos.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
-| Por modificaciones en `emoji.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
-| Por modificaciones en `swiftie.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
+| Ajustes en `index.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
+| Ajustes en `cursos.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
+| Ajustes en `emoji.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
+| Ajustes en `swiftie.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
 | Puntos acumulados por trabajo desarrollado entre las clases [1](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-01) y [2](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-02) | 2.0 |
 | Punto base | 1.0 |
 | TOTAL  | 7.0 |
