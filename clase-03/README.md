@@ -42,11 +42,11 @@ Minutos antes de la clase también serán editados los archivos de la carpeta, p
 
 - En `index.html`: *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
 
-- En `emoji`: *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
+- En `emoji.html`: *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
 
-- En `‌swiftie`: *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
+- En `‌swiftie.html`: *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
 
-- En `‌cursos`: *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
+- En `‌cursos.html`: *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
 
 - - - - - - - 
 
