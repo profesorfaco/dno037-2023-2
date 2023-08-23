@@ -8,7 +8,7 @@ Lo que cada estudiante publique antes del final de la clase, será evaluado aten
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
-| Ajustes en `index.html` (ver [detalles](d#detalles) más abajo) | 1.0 |
+| Ajustes en `index.html` (ver [detalles](#detalles) más abajo) | 1.0 |
 | Ajustes en `cursos.html` (ver [detalles](#detalles) más abajo) | 1.0 |
 | Ajustes en `emoji.html` (ver [detalles](#detalles) más abajo) | 1.0 |
 | Ajustes en `swiftie.html` (ver [detalles](#detalles) más abajo) | 1.0 |
