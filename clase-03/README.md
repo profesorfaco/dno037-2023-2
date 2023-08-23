@@ -38,7 +38,7 @@ La conexión remota-sincrónica podrá resolverse por las siguientes vías:
 
 Lo que debe resolverse en la prueba será agregado a continuación, reemplazando el *Loren ipsum*, minutos antes del comienzo de la clase (11.00 hrs.). 
 
-Minutos antes de la clase también serán editados los archivos de la carpeta, para simplificar la comprensión de lo se agregue a continuación, reemplazando el "Loren ipsum".
+Minutos antes de la clase también serán editados los archivos de la carpeta, para simplificar la comprensión de lo se agregue a continuación, reemplazando el *Loren ipsum*.
 
 - En `index.html`: *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
 
