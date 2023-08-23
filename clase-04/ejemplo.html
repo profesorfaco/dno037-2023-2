@@ -4,86 +4,94 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Diseño y nuevos medios" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
-        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" />
         <style>
+            /* En lo que sigue hay harto de https://www.instagram.com/p/Cvqsjo0PYro/ */
             *, *::before, *::after {
                 margin: 0;
                 padding: 0;
-                font-weight: 300;
             }
 
             body {
-                font-family: 'IBM Plex Mono', monospace;
-                text-align: center;
+                font-family: sans-serif;
             }
 
-            main {
-                max-width: 600px;
-                margin: 5vh auto;
+            button {
+                all: unset;
             }
 
-            main p{
-                line-height: 1.38;
-                margin-bottom:2vh;
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
             }
 
-            span#resultado em {
-                background: yellow;
-                font-style: normal;
+            div > button {
+                font-size: 1rem;
+                box-shadow: 0 0 5px rgba(104, 47, 14, 0.25);
+                border: none;
+                border-radius: 6px 6px;
+                color: RGB(161, 96, 33);
+                background: RGB(243, 244, 244);
+                font-weight: 900;
+                padding: 0.5rem 0.7rem;
+                margin: 0 0.6rem;
             }
 
-            @keyframes palpitar{
-                0%{opacity: 1;}
-                50%{opacity: .6;}
-                100%{opacity: 0;}
+            div > button:hover {
+                color: RGB(131, 66, 3);
+                background: RGB(253, 254, 254);
+                cursor: pointer;
             }
-
-            span#resultado > span {
-                animation:palpitar 1s alternate infinite;
-            }
-
         </style>
-        <title>🤖 DNO037</title>
+        <title>&#128075; DNO037</title>
     </head>
     <body>
-        <main>
-            <p><span id="resultado"><span>Identificando</span></span></p>
-            <div id="aqui"></div>
-        </main>
+        <div>
+            <button id="unos">UNOS</button>
+            <button id="otros">OTROS</button>
+            <button onClick="window.location.reload()">REFRESH</button>
+        </div>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"
+            integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
         <script>
-            // Initialize the Image Classifier method with MobileNet. A callback needs to be passed.
-            let classifier;
-
-            // A variable to hold the image we want to classify
-            let img;
-
+            var datos, datosArreglados, boton;
             function preload() {
-                classifier = ml5.imageClassifier("MobileNet");
-                img = loadImage("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo/completo.jpg");
+                datos = loadJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo.json");
             }
-
             function setup() {
-                createCanvas(600, 450).parent("aqui");
-                classifier.classify(img, gotResult);
-                image(img, 0, 0, width, height);
+                createCanvas(windowWidth, windowHeight).position(0,0).style("z-index", "-1");
+                background(255, 253, 225);
+                select("#unos").mouseClicked(emojiTrue);
+                select("#otros").mouseClicked(emojiFalse);
+                console.log(datos);
+                datosArreglados = Object.values(datos);
+                console.log(datosArreglados);
+                textSize(75);
+                textAlign(CENTER, CENTER);
             }
-
-            // A function to run when we get any errors and the results
-            function gotResult(error, results) {
-                // Display error in the console
-                if (error) {
-                    console.error(error);
-                } else {
-                    // The results are in an array ordered by confidence.
-                    console.log(results);
-                    select("#resultado").html(
-                        "Mi <a href='https://youtu.be/yNkAuWz5lnY?t=113' target='_blank' title='ml5.js: Image Classification with MobileNet'>entrenamiento</a> me hace ver: <em>" + results[0].label + "(" + Math.round(results[0].confidence * 100) + "%)</em>, <em>" + results[1].label + "(" + Math.round(results[1].confidence * 100) + "%)</em> o <em>" + results[2].label + "(" + Math.round(results[2].confidence * 100) + "%)</em>"
-                    );
-                }
+            function emojiTrue() {
+                datosArreglados.forEach(e => {
+                    if(e.contented == true){
+                        text(e.char, random(0, windowWidth), random(0, windowHeight))
+                    }
+                });
+            }
+            function emojiFalse() {
+                datosArreglados.forEach(e => {
+                    if(e.contented == false){
+                        text(e.char, random(0, windowWidth), random(0, windowHeight))
+                    }
+                });
+            }
+            function windowResized() {
+                resizeCanvas(windowWidth, windowHeight);
+                background(255, 253, 225);
             }
         </script>
     </body>
