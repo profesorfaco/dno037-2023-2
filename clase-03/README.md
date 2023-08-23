@@ -6,10 +6,10 @@ Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages,
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
-| Por modificaciones en `index.html` (ver detalle más abajo) | 1.0 |
-| Por modificaciones en `cursos.html` (ver detalle más abajo) | 1.0 |
-| Por modificaciones en `emoji.html` (ver detalle más abajo) | 1.0 |
-| Por modificaciones en `swiftie.html` (ver detalle más abajo) | 1.0 |
+| Por modificaciones en `index.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
+| Por modificaciones en `cursos.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
+| Por modificaciones en `emoji.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
+| Por modificaciones en `swiftie.html` (ver [detalles](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-03/README.md#detalles) más abajo) | 1.0 |
 | Puntos acumulados por trabajo desarrollado entre las clases [1](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-01) y [2](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-02) | 2.0 |
 | Punto base | 1.0 |
 | TOTAL  | 7.0 |
