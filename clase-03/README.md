@@ -6,10 +6,10 @@ Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages,
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
-| Pendiente (relacionado con `index.html`) | 1.0 |
-| Pendiente (relacionado con `emoji.html`) | 1.0 |
-| Pendiente (relacionado con `swiftie.html`) | 1.0 |
-| Pendiente (relacionado con `cursos.html`) | 1.0 |
+| Por modificaciones en `index.html` (ver detalle más abajo) | 1.0 |
+| Por modificaciones en `cursos.html` (ver detalle más abajo) | 1.0 |
+| Por modificaciones en `emoji.html` (ver detalle más abajo) | 1.0 |
+| Por modificaciones en `swiftie.html` (ver detalle más abajo) | 1.0 |
 | Puntos acumulados por trabajo desarrollado entre las clases [1](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-01) y [2](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-02) | 2.0 |
 | Punto base | 1.0 |
 | TOTAL  | 7.0 |
@@ -36,9 +36,7 @@ La conexión remota-sincrónica podrá resolverse por las siguientes vías:
 - [foro de discusión en canvas](https://cursos.canvas.uc.cl/courses/66086/discussion_topics/666566)
 - muro de GitHub (el espacio donde cada *user* puede ver novedades de quienes sigue).
 
-Lo que debe resolverse en la prueba será agregado a continuación, reemplazando el *Loren ipsum*, minutos antes del comienzo de la clase (11.00 hrs.). 
-
-Minutos antes de la clase también serán editados los archivos de la carpeta, para simplificar la comprensión de lo se agregue a continuación, reemplazando el *Loren ipsum*.
+#### Detalles
 
 - En `index.html`: *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
 
