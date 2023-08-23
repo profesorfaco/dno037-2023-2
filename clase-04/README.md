@@ -38,26 +38,29 @@ En [las referencias de p5.js](https://p5js.org/es/reference/#/p5/preload), esta 
 
 > La función `preload()` es ejecutada antes de `setup()`, es usada para manejar la carga asíncrona de archivos externos. Si se define una función `preload()`, `setup()` esperará hasta que las llamadas a funciones load hayan terminado. Solo se deben incluir instrucciones de carga dentro de `preload()` (`loadImage`, `loadJSON`, `loadFont`, `loadStrings`, etc).
 
-
 Si aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), podemos obtener datos de un JSON que tenga, por ejemplo, la siguiente estructura:
 
 ```
 [{
-	"emoji": "🌭",
-	"nombre": "completo",
-	"image":"https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo/completo.jpg"
+	"char": "😀",
+	"dec": 128512,
+	"hex": "1F600",
+	"contented": true
 }, {
-	"emoji": "🍔",
-	"nombre": "hamburguesa",
-	"image":"https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo/hamburguesa.jpg"
+	"char": "😁",
+	"dec": 128513,
+	"hex": "1F601",
+	"contented": true
 }, {
-	"emoji": "🍟",
-	"nombre": "papitas",
-	"image":"https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo/papitas.jpg"
+	"char": "😕",
+	"dec": 128533,
+	"hex": "1F615",
+	"contented": false
 }, {
-	"emoji": "🌮",
-	"nombre": "taco",
-	"image":"https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo/taco.jpg"
+	"char": "😞",
+	"dec": 128542,
+	"hex": "1F61E",
+	"contented": false
 }]
 ```
 
@@ -69,45 +72,60 @@ La validez de tal estructura puede ser confirmada con servicios tales como:
 
 - https://codebeautify.org/jsonvalidator
 
-Si analizamos tal [JSON](https://www.json.org/json-es.html) como notación de JavaScript (razón de su nombre, iniciales de JavaScript Object Notation), tenemos un arreglo (todo está contenido por paréntesis cuadrado). Los elementos de este arreglo, que están separados por comas, son contenidos por paréntesis de llave, por lo que cada uno de los 4 elementos en este arreglo es un objeto. En cada objeto vemos dos pares de nombre: dato.
+Cada estructura válida de un JSON implicará una forma de consultarlo, además de determinadas posibilidades. 
 
-Tal estructura del JSON implica una forma de consultarlo. Si fuera otra su estructura, otra sería la forma de consultarlo:
+En el caso del ejemplo tenemos un nombre `contented` al que se le asigna uno de dos valores posibles en la [función booleana](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana): `true` o `false`.
 
-- Si quiero un dato de un arreglo: Lo llamo por su ubicación numerada, que parte en 0.
+Con las dos posibilidades podemos establecer una condición: Acaso el dato en `contented` es `true` o `false`. 
 
-- Si quiere un dato de un objeto: Lo llamo por su nombre. 
+Para explorar esta posibilidad, puede revisarse el código fuente de https://profesorfaco.github.io/dno037-2023-2/clase-04/ejemplo.html
 
-Si quiero un 🌭, tendría que programar una consulta al objeto en la posición 0 del arreglo, donde puedo tomar lo que tiene nombre emoji.
+Con atención a las líneas donde se lee: 
 
-Y podemos seguir con 🌭, 🍔, 🍟 y 🌮,  para agregar una nueva biblioteca: [ml5.js](https://ml5js.org/) para explorar algo de inteligencia artificial: 
+```
+function emojiTrue() {
+	datosArreglados.forEach(e => {
+		if(e.contented == true){
+			text(e.char, random(0, windowWidth), random(0, windowHeight))
+		}
+	});
+}
 
-https://profesorfaco.github.io/dno037-2023-2/clase-04/ejemplo.html
+function emojiFalse() {
+	datosArreglados.forEach(e => {
+		if(e.contented == false){
+			text(e.char, random(0, windowWidth), random(0, windowHeight))
+		}
+	});
+}
+```
 
-Allí usamos esta biblioteca que nos proporciona acceso a los algoritmos y modelos de *machine leaning* en Javascript, trabajando con p5.js; por eso hay un ml y un 5 en su denominación.
+Allí tenemos dos funciones, cada una con su nombre. Y cada una nos permite:
 
-Si quieren probar con otras imágenes, la recomendación es ponerlas en línea, dentro de un repositorio de GitHub, después de haber ajustado su tamaño a 800x600 pixeles, con resolución de 72dpi, y haberla [optimizadao para en Photoshop](https://helpx.adobe.com/cl/photoshop-elements/using/optimizing-images.html), optimización que puede ser mejorada con https://tinypng.com/
+- recordar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
+- conocer la [sentencia `if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else)
+
+Lo que resultará de la ejecución de la `function emojiTrue()` será la impresión de tantos textos como emojis contentos contenga el JSON. Mientras que la ejecución de la `function emojiFalse()` imprimirá los emojis que no son contentos.
+
+Ahora, con esa lógica de funciones y condiciones podríamos pasar a otro asunto y otra biblioteca. 
+
+Hagamos de cuenta que una "máquina" ha "aprendido" a oir y reconocer las palabras: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
+
+A este aprendizaje de máquina (la intención es referir al *machine learning*) puede accederse de modo amigable si usamos la biblioteca ml5.js
+
+Una biblioteca que está completamente integrada con p5.js, por lo que se puede poner a prueba en línea, mediante: 
+
+Este ejemplo en el [p5.js Web Editor](https://editor.p5js.org/ml5/sketches/SoundClassification_speechcommand)
+
+Y este ejercicio con alguna modificaciones: 
+
 
 - - - - - - - - - - - - -
 
 #### Práctica
 
-Para practicar volveremos a un JSON ya validado y puesto en línea:  
-
-https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/emojis.json 
-
-¡Noten la estructura de la URL! Hay un `https://raw.` al principio.
-
-Con tal JSON, que tomaremos con un [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON) de p5.js, nos asomaremos a:
-
-- el [método `Object.values()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/values) 
-
-- el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-
-- la [sentencia `if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else)
-
-- el [método `includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
-
-Luego, cada estudiante tendrá que preparar su propio JSON con emojis tomados desde https://www.w3schools.com/charsets/ref_emoji.asp - Por ejemplo, puede preparar un JSON con emojis de signos zodiacales, donde informe su nombre y si acaso es signo de aire, agua, tierra o fuego. Luego tiene que validar su estructura y subirlo a GitHub para seguir practicando.
+Pendiente.
 
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
