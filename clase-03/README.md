@@ -42,15 +42,15 @@ En lo que sigue aún queda algo de *Loren ipsum*, el que será modificado por te
 
 ### Detalles
 
-- **En `index.html`**: **0.25** por cambiar emoji y texto en `<title>…</title>` + **0.25** por cambiar Nombre Apellido en `<a>…</a>`, dentro de `<h1>…</h1>` + *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
+- **Ajustes en `index.html`**: **0.25** por cambiar emoji y texto en `<title>…</title>` + **0.25** por cambiar Nombre Apellido en `<a>…</a>`, dentro de `<h1>…</h1>` + **0.5** por cambiar el texto con el que se presenta y comparte la razón por la que sigue en este OPR en `<p>…</p>`, dentro de `<div>…</div>`
 
-- **En `‌cursos.html`**: **0.25** por cambiar emoji y texto en `<title>…</title>` + **0.25** por cambiar Nombre Apellido en `<a>…</a>`, dentro de `<h1>…</h1>` + **0.25** por [ingresar al foro](https://cursos.canvas.uc.cl/courses/66086/discussion_topics/666566), antes de las 12:20 hrs., la dirección del JSON con nombre, código y descripción de 5 cursos de su interés + **0.25** por implementar el despliegue de los cinco cursos después de la carga y consulta del mismo JSON.
+- **Ajustes en `‌cursos.html`**: **0.25** por cambiar emoji y texto en `<title>…</title>` + **0.25** por cambiar Nombre Apellido en `<a>…</a>`, dentro de `<h1>…</h1>` + **0.25** por [ingresar en el foro](https://cursos.canvas.uc.cl/courses/66086/discussion_topics/666566), antes de las 12:20 hrs., la dirección del JSON con nombre, código y descripción de 5 cursos de su interés + **0.25** por implementar el despliegue de los cinco cursos después de la carga y consulta del mismo JSON
 
-- **En `emoji.html`**: **0.25** por cambiar emoji y texto en `<title>…</title>` + **0.25** por cambiar Nombre Apellido en `<a>…</a>`, dentro de `<h1>…</h1>` + *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
+- **Ajustes en `emoji.html`**: **0.25** por cambiar emoji y texto en `<title>…</title>` + **0.25** por cambiar Nombre Apellido en `<a>…</a>`, dentro de `<h1>…</h1>` + **0.25** por crear un arreglo de 5 emojis en el `<script>…</script>` + **0.25** por seleccionar, al momento en que se carga la página, un emoji del arreglo (con un random) para colocarlo en el lugar del texto que dice EMOJI
 
-- **En `‌swiftie.html`**: **0.25** por cambiar emoji y texto en `<title>…</title>` + **0.25** por cambiar Nombre Apellido en `<a>…</a>`, dentro de `<h1>…</h1>` + *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*.
+- **Ajustes en `‌swiftie.html`**: **0.25** por cambiar emoji y texto en `<title>…</title>` + **0.25** por cambiar Nombre Apellido en `<a>…</a>`, dentro de `<h1>…</h1>` + **0.25** por colocar hora, minutos del momento que se carga la página en el lugar de `hh` y `mm` + **0.25** por reemplazar `song`, `album` y `quote` por lo que resulte de cargar el JSON en https://taylorswiftapi.onrender.com/get
 
-Todos los detalles serán evaluados si y sólo si ingresa, hasta las 13:30 hrs., la dirección de su sitio web al [mismo foro](https://cursos.canvas.uc.cl/courses/66086/discussion_topics/666566) donde ya pudo ingresar la dirección del JSON con nombre, código y descripción de 5 cursos de su interés.
+Todos los ajustes serán evaluados si y sólo si ingresa, hasta las 13:30 hrs., la dirección de su sitio web al [mismo foro](https://cursos.canvas.uc.cl/courses/66086/discussion_topics/666566) donde ya pudo ingresar la dirección del JSON con nombre, código y descripción de 5 cursos de su interés.
 
 [El foro](https://cursos.canvas.uc.cl/courses/66086/discussion_topics/666566) está programado para cerrarse a las 13:31 hrs.
 
