@@ -38,7 +38,7 @@ En [las referencias de p5.js](https://p5js.org/es/reference/#/p5/preload), esta 
 
 > La función `preload()` es ejecutada antes de `setup()`, es usada para manejar la carga asíncrona de archivos externos. Si se define una función `preload()`, `setup()` esperará hasta que las llamadas a funciones load hayan terminado. Solo se deben incluir instrucciones de carga dentro de `preload()` (`loadImage`, `loadJSON`, `loadFont`, `loadStrings`, etc).
 
-Si aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), podemos obtener datos de un JSON que tenga, por ejemplo, la siguiente estructura:
+Si aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), podemos obtener [datos de un JSON](https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo.json) que repita la misma estructura de objetos dentro de un arreglo:
 
 ```
 [{
@@ -74,13 +74,13 @@ La validez de tal estructura puede ser confirmada con servicios tales como:
 
 Cada estructura válida de un JSON implicará una forma de consultarlo, además de determinadas posibilidades. 
 
-En el caso del ejemplo tenemos un nombre `contented` al que se le asigna uno de dos valores posibles en la [función booleana](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana): `true` o `false`.
+En el caso de la [estructura del JSON del ejemplo](https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo.json), tenemos un nombre `contented` al que se le asigna uno de dos valores [booleanos](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana) posibles: `true` o `false`.
 
 Con las dos posibilidades podemos establecer una condición: Acaso el dato en `contented` es `true` o `false`. 
 
 Para explorar esta posibilidad, puede revisarse el código fuente de https://profesorfaco.github.io/dno037-2023-2/clase-04/ejemplo.html
 
-Con atención a las líneas donde se lee: 
+En la revisión conviene quedarse un rato en:
 
 ```
 function emojiTrue() {
