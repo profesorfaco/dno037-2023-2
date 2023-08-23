@@ -26,7 +26,7 @@ Lo que cada estudiante publique antes del final de la clase, será evaluado aten
 
 El segundo correo fue enviado después de consultar el último pronóstico del tiempo disponible para la jornada laboral del martes, y considera la posibilidad de evitarse desplazamientos en calles inundadas, y veredas con ramas, troncos y cables caídos. 
 
-**SE PROPONE QUE RESUELVAN LA EVALUACIÓN Nº1 DE MANERA REMOTA**. 
+**PROPONGO QUE RESUELVAN LA EVALUACIÓN Nº1 DE MANERA REMOTA**. 
 
 :cloud_with_rain: ESTA PROPUESTA ES EXCEPCIONAL, COMO EXCEPCIONALES SON LAS CONDICIONES METEOROLÓGICAS :cloud_with_rain:
 
