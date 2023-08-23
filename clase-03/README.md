@@ -44,7 +44,7 @@ En lo que sigue aún queda algo de *Loren ipsum*, el que será modificado por te
 
 - **En `index.html`**: **0.25** por cambiar emoji y texto en `<title></title>` + **0.25** por cambiar Nombre Apellido en `<a></a>`, dentro de `<h1></h1>` + *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
 
-- **En `‌cursos.html`**: **0.25** por cambiar emoji y texto en `<title></title>` + **0.25** por cambiar Nombre Apellido en `<a></a>`, dentro de `<h1></h1>` + **0.25** por [ingresar al foro](https://cursos.canvas.uc.cl/courses/66086/discussion_topics/666566), antes de las 12:20 hrs., la dirección del JSON con nombre, código y descripción de 5 cursos de su interés + **0.25** por implementar el despliegue de los cinco cursos después de [la carga y consulta del mismo JSON](https://p5js.org/es/reference/#/p5/loadJSON) 
+- **En `‌cursos.html`**: **0.25** por cambiar emoji y texto en `<title></title>` + **0.25** por cambiar Nombre Apellido en `<a></a>`, dentro de `<h1></h1>` + **0.25** por [ingresar al foro](https://cursos.canvas.uc.cl/courses/66086/discussion_topics/666566), antes de las 12:20 hrs., la dirección del JSON con nombre, código y descripción de 5 cursos de su interés + **0.25** por implementar el despliegue de los cinco cursos después de la carga y consulta del mismo JSON.
 
 - **En `emoji.html`**: **0.25** por cambiar emoji y texto en `<title></title>` + **0.25** por cambiar Nombre Apellido en `<a></a>`, dentro de `<h1></h1>` + *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*. 
 
