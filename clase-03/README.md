@@ -18,9 +18,9 @@ Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages,
 
 :rotating_light: Es importante que hayan leído dos correos :rotating_light:
 
-1. Asunto: "La prueba de la próxima clase", enviado a las 13:16 hrs. del 17 de agosto
+1. Correo de asunto: "La prueba de la próxima clase", enviado a las 13:16 hrs. del 17 de agosto
 
-2. Asunto: "Propuesta para mañana miércoles : Evaluación Nº1", enviado a las 19:20 hrs. del 22 de agosto. 
+2. Correo de asunto: "Propuesta para mañana miércoles : Evaluación Nº1", enviado a las 19:20 hrs. del 22 de agosto. 
 
 El segundo correo fue enviado después de consultar el último pronóstico del tiempo disponible para la jornada laboral del martes, y considera la posibilidad de evitarse desplazamientos en calles inundadas, y veredas con ramas, troncos y cables caídos. 
 
