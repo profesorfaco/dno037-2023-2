@@ -50,7 +50,7 @@ En lo que sigue aún queda algo de *Loren ipsum*, el que será modificado por te
 
 - **En `‌swiftie.html`**: **0.25** por cambiar emoji y texto en `<title>…</title>` + **0.25** por cambiar Nombre Apellido en `<a>…</a>`, dentro de `<h1>…</h1>` + *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique in odio ut vehicula. Cras a nisl et sapien pharetra tempus. Duis feugiat mollis luctus*.
 
-Todos los detalles serán evaluados si y solo si ingresa, hasta las 13:30 hrs., la dirección de su sitio web al [mismo foro](https://cursos.canvas.uc.cl/courses/66086/discussion_topics/666566) donde ya pudo ingresar la dirección del JSON con nombre, código y descripción de 5 cursos de su interés.
+Todos los detalles serán evaluados si y sólo si ingresa, hasta las 13:30 hrs., la dirección de su sitio web al [mismo foro](https://cursos.canvas.uc.cl/courses/66086/discussion_topics/666566) donde ya pudo ingresar la dirección del JSON con nombre, código y descripción de 5 cursos de su interés.
 
 [El foro](https://cursos.canvas.uc.cl/courses/66086/discussion_topics/666566) está programado para cerrarse a las 13:31 hrs.
 
