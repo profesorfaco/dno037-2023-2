@@ -14,7 +14,9 @@ Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages,
 | Punto base | 1.0 |
 | TOTAL  | 7.0 |
 
-:rotating_light: **Es importante que hayan leído dos correos** :rotating_light:
+### EXTRA-EXTRA
+
+:rotating_light: Es importante que hayan leído dos correos :rotating_light:
 
 1. Asunto: "La prueba de la próxima clase", enviado a las 13:16 hrs. del 17 de agosto
 
