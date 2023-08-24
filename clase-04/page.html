@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <!--p5.js-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+      <!--ml5.js-->
+      <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+      <title>DNO037 | p5.js + ml5.js</title>
+   </head>
+   <body>
+      <main id="aqui"></main>
+      <script>
+         var pic = new URLSearchParams(window.location.search).get('esta');
+         var url = "https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/img/"
+         var img, detector;
+
+         function preload(){
+            img = loadImage(url+pic);
+            detector = ml5.objectDetector('cocossd');
+         }
+
+         function gotDetections(error, results){
+            if(error){
+               console.error(error);
+            }
+            select("#cargando").addClass("esconde");
+            console.log(results);
+            results.forEach(r => {
+               stroke(0,255,0,200);
+               strokeWeight(5);
+               noFill();
+               rect(r.x,r.y,r.width,r.height);
+               noStroke();
+               fill(0,255,0,245);
+               textSize(24);
+               text(r.label,  r.x+10, r.y+25);
+            })
+         }
+
+         function setup(){
+            createDiv('<p><a href="index.html">&larr; Volver</a> <span id="cargando">Cargando…</span></p>').position(10,10);
+            createCanvas(750,450).parent("#aqui");
+            image(img,0,0);
+            detector.detect(img,gotDetections);
+         }
+      </script>
+   </body>
+</html>

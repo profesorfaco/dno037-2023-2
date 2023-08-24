@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <!--p5.js-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+      <title>DNO037 | p5.js + ml5.js</title>
+   </head>
+   <body>
+      <main id="aqui"></main>
+      <script>
+         var data, fotos, baraja, escoge;
+
+         function preload() {
+            data = loadJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/img.json");
+         }
+
+         function setup() {
+            noCanvas();
+            fotos = Object.values(data);
+            baraja = fotos.sort(function () {
+               return 0.5 - Math.random();
+            });
+            var escoge = baraja.slice(0, 4);
+            console.log(escoge);
+            escoge.forEach((e) => createDiv('<a href="page.html?esta=' + e.slice(-10) + '"><img src="' + e + '"></a>').parent("#aqui"));
+         }
+      </script>
+   </body>
+</html>
