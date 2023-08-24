@@ -100,11 +100,15 @@ Lo que resultará de la ejecución de la `function emojiTrue()` será la impresi
 
 Ahora, con esa lógica de funciones y condiciones podríamos pasar a otro asunto y otra biblioteca. 
 
-Hagamos de cuenta que "entrenamos a una máquina" hasta que "aprenda" a asociar lo que escucha con alguna etiqueta (*label*), indicando un grado de confianza (*confidence*) para tal asociación. Imagina que las etiquetas se limitan a las siguientes palabras en inglés: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
+#### ml5.js
 
-Ahora, ingresa a este sketch preparado en el Editor Web de p5.js: https://editor.p5js.org/profesorfaco/sketches/qyl_CH5WA
+Hagamos de cuenta que "entrenamos a una máquina" hasta que "aprenda" a asociar lo que escucha con alguna etiqueta (*label*), indicando un grado de confianza (*confidence*) para tal asociación. 
 
-Dale play, permite que el navegador acceda al micrófono, dale un rato a que se cargue y dile tales palabras a la "máquina".
+Imagina que las etiquetas se limitan a las siguientes palabras en inglés: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
+
+Ingresa a este sketch preparado en el Editor Web de p5.js: https://editor.p5js.org/profesorfaco/sketches/qyl_CH5WA
+
+Dale *play*, permite que el navegador acceda al micrófono, dale un rato a que se cargue y dile tales palabras a la "máquina".
 
 Eso es p5.js trabajando con **ml5.js**, otra biblioteca de JavaScript. Esta biblioteca comparte con p5.js la intención de hacer accesible asuntos avanzados de programación (de ahí el *5*, después de la *m* de *machine* y la *l* de *learning*):
 
@@ -122,7 +126,10 @@ Viendo tal video y/o leyendo tal artículo podrían hacerse de una idea sobre el
 
 #### Práctica
 
-Pendiente.
+Para la práctica será necesario tener a la mano un par de referencias:
+
+- [reference | p5.js](https://p5js.org/es/reference/) 
+- [ml5.js - ObjectDetector](https://learn.ml5js.org/#/reference/object-detector)
 
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
