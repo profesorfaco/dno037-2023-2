@@ -102,11 +102,11 @@ Ahora, con esa lógica de funciones y condiciones podríamos pasar a otro asunto
 
 Hagamos de cuenta que "entrenamos a una máquina" hasta que "aprenda" a asociar lo que escucha con alguna etiqueta (*label*), indicando un grado de confianza (*confidence*) para tal asociación. Imagina que las etiquetas se limitan a las siguientes palabras en inglés: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
 
-Ahora, ingresa a la siguiente dirección: https://editor.p5js.org/ml5/sketches/SoundClassification_speechcommand
+Ahora, ingresa a este sketch preparado en el Editor Web de p5.js: https://editor.p5js.org/profesorfaco/sketches/qyl_CH5WA
 
-Dale play al sketch y permite que el navegador acceda al micrófono, para que puedas decir tales palabras a la "máquina".
+Dale play, permite que el navegador acceda al micrófono, dale un rato a que se cargue y dile tales palabras a la "máquina".
 
-A tal aprendizaje de máquina se puede acceder de modo amigable si usamos la **biblioteca ml5.js**, que comparte el espíritu con p5.js (de ahí el *5*, después de la *m* de *machine* y la *l* de *learning*):
+Eso es p5.js trabajando con **ml5.js**, otra biblioteca de JavaScript. Esta biblioteca comparte con p5.js la intención de hacer accesible asuntos avanzados de programación (de ahí el *5*, después de la *m* de *machine* y la *l* de *learning*):
 
 > [ml5.js](https://ml5js.org/) aims to make machine learning approachable for a broad audience of artists, creative coders, and students. The library provides access to machine learning algorithms and models in the browser, building on top of TensorFlow.js with no other external dependencies.
 
@@ -117,7 +117,6 @@ Antes de seguir, es conveniente revisar:
 - Este artículo: [El mal que aqueja a las IA es la abducción](https://hipermediaciones.com/2023/08/21/el-mal-que-aqueja-a-las-ia-es-la-abduccion/)
 
 Viendo tal video y/o leyendo tal artículo podrían hacerse de una idea sobre el concepto de *machine learning* y comenzar a relacionarlo con varios más.
-
 
 - - - - - - - - - - - - -
 
