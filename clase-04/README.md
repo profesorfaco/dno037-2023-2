@@ -104,7 +104,9 @@ Hagamos de cuenta que entrenamos a una "máquina" para que "aprenda" a reconocer
 
 En caso quiera probar decir la palabras, ingresa a https://editor.p5js.org/ml5/sketches/SoundClassification_speechcommand y permite al navegador usar el micrófono. 
 
-A tal aprendizaje de máquina (la intención es referir al *machine learning*) se puede accederse de modo amigable si usamos la **biblioteca ml5.js**, que comparta el espíritu con p5.js (de ahí el *5*, después de *ml* de machine learning).
+A tal aprendizaje de máquina (la intención es referir al *machine learning*) se puede accederse de modo amigable si usamos la **biblioteca ml5.js**, que comparta el espíritu con p5.js (de ahí el *5*, después de la *m* de *machine* y la *l* de *learning*):
+
+> [ml5.js](https://ml5js.org/) aims to make machine learning approachable for a broad audience of artists, creative coders, and students. The library provides access to machine learning algorithms and models in the browser, building on top of TensorFlow.js with no other external dependencies.
 
 Antes de seguir, es conveniente que puedan revisar: 
 
