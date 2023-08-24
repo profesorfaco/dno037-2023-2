@@ -132,6 +132,10 @@ Para la práctica será necesario tener a la mano un par de referencias:
 - [ml5.js - ObjectDetector](https://learn.ml5js.org/#/reference/object-detector)
 - [Lista de 80 objetos que podrían detectarse](https://github.com/ml5js/ml5-library/blob/main/src/utils/COCO_CLASSES.js)
 
+Con tal material se podrá avanzar en la edición del [index.html](https://profesorfaco.github.io/dno037-2023-2/clase-04/) y [page.html](https://profesorfaco.github.io/dno037-2023-2/clase-04/page.html?esta=pic-01.jpg) contenidos en esta carpeta. Recuerda que necesitas descargar tales archivos y colocarlos en una misma carpeta, junto al [style.css](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-04/style.css).
+
+En caso necesites volver a revisar parte de lo que haremos en la práctica, puedes ver en YouTube: [ml5.js: Object Detection with COCO-SSD](https://youtu.be/QEzRxnuaZCk?si=9VfMo2d2XWObEBeP); el script en `page.html` se basa, con pequeños ajustes, en lo que se enseña en tal video entre 00:00 y 11:39 (lo que sigue en el video sirve para avanzar en la exploración de [p5.js](https://p5js.org/es/) y [ml5.js](https://ml5js.org/)).
+
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
 La dirección de su página debe ser ingresada en el foro correspondiente a la clase: URL pendiente.
