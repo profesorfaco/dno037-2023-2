@@ -1,258 +1,256 @@
 [{
-		"char": "😀",
-		"dec": 128512,
-		"hex": "1F600",
-		"contented": true
-	},
-	{
-		"char": "😁",
-		"dec": 128513,
-		"hex": "1F601",
-		"contented": true
-	}, {
-		"char": "😂",
-		"dec": 128514,
-		"hex": "1F602",
-		"contented": true
-	}, {
-		"char": "😃",
-		"dec": 128515,
-		"hex": "1F603",
-		"contented": true
-	}, {
-		"char": "😄",
-		"dec": 128516,
-		"hex": "1F604",
-		"contented": true
-	}, {
-		"char": "😅",
-		"dec": 128517,
-		"hex": "1F605",
-		"contented": true
-	}, {
-		"char": "😆",
-		"dec": 128518,
-		"hex": "1F606",
-		"contented": true
-	}, {
-		"char": "😇",
-		"dec": 128519,
-		"hex": "1F607",
-		"contented": true
-	}, {
-		"char": "😈",
-		"dec": 128520,
-		"hex": "1F608",
-		"contented": true
-	}, {
-		"char": "😉",
-		"dec": 128521,
-		"hex": "1F609",
-		"contented": true
-	}, {
-		"char": "😊",
-		"dec": 128522,
-		"hex": "1F60A",
-		"contented": true
-	}, {
-		"char": "😋",
-		"dec": 128523,
-		"hex": "1F60B",
-		"contented": true
-	}, {
-		"char": "😌",
-		"dec": 128524,
-		"hex": "1F60C",
-		"contented": true
-	}, {
-		"char": "😍",
-		"dec": 128525,
-		"hex": "1F60D",
-		"contented": true
-	}, {
-		"char": "😎",
-		"dec": 128526,
-		"hex": "1F60E",
-		"contented": true
-	}, {
-		"char": "😏",
-		"dec": 128527,
-		"hex": "1F60F",
-		"contented": true
-	}, {
-		"char": "😐",
-		"dec": 128528,
-		"hex": "1F610",
-		"contented": false
-	}, {
-		"char": "😑",
-		"dec": 128529,
-		"hex": "1F611",
-		"contented": false
-	}, {
-		"char": "😒",
-		"dec": 128530,
-		"hex": "1F612",
-		"contented": false
-	}, {
-		"char": "😓",
-		"dec": 128531,
-		"hex": "1F613",
-		"contented": false
-	}, {
-		"char": "😔",
-		"dec": 128532,
-		"hex": "1F614",
-		"contented": false
-	}, {
-		"char": "😕",
-		"dec": 128533,
-		"hex": "1F615",
-		"contented": false
-	}, {
-		"char": "😖",
-		"dec": 128534,
-		"hex": "1F616",
-		"contented": false
-	}, {
-		"char": "😗",
-		"dec": 128535,
-		"hex": "1F617",
-		"contented": true
-	}, {
-		"char": "😘",
-		"dec": 128536,
-		"hex": "1F618",
-		"contented": true
-	}, {
-		"char": "😙",
-		"dec": 128537,
-		"hex": "1F619",
-		"contented": true
-	}, {
-		"char": "😚",
-		"dec": 128538,
-		"hex": "1F61A",
-		"contented": true
-	}, {
-		"char": "😛",
-		"dec": 128539,
-		"hex": "1F61B",
-		"contented": true
-	}, {
-		"char": "😜",
-		"dec": 128540,
-		"hex": "1F61C",
-		"contented": true
-	}, {
-		"char": "😝",
-		"dec": 128541,
-		"hex": "1F61D",
-		"contented": true
-	}, {
-		"char": "😞",
-		"dec": 128542,
-		"hex": "1F61E",
-		"contented": false
-	}, {
-		"char": "😟",
-		"dec": 128543,
-		"hex": "1F61F",
-		"contented": false
-	}, {
-		"char": "😠",
-		"dec": 128544,
-		"hex": "1F620",
-		"contented": false
-	}, {
-		"char": "😡",
-		"dec": 128545,
-		"hex": "1F621",
-		"contented": false
-	}, {
-		"char": "😢",
-		"dec": 128546,
-		"hex": "1F622",
-		"contented": false
-	}, {
-		"char": "😣",
-		"dec": 128547,
-		"hex": "1F623",
-		"contented": false
-	}, {
-		"char": "😤",
-		"dec": 128548,
-		"hex": "1F624",
-		"contented": false
-	}, {
-		"char": "😥",
-		"dec": 128549,
-		"hex": "1F625",
-		"contented": false
-	}, {
-		"char": "😦",
-		"dec": 128550,
-		"hex": "1F626",
-		"contented": false
-	}, {
-		"char": "😧",
-		"dec": 128551,
-		"hex": "1F627",
-		"contented": false
-	}, {
-		"char": "😨",
-		"dec": 128552,
-		"hex": "1F628",
-		"contented": false
-	}, {
-		"char": "😩",
-		"dec": 128553,
-		"hex": "1F629",
-		"contented": false
-	}, {
-		"char": "😪",
-		"dec": 128554,
-		"hex": "1F62A",
-		"contented": false
-	}, {
-		"char": "😫",
-		"dec": 128555,
-		"hex": "1F62B",
-		"contented": false
-	}, {
-		"char": "😭",
-		"dec": 128557,
-		"hex": "1F62D",
-		"contented": false
-	}, {
-		"char": "😰",
-		"dec": 128560,
-		"hex": "1F630",
-		"contented": false
-	}, {
-		"char": "😱",
-		"dec": 128561,
-		"hex": "1F631",
-		"contented": false
-	}, {
-		"char": "😲",
-		"dec": 128562,
-		"hex": "1F632",
-		"contented": false
-	}, {
-		"char": "😳",
-		"dec": 128563,
-		"hex": "1F633",
-		"contented": false
-	}, {
-		"char": "😵",
-		"dec": 128565,
-		"hex": "1F635",
-		"contented": false
-	}, {
-		"char": "😶",
-		"dec": 128566,
-		"hex": "1F636",
-		"contented": false
-	}
-]
+"char":"😀",
+"dec":128512,
+"hex":"1F600",
+"contented":true
+},{
+"char":"😁",
+"dec":128513,
+"hex":"1F601",
+"contented":true
+},{
+"char":"😂",
+"dec":128514,
+"hex":"1F602",
+"contented":true
+},{
+"char":"😃",
+"dec":128515,
+"hex":"1F603",
+"contented":true
+},{
+"char":"😄",
+"dec":128516,
+"hex":"1F604",
+"contented":true
+},{
+"char":"😅",
+"dec":128517,
+"hex":"1F605",
+"contented":true
+},{
+"char":"😆",
+"dec":128518,
+"hex":"1F606",
+"contented":true
+},{
+"char":"😇",
+"dec":128519,
+"hex":"1F607",
+"contented":true
+},{
+"char":"😈",
+"dec":128520,
+"hex":"1F608",
+"contented":true
+},{
+"char":"😉",
+"dec":128521,
+"hex":"1F609",
+"contented":true
+},{
+"char":"😊",
+"dec":128522,
+"hex":"1F60A",
+"contented":true
+},{
+"char":"😋",
+"dec":128523,
+"hex":"1F60B",
+"contented":true
+},{
+"char":"😌",
+"dec":128524,
+"hex":"1F60C",
+"contented":true
+},{
+"char":"😍",
+"dec":128525,
+"hex":"1F60D",
+"contented":true
+},{
+"char":"😎",
+"dec":128526,
+"hex":"1F60E",
+"contented":true
+},{
+"char":"😏",
+"dec":128527,
+"hex":"1F60F",
+"contented":true
+},{
+"char":"😐",
+"dec":128528,
+"hex":"1F610",
+"contented":false
+},{
+"char":"😑",
+"dec":128529,
+"hex":"1F611",
+"contented":false
+},{
+"char":"😒",
+"dec":128530,
+"hex":"1F612",
+"contented":false
+},{
+"char":"😓",
+"dec":128531,
+"hex":"1F613",
+"contented":false
+},{
+"char":"😔",
+"dec":128532,
+"hex":"1F614",
+"contented":false
+},{
+"char":"😕",
+"dec":128533,
+"hex":"1F615",
+"contented":false
+},{
+"char":"😖",
+"dec":128534,
+"hex":"1F616",
+"contented":false
+},{
+"char":"😗",
+"dec":128535,
+"hex":"1F617",
+"contented":true
+},{
+"char":"😘",
+"dec":128536,
+"hex":"1F618",
+"contented":true
+},{
+"char":"😙",
+"dec":128537,
+"hex":"1F619",
+"contented":true
+},{
+"char":"😚",
+"dec":128538,
+"hex":"1F61A",
+"contented":true
+},{
+"char":"😛",
+"dec":128539,
+"hex":"1F61B",
+"contented":true
+},{
+"char":"😜",
+"dec":128540,
+"hex":"1F61C",
+"contented":true
+},{
+"char":"😝",
+"dec":128541,
+"hex":"1F61D",
+"contented":true
+},{
+"char":"😞",
+"dec":128542,
+"hex":"1F61E",
+"contented":false
+},{
+"char":"😟",
+"dec":128543,
+"hex":"1F61F",
+"contented":false
+},{
+"char":"😠",
+"dec":128544,
+"hex":"1F620",
+"contented":false
+},{
+"char":"😡",
+"dec":128545,
+"hex":"1F621",
+"contented":false
+},{
+"char":"😢",
+"dec":128546,
+"hex":"1F622",
+"contented":false
+},{
+"char":"😣",
+"dec":128547,
+"hex":"1F623",
+"contented":false
+},{
+"char":"😤",
+"dec":128548,
+"hex":"1F624",
+"contented":false
+},{
+"char":"😥",
+"dec":128549,
+"hex":"1F625",
+"contented":false
+},{
+"char":"😦",
+"dec":128550,
+"hex":"1F626",
+"contented":false
+},{
+"char":"😧",
+"dec":128551,
+"hex":"1F627",
+"contented":false
+},{
+"char":"😨",
+"dec":128552,
+"hex":"1F628",
+"contented":false
+},{
+"char":"😩",
+"dec":128553,
+"hex":"1F629",
+"contented":false
+},{
+"char":"😪",
+"dec":128554,
+"hex":"1F62A",
+"contented":false
+},{
+"char":"😫",
+"dec":128555,
+"hex":"1F62B",
+"contented":false
+},{
+"char":"😭",
+"dec":128557,
+"hex":"1F62D",
+"contented":false
+},{
+"char":"😰",
+"dec":128560,
+"hex":"1F630",
+"contented":false
+},{
+"char":"😱",
+"dec":128561,
+"hex":"1F631",
+"contented":false
+},{
+"char":"😲",
+"dec":128562,
+"hex":"1F632",
+"contented":false
+},{
+"char":"😳",
+"dec":128563,
+"hex":"1F633",
+"contented":false
+},{
+"char":"😵",
+"dec":128565,
+"hex":"1F635",
+"contented":false
+},{
+"char":"😶",
+"dec":128566,
+"hex":"1F636",
+"contented":false
+}]
