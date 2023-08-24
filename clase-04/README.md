@@ -110,7 +110,7 @@ A tal aprendizaje de máquina se puede acceder de modo amigable si usamos la **b
 
 > [ml5.js](https://ml5js.org/) aims to make machine learning approachable for a broad audience of artists, creative coders, and students. The library provides access to machine learning algorithms and models in the browser, building on top of TensorFlow.js with no other external dependencies.
 
-Antes de seguir, es conveniente que puedan revisar: 
+Antes de seguir, es conveniente revisar: 
 
 - Este video: [A Beginner's Guide to Machine Learning with ml5.js](https://www.youtube.com/watch?v=jmznx0Q1fP0)
 
