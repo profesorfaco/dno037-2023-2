@@ -130,7 +130,7 @@ Para la práctica será necesario tener a la mano un par de referencias:
 
 - [reference | p5.js](https://p5js.org/es/reference/) 
 - [ml5.js - ObjectDetector](https://learn.ml5js.org/#/reference/object-detector)
-- [Lista de objetos que podrían detectarse](https://github.com/ml5js/ml5-library/blob/main/src/utils/COCO_CLASSES.js)
+- [Lista de 80 objetos que podrían detectarse](https://github.com/ml5js/ml5-library/blob/main/src/utils/COCO_CLASSES.js)
 
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
