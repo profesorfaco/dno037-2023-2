@@ -47,11 +47,11 @@ Y se considera un receso de docencia bimestral, por el que se suspenden las clas
 
 Considerando los días **miércoles** entre 9 de agosto y 29 de noviembre, resulta **el siguiente clase a clase:**
 
-[Clase 01 → 09/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-01) → HTML5 + CSS3 + p5.js
+[Clase 01 → 09/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-01) → HTML5 + CSS3 + p5.js ✓
 
-[Clase 02 → 16/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-02) → HTML5 + CSS3 + p5.js
+[Clase 02 → 16/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-02) → HTML5 + CSS3 + p5.js ✓
 
-**[Clase 03 → 23/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03) → Evaluación Nº1**
+**[Clase 03 → 23/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03) → Evaluación Nº1** ✓
 
 [Clase 04 → 30/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-04) → HTML5 + CSS3 + otras bibliotecas de JS (Semana Universitaria; durante esta semana no se efectuarán evaluaciones académicas).
 
