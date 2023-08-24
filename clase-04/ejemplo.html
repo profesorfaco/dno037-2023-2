@@ -5,41 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Diseño y nuevos medios" />
         <style>
-            /* En lo que sigue hay harto de https://www.instagram.com/p/Cvqsjo0PYro/ */
-            *, *::before, *::after {
-                margin: 0;
-                padding: 0;
-            }
-
-            body {
-                font-family: sans-serif;
-                min-height: 100vh;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-
-            button {
-                all: unset;
-            }
-
-            div > button {
-                font-size: 1rem;
-                box-shadow: 0 0 5px rgba(104, 47, 14, 0.25);
-                border: none;
-                border-radius: 6px 6px;
-                color: RGB(161, 96, 33);
-                background: RGB(243, 244, 244);
-                font-weight: 900;
-                padding: 0.5rem 0.7rem;
-                margin: 0 0.6rem;
-            }
-
-            div > button:hover {
-                color: RGB(131, 66, 3);
-                background: RGB(253, 254, 254);
-                cursor: pointer;
-            }
+            /* LO QUE SIGUE ES UN "MINIFIED" CSS */
+             *, *::before, *::after {margin: 0;padding: 0;}body {font-family: sans-serif;min-height: 100vh;display: flex;align-items: center;justify-content: center;font-size:.8rem;letter-spacing: .1rem;}button {all: unset;width:6rem;aspect-ratio: 1/1;border-radius: 50%;text-align: center;}div > button {border: none;color: white;background: tomato;font-weight: 900;margin-inline: 1.6rem;}div > button:hover {color: white;background: #444;cursor: pointer;transition: all ease .5s;box-shadow: inset 0 0 10px rgba(0,0,0,.2);}
         </style>
         <title>&#128075; DNO037</title>
     </head>
@@ -47,14 +14,9 @@
         <div>
             <button id="unos">UNOS</button>
             <button id="otros">OTROS</button>
-            <button onClick="window.location.reload()">REFRESH</button>
+            <button onClick="window.location.reload()">NONES</button>
         </div>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"
-            integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js" integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
             var datos, datosArreglados, boton;
             function preload() {
