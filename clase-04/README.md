@@ -146,7 +146,7 @@ Lo publicado en GitHub Pages e ingresado en el foro, será evaluado como:
 
 - **1.00** → completamente logrado.
 
-Al tratarse de semana universitaria, en la que no se efectuarán evaluaciones: El puntaje que se obtenga será considerado como bonificación a la Evaluación Nº2, de la [clase-08](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-08).
+**Al tratarse de semana universitaria, en la que no se efectuarán evaluaciones: El puntaje que se obtenga será considerado como bonificación a la Evaluación Nº2, de la [clase-08](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-08)**.
 
 - - - - - - - 
 
