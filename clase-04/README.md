@@ -64,15 +64,9 @@ Si aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), pod
 }]
 ```
 
-La validez de tal estructura puede ser confirmada con servicios tales como: 
+La validez de tal estructura puede ser confirmada con servicios tales como: https://jsonlint.com/ · https://jsonchecker.com/ · https://codebeautify.org/jsonvalidator
 
-- https://jsonlint.com/
-
-- https://jsonchecker.com/
-
-- https://codebeautify.org/jsonvalidator
-
-Cada estructura válida de un JSON implicará una forma de consultarlo, además de determinadas posibilidades (Pero recuerden un *issue* de p5.js: [*loadJSON always returns Object, never an Array #2154*](https://github.com/processing/p5.js/issues/2154#issuecomment-578892245))
+Cada estructura válida de un JSON implicará una forma particular de interactuar (pero recuerden un *issue* de p5.js: [*loadJSON always returns Object, never an Array #2154*](https://github.com/processing/p5.js/issues/2154#issuecomment-578892245))
 
 En el caso de la [estructura del JSON del ejemplo](https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo.json), tenemos un nombre `contented` al que se le asigna uno de dos valores [booleanos](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana) posibles: `true` o `false`.
 
