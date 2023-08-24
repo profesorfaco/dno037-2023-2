@@ -96,23 +96,24 @@ Allí tenemos dos funciones, cada una con su nombre. Y cada una nos permite:
 
 - conocer la [sentencia `if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else)
 
-Lo que resultará de la ejecución de la `function emojiTrue()` será la impresión de tantos textos como emojis contentos contenga el JSON. Mientras que la ejecución de la `function emojiFalse()` imprimirá los emojis que no son contentos.
+Lo que resultará de la ejecución de la `function emojiTrue()` será la impresión de tantos textos como "emojis contentos" contenga el JSON. Mientras que la ejecución de la `function emojiFalse()` imprimirá los "emojis no contentos".
 
 Ahora, con esa lógica de funciones y condiciones podríamos pasar a otro asunto y otra biblioteca. 
 
-Hagamos de cuenta que una "máquina" ha "aprendido" a oir y reconocer las palabras: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
+Hagamos de cuenta que entrenamos a una "máquina" para que "aprenda" a reconocer el dato sonoro que pueda relacionarse con escuchar las palabras: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
 
-A este aprendizaje de máquina (la intención es referir al *machine learning*) se puede accederse de modo amigable y en web si usamos la **biblioteca ml5.js**
+En caso quiera probar decir la palabras, ingresa a https://editor.p5js.org/ml5/sketches/SoundClassification_speechcommand y permite al navegador usar el micrófono. 
 
-Se trata de una biblioteca de JavaScript que puede trabajar con p5.js: 
+A tal aprendizaje de máquina (la intención es referir al *machine learning*) se puede accederse de modo amigable si usamos la **biblioteca ml5.js**, que comparta el espíritu con p5.js (de ahí el *5*, después de *ml* de machine learning).
 
-Acá algunos ejemplos del modo en que trabajan juntas, disponibles en el Editor Web de p5.js: 
+Antes de seguir, es conveniente que puedan revisar: 
 
-- https://editor.p5js.org/ml5/sketches/SoundClassification_speechcommand
+- En este video: [A Beginner's Guide to Machine Learning with ml5.js](https://www.youtube.com/watch?v=jmznx0Q1fP0)
 
-- https://editor.p5js.org/jernwerber/sketches/Uu4TPyYEu
+- En este artículo: [El mal que aqueja a las IA es la abducción](https://hipermediaciones.com/2023/08/21/el-mal-que-aqueja-a-las-ia-es-la-abduccion/)
 
-Pendiente
+Viendo tal video y/o leyendo tal artículo podrían hacerse de una idea sobre el concepto de *machine learning* y varios más.
+
 
 - - - - - - - - - - - - -
 
