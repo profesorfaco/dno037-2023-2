@@ -68,7 +68,7 @@ La validez de tal estructura puede ser confirmada con servicios tales como: http
 
 Cada estructura válida de un JSON implicará una forma particular de interactuar (pero recuerden un *issue* de p5.js: [*loadJSON always returns Object, never an Array #2154*](https://github.com/processing/p5.js/issues/2154#issuecomment-578892245))
 
-En el caso de la [estructura del JSON del ejemplo](https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo.json), tenemos un nombre `contented` al que se le asigna uno de dos valores [booleanos](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana) posibles: `true` o `false`.
+En el caso de la [estructura del JSON del ejemplo](https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo.json), tenemos un `contented` al que se le asigna cada vez uno de dos valores [booleanos](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana) posibles: `true` o `false`.
 
 Con las dos posibilidades podemos establecer una condición: Acaso el dato en `contented` es `true` o `false`. 
 
