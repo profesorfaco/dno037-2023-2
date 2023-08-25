@@ -144,7 +144,7 @@ Lo publicado en GitHub Pages e ingresado en el foro, será evaluado como:
 
 - **1.00** → completamente logrado.
 
-**Al tratarse de semana universitaria, en la que no se efectuarán evaluaciones: El puntaje que se obtenga será considerado como bonificación a la Evaluación Nº2, de la [clase-08](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-08)**.
+**Al tratarse de semana universitaria, en la que no se efectuarán evaluaciones: El puntaje que se obtenga será considerado como bonificación a la Evaluación Nº2, de la [clase-08](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-08)** o podría sumarse a la Evaluación Nº1, de la [clase-03](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03), en caso ésta haya sido inferior a la nota 6.0.
 
 En caso necesites volver a revisar parte de lo que haremos en la práctica, puedes ver en YouTube: [ml5.js: Object Detection with COCO-SSD](https://youtu.be/QEzRxnuaZCk?si=9VfMo2d2XWObEBeP); el script en `page.html` se basa, con pequeños ajustes, en lo que se enseña en tal video entre 00:00 y 11:39 (lo que sigue en el video sirve para avanzar en la exploración de [p5.js](https://p5js.org/es/) y [ml5.js](https://ml5js.org/)).
 
