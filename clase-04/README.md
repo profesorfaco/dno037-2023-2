@@ -32,7 +32,7 @@ function draw(){
 }
 ```
 
-En [las referencias de p5.js](https://p5js.org/es/reference/#/p5/preload), esta función se describe así:
+En [las referencias de p5.js](https://p5js.org/es/reference/#/p5/preload) la función recién agregada se describe así:
 
 > La función `preload()` es ejecutada antes de `setup()`, es usada para manejar la carga asíncrona de archivos externos. Si se define una función `preload()`, `setup()` esperará hasta que las llamadas a funciones load hayan terminado. Solo se deben incluir instrucciones de carga dentro de `preload()` (`loadImage`, `loadJSON`, `loadFont`, `loadStrings`, etc).
 
