@@ -36,7 +36,7 @@ En [las referencias de p5.js](https://p5js.org/es/reference/#/p5/preload) la fun
 
 > La función `preload()` es ejecutada antes de `setup()`, es usada para manejar la carga asíncrona de archivos externos. Si se define una función `preload()`, `setup()` esperará hasta que las llamadas a funciones load hayan terminado. Solo se deben incluir instrucciones de carga dentro de `preload()` (`loadImage`, `loadJSON`, `loadFont`, `loadStrings`, etc).
 
-Si aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), podemos obtener [datos de un JSON](https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo.json) que repita la misma estructura de objetos dentro de un arreglo:
+Si aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), podemos cargar los [datos de un JSON](https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo.json) con la siguiente estructura: Un arreglo (`[]`) que contiene varios objetos (`{}`); en cada objeto se repite cada `key:` y se cambia su `value,`
 
 ```
 [{
@@ -64,13 +64,13 @@ Si aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), pod
 
 La validez de tal estructura puede ser confirmada con servicios tales como: https://jsonlint.com/ · https://jsonchecker.com/ · https://codebeautify.org/jsonvalidator
 
-Cada estructura válida de un JSON implicará una forma particular de interactuar (pero recuerden un *issue* de p5.js: [*loadJSON always returns Object, never an Array #2154*](https://github.com/processing/p5.js/issues/2154#issuecomment-578892245))
+Cada estructura válida de un JSON implicará una forma particular de consultarlo (pero recuerden un *issue* de p5.js en la carga de un arreglo: [*loadJSON always returns Object, never an Array #2154*](https://github.com/processing/p5.js/issues/2154#issuecomment-578892245))
 
-En el caso de la [estructura del JSON del ejemplo](https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo.json), tenemos un `contented` al que se le asigna cada vez uno de dos valores [booleanos](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana) posibles: `true` o `false`.
+En el caso de la [estructura del JSON del ejemplo](https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/ejemplo.json), tenemos un `contented:` al que se le asigna uno de los [booleanos](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana) posibles: `true` o `false`.
 
-Con las dos posibilidades podemos establecer una condición: Acaso el dato en `contented` es `true` o `false`. 
+A cada `contented:` le podemos preguntar: ¿Lo tuyo es `true` o `false`? 
 
-Para explorar esta posibilidad, puede revisarse el código fuente de https://profesorfaco.github.io/dno037-2023-2/clase-04/ejemplo.html
+Para explorar tal posibilidad, puede revisarse el código fuente de https://profesorfaco.github.io/dno037-2023-2/clase-04/ejemplo.html
 
 En la revisión conviene quedarse un rato en:
 
@@ -84,7 +84,7 @@ function emojis(cuales) {
 }
 ```
 
-Allí tenemos algo que nos permite:
+Allí se hace necesario:
 
 - ponerle atención a [las funciones](https://www.instagram.com/p/CrGGoktPfjl/?img_index=1)
 
@@ -92,7 +92,7 @@ Allí tenemos algo que nos permite:
 
 - conocer la [sentencia `if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else)
 
-Con esa base sobre funciones, métodos y sentencias, que aplica a todo en JavaScript, podríamos pasar a otra biblioteca del mismo lenguaje de programación.
+Después de eso, que aplica a todo en JavaScript, podríamos pasar a otra biblioteca.
 
 #### ml5.js
 
