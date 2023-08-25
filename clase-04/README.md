@@ -77,38 +77,34 @@ Para explorar esta posibilidad, puede revisarse el código fuente de https://pro
 En la revisión conviene quedarse un rato en:
 
 ```
-function emojiTrue() {
- datosArreglados.forEach(e => {
-  if(e.contented == true){ text(e.char, random(0, windowWidth), random(0, windowHeight)) }
- });
-}
-
-function emojiFalse() {
- datosArreglados.forEach(e => {
-  if(e.contented == false){ text(e.char, random(0, windowWidth), random(0, windowHeight)) }
- });
+function emojis(cuales) {
+  datosArreglados.forEach(e => {
+    if(e.contented == cuales){
+        text(e.char, random(0, windowWidth), random(0, windowHeight))
+    }
+  });
 }
 ```
 
-Allí tenemos dos funciones, cada una con su nombre. Y cada una nos permite:
+Allí tenemos algo que nos permite:
+
+- ponerle atención a [las funciones](https://www.instagram.com/p/CrGGoktPfjl/?img_index=1)
 
 - recordar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
 - conocer la [sentencia `if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else)
 
-Lo que resultará de la ejecución de la `function emojiTrue()` será la impresión de tantos textos como "emojis contentos" contenga el JSON. Mientras que la ejecución de la `function emojiFalse()` imprimirá los "emojis no contentos".
-
-Ahora, con esa lógica de funciones y condiciones podríamos pasar a otro asunto y otra biblioteca. 
+Con esa base sobre funciones, métodos y sentencias, que aplica a todo en JavaScript, podríamos pasar a otra biblioteca del mismo lenguaje de programación.
 
 #### ml5.js
 
 Hagamos de cuenta que "entrenamos a una máquina" hasta que "aprenda" a asociar lo que escucha con alguna etiqueta (*label*), indicando un grado de confianza (*confidence*) para tal asociación. 
 
-Imagina que las etiquetas se limitan a las siguientes palabras en inglés: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
+Podría ser que sus etiquetas (*labels*) sean limitadas. Que se limiten, por ejemplo, a las siguientes palabras en inglés: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
 
-Ingresa a este sketch preparado en el Editor Web de p5.js: https://editor.p5js.org/profesorfaco/sketches/qyl_CH5WA
+Con tal ejemplo en mente, revisemos este sketch preparado en el Editor Web de p5.js: https://editor.p5js.org/profesorfaco/sketches/qyl_CH5WA
 
-Dale *play*, permite que el navegador acceda al micrófono, dale un rato a que se cargue y dile tales palabras a la "máquina".
+Después de un *play*, aceptar que el navegador acceda al micrófono y darle un tiempo a que cargue un listado de palabras, podemos comenzar a decir tales palabras.
 
 Eso es p5.js trabajando con **ml5.js**, otra biblioteca de JavaScript. Esta biblioteca comparte con p5.js la intención de hacer accesible asuntos avanzados de programación (de ahí el *5*, después de la *m* de *machine* y la *l* de *learning*):
 
@@ -126,13 +122,13 @@ Viendo tal video y/o leyendo tal artículo podrían hacerse de una idea sobre el
 
 #### Práctica
 
-Para la práctica será necesario tener a la mano un par de referencias:
+Para la práctica será necesario tener a la mano algunas referencias:
 
 - [reference | p5.js](https://p5js.org/es/reference/) 
 - [ml5.js - ObjectDetector](https://learn.ml5js.org/#/reference/object-detector)
 - [Lista de 80 objetos que podrían detectarse](https://github.com/ml5js/ml5-library/blob/main/src/utils/COCO_CLASSES.js)
 
-Con tal material se podrá avanzar en la edición del [index.html](https://profesorfaco.github.io/dno037-2023-2/clase-04/) y [page.html](https://profesorfaco.github.io/dno037-2023-2/clase-04/page.html?esta=pic-01.jpg) contenidos en esta carpeta. Recuerda que necesitas descargar tales archivos y colocarlos en una misma carpeta, junto al [style.css](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-04/style.css).
+Con tales referencias se podrá avanzar en la edición del [index.html](https://profesorfaco.github.io/dno037-2023-2/clase-04/) y [page.html](https://profesorfaco.github.io/dno037-2023-2/clase-04/page.html?esta=pic-01.jpg) contenidos en esta carpeta. Recuerda que necesitas descargar tales archivos y colocarlos en una misma carpeta, junto al [style.css](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-04/style.css).
 
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
