@@ -100,15 +100,54 @@ Hagamos de cuenta que "entrenamos a una máquina" hasta que "aprenda" a asociar 
 
 Podría ser que sus etiquetas (*labels*) sean limitadas. Que se limiten, por ejemplo, a las siguientes palabras en inglés: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
 
-Con tal ejemplo en mente, revisemos este sketch preparado en el Editor Web de p5.js: https://editor.p5js.org/profesorfaco/sketches/qyl_CH5WA
+Con tal ejemplo en mente, revisemos este *sketch* preparado en el Editor Web de p5.js: https://editor.p5js.org/profesorfaco/sketches/qyl_CH5WA
 
 Después de un *play*, aceptar que el navegador acceda al micrófono y darle un tiempo a que cargue un listado de palabras, podemos comenzar a decir tales palabras.
 
-Eso es p5.js trabajando con **ml5.js**, otra biblioteca de JavaScript. Esta biblioteca comparte con p5.js la intención de hacer accesible asuntos avanzados de programación (de ahí el *5*, después de la *m* de *machine* y la *l* de *learning*):
+Eso es p5.js trabajando con **ml5.js, otra biblioteca de JavaScript**. Ambas bibliotecas son compatibles desde sus intenciones, de hecho el [ml5.js Community Statement](https://ml5js.org/about) es un *copy/paste* del [p5.js community statement](https://p5js.org/community/). Esta compatibilidad explicaría el *5* después de *ml* de Machine Learning, pero:
 
-> [ml5.js](https://ml5js.org/) aims to make machine learning approachable for a broad audience of artists, creative coders, and students. The library provides access to machine learning algorithms and models in the browser, building on top of TensorFlow.js with no other external dependencies.
+> Developing [ml5](https://ml5js.org/about/) is not just about developing machine learning software, it is about making machine learning approachable for a broad audience of artists, creative coders, and students. The library provides access to machine learning algorithms and models in the browser, building on top of [TensorFlow.js](https://www.tensorflow.org/learn?hl=es-419) with no other external dependencies.
 
-Antes de seguir, es conveniente revisar: 
+Para explorar esta biblioteca de JavaScript, así como cualquier otra biblioteca del mismo lenguaje de programación, corresponde consultar sus referencias que, por lo general, se presentan en su sitio web oficial.
+
+En el caso de las [referencia de ml5.js](https://learn.ml5js.org/#/reference/index), tenemos un presentación organizada en 5 categorías de funciones, basadas en los tipos de entrada y salida con los que se puede trabajar:
+
+1 **Helpers**
+- ml5.neuralNetwork()
+- ml5.featureExtractor()
+- ml5.KNNClassifier():
+- ml5.kmeans()
+
+2 **Image**
+- ml5.imageClassifier()
+- ml5.poseNet()
+- ml5.bodyPix()
+- ml5.uNet()
+- ml5.handpose()
+- ml5.facemesh()
+- ml5.faceApi()
+- ml5.styleTransfer()
+- ml5.pix2pix()
+- ml5.CVAE()
+- ml5.DCGAN()
+- ml5.sketchRNN()
+- [ml5.objectDetector()](https://learn.ml5js.org/#/reference/object-detector)
+
+3 **Sound**
+- [ml5.soundClassifier()](https://learn.ml5js.org/#/reference/sound-classifier)
+- ml5.pitchDetection()
+
+4 **Text**
+- ml5.charRNN()
+- ml5.sentiment()
+- ~~ml5.word2vec()~~ ([desactivada](https://twitter.com/ml5js/status/1445762321444315147))
+
+5 **Utils**
+- ml5.flipImage()
+
+**En el listado se incluyen vínculos que permitirán comprender [el ejemplo que pudieron ver más arriba](https://learn.ml5js.org/#/reference/sound-classifier)), lo que [será explorado en la práctica](https://learn.ml5js.org/#/reference/object-detector)) y enterarse de un [problema](https://twitter.com/ml5js/status/1445762321444315147) con el que suelen enredarse estas tecnologías**.
+
+Antes de seguir –antes de la práctica–, conveniente revisar: 
 
 - Este video: [A Beginner's Guide to Machine Learning with ml5.js](https://www.youtube.com/watch?v=jmznx0Q1fP0)
 
