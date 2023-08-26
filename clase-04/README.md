@@ -96,7 +96,7 @@ Después de eso, que aplica a todo en JavaScript, podríamos pasar a otra biblio
 
 #### ml5.js
 
-Recordemos una escena de Matrix: [Cuando Trinity aprender a pilotar un helicóptero B-212 después de recibir un programa](https://youtu.be/6AOpomu9V6Q?si=aMsX5lEtYqG6WP_D). Partiendo de esa ficción, ahora hagamos de cuenta que le enseñamos a una "máquina" a asociar lo que escucha con alguna etiqueta (*label*), indicando un grado de confianza (*confidence*) para tal asociación. 
+Recordemos una escena de Matrix: [Cuando Trinity aprender a pilotar un helicóptero B-212 después de recibir un programa](https://youtu.be/6AOpomu9V6Q?si=aMsX5lEtYqG6WP_D). Partiendo de esa ficción, hagamos de cuenta que una "página web" puede aprender a asociar lo que escucha con alguna etiqueta (*label*), indicando un grado de confianza (*confidence*) para tal asociación. 
 
 Podría ser que sus etiquetas (*labels*) sean limitadas. Que se limiten, por ejemplo, a las siguientes palabras en inglés: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
 
