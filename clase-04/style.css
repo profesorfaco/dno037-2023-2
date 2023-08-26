@@ -12,6 +12,12 @@ canvas {
   display: block;
 }
 
+/*
+Pruebe el CSS Layout Generator
+https://layout.bradwoods.io/customize
+Modifique el este grid de 2 x 2 por uno de 3 x 3
+*/
+
 main#aqui{
   width:min(90vw, calc(750px + 1rem));
   position: absolute;
@@ -19,8 +25,10 @@ main#aqui{
   left:50%;
   transform:translate(-50%, -50%);
   display: grid;
-  grid-template-columns: auto auto;
-  gap:.5rem;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, auto);
+  gap: 1%;
+
 }
 
 main#alla{
