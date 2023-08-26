@@ -96,7 +96,7 @@ Después de eso, que aplica a todo en JavaScript, podríamos pasar a otra biblio
 
 #### ml5.js
 
-Hagamos de cuenta que "entrenamos a una máquina" hasta que "aprenda" a asociar lo que escucha con alguna etiqueta (*label*), indicando un grado de confianza (*confidence*) para tal asociación. 
+Recordemos una escena de Matrix: [Cuando Trinity aprender a pilotar un modelo de helicóptero específico después de recibir un programa](https://youtu.be/6AOpomu9V6Q?si=aMsX5lEtYqG6WP_D). Partiendo de esa ficción, ahora hagamos de cuenta que le enseñamos a una "máquina" a asociar lo que escucha con alguna etiqueta (*label*), indicando un grado de confianza (*confidence*) para tal asociación. 
 
 Podría ser que sus etiquetas (*labels*) sean limitadas. Que se limiten, por ejemplo, a las siguientes palabras en inglés: *zero*, *one*, *two*, *tree*, *four*, *five*, *six*, *seven*, *eight*, *nine*, *up*, *down*, *left*, *right*, *go*, *stop*, *yes* o *no*.
 
@@ -108,7 +108,7 @@ Eso es p5.js trabajando con **ml5.js, otra biblioteca de JavaScript**. Ambas bib
 
 > Developing [ml5](https://ml5js.org/about/) is not just about developing machine learning software, it is about making machine learning approachable for a broad audience of artists, creative coders, and students. The library provides access to machine learning algorithms and models in the browser, building on top of [TensorFlow.js](https://www.tensorflow.org/learn?hl=es-419) with no other external dependencies.
 
-Para explorar esta biblioteca de JavaScript, así como cualquier otra biblioteca del mismo lenguaje de programación, corresponde consultar sus referencias que, por lo general, se presentan en su sitio web oficial.
+Para explorar esta biblioteca de JavaScript, así como cualquier otra biblioteca del mismo lenguaje de programación, corresponde consultar las referencias que, por lo general, se presentan en su sitio web oficial.
 
 En el caso de las [referencia de ml5.js](https://learn.ml5js.org/#/reference/index), tenemos un presentación organizada en 5 categorías de funciones, basadas en los tipos de entrada y salida con los que se puede trabajar:
 
@@ -145,7 +145,7 @@ En el caso de las [referencia de ml5.js](https://learn.ml5js.org/#/reference/ind
 5 **Utils**
 - ml5.flipImage()
 
-**En el listado se incluyen vínculos que permitirán comprender [el ejemplo que pudieron ver más arriba](https://learn.ml5js.org/#/reference/sound-classifier)), lo que [será explorado en la práctica](https://learn.ml5js.org/#/reference/object-detector)) y enterarse de un [problema](https://twitter.com/ml5js/status/1445762321444315147) con el que suelen enredarse estas tecnologías**.
+**En el listado se incluyen vínculos que permitirán comprender [el ejemplo que pudieron ver en el Editor Web de p5.js](https://learn.ml5js.org/#/reference/sound-classifier)), lo que [será explorado en la práctica](https://learn.ml5js.org/#/reference/object-detector)) y enterarse de un [problema](https://twitter.com/ml5js/status/1445762321444315147) con el que suelen enredarse estas tecnologías**.
 
 Antes de seguir –antes de la práctica–, conveniente revisar: 
 
