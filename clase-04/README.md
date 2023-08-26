@@ -104,7 +104,7 @@ Con tal ejemplo en mente, revisemos este *sketch* preparado en el Editor Web de 
 
 Después de un *play*, aceptar que el navegador acceda al micrófono y darle un tiempo a que cargue un listado de palabras, podemos comenzar a decir tales palabras.
 
-Eso es p5.js trabajando con **ml5.js, otra biblioteca de JavaScript**. Ambas bibliotecas son compatibles desde sus intenciones, de hecho el [ml5.js Community Statement](https://ml5js.org/about) es un *copy/paste* del [p5.js community statement](https://p5js.org/community/). Esta compatibilidad explicaría el *5* después de *ml* de Machine Learning, pero:
+Eso es p5.js trabajando con **ml5.js, otra biblioteca de JavaScript**; ambas bibliotecas son compatibles desde sus intenciones, de hecho el [ml5.js Community Statement](https://ml5js.org/about) es un *copy/paste* del [p5.js community statement](https://p5js.org/community/). Esta compatibilidad explicaría el *5* después de *ml* de Machine Learning, pero:
 
 > Developing [ml5](https://ml5js.org/about/) is not just about developing machine learning software, it is about making machine learning approachable for a broad audience of artists, creative coders, and students. The library provides access to machine learning algorithms and models in the browser, building on top of [TensorFlow.js](https://www.tensorflow.org/learn?hl=es-419) with no other external dependencies.
 
@@ -145,7 +145,7 @@ En el caso de las [referencia de ml5.js](https://learn.ml5js.org/#/reference/ind
 5 **Utils**
 - ml5.flipImage()
 
-**En el listado se incluyen vínculos que permitirán comprender [el ejemplo que pudieron ver en el Editor Web de p5.js](https://learn.ml5js.org/#/reference/sound-classifier)), lo que [será explorado en la práctica](https://learn.ml5js.org/#/reference/object-detector)) y enterarse de un [problema](https://twitter.com/ml5js/status/1445762321444315147) con el que suelen enredarse estas tecnologías**.
+**En el listado se incluyen vínculos que permitirán comprender [el ejemplo que pudieron ver en el Editor Web de p5.js](https://learn.ml5js.org/#/reference/sound-classifier), lo que [será explorado en la práctica](https://learn.ml5js.org/#/reference/object-detector) y enterarse de un [problema](https://twitter.com/ml5js/status/1445762321444315147) con el que suelen enredarse estas tecnologías**.
 
 Antes de seguir –antes de la práctica–, conveniente revisar: 
 
