@@ -169,13 +169,13 @@ Con tales referencias se podrá avanzar en la edición del [index.html](https://
 
 Recuerda que necesitas descargar tales archivos y colocarlos en una misma carpeta, junto al [style.css](https://github.com/profesorfaco/dno037-2023-2/blob/main/clase-04/style.css).
 
-También hay un [img.json](https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/img.json) y una carpeta `/img`. Para que cada estudiante pueda hacerse de sus propias imágenes, podría aprovechar:
+También hay un [`img.json`](https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-04/img.json) y una carpeta `img`. Para que cada estudiante pueda hacerse de sus propias imágenes, podría aprovechar:
 
 - https://picsum.photos/images
 - https://www.photopea.com/
 - https://tinypng.com/
 
-Convendría comenzar por crear un repositorio para la clase, allí subir imágenes dentro de una carpeta img, y también subir un img.json que apunte a lo contenido en tal carpeta.
+Convendría comenzar por crear un repositorio para la clase, allí subir imágenes dentro de una carpeta `img`, y también subir un `img.json` que apunte a lo contenido en tal carpeta.
 
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web, con nuevas imágenes.
 
