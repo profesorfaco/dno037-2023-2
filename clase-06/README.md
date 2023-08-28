@@ -1,6 +1,6 @@
 ### Diseño y Nuevos Medios → Clase 06 → 13/09/2023
 
-# HTML5 + CSS3 + otras bibliotecas de JS
+# HTML5 + CSS3 + JS sin bibliotecas
 
 ### Teoría
 
