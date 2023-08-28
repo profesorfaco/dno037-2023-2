@@ -24,11 +24,9 @@ Pero mejor quedémonos en los estándares…
 
 Utilizaremos una API (Application Programming Interfaces) que conviene estudiar previo a la clase para poder resolver de manera más eficiente las consultas de la práctica: https://openweathermap.org/current
 
-Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que ya se ofrecen en línea. 
+**Pero esta vez no lo iremos a buscar con p5.js ni jquery; ya nos corresponde avanzar al [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)**.
 
-**Pero en esta ocasión no estamos trabajando con p5.js, sólo con la biblioteca de Charts.js v3, por ello no contamos con [la función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde avanzar al [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)**.
-
-**Para aprender lo necesario respecto del uso de Fetch, es recomedable tomarse 47 minutos para ver tres videos de Daniel Shifmann**:
+Para aprender lo necesario respecto del uso de Fetch, es recomedable tomarse 47 minutos para ver tres videos de Daniel Shifmann:
 
 - https://youtu.be/tc8DU14qX6I
 - https://youtu.be/RfMkdvN-23o
@@ -36,24 +34,11 @@ Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que ya se ofre
 
 Una vez sean obtenidos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurarlos  a la manera que convenga al [tipo de gráfico](https://www.chartjs.org/docs/latest/charts/?h=type).
 
-Podemos, por ejemplo, tomar datos de [un JSON](https://raw.githubusercontent.com/profesorfaco/dno037-2023-1/main/clase-06/datos.json) y luego organizarlos en función del gráfico, como se hace en el script-1.js en la carpeta de la clase de hoy: 
-
 ```
 async function primero() {
     const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-1/main/clase-06/datos.json");
     const data = await consulta.json();
-    //Declaro variables que parten con un arreglo vacío
-    let regiones = [];
-    let hombres = [];
-    let mujeres = [];
-    //Reviso data y empujo un elemento a cada arreglo que estaba vacío
-    data.forEach((x) => {
-        regiones.push(x.region);
-        hombres.push(x.hombres);
-        mujeres.push(x.mujeres);
-    });
-    //Ahora puedo armar el gráfico
-    new Chart(document.getElementById("regiones"), {···});
+    console.log(data);
 }
 primero().catch((error) => console.error(error));
 ```
