@@ -20,6 +20,75 @@ Vue.js es un Framework de JavaScript progresivo. No debes transformar todo tu c�
 
 **Si fuera de su interés comenzar a explorar uno de estos *frameworks*, sería muy recomendable partir por acá: https://vuejs.org/tutorial/**
 
+Utilizaremos una API (Application Programming Interfaces) que conviene estudiar previo a la clase para poder resolver de manera más eficiente las consultas de la práctica: https://openweathermap.org/current
+
+Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que ya se ofrecen en línea. 
+
+**Pero en esta ocasión no estamos trabajando con p5.js, sólo con la biblioteca de Charts.js v3, por ello no contamos con [la función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde avanzar al [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)**.
+
+**Para aprender lo necesario respecto del uso de Fetch, es recomedable tomarse 47 minutos para ver tres videos de Daniel Shifmann**:
+
+- https://youtu.be/tc8DU14qX6I
+- https://youtu.be/RfMkdvN-23o
+- https://youtu.be/uxf0--uiX0I
+
+Una vez sean obtenidos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurarlos  a la manera que convenga al [tipo de gráfico](https://www.chartjs.org/docs/latest/charts/?h=type).
+
+Podemos, por ejemplo, tomar datos de [un JSON](https://raw.githubusercontent.com/profesorfaco/dno037-2023-1/main/clase-06/datos.json) y luego organizarlos en función del gráfico, como se hace en el script-1.js en la carpeta de la clase de hoy: 
+
+```
+async function primero() {
+    const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-1/main/clase-06/datos.json");
+    const data = await consulta.json();
+    //Declaro variables que parten con un arreglo vacío
+    let regiones = [];
+    let hombres = [];
+    let mujeres = [];
+    //Reviso data y empujo un elemento a cada arreglo que estaba vacío
+    data.forEach((x) => {
+        regiones.push(x.region);
+        hombres.push(x.hombres);
+        mujeres.push(x.mujeres);
+    });
+    //Ahora puedo armar el gráfico
+    new Chart(document.getElementById("regiones"), {···});
+}
+primero().catch((error) => console.error(error));
+```
+
+También podemos tomar los datos de [un GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson) y contarlos bajo ciertas condiciones, para luego visualizar los números que resulten del conteo, como se hace en el script-2.js en la carpeta de la clase de hoy:
+
+```
+async function segundo() {
+    const consulta = await fetch("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson");
+    const data = await consulta.json();
+    //Declaro variables que parten en cero
+    let chileno = 0;
+    let japones = 0;
+    let otro = 0;
+    //Reviso data con alguna condiciones
+    data.features.forEach((t) => {
+        if (t.properties.place.includes("Chile")) {
+            chileno = chileno + 1;
+        } else if (t.properties.place.includes("Japan")) {
+            japones = japones + 1;
+        } else {
+            otro = otro + 1;
+        }
+    });
+    //Creo una variable como un arreglo vacío
+    var numeros = [];
+    //Empujo a la variable los resultados del contador
+    numeros.push(chileno, japones, otro);
+    var nombres = ["En Chile", "En Japón", "En el resto del mundo"];
+    //Ahora puedo armar el gráfico
+    new Chart(document.getElementById("earthquakes").getContext("2d"), {···});
+}
+segundo().catch((error) => console.error(error));
+```
+
+**Hasta aquí hemos tomado datos desde un JSON (JavaScript Objecto Notation). En el primer ejemplo de código tomamos los números desde las mismas opciones de datos ofrecidos y en los otros ejemplos creamos números contando los datos ofrecidos**.
+
 - - - - - - -
 
 ### Práctica
