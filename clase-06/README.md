@@ -58,37 +58,6 @@ async function primero() {
 primero().catch((error) => console.error(error));
 ```
 
-También podemos tomar los datos de [un GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson) y contarlos bajo ciertas condiciones, para luego visualizar los números que resulten del conteo, como se hace en el script-2.js en la carpeta de la clase de hoy:
-
-```
-async function segundo() {
-    const consulta = await fetch("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson");
-    const data = await consulta.json();
-    //Declaro variables que parten en cero
-    let chileno = 0;
-    let japones = 0;
-    let otro = 0;
-    //Reviso data con alguna condiciones
-    data.features.forEach((t) => {
-        if (t.properties.place.includes("Chile")) {
-            chileno = chileno + 1;
-        } else if (t.properties.place.includes("Japan")) {
-            japones = japones + 1;
-        } else {
-            otro = otro + 1;
-        }
-    });
-    //Creo una variable como un arreglo vacío
-    var numeros = [];
-    //Empujo a la variable los resultados del contador
-    numeros.push(chileno, japones, otro);
-    var nombres = ["En Chile", "En Japón", "En el resto del mundo"];
-    //Ahora puedo armar el gráfico
-    new Chart(document.getElementById("earthquakes").getContext("2d"), {···});
-}
-segundo().catch((error) => console.error(error));
-```
-
 **Hasta aquí hemos tomado datos desde un JSON (JavaScript Objecto Notation). En el primer ejemplo de código tomamos los números desde las mismas opciones de datos ofrecidos y en los otros ejemplos creamos números contando los datos ofrecidos**.
 
 - - - - - - -
