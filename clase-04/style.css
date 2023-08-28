@@ -27,7 +27,7 @@ main#aqui{
   display: grid;
   grid-template-rows: repeat(2, auto);
   grid-template-columns: repeat(2, auto);
-  grid-gap: 2% 1%;
+  grid-gap: 1.6% 1%;
 }
 
 main#alla{
