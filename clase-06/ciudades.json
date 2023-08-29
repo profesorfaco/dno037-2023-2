@@ -1,0 +1,344 @@
+[
+	{
+		"id": 3874552,
+		"name": "Putre",
+		"state": "Región de Arica y Parinacota",
+		"country": "CL",
+		"coord": {
+			"lon": -69.560707,
+			"lat": -18.19821
+		}
+	},
+	{
+		"id": 3899361,
+		"name": "Arica",
+		"state": "Región de Arica y Parinacota",
+		"country": "CL",
+		"coord": {
+			"lon": -70.304169,
+			"lat": -18.475
+		}
+	},
+	{
+		"id": 3887127,
+		"name": "Iquique",
+		"state": "Región de Tarapacá",
+		"country": "CL",
+		"coord": {
+			"lon": -70.143059,
+			"lat": -20.220831
+		}
+	},
+	{
+		"id": 3899887,
+		"name": "Alto Hospicio",
+		"state": "Región de Tarapacá",
+		"country": "CL",
+		"coord": {
+			"lon": -70.116669,
+			"lat": -20.25
+		}
+	},
+	{
+		"id": 3899539,
+		"name": "Antofagasta",
+		"state": "Región de Antofagasta",
+		"country": "CL",
+		"coord": {
+			"lon": -70.400002,
+			"lat": -23.65
+		}
+	},
+	{
+		"id": 3893656,
+		"name": "Copiapó",
+		"state": "Región de Atacama",
+		"country": "CL",
+		"coord": {
+			"lon": -70.333328,
+			"lat": -27.366671
+		}
+	},
+	{
+		"id": 3884373,
+		"name": "La Serena",
+		"state": "Región de Coquimbo",
+		"country": "CL",
+		"coord": {
+			"lon": -71.254173,
+			"lat": -29.90778
+		}
+	},
+	{
+		"id": 3893629,
+		"name": "Coquimbo",
+		"state": "Región de Coquimbo",
+		"country": "CL",
+		"coord": {
+			"lon": -71.343613,
+			"lat": -29.953329
+		}
+	},
+	{
+		"id": 3893865,
+		"name": "Concón",
+		"state": "Región de Valparaíso",
+		"country": "CL",
+		"coord": {
+			"lon": -71.51619,
+			"lat": -32.922031
+		}
+	},
+	{
+		"id": 3868121,
+		"name": "Viña del Mar",
+		"state": "Región de Valparaíso",
+		"country": "CL",
+		"coord": {
+			"lon": -71.551826,
+			"lat": -33.02457
+		}
+	},
+	{
+		"id": 3868626,
+		"name": "Valparaíso",
+		"state": "Región de Valparaíso",
+		"country": "CL",
+		"coord": {
+			"lon": -71.627251,
+			"lat": -33.039322
+		}
+	},
+	{
+		"id": 3868192,
+		"name": "Villa Alemana",
+		"state": "Región de Valparaíso",
+		"country": "CL",
+		"coord": {
+			"lon": -71.373329,
+			"lat": -33.042221
+		}
+	},
+	{
+		"id": 3874096,
+		"name": "Quilpué",
+		"state": "Región de Valparaíso",
+		"country": "CL",
+		"coord": {
+			"lon": -71.44944,
+			"lat": -33.044998
+		}
+	},
+
+	{
+		"id": 3871336,
+		"name": "Santiago",
+		"state": "Región Metropolitana",
+		"country": "CL",
+		"coord": {
+			"lon": -70.64827,
+			"lat": -33.45694
+		}
+	},
+	{
+		"id": 3872348,
+		"name": "San Bernardo",
+		"state": "Región Metropolitana",
+		"country": "CL",
+		"coord": {
+			"lon": -70.716667,
+			"lat": -33.599998
+		}
+	},
+	{
+		"id": 3875024,
+		"name": "Puente Alto",
+		"state": "Región Metropolitana",
+		"country": "CL",
+		"coord": {
+			"lon": -70.583328,
+			"lat": -33.616669
+		}
+	},
+	{
+		"id": 3870306,
+		"name": "Talagante",
+		"state": "Región Metropolitana",
+		"country": "CL",
+		"coord": {
+			"lon": -70.933327,
+			"lat": -33.666672
+		}
+	},
+	{
+		"id": 3880107,
+		"name": "Melipilla",
+		"state": "Región Metropolitana",
+		"country": "CL",
+		"coord": {
+			"lon": -71.216667,
+			"lat": -33.700001
+		}
+	},
+	{
+		"id": 3873775,
+		"name": "Rancagua",
+		"state": "Región de O'Higgins",
+		"country": "CL",
+		"coord": {
+			"lon": -70.744438,
+			"lat": -34.17083
+		}
+	},
+	{
+		"id": 3881102,
+		"name": "Machalí",
+		"state": "Región de O'Higgins",
+		"country": "CL",
+		"coord": {
+			"lon": -70.666672,
+			"lat": -34.183331
+		}
+	},
+	{
+		"id": 3870294,
+		"name": "Talca",
+		"state": "Región del Maule",
+		"country": "CL",
+		"coord": {
+			"lon": -71.666672,
+			"lat": -35.433331
+		}
+	},
+	{
+		"id": 3895088,
+		"name": "Chillán",
+		"state": "Región de Ñuble",
+		"country": "CL",
+		"coord": {
+			"lon": -72.103439,
+			"lat": -36.60664
+		}
+	},
+	{
+		"id": 3870282,
+		"name": "Talcahuano",
+		"state": "Región del Biobío",
+		"country": "CL",
+		"coord": {
+			"lon": -73.116669,
+			"lat": -36.716671
+		}
+	},
+	{
+		"id": 3876664,
+		"name": "Penco",
+		"state": "Región del Biobío",
+		"country": "CL",
+		"coord": {
+			"lon": -72.98333,
+			"lat": -36.73333
+		}
+	},
+	{
+		"id": 3893894,
+		"name": "Concepción",
+		"state": "Región del Biobío",
+		"country": "CL",
+		"coord": {
+			"lon": -73.049767,
+			"lat": -36.826988
+		}
+	},
+	{
+		"id": 3895138,
+		"name": "Chiguayante",
+		"state": "Región del Biobío",
+		"country": "CL",
+		"coord": {
+			"lon": -73.01667,
+			"lat": -36.916672
+		}
+	},
+
+	{
+		"id": 3870011,
+		"name": "Temuco",
+		"state": "Región de la Araucanía",
+		"country": "CL",
+		"coord": {
+			"lon": -72.599998,
+			"lat": -38.73333
+		}
+	},
+	{
+		"id": 3877793,
+		"name": "Padre Las Casas",
+		"state": "Región de la Araucanía",
+		"country": "CL",
+		"coord": {
+			"lon": -72.599998,
+			"lat": -38.76667
+		}
+	},
+	{
+		"id": 3868707,
+		"name": "Valdivia",
+		"state": "Región de Los Ríos",
+		"country": "CL",
+		"coord": {
+			"lon": -73.245888,
+			"lat": -39.81422
+		}
+	},
+	{
+		"id": 3874930,
+		"name": "Puerto Varas",
+		"state": "Región de Los Lagos",
+		"country": "CL",
+		"coord": {
+			"lon": -72.985382,
+			"lat": -41.319462
+		}
+	},
+	{
+		"id": 3900190,
+		"name": "Alerce",
+		"state": "Región de Los Lagos",
+		"country": "CL",
+		"coord": {
+			"lon": -72.917397,
+			"lat": -41.397732
+		}
+	},
+	{
+		"id": 3874960,
+		"name": "Puerto Montt",
+		"state": "Región de Los Lagos",
+		"country": "CL",
+		"coord": {
+			"lon": -72.94474,
+			"lat": -41.469849
+		}
+	},
+	{
+		"id": 3894426,
+		"name": "Coyhaique",
+		"state": "Región de Aysén",
+		"country": "CL",
+		"coord": {
+			"lon": -72.066193,
+			"lat": -45.575241
+		}
+	},
+	{
+		"id": 3874787,
+		"name": "Punta Arenas",
+		"state": "Región de Magallanes",
+		"country": "CL",
+		"coord": {
+			"lon": -70.916672,
+			"lat": -53.150002
+		}
+	}
+]
