@@ -58,9 +58,7 @@ Con la última instrucción de jQuery, el cambio de color sobre todos los elemen
 
 **Las opciones de selectores y acciones puede encontrarse en este *torpedo*: https://htmlcheatsheet.com/jquery/**
 
-Tales selectores y acciones podrían verse tan breves como algunos métodos de JavaScript moderno; no es descabellado pensar que jQuery, que por años ha sido [la biblioteca de JavaScript más popular](https://kinsta.com/blog/javascript-libraries/#the-most-popular-javascript-libraries), haya inspirado más de alguna modificación reciente en JavaScript (en el lenguaje a secas):
-
-> A partir del año 2015, se marcó un antes y un después en el mundo de Javascript, estableciendo una serie de cambios que lo transformarían en un lenguaje moderno ([versiones de ECMAScript](https://lenguajejs.com/javascript/introduccion/ecmascript/#versiones-de-ecmascript))
+Tales selectores y acciones podrían verse tan breves como algunos métodos de JavaScript moderno; no es descabellado pensar que jQuery, que por años ha sido [la biblioteca de JavaScript más popular](https://kinsta.com/blog/javascript-libraries/#the-most-popular-javascript-libraries), haya inspirado más de alguna modificación reciente en JavaScript (en el lenguaje a secas).
 
 - - - - - - -
 
