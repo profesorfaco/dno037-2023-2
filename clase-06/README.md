@@ -62,7 +62,9 @@ Como la posición del curso frente a JavaScript se parece más a la de alemanes,
 
 #### Fetch()
 
-**Haremos *fetch* de un JSON y una API. Pero esta vez no lo haremos con la ayuda de p5.js ni jQuery. Lo haremos sin bibliotecas de Javascript.**
+En la práctica **haremos *fetch* de un JSON y una API**. 
+
+**Pero no lo haremos con la ayuda de p5.js ni jQuery. Lo haremos sin bibliotecas de Javascript.**
 
 Para explorar el JavaScript más estándar, sin bibliotecas, avanzaremos al [uso de `fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). 
 
