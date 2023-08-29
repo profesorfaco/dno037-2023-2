@@ -44,9 +44,11 @@ El primero es de Meta (Facebook). El segundo es mantenido por Google. El tercero
 </html>
 ```
 
-En el código tenemos una estructura reconocible: Es una página de `.html`. Incluye algo extraño: `{{ message }}`, que en su carga es reemplazado por un `¡Hola Vue.js!`, que es un mensaje creado como si se tratara de una aplicación (`createApp`). 
+En el código tenemos una estructura reconocible: Es una página de `.html`. 
 
-Es muy recomendable acceder a los *frameworks* más adelante, después de dominar el JavaScript más estándar, y comenzar a hacerlo sin bibliotecas. 
+Pero incluye algo extraño: `{{ message }}`, que en su carga es reemplazado por un `¡Hola Vue.js!`, que es un texto que allí es "montado" como si se tratar da de una aplicación (`createApp`, `mount()`). 
+
+Es muy recomendable acceder a los *frameworks* más adelante, después de dominar el JavaScript más estándar, sin usar bibliotecas.
 
 #### Fetch()
 
