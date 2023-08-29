@@ -52,7 +52,7 @@ Así de extraño puede ser el uso de una `{{frase típica}}` de cualquier dialec
 
 Piense, por ejemplo, en la pregunta `{{cómo cancela}}` frente al hablante de castellano que no es chileno: *¡No, yo no quiero cancelar, quiero pagar lo que he consumido!*.  
 
-Enfrentar el "chileno" con el "castellano" es una analogía que sirve para explicar el "problema" de usar *libraries* o *frameworks* de JavaScript antes que el JavaScript puro, analogía que se puede extender de la siguiente manera: 
+Enfrentar el "chileno" con el "castellano" es una analogía que sirve para explicar el "problema" de usar *libraries* o *frameworks* de JavaScript antes que el "JavaScript a secas", analogía que se puede extender de la siguiente manera: 
 
 El chileno se entiende en Chile. El argentino en Argetina. El mexicano se entienden en toda Hisponoamérica por la relevancia sus empresas traductoras y televisivas. Pero lo que diga un castellano de Castilla debería ser entendido por chilenos, argentinos y mexicanos. 
 
