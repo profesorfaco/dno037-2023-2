@@ -48,7 +48,9 @@ En el código tenemos una estructura reconocible: ¡Es una página `.html`!
 
 Pero incluye algo extraño: `{{ message }}`, que en su carga es reemplazado por un `¡Hola Vue.js!`, que es un texto que allí es "montado" como si se tratar da de una aplicación (ver: [`createApp`](https://vuejs.org/guide/essentials/application.html#the-root-component), [`mount()`](https://vuejs.org/guide/essentials/application.html#mounting-the-app)). 
 
-Así de extraño puede ser el uso de una `{{frase típica}}` de cualquier dialecto. Piense, por ejemplo, en la pregunta `{{cómo cancela}}` frente al hablante de castellano que no es chileno: *¡No, yo no quiero cancelar, quiero pagar lo que he consumido!*.  
+Así de extraño puede ser el uso de una `{{frase típica}}` de cualquier dialecto.
+
+Piense, por ejemplo, en la pregunta `{{cómo cancela}}` frente al hablante de castellano que no es chileno: *¡No, yo no quiero cancelar, quiero pagar lo que he consumido!*.  
 
 Enfrentar el "chileno" con el "castellano" es una analogía que sirve para explicar el "problema" de usar *libraries* o *frameworks* de JavaScript antes que el JavaScript puro, analogía que se puede extender de la siguiente manera: 
 
