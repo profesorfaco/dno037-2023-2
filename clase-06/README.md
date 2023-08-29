@@ -20,6 +20,8 @@ Vue.js es un Framework de JavaScript progresivo. No debes transformar todo tu c�
 
 **Si fuera de su interés comenzar a explorar uno de estos *frameworks*, sería muy recomendable partir por acá: https://vuejs.org/tutorial/**
 
+#### Fetch
+
 Pero mejor quedémonos en los estándares…
 
 Utilizaremos una API (Application Programming Interfaces) que conviene estudiar previo a la clase para poder resolver de manera más eficiente las consultas de la práctica: https://openweathermap.org/current
