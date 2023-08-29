@@ -58,7 +58,7 @@ El chileno se entiende en Chile. El argentino en Argetina. El mexicano se entien
 
 Al alemán, inglés o italiano, le vendría mejor aprender castellano antes que chileno, argentino o mexicano, para moverse por Chile, Argentina, México y España sin mayores problemas.
 
-Como la posición del curso respecto a JavaScript se parece más a la de alemanes, ingleses o italianos frente al castellano, conviene comenzar a explorar JavaScript a secas, sin *libraries* ni *frameworks*.
+Como la posición del curso frente a JavaScript se parece más a la de alemanes, ingleses o italianos frente al castellano, conviene comenzar a explorar JavaScript a secas, sin *libraries* ni *frameworks*.
 
 #### Fetch()
 
