@@ -65,12 +65,12 @@ Tales selectores y acciones podrían verse tan breves como algunos métodos de J
 
 #### Práctica
 
-Para la práctica será necesario tener a la mano:
+Para la práctica será necesario tener a la mano estas ayudas
 
-- las opciones de selectores y acciones que son descritas de manera muy abreviada en https://htmlcheatsheet.com/jquery/
-- las opciones de selectores y acciones que son descritas detalladamente en https://api.jquery.com/
+- abreviadas: https://htmlcheatsheet.com/jquery/
+- detalladas: https://api.jquery.com/
 
-Con tales referencias se podrá avanzar en la edición del [index.html](https://profesorfaco.github.io/dno037-2023-2/clase-05/), que consulta a una de las aternativas de [Feed en GeoJSON Summary Format](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) que ofrece el [Earthquake Hazards Program](https://www.usgs.gov/programs/earthquake-hazards) de la USGS.
+Con tales referencias se podrá avanzar en la edición de este [index.html](https://profesorfaco.github.io/dno037-2023-2/clase-05/), que consulta a una de las aternativas de [Feed en GeoJSON Summary Format](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) que ofrece el [Earthquake Hazards Program de la USGS](https://www.usgs.gov/programs/earthquake-hazards).
 
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
