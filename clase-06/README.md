@@ -52,12 +52,14 @@ Es muy recomendable acceder a los *frameworks* más adelante, después de domina
 
 **Haremos *fetch* de un JSON y una API. Pero esta vez no lo haremos con la ayuda de p5.js ni jQuery. Lo haremos sin bibliotecas de Javascript.**
 
-Para explorar el JavaScript más estándar, sin bibliotecas, avanzaremos al [uso de fetch()](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). Para aprender lo necesario respecto de su uso, es recomedable tomarse 32 minutos para ver dos videos de Daniel Shifmann:
+Para explorar el JavaScript más estándar, sin bibliotecas, avanzaremos al [uso de `fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). 
+
+Para comprender el uso del `fetch()`, es recomedable tomarse 32 minutos para ver dos videos de Daniel Shifmann:
 
 - [fetch() - Working With Data & APIs in JavaScript](https://youtu.be/tc8DU14qX6I)
 - [JSON - Working with Data and APIs in JavaScript](https://youtu.be/uxf0--uiX0I) 
 
-El fetch() del JSON será muy sencillo, porque usa algo que está en la carpeta de esta clase:  
+El `fetch()` del JSON será muy sencillo, porque usa algo que está en la carpeta de esta clase:  
   
 ```
 async function una() {
@@ -68,7 +70,7 @@ async function una() {
 una().catch((error) => console.error(error));
 ```
 
-El fetch de la API nos exigirá un poco más, porque el uso de [Current Weather Data](https://openweathermap.org/current) requiere la definición de algunos parámetros, incluyendo una API Key (que cualquier persona puede generar siendo [*user*](https://home.openweathermap.org/users/sign_in) de OpenWeather).
+El `fetch()` de la API nos exigirá un poco más, porque el uso de [Current Weather Data](https://openweathermap.org/current) requiere la definición de algunos parámetros, incluyendo una API Key (que cualquier persona puede generar siendo [*user*](https://home.openweathermap.org/users/sign_in) de OpenWeather).
 
 ```
 async function otra() {
