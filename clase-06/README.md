@@ -85,7 +85,7 @@ otra().catch((error) => console.error(error));
 
 ### Práctica
 
-Para hacer funcionar [esta Web App ya preparada](https://profesorfaco.github.io/dno037-2023-1/clase-06), lo primero es obtener su API Key.
+Para hacer funcionar [esta Web App ya preparada](https://profesorfaco.github.io/dno037-2023-2/clase-06), lo primero es obtener su API Key.
 
 Una vez haga funcionar la App, corresponde tener a mano:
 
