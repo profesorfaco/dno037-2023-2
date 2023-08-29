@@ -56,7 +56,7 @@ Enfrentar el "chileno" con el "castellano" es una analogía que sirve para expli
 
 El chileno se entiende en Chile. El argentino en Argetina. El mexicano se entienden en toda Hisponoamérica por la relevancia sus empresas traductoras y televisivas. Pero lo que diga un castellano de Castilla debería ser entendido por chilenos, argentinos y mexicanos. 
 
-Al alemán, inglés o italiano, le vendría mejor aprender castellano antes que chileno, argentino y mexicano, para moverse por Chile, Argetina y México sin problemas.
+Al alemán, inglés o italiano, le vendría mejor aprender castellano antes que chileno, argentino o mexicano, para moverse por Chile, Argetina y México sin problemas.
 
 Como nuestra posición respecto al JavaScript se parece más a la de alemanes, ingleses o italianos frente al castellano, conviene comenzar a explorar JavaScript si bibliotecas (castellano de castilla).
 
