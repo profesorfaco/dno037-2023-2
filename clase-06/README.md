@@ -50,7 +50,7 @@ Es muy recomendable acceder a los *frameworks* más adelante, después de domina
 
 #### Fetch()
 
-**Haremos *fetch* de un JSON y una API. Pero esta vez no lo haremos con la ayuda de p5.js ni jQuery. Lo haremos sin bibliotecas de Javascript**
+**Haremos *fetch* de un JSON y una API. Pero esta vez no lo haremos con la ayuda de p5.js ni jQuery. Lo haremos sin bibliotecas de Javascript.**
 
 Para explorar el JavaScript más estándar, sin bibliotecas, avanzaremos al [uso de fetch()](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). Para aprender lo necesario respecto de su uso, es recomedable tomarse 32 minutos para ver dos videos de Daniel Shifmann:
 
