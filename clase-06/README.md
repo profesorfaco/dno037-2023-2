@@ -16,9 +16,37 @@ Hay 3 frameworks de JavaScript importantes en la actualidad:
 
 - Vue.js → https://vuejs.org/
 
-Vue.js es un Framework de JavaScript progresivo. No debes transformar todo tu código fuente a su particular redacción. Al contrario, puedes mantenerte muy cerca de los estándares de los lenguajes de descripción y programación para Web que vamos aprendiendo, y desde ahí aprovechar, progresivamente, lo que tal framework ofrece.
+El primero es de Meta (Facebook). El segundo es mantenido por Google. El tercero tiene cierta independencia y ofrece una alternativa progresiva: No debes transformar todo tu código fuente a su particular redacción, puedes ir adoptándolo de a poco. Pero su objetivo, ya en lo más básico, apunta al "montaje" de aplicaciones:
 
-**Si fuera de su interés comenzar a explorar uno de estos *frameworks*, sería muy recomendable partir por acá: https://vuejs.org/tutorial/**
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <title>Ejemplo</title>
+    </head>
+    <body>
+        <div id="app">{{ message }}</div>
+        <script>
+            const { createApp, ref } = Vue
+            createApp({
+                setup() {
+                    const message = ref('¡Hola Vue.js!')
+                    return {
+                        message
+                    }
+                }
+            }).mount('#app')
+        </script>
+    </body>
+</html>
+```
+
+En el código tenemos una estructura reconocible: Es una página de `.html`. Incluye algo extraño: `{{ message }}`, que en su carga es reemplazado por un `¡Hola Vue.js!`, que es un mensaje creado como si se tratara de una aplicación (`createApp`). 
+
+Es muy recomendable acceder a los *frameworks* más adelante, después de dominar el JavaScript más estándar. 
 
 #### Fetch
 
