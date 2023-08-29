@@ -57,37 +57,40 @@ Para explorar el JavaScript más estándar, sin bibliotecas, avanzaremos al [uso
 - [fetch() - Working With Data & APIs in JavaScript](https://youtu.be/tc8DU14qX6I)
 - [JSON - Working with Data and APIs in JavaScript](https://youtu.be/uxf0--uiX0I) 
 
-El fetch() del JSON será muy sencillo, porque lo tomaremos desde algo que ya está en esta carpeta:  
+El fetch() del JSON será muy sencillo, porque usa algo que está en la carpeta de esta clase:  
   
 ```
-async function ejemplo() {
+async function una() {
     const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-06/ciudades.json");
     const data = await consulta.json();
     console.log(data);
 }
-ejemplo().catch((error) => console.error(error));
+una().catch((error) => console.error(error));
 ```
 
-El fetch de la API nos exigirá un poco más: 
+El fetch de la API nos exigirá un poco más, porque el uso de [Current Weather Data](https://openweathermap.org/current) requiere la definición de algunos parámetros, incluyendo una API Key (que cualquier persona puede generar siendo [*user*](https://home.openweathermap.org/users/sign_in) de OpenWeather).
 
-- primero crear un usuario en [OpenWeather](https://home.openweathermap.org/users/sign_in) para activar su propia API Key.
-- luego revisar https://openweathermap.org/current
-
+```
+async function otra() {
+    const consulta = await fetch("https://api.openweathermap.org/data/2.5/weather?q={city name},{country code}&appid={API key}");
+    const data = await consulta.json();
+    console.log(data);
+}
+otra().catch((error) => console.error(error));
+```
 
 - - - - - - -
 
 ### Práctica
 
-Para hacer su versión de [esta Web App ya preparada](https://profesorfaco.github.io/dno037-2023-1/clase-06), es necesario tener a mano:
+Para hacer funcionar [esta Web App ya preparada](https://profesorfaco.github.io/dno037-2023-1/clase-06), lo primero es obtener su API Key.
+
+Una vez haga funcionar la App, corresponde tener a mano:
 
 - el [método `querySelector()`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
 - el [método `addEventListener()`](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
 - la guía de la API de [*Current weather data*](https://openweathermap.org/weather-conditions)
 - el listado de [todas las ciudades para las que habrá *data*](http://bulk.openweathermap.org/sample/)
-
-La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
-
-La dirección de su página debe ser ingresada en el foro correspondiente a la clase: URL pendiente.
 
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
