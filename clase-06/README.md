@@ -48,7 +48,15 @@ En el código tenemos una estructura reconocible: ¡Es una página `.html`!
 
 Pero incluye algo extraño: `{{ message }}`, que en su carga es reemplazado por un `¡Hola Vue.js!`, que es un texto que allí es "montado" como si se tratar da de una aplicación (ver: [`createApp`](https://vuejs.org/guide/essentials/application.html#the-root-component), [`mount()`](https://vuejs.org/guide/essentials/application.html#mounting-the-app)). 
 
-Es muy recomendable acceder a los *frameworks* más adelante, después de dominar el JavaScript más estándar, sin usar bibliotecas.
+Así de extraño puede ser el uso de una `{{frase típica}}` de cualquier dialecto. Piense, por ejemplo, en la pregunta `{{cómo cancela}}` frente al hablante de castellano que no es chileno: *¡No, yo no quiero cancelar, quiero pagar lo que he consumido!*.  
+
+Enfrentar el "chileno" con el "castellano" es una analogía que sirve para explicar el "problema" de usar *libraries* o *frameworks* de JavaScript antes que el JavaScript puro, analogía que se puede extender de la siguiente manera: 
+
+El chileno se entiende en Chile. El argentino en Argetina. El mexicano se entienden en toda Hisponoamérica por la relevancia sus empresas traductoras y televisivas. Pero lo que diga un castellano de Castilla debería ser entendido por chilenos, argetinos y mexicanos. 
+
+Al alemán, inglés o italiano, le vendría mejor aprender castellano antes que chileno, argentino y mexicano, para moverse por Chile, Argetina y México sin problemas.
+
+Como nuestra posición respecto al JavaScript se parece más a la de alemanes, ingleses o italianos frente al castellano, conviene comenzar a explorar JavaScript si bibliotecas (castellano de castilla).
 
 #### Fetch()
 
