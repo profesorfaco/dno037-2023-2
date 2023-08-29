@@ -56,12 +56,7 @@ document.querySelector("#cambio").addEventListener("click", enrojece);
 
 Con la última instrucción de jQuery, el cambio de color sobre todos los elementos de clase "media" se hace al presionar el botón de identidad "cambio". **Y ya resulta evidente que la clave del uso de [jQuery](https://jquery.com/) está en la concatenación de un selector y una acción: `$(selector).action()`** 
 
-**Las opciones de selectores y acciones puede encontrarse en este *torpedo*: https://htmlcheatsheet.com/jquery/**
-
-Tales selectores y acciones podrían verse tan breves como algunos métodos de JavaScript moderno; no es descabellado pensar que jQuery, que por años ha sido [la biblioteca de JavaScript más popular](https://kinsta.com/blog/javascript-libraries/#the-most-popular-javascript-libraries), haya inspirado más de alguna modificación reciente en JavaScript (en el lenguaje a secas).
-
 - - - - - - -
-
 
 #### Práctica
 
