@@ -52,13 +52,13 @@ Así de extraño puede ser el uso de una `{{frase típica}}` de cualquier dialec
 
 Piense, por ejemplo, en la pregunta `{{cómo cancela}}` frente al hablante de castellano que no es chileno: *¡No, yo no quiero cancelar, quiero pagar lo que he consumido!*.  
 
-Enfrentar el "chileno" con el "castellano" es una analogía que sirve para explicar el "problema" de usar *libraries* o *frameworks* de JavaScript antes que el "JavaScript a secas", analogía que se puede extender de la siguiente manera: 
+Enfrentar el "chileno" con el "castellano actual" es una analogía que sirve para explicar el problema de usar *libraries* o *frameworks* de JavaScript antes que el "JavaScript a secas", analogía que se puede extender de la siguiente manera: 
 
-El chileno se entiende en Chile. El argentino en Argetina. El mexicano se entienden en toda Hisponoamérica por la relevancia sus empresas traductoras y televisivas. Pero lo que diga un castellano de Castilla debería ser entendido por chilenos, argentinos y mexicanos. 
+El chileno se entiende en Chile. El argentino en Argetina. El mexicano se entienden en toda Hisponoamérica por la relevancia sus empresas traductoras y televisivas. Pero lo que diga un castellano (del centro de España) debería ser entendido por chilenos, argentinos y mexicanos. 
 
-Al alemán, inglés o italiano, le vendría mejor aprender castellano antes que chileno, argentino o mexicano, para moverse por Chile, Argentina y México sin mayores problemas.
+Al alemán, inglés o italiano, le vendría mejor aprender castellano antes que chileno, argentino o mexicano, para moverse por Chile, Argentina, México y España sin mayores problemas.
 
-Como la posición del curso respecto a JavaScript se parece más a la de alemanes, ingleses o italianos frente al castellano, conviene comenzar a explorar JavaScript si bibliotecas (castellano de Castilla).
+Como la posición del curso respecto a JavaScript se parece más a la de alemanes, ingleses o italianos frente al castellano, conviene comenzar a explorar JavaScript a secas, sin *libraries* ni *frameworks*.
 
 #### Fetch()
 
