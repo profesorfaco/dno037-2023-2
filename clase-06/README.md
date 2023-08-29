@@ -46,48 +46,44 @@ El primero es de Meta (Facebook). El segundo es mantenido por Google. El tercero
 
 En el código tenemos una estructura reconocible: Es una página de `.html`. Incluye algo extraño: `{{ message }}`, que en su carga es reemplazado por un `¡Hola Vue.js!`, que es un mensaje creado como si se tratara de una aplicación (`createApp`). 
 
-Es muy recomendable acceder a los *frameworks* más adelante, después de dominar el JavaScript más estándar. 
+Es muy recomendable acceder a los *frameworks* más adelante, después de dominar el JavaScript más estándar, y comenzar a hacerlo sin bibliotecas. 
 
-#### Fetch
+#### Fetch()
 
-Pero mejor quedémonos en los estándares…
+**Haremos *fetch* de un JSON y una API. Pero esta vez no lo haremos con la ayuda de p5.js ni jQuery. Lo haremos sin bibliotecas de Javascript**
 
-Utilizaremos una API (Application Programming Interfaces) que conviene estudiar previo a la clase para poder resolver de manera más eficiente las consultas de la práctica: https://openweathermap.org/current
+Para explorar el JavaScript más estándar, sin bibliotecas, avanzaremos al [uso de fetch()](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). Para aprender lo necesario respecto de su uso, es recomedable tomarse 32 minutos para ver dos videos de Daniel Shifmann:
 
-**Pero esta vez no lo iremos a buscar con p5.js ni jquery; ya nos corresponde avanzar al [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)**.
+- [fetch() - Working With Data & APIs in JavaScript](https://youtu.be/tc8DU14qX6I)
+- [JSON - Working with Data and APIs in JavaScript](https://youtu.be/uxf0--uiX0I) 
 
-Para aprender lo necesario respecto del uso de Fetch, es recomedable tomarse 47 minutos para ver tres videos de Daniel Shifmann:
-
-- https://youtu.be/tc8DU14qX6I
-- https://youtu.be/RfMkdvN-23o
-- https://youtu.be/uxf0--uiX0I
-
-Una vez sean obtenidos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurarlos  a la manera que convenga al [tipo de gráfico](https://www.chartjs.org/docs/latest/charts/?h=type).
-
+El fetch() del JSON será muy sencillo, porque lo tomaremos desde algo que ya está en esta carpeta:  
+  
 ```
-async function primero() {
-    const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-1/main/clase-06/datos.json");
+async function ejemplo() {
+    const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-06/ciudades.json");
     const data = await consulta.json();
     console.log(data);
 }
-primero().catch((error) => console.error(error));
+ejemplo().catch((error) => console.error(error));
 ```
 
-**Hasta aquí hemos tomado datos desde un JSON (JavaScript Objecto Notation). En el primer ejemplo de código tomamos los números desde las mismas opciones de datos ofrecidos y en los otros ejemplos creamos números contando los datos ofrecidos**.
+El fetch de la API nos exigirá un poco más: 
+
+- primero crear un usuario en [OpenWeather](https://home.openweathermap.org/users/sign_in) para activar su propia API Key.
+- luego revisar https://openweathermap.org/current
+
 
 - - - - - - -
 
 ### Práctica
 
-Para hacer su versión de [esta Web App ya preparada](https://profesorfaco.github.io/dno037-2023-1/clase-05), es necesario:
+Para hacer su versión de [esta Web App ya preparada](https://profesorfaco.github.io/dno037-2023-1/clase-06), es necesario tener a mano:
 
-- revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
-
-- crear un usuario en [OpenWeather](https://home.openweathermap.org/users/sign_in) y activar su propia API Key.
-
-- descargar lo contenido en [la carpeta de esta clase y personalizarlo](https://profesorfaco.github.io/dno037-2023-1/clase-07).
-
-Personalizarlo implicar decidir tres ciudades distintas y trabajar, en conjunto, en la creación de algunas alternativas de [Weather icons](https://openweathermap.org/weather-conditions) con imágenes en formato [SVG](https://developer.mozilla.org/es/docs/Web/SVG/Tutorial/Introduction) como las de https://icons8.com/icon/pack/weather/dusk
+- el [método `querySelector()`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
+- el [método `addEventListener()`](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
+- la guía de la API de [*Current weather data*](https://openweathermap.org/weather-conditions)
+- el listado de [todas las ciudades para las que habrá *data*](http://bulk.openweathermap.org/sample/)
 
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
