@@ -158,7 +158,7 @@ Antes de abrir los [documentos preparados](https://github.com/profesorfaco/dno03
 
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
-La dirección de su página debe ser ingresada en el foro correspondiente a la clase: URL pendiente.
+La dirección de su página debe ser ingresada en el foro correspondiente a la clase: https://cursos.canvas.uc.cl/courses/66086/discussion_topics/662298
 
 Lo publicado en GitHub Pages e ingresado en el foro, será evaluado como:
 
