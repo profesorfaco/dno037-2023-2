@@ -70,7 +70,7 @@ async function una() {
 una().catch((error) => console.error(error));
 ```
 
-El `fetch()` de la API nos exigirá un poco más, porque el uso de [Current Weather Data](https://openweathermap.org/current) requiere la definición de algunos parámetros, incluyendo una API Key (que cualquier persona puede generar siendo [*user*](https://home.openweathermap.org/users/sign_in) de OpenWeather).
+El `fetch()` de la API nos exigirá un poco más, porque el uso de [Current Weather Data](https://openweathermap.org/current) requiere la definición de algunos parámetros y una autentificación con una API Key (que cualquier persona puede generar siendo [*user*](https://home.openweathermap.org/users/sign_in) de OpenWeather).
 
 ```
 async function otra() {
