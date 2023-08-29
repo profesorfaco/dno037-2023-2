@@ -54,7 +54,7 @@ Piense, por ejemplo, en la pregunta `{{cómo cancela}}` frente al hablante de ca
 
 Enfrentar el "chileno" con el "castellano" es una analogía que sirve para explicar el "problema" de usar *libraries* o *frameworks* de JavaScript antes que el JavaScript puro, analogía que se puede extender de la siguiente manera: 
 
-El chileno se entiende en Chile. El argentino en Argetina. El mexicano se entienden en toda Hisponoamérica por la relevancia sus empresas traductoras y televisivas. Pero lo que diga un castellano de Castilla debería ser entendido por chilenos, argetinos y mexicanos. 
+El chileno se entiende en Chile. El argentino en Argetina. El mexicano se entienden en toda Hisponoamérica por la relevancia sus empresas traductoras y televisivas. Pero lo que diga un castellano de Castilla debería ser entendido por chilenos, argentinos y mexicanos. 
 
 Al alemán, inglés o italiano, le vendría mejor aprender castellano antes que chileno, argentino y mexicano, para moverse por Chile, Argetina y México sin problemas.
 
