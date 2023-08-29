@@ -46,7 +46,7 @@ El primero es de Meta (Facebook). El segundo es mantenido por Google. El tercero
 
 En el código tenemos una estructura reconocible: ¡Es una página `.html`! 
 
-Pero incluye algo extraño: `{{ message }}`, que en su carga es reemplazado por un `¡Hola Vue.js!`, que es un texto que allí es "montado" como si se tratar da de una aplicación (ver: [`createApp`](https://vuejs.org/guide/essentials/application.html#the-root-component), [`mount()`](https://vuejs.org/guide/essentials/application.html#mounting-the-app)). 
+Pero incluye algo extraño: `{{ message }}`, que en su carga es reemplazado por un `¡Hola Vue.js!`, que es un texto que allí es "montado" como si se tratar de una aplicación (ver: [`createApp`](https://vuejs.org/guide/essentials/application.html#the-root-component), [`mount()`](https://vuejs.org/guide/essentials/application.html#mounting-the-app)). 
 
 Así de extraño puede ser el uso de una `{{frase típica}}` de cualquier dialecto.
 
