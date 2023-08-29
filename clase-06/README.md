@@ -71,6 +71,8 @@ Para comprender el uso del `fetch()`, es recomedable tomarse 32 minutos para ver
 - [fetch() - Working With Data & APIs in JavaScript](https://youtu.be/tc8DU14qX6I)
 - [JSON - Working with Data and APIs in JavaScript](https://youtu.be/uxf0--uiX0I) 
 
+En lo preparadao para la práctica:
+
 El `fetch()` del JSON será muy sencillo, porque usa algo que está en la carpeta de esta clase:  
   
 ```
