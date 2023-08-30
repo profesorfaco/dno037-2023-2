@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--nuevamente el CSS está minimizado-->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Nombre Apellido</a></h1>
+            <a href="earthquakes.html" style="text-decoration: line-through;">M4.5+ EARTHQUAKES</a>
+            <a href="students.html">STUDENTS</a>
+            <a href="weather.html">WEATHER</a>
+        </header>
+        <main>
+            <section></section>
+        </main>
+        <footer>
+            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a> 
+            <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03">20 de septiembre, 2023</a>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <!--Y ahora podemos usarlo-->
+        <script>
+            $(function () {
+                $.getJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson", function (data) {
+                    console.log(data);
+                    //una pequeña función para convertir un dato de más abajo
+                    function registro(unix_timestamp) {
+                        var date = new Date(unix_timestamp);
+                        return date;
+                    }
+                    //un forEach para construir cada t
+                    data.features.forEach(function (t, i) {
+                        var articuloTipo;
+                        //par de alternativas para la variable articuloTipo
+                        if (t.properties.place.includes("Chile")) {
+                            articuloTipo = '<article class="cl">';
+                        } else {
+                            articuloTipo = '<article class="etc">';
+                        }
+                        //aplicación del articuloTipo y la pequeña función
+                        $("section").append(
+                            `${articuloTipo}<h2>${t.properties.mag.toFixed(1)}</h2><p>${t.properties.place}</p><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${registro(t.properties.time)}</a></p></article>`
+                        );
+                    });
+                    //algo más para interactuar con el menú
+                    var valor;
+                    $("#opciones").change(function () {
+                        valor = $("select").val();
+                        if (valor == "Chile") {
+                            $(".etc").hide();
+                        } else {
+                            $(".cl, .etc").show();
+                        }
+                    });
+                }); // cierro $.getJSON((){});
+            }); //cierro $(function(){});
+        </script>
+    </body>
+</html>

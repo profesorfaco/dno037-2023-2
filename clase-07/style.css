@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size:1rem;
+}
+
+html,
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    color: #737a80;
+    background: linear-gradient(#eceff1, #cfd8dc);
+}
+
+a{
+    color:rgba(92,98,120,.75);
+    font-weight: 400;
+}
+
+a:is(:hover, :focus){
+    color:rgba(92,98,120,1);
+    text-decoration: none;
+}
+
+header,
+main,
+footer {
+    width: 80vw;
+    padding: 0 10vw;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+}
+
+header h1 a{
+    font-size:110%;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+main {
+    min-height: 80vh;
+    display: relative;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;    
+}
+
+footer a{
+    text-decoration: none;
+}
+
+div.intro{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width:80vw;
+    padding:0 10vw;
+}
+
+div.intro p{
+    font-size: calc(1.5rem + 1.5vw);
+    font-weight: 300;
+}
+
+div.centrado {
+    color: black;
+    width: min(80vw, 500px);
+    padding: 2rem 2rem 0;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(100, 100, 100, 0.1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.8rem;
+}
+
+div.centrado h2{
+    font-size:calc(1.2rem + 1.2vw);
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+div.centrado select {
+    width: 100%;
+    padding: 0.5rem;
+    color: #888;
+    border-color: #ddd;
+    border-radius: 0.4rem;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
+}
+div#resultado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1vh -1vw;
+}
+
+section article {
+    width: 16%;
+    margin: 1%;
+    padding: 1%;
+    background: white;
+    color: black;
+    border-radius: 5px 5px;
+    box-shadow: 0 0 4px rgba(100, 100, 100, 0.1);
+}
+
+section article h2{
+    font-size:calc(1.2rem + 1.2vw);
+    font-weight: 300;    
+}
