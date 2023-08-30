@@ -6,7 +6,10 @@
 
 Como es la vuelta del 18, corresponde reducir el encargo de clase invertida a su mínima expresión:
 
-Ver el video: [Higher Order Functions in JavaScript - Topics of JavaScript/ES6](https://youtu.be/H4awPsyugS0?si=NsOKn34XKvv_F3Bq)
+Ver uno o dos videos de los siguientes videos de Daniel Shiffman: 
+
+- [ES6 Arrow Function - Topics of JavaScript/ES6](https://youtu.be/mrYMzpbFz18?si=QIckLF5jVYABmay0)
+- [Higher Order Functions in JavaScript - Topics of JavaScript/ES6](https://youtu.be/H4awPsyugS0?si=NsOKn34XKvv_F3Bq)
 
 - - - - - - - - - 
 
