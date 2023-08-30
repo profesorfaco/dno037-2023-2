@@ -4,7 +4,9 @@
 
 ### Teoría
 
-Es la vuelta del 18.
+Como es la vuelta del 18, corresponde reducir el encargo de clase invertida a su mínima expresión:
+
+Ver el video: [Higher Order Functions in JavaScript - Topics of JavaScript/ES6](https://youtu.be/H4awPsyugS0?si=NsOKn34XKvv_F3Bq)
 
 - - - - - - - - - 
 
