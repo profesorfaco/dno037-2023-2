@@ -10,12 +10,12 @@
         <header>
             <h1><a href="index.html">Nombre Apellido</a></h1>
             <a href="earthquakes.html">M4.5+ EARTHQUAKES</a>
+            <a href="weather.html" style="text-decoration: line-through;">OPEN WEATHER</a>
             <a href="students.html">STUDENTS</a>
-            <a href="weather.html" style="text-decoration: line-through;">WEATHER</a>
         </header>
         <main>
             <div class="centrado">
-                <h2>WEATHER</h2>
+                <h2>OPEN WEATHER</h2>
                 <select name="select" id="selector" disabled>
                     <option>Selecciona una ciudad…</option>
                 </select>
@@ -42,7 +42,7 @@
             cities().catch((error) => console.error(error));
             //creando la función weather
             async function weather(ciudad) {
-                const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid={ApiKey}&lang=es");
+                const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid=1825fa58c8caa96d475b73102c1dc050&lang=es");
                 const tiempo = await segundo.json();
                 console.log(tiempo);
                 respuesta.innerHTML = `<div><img src="https://openweathermap.org/img/wn/${tiempo.weather[0].icon}.png"></div><div>Temperatura: <strong>${tiempo.main.temp}</strong> ºC</div><div>Humedad: <strong>${tiempo.main.humidity}</strong>%&nbsp;&nbsp;</div>`;
