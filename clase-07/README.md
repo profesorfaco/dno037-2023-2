@@ -4,13 +4,13 @@
 
 ### Teoría
 
-Pendiente.
+Es la vuelta del 18.
 
 - - - - - - - - - 
 
 ### Práctica
 
-Pendiente.
+https://profesorfaco.github.io/dno037-2023-2/clase-07/
 
 Lo publicado en GitHub Pages e ingresado en el foro, será evaluado como:
 
