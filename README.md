@@ -53,7 +53,7 @@ Considerando los días **miércoles** entre 9 de agosto y 29 de noviembre, resul
 
 **[Clase 03 → 23/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-03) → Evaluación Nº1** ✓
 
-[Clase 04 → 30/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-04) → HTML5 + CSS3 + otras bibliotecas de JS (Semana Universitaria; durante esta semana no se efectuarán evaluaciones académicas).
+[Clase 04 → 30/08/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-04) → HTML5 + CSS3 + otras bibliotecas de JS (Semana Universitaria; durante esta semana no se efectuarán evaluaciones académicas) ✓
 
 [Clase 05 → 06/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-05) → HTML5 + CSS3 + otras bibliotecas de JS
 
