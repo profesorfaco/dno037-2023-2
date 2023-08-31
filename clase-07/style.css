@@ -14,14 +14,13 @@ body {
 
 body {
     font-family: "Work Sans", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #737a80;
     background: linear-gradient(#eceff1, #cfd8dc);
 }
 
 a{
     color:rgba(92,98,120,.75);
-    font-weight: 400;
 }
 
 a:is(:hover, :focus){
@@ -99,13 +98,12 @@ div.intro{
 }
 
 div.intro p{
-    font-size: calc(1.5rem + 1.5vw);
+    font-size: calc(1.6rem + 1.6vw);
     font-weight: 300;
     margin-left:.5rem;    
 }
 
 div.centrado {
-    color: black;
     width: min(80vw, 500px);
     padding: 2rem 2rem 0;
     background: #fff;
@@ -119,7 +117,7 @@ div.centrado {
 }
 
 div.centrado h2{
-    font-size:calc(1.2rem + 1.2vw);
+    font-size: calc(1.2rem + 1.2vw);
     font-weight: 300;
     margin-bottom: 1rem;
 }
@@ -154,6 +152,12 @@ article {
     padding: .8rem;
     border-radius: .4rem;
     box-shadow: inset 0 0 1px #eceff1, 0 2px 2px #cfd8dc;
+}
+
+article h3{
+    font-size:calc(.8rem + .8vw);
+    font-weight: 400;
+    margin-bottom: 1rem;
 }
 
 
