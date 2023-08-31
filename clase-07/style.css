@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap");
 
-* {
+*,*:after,*:before {
     margin: 0;
     padding: 0;
     font-size:1rem;
@@ -30,10 +30,14 @@ a:is(:hover, :focus){
 }
 
 header,
-main,
 footer {
     width: 90vw;
     padding: 0 5vw;
+}
+
+main{
+    width:92vw;
+    padding: 0 4vw;
 }
 
 header{
@@ -48,6 +52,7 @@ header h1 a{
     font-size:120%;
     font-weight: 600;
     text-decoration: none;
+    margin-left:.5rem;
 }
 
 header select{
@@ -79,6 +84,10 @@ footer a{
     text-decoration: none;
 }
 
+footer a:first-child{
+    margin-left: 0.5rem;
+}
+
 div.intro{
     position: absolute;
     left: 50%;
@@ -92,6 +101,7 @@ div.intro{
 div.intro p{
     font-size: calc(1.5rem + 1.5vw);
     font-weight: 300;
+    margin-left:.5rem;    
 }
 
 div.centrado {
@@ -99,12 +109,13 @@ div.centrado {
     width: min(80vw, 500px);
     padding: 2rem 2rem 0;
     background: #fff;
-    box-shadow: 0 0 4px rgba(100, 100, 100, 0.1);
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 0.8rem;
+    box-shadow: inset 0 0 1px #eceff1, 0 2px 2px #cfd8dc;
+
 }
 
 div.centrado h2{
@@ -130,23 +141,38 @@ div#resultado {
 }
 
 section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 1vh -1vw;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-section article {
-    width: 16%;
-    margin: 1%;
-    padding: 1%;
-    background: white;
-    color: black;
-    border-radius: 5px 5px;
-    box-shadow: 0 0 4px rgba(100, 100, 100, 0.1);
+/* Create four equal columns that sits next to each other */
+article {
+    background:rgba(255,255,255,.9);
+    flex: calc(25% - 2.8rem);
+    max-width: calc(25% - 2.8rem);
+    margin: .6rem;
+    padding: .8rem;
+    border-radius: .4rem;
+    box-shadow: inset 0 0 1px #eceff1, 0 2px 2px #cfd8dc;
 }
 
-section article h2{
-    font-size:calc(1.2rem + 1.2vw);
-    font-weight: 300;    
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 992px) {
+  article {
+    flex: calc(50% - 2.6rem);
+    max-width: calc(50% - 2.6rem);
+    margin: .5rem;
+    padding: .8rem;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 576px) {
+  article {
+    flex: calc(100% - 2.4rem);
+    max-width: calc(100% - 2.4rem);
+    margin: .4rem;
+    padding: .8rem;
+  }
 }

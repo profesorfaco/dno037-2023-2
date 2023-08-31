@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--nuevamente el CSS está minimizado-->
         <link rel="stylesheet" href="style.css" />
+        <title>DNOO37</title>
     </head>
     <body>
         <header>
@@ -28,27 +28,14 @@
         <!--Y ahora podemos usarlo-->
         <script>
             $(function () {
-                $.getJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson", function (data) {
+                $.getJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/curso.json", function (data) {
                     console.log(data);
-                    //una pequeña función para convertir un dato de más abajo
-                    function registro(unix_timestamp) {
-                        var date = new Date(unix_timestamp);
-                        return date;
-                    }
-                    //un forEach para construir cada t
-                    data.features.forEach(function (t, i) {
-                        var articuloTipo;
-                        //par de alternativas para la variable articuloTipo
-                        if (t.properties.place.includes("Chile")) {
-                            articuloTipo = '<article class="cl">';
-                        } else {
-                            articuloTipo = '<article class="etc">';
-                        }
-                        //aplicación del articuloTipo y la pequeña función
+                    data.forEach((s,i) => {
+                        if(s.github !== ""){
                         $("section").append(
-                            `${articuloTipo}<h2>${t.properties.mag.toFixed(1)}</h2><p>${t.properties.place}</p><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${registro(t.properties.time)}</a></p></article>`
+                            `<article><h3>${s.nombres.split(' ')[0]} ${s.apellidos.split(' ')[0]}</h3><p><a href="${s.github}" target="_blank">${s.github.split('/')[3]}</a></p></article>`
                         );
-                    });
+                    }});
                 }); // cierro $.getJSON((){});
             }); //cierro $(function(){});
         </script>

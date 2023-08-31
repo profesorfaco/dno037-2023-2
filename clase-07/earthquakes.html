@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--nuevamente el CSS está minimizado-->
         <link rel="stylesheet" href="style.css" />
+        <title>DNOO37</title>
     </head>
     <body>
         <header>
@@ -28,7 +28,7 @@
         <!--Y ahora podemos usarlo-->
         <script>
             $(function () {
-                $.getJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson", function (data) {
+                $.getJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson", function (data) {
                     console.log(data);
                     //una pequeña función para convertir un dato de más abajo
                     function registro(unix_timestamp) {
@@ -37,17 +37,13 @@
                     }
                     //un forEach para construir cada t
                     data.features.forEach(function (t, i) {
-                        var articuloTipo;
-                        //par de alternativas para la variable articuloTipo
-                        if (t.properties.place.includes("Chile")) {
-                            articuloTipo = '<article class="cl">';
-                        } else {
-                            articuloTipo = '<article class="etc">';
-                        }
-                        //aplicación del articuloTipo y la pequeña función
+                            if(t.properties.place.includes("Chile")){
+
                         $("section").append(
-                            `${articuloTipo}<h2>${t.properties.mag.toFixed(1)}</h2><p>${t.properties.place}</p><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${registro(t.properties.time)}</a></p></article>`
+                            `<article><h2>${t.properties.mag.toFixed(1)}</h2><p>${t.properties.place}</p><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${registro(t.properties.time)}</a></p></article>`
                         );
+                            }
+
                     });
                 }); // cierro $.getJSON((){});
             }); //cierro $(function(){});
