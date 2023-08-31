@@ -30,10 +30,10 @@
             $(function () {
                 $.getJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/curso.json", function (data) {
                     console.log(data);
-                    data.forEach((s,i) => {
+                    data.forEach(s => {
                         if(s.github !== ""){
                         $("section").append(
-                            `<article><h3>${s.nombres.split(' ')[0]} ${s.apellidos.split(' ')[0]}</h3><p><a href="${s.github}" target="_blank">${s.github.split('/')[3]}</a></p></article>`
+                            `<article><div><img src="${s.avatar}"></div><div><p>${s.nombres.split(' ')[0]} ${s.apellidos.split(' ')[0]}</p><p><a href="${s.github}" target="_blank">${s.github.split('/')[3]}</a></p></div></article>`
                         );
                     }});
                 }); // cierro $.getJSON((){});
