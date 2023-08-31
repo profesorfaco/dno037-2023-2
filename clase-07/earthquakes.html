@@ -3,15 +3,18 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--nuevamente el CSS está minimizado-->
         <link rel="stylesheet" href="style.css" />
-        <title>DNO037</title>
     </head>
     <body>
         <header>
             <h1><a href="index.html">Nombre Apellido</a></h1>
-            <a href="earthquakes.html" style="text-decoration: line-through;">M4.5+ EARTHQUAKES</a>
-            <a href="weather.html">OPEN WEATHER</a>
-            <a href="students.html">STUDENTS</a>
+            <select onchange="location = this.value;">
+                <option value="index.html">PORTADA</option>
+                <option value="earthquakes.html" selected>M4.5+ EARTHQUAKES</option>
+                <option value="students.html">STUDENTS</option>
+                <option value="weather.html">WEATHER</option>
+            </select>
         </header>
         <main>
             <section></section>
@@ -45,16 +48,6 @@
                         $("section").append(
                             `${articuloTipo}<h2>${t.properties.mag.toFixed(1)}</h2><p>${t.properties.place}</p><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${registro(t.properties.time)}</a></p></article>`
                         );
-                    });
-                    //algo más para interactuar con el menú
-                    var valor;
-                    $("#opciones").change(function () {
-                        valor = $("select").val();
-                        if (valor == "Chile") {
-                            $(".etc").hide();
-                        } else {
-                            $(".cl, .etc").show();
-                        }
                     });
                 }); // cierro $.getJSON((){});
             }); //cierro $(function(){});

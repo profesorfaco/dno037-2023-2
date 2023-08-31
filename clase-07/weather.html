@@ -3,15 +3,18 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--nuevamente el CSS está minimizado-->
         <link rel="stylesheet" href="style.css" />
-        <title>DNO037</title>
     </head>
     <body>
         <header>
             <h1><a href="index.html">Nombre Apellido</a></h1>
-            <a href="earthquakes.html">M4.5+ EARTHQUAKES</a>
-            <a href="weather.html" style="text-decoration: line-through;">OPEN WEATHER</a>
-            <a href="students.html">STUDENTS</a>
+            <select onchange="location = this.value;">
+                <option value="index.html">PORTADA</option>
+                <option value="earthquakes.html">M4.5+ EARTHQUAKES</option>
+                <option value="students.html">STUDENTS</option>
+                <option value="weather.html" selected>WEATHER</option>
+            </select>
         </header>
         <main>
             <div class="centrado">
@@ -42,7 +45,7 @@
             cities().catch((error) => console.error(error));
             //creando la función weather
             async function weather(ciudad) {
-                const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid={ApiKey}&lang=es");
+                const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid=1825fa58c8caa96d475b73102c1dc050&lang=es");
                 const tiempo = await segundo.json();
                 console.log(tiempo);
                 respuesta.innerHTML = `<div><img src="https://openweathermap.org/img/wn/${tiempo.weather[0].icon}.png"></div><div>Temperatura: <strong>${tiempo.main.temp}</strong> ºC</div><div>Humedad: <strong>${tiempo.main.humidity}</strong>%&nbsp;&nbsp;</div>`;

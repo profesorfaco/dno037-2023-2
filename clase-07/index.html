@@ -4,14 +4,16 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="style.css" />
-        <title>DNO037</title>
     </head>
     <body>
         <header>
             <h1><a href="index.html">Nombre Apellido</a></h1>
-            <a href="earthquakes.html">M4.5+ EARTHQUAKES</a>
-            <a href="weather.html">OPEN WEATHER</a>
-            <a href="students.html">STUDENTS</a>
+            <select onchange="location = this.value;">
+                <option value="index.html" selected>PORTADA</option>
+                <option value="earthquakes.html">M4.5+ EARTHQUAKES</option>
+                <option value="students.html">STUDENTS</option>
+                <option value="weather.html">WEATHER</option>
+            </select>
         </header>
         <main>
             <div class="intro">
