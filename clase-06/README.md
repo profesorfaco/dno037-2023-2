@@ -109,6 +109,7 @@ Una vez haga funcionar la App, corresponde tener a mano:
 - el [método `addEventListener()`](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
 - la guía de la API de [*Current weather data*](https://openweathermap.org/weather-conditions)
 - el listado de [todas las ciudades para las que habría *data*](http://bulk.openweathermap.org/sample/)
+- para cuidar el contraste: https://colourcontrast.cc/ffffff/000000
 
 La práctica se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), su versión ajustada del sitio web contenido en esta carpeta de repositorio.
 
