@@ -11,12 +11,13 @@
             <h1><a href="index.html">Nombre Apellido</a></h1>
             <select onchange="location = this.value;">
                 <option value="index.html">PORTADA</option>
-                <option value="earthquakes.html">M4.5+ EARTHQUAKES</option>
+                <option value="earthquakes.html">M2.5+ EARTHQUAKES</option>
                 <option value="students.html" selected>STUDENTS</option>
                 <option value="weather.html">WEATHER</option>
             </select>
         </nav>
         <header id="app" style="display:none;">
+            <div>Marque uno:</div>
             <div><input type="radio" name="selecciona" value="aire" />Aire</div>
             <div><input type="radio" name="selecciona" value="agua" />Agua</div>
             <div><input type="radio" name="selecciona" value="fuego" />Fuego</div>
@@ -48,18 +49,20 @@
                 respuesta.innerHTML = ``;
                 detalles.innerHTML = ``;
 
+                //Lo que sigue lo saqué de https://www.clara.es/
+
                 if (valor == "fuego") {
                     about =
-                        "<em>Con signo de fuego (Aries, Leo y Sagitario)</em>: Amantes del deseo y de los nuevos comienzos. Además, la astrología dice que son personas muy entusiastas y confiables, lo que lo convertiría en personas que siguen su intuición. De igual manera, son arriesgados y muy apasionados.";
+                        "<em>Con signo de fuego (Aries, Leo y Sagitario)</em>: Tienen una forma muy particular de desenvolverse en ambientes laborales. Son individualistas y confían mucho en sus capacidades, lo que en ocasiones puede llegar a hacerlos ver algo arrogantes. Sin embargo, tienen una gran capacidad de motivar a los demás, un instinto infalible y no descansan hasta alcanzar sus objetivos. Si un signo de fuego no se ha hecho aún con el liderazgo en su entorno laboral, pronto se hará con él, puesto que es su posición natural en el zodiaco.";
                 } else if (valor == "agua") {
                     about =
-                        "<em>Con signo de agua (Cáncer, Escorpio y Piscis)</em>: Lo suyo son las emociones, pues como el agua es transmisora de energía, igualmente se considera así para las conexiones psíquicas, como la intuición. Además, representaría la claridad, sin embargo, cuando se agobian hacen una tormenta en un vaso de agua.";
+                        "<em>Con signo de agua (Cáncer, Escorpio y Piscis)</em>: Pueden pasar desapercibidos en el trabajo, pero son esenciales para que todo salga adelante. Son grandes compañeros y se concentran en potenciar las habilidades de los demás. Son muy responsables y trabajadores, aunque a veces pueden llegar a ser muy exigentes consigo mismos. Además, se adaptan con mucha facilidad a los cambios, consiguiendo estar siempre como pez en el agua.";
                 } else if (valor == "aire") {
                     about =
-                        "<em>Con signo de aire (Géminis, Libra y Acuario)</em>: Racionales e intelectuales y, además, poseerían habilidades comunicativas. Se les considera desde su carta como versátiles, curiosos y con gran sentido del humor. De igual manera, serían personas muy vitales.";
+                        "<em>Con signo de aire (Géminis, Libra y Acuario)</em>: Son idealistas por naturaleza. Aportan gran entusiasmo y dedicación a aquello que les interesa, aportando ideas renovadoras que pueden cambiar un puesto de trabajo. Son sociables y muy buenos compañeros, pero algo volátiles. Y es que el punto flojo de los signos de aire es que les cuesta ser constante, lo que les complica terminar los proyectos que empiezan.";
                 } else {
                     about =
-                        "<em>Con signo de tierra (Tauro, Virgo, Capricornio)</em>: Son el enraizamiento y la abundancia. Representarían además la practicidad, la organización y la ambición. Son amantes de la rutina, la limpieza y la agenda. Son personas que les encanta las estrategias, ya que necesitarían sentir estabilidad.";
+                        "<em>Con signo de tierra (Tauro, Virgo, Capricornio)</em>: Son los que más cerca pueden estar de ser adictos al trabajo. Al igual que en otros aspectos de su vida, son prácticos y entregados, pudiendo llegar a ser especialmente exigentes consigo mismo. Dado que son signos particularmente materialistas y terrenales, para los que nacen bajo el elemento de tierra es muy importante mantener una buena posición laboral, y necesitan sentir que sus esfuerzos se ven recompensados de manera tangible.";
                 }
 
 

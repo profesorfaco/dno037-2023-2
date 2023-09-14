@@ -14,36 +14,40 @@ body {
 
 h1,h2,h3,h4,h5,h6{ font-size:1rem; font-weight: 400;}
 
-a{ color:rgba(92,98,120,.75); }
+a{ color:rgba(100,100,100,.75); }
 
-a:is(:hover, :focus){ color:rgba(92,98,120,1); text-decoration: none;}
+a:is(:hover, :focus){ color:rgba(100,100,100,1); text-decoration: none;}
 
 p{line-height: 1.1; margin:0; padding:0;}
 
 nav, footer {
     width: 89vw;
     padding: 0 5.5vw;
-    height: 12vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+nav {
+    min-height: 10vh;
+}
+
 footer{
+    min-height: 8vh;
     position: fixed;
     bottom:0;
     left:0;
 }
 
 nav h1 a{
-    font-size:120%;
+    font-size:140%;
     text-decoration: none;
+    line-height: 1;
 }
 
 nav select{
-    margin-top:.25rem;
     font-size:.8rem;
-    padding:.25rem 1rem .25rem  .25rem;
+    padding:.35rem 1.4rem .35rem .7rem;
     color: #777;
     background:#f7fafc;
     border:none;
@@ -52,33 +56,43 @@ nav select{
     letter-spacing: 0.05rem;
 }
 
-
 footer a{
     text-decoration: none;
 }
 
 header{
-    width: min(89vw, 400px);
-    padding: 0 5.5vw;
+    width: min(89vw, 450px);
+    height: auto;
+    padding: 3.4vh 5.5vw;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }
-
 
 header input[name=ciudad]{
     width:calc(100% - .5rem);
     padding:.25rem;
 }
 
+
+header input[type=radio]{
+    margin-right: .25rem;
+}
+
 aside{
     width: 89vw;
-    padding: 3vh 5.5vw;
+    padding: 0 5.5vw;
+}
+
+aside:empty{
+    display:none;
 }
 
 aside p{
     font-size:calc(1rem + .5vw);
     line-height: 1.38;
     color:#959ca2;
+    margin-bottom: 2rem;
 }
 
 main{
@@ -97,7 +111,12 @@ section {
 blockquote{
     margin:0 .25rem;
     font-size:calc(2rem + 2vw);
-    font-weight: 300;
+    width:98%;
+    padding:0 1%;
+}
+
+blockquote span{
+    font-weight: bold;
 }
 
 section div{
@@ -170,6 +189,3 @@ em{
     font-style: normal;
 }
 
-input{
-    margin-right: 1vw;
-}

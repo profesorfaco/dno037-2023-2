@@ -11,7 +11,7 @@
             <h1><a href="index.html">Nombre Apellido</a></h1>
             <select onchange="location = this.value;">
                 <option value="index.html">PORTADA</option>
-                <option value="earthquakes.html">M4.5+ EARTHQUAKES</option>
+                <option value="earthquakes.html">M2.5+ EARTHQUAKES</option>
                 <option value="students.html">STUDENTS</option>
                 <option value="weather.html" selected>WEATHER</option>
             </select>
@@ -20,9 +20,8 @@
             <input list="ciudades" name="ciudad" placeholder="Escriba el nombre de una ciudad…" >
             <datalist id="ciudades"></datalist>
         </header>
-        <aside id="about"></aside>
-        <main>
-            <section id="resultado"></section>
+        <main style="min-height: 62vh;">
+            <blockquote style="display:none">La temperatura en <span id="lugar"></span> es de <span id="temperatura"></span></blockquote>
         </main>
         <footer>
             <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
@@ -32,7 +31,9 @@
         <script>
             const input = document.querySelector("input");
             const llenado = document.querySelector("#ciudades");
-            const respuesta = document.querySelector("#resultado");
+            const respuesta = document.querySelector("blockquote")
+            const lugar = document.querySelector("#lugar");
+            const temperatura = document.querySelector("#temperatura");
             //creando la función cities
             async function cities() {
                 const primero = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/ciudades.json");
@@ -42,10 +43,14 @@
             }
             cities().catch((error) => console.error(error));
             async function weather(ciudad) {
-                const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid=SUAPIKEY&lang=es");
+                const key = "9b4a5fa672170dc5e4480283a4469256";
+                const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid=" + key + "&lang=es");
                 const tiempo = await segundo.json();
                 console.log(tiempo);
-                respuesta.innerHTML = `${tiempo.main.temp}ºC`;
+                respuesta.removeAttribute("style");
+                lugar.innerHTML = tiempo.name;
+                temperatura.innerHTML = tiempo.main.temp + "ºC";
+                //Use las latitudes en https://es.wikipedia.org/wiki/Regiones_naturales_de_Chile#Zonas
             }
             input.addEventListener("change", function (event) {
                 let valor = input.value;

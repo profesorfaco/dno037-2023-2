@@ -11,11 +11,12 @@
             <h1><a href="index.html">Nombre Apellido</a></h1>
             <select onchange="location = this.value;">
                 <option value="index.html">PORTADA</option>
-                <option value="earthquakes.html" selected>M4.5+ EARTHQUAKES</option>
+                <option value="earthquakes.html" selected>M2.5+ EARTHQUAKES</option>
                 <option value="students.html">STUDENTS</option>
                 <option value="weather.html">WEATHER</option>
             </select>
         </nav>
+        <header>Sólo Chile, registrados por la USGS en el último mes.</header>
         <main>
             <section></section>
         </main>
@@ -47,18 +48,19 @@
                         }
                     });
 
-                    reportWindowSize();
+                    ajustaFooter();
                 }); // cierro $.getJSON((){});
             }); //cierro $(function(){});
 
-            function reportWindowSize() {
+            function ajustaFooter() {
                 var dato = document.querySelector("main").clientHeight;
                 console.log(dato);
                 if (dato > window.innerWidth) {
                     document.querySelector("footer").style.position = "relative";
+                    document.querySelector("footer").style.marginTop = "1rem";
                 }
             }
-            window.onresize = reportWindowSize;
+            window.onresize = ajustaFooter;
         </script>
     </body>
 </html>
