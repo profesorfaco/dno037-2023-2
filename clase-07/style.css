@@ -20,6 +20,8 @@ a:is(:hover, :focus){ color:rgba(100,100,100,1); text-decoration: none;}
 
 p{line-height: 1.1; margin:0; padding:0;}
 
+em{font-weight: bold; font-style: normal}
+
 nav, footer {
     width: 89vw;
     padding: 0 5.5vw;
@@ -70,8 +72,15 @@ header{
 }
 
 header input[name=ciudad]{
-    width:calc(100% - .5rem);
+    width:calc(80% - .5rem);
     padding:.25rem;
+    margin:0;
+}
+
+header input[type=button]{
+    width:calc(20% - .5rem);
+    padding:.25rem;
+    margin:0;    
 }
 
 
@@ -89,7 +98,7 @@ aside:empty{
 }
 
 aside p{
-    font-size:calc(1rem + .5vw);
+    font-size:calc(1rem + .38vw);
     line-height: 1.38;
     color:#959ca2;
     margin-bottom: 2rem;
@@ -110,7 +119,7 @@ section {
 
 blockquote{
     margin:0 .25rem;
-    font-size:calc(2rem + 2vw);
+    font-size:calc(1.62rem + 1.62vw);
     width:98%;
     padding:0 1%;
 }
@@ -173,19 +182,3 @@ article div:first-child img{
     border-radius: 50%;
     border:1px solid #eee;
 }
-
-
-div#weather {
-    display:flex;
-    flex-direction: column;
-    padding: 1rem rem 0;
-    background: #fff;
-    border-radius: 0.8rem;
-    box-shadow: inset 0 0 1px #eceff1, 0 2px 2px #cfd8dc;
-}
-
-em{
-    font-weight: 700;
-    font-style: normal;
-}
-

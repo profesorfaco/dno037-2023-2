@@ -17,8 +17,9 @@
             </select>
         </nav>
         <header id="app">
-            <input list="ciudades" name="ciudad" placeholder="Escriba el nombre de una ciudad…" >
+            <input list="ciudades" name="ciudad" placeholder="Escriba el nombre de una ciudad chilena…" >
             <datalist id="ciudades"></datalist>
+            <input type="button" onclick="consulta()" value="Ver">
         </header>
         <main style="min-height: 62vh;">
             <blockquote style="display:none">La temperatura en <span id="lugar"></span> es de <span id="temperatura"></span></blockquote>
@@ -49,14 +50,19 @@
                 console.log(tiempo);
                 respuesta.removeAttribute("style");
                 lugar.innerHTML = tiempo.name;
-                temperatura.innerHTML = tiempo.main.temp + "ºC";
+                temperatura.innerHTML = Math.round(tiempo.main.temp) + "ºC";
                 //Use las latitudes en https://es.wikipedia.org/wiki/Regiones_naturales_de_Chile#Zonas
             }
-            input.addEventListener("change", function (event) {
+            function consulta() {
                 let valor = input.value;
                 console.log(valor);
-                weather(valor).catch((error) => console.error(error));
-            });
+                if (valor !== ""){
+                    input.style.background = "#fff";
+                    weather(valor).catch((error) => console.error(error))
+                } else {
+                    input.style.background = "#ffc";
+                }
+            };
         </script>
     </body>
 </html>

@@ -75,6 +75,7 @@
                             }</a></p></div></article>`;
                         }
                     });
+                ajustaFooter();
             }
 
             const seleccionado = document.querySelectorAll('input[name="selecciona"]');
@@ -86,6 +87,17 @@
                     compatibilidad(valor);
                 });
             });
+
+            function ajustaFooter() {
+                var dato = document.querySelector("main").clientHeight;
+                console.log(dato);
+                if (dato > window.innerWidth) {
+                    document.querySelector("footer").style.position = "relative";
+                    document.querySelector("footer").style.marginTop = "1rem";
+                }
+            }
+            window.onresize = ajustaFooter;
+
         </script>
     </body>
 </html>
