@@ -65,7 +65,7 @@ header{
 }
 
 
-header input{
+header input[type=text]{
     width:calc(100% - .5rem);
     padding:.25rem;
 }
