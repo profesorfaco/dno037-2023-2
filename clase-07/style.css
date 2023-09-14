@@ -65,7 +65,7 @@ header{
 }
 
 
-header input[type=text]{
+header input[name=ciudad]{
     width:calc(100% - .5rem);
     padding:.25rem;
 }
