@@ -66,7 +66,7 @@
                     detalles.innerHTML += `<div><p>${about}</p></div>`;
                     
                     datos.forEach((z) => {
-                        if (valor == z.horoscopo.elemento) {
+                        if (valor == z.zodiaco.elemento) {
                             respuesta.innerHTML += `<article><div><img src="${z.avatar}"></div><div><p>${z.nombres.split(" ")[0]} ${z.apellidos.split(" ")[0]}</p><p><a href="${z.github}" target="_blank">${
                                 z.github.split("/")[3]
                             }</a></p></div></article>`;
