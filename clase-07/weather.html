@@ -35,12 +35,16 @@
             const respuesta = document.querySelector("blockquote")
             const lugar = document.querySelector("#lugar");
             const temperatura = document.querySelector("#temperatura");
+            var listaCiudades = [];
             //creando la función cities
             async function cities() {
                 const primero = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/ciudades.json");
                 const ciudades = await primero.json();
                 console.log(ciudades);
-                ciudades.forEach((c) => (llenado.innerHTML += `<option value="${c.name}">`));
+                ciudades.forEach((c) => {
+                        llenado.innerHTML += `<option value="${c.name}">`;
+                        listaCiudades.push(c.name);
+                });
             }
             cities().catch((error) => console.error(error));
             async function weather(ciudad) {
@@ -56,7 +60,7 @@
             function consulta() {
                 let valor = input.value;
                 console.log(valor);
-                if (valor !== ""){
+                if (valor !== "" && listaCiudades.includes(valor)){
                     input.style.background = "#fff";
                     weather(valor).catch((error) => console.error(error))
                 } else {
