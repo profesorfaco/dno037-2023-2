@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap');
-
 *,*:after,*:before { margin: 0; padding: 0; }
 
+html, body{
+    min-height: 100%;
+}
+
 body {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #737a80;
     background: linear-gradient(#eceff1, #cfd8dc);
@@ -18,7 +20,7 @@ a:is(:hover, :focus){ color:rgba(92,98,120,1); text-decoration: none;}
 
 p{line-height: 1.1; margin:0; padding:0;}
 
-header, footer {
+nav, footer {
     width: 89vw;
     padding: 0 5.5vw;
     height: 12vh;
@@ -27,12 +29,18 @@ header, footer {
     align-items: center;
 }
 
-header h1 a{
+footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+
+nav h1 a{
     font-size:120%;
     text-decoration: none;
 }
 
-header select{
+nav select{
     margin-top:.25rem;
     font-size:.8rem;
     padding:.25rem 1rem .25rem  .25rem;
@@ -49,11 +57,27 @@ footer a{
     text-decoration: none;
 }
 
+header{
+    width: min(89vw, 400px);
+    padding: 0 5.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside{
+    width: 89vw;
+    padding: 3vh 5.5vw;
+}
+
+aside p{
+    font-size:calc(1rem + .5vw);
+    line-height: 1.38;
+    color:#959ca2;
+}
 
 main{
     width:91vw;
     padding: 0 4.5vw;
-    min-height: 76vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,13 +86,16 @@ main{
 section {
   display: flex;
   flex-wrap: wrap;
-  min-height: 60vh;
 }
 
 blockquote{
     margin:0 .25rem;
     font-size:calc(2rem + 2vw);
     font-weight: 300;
+}
+
+section div{
+    padding:.5rem;
 }
 
 article {
@@ -130,4 +157,13 @@ div#weather {
     background: #fff;
     border-radius: 0.8rem;
     box-shadow: inset 0 0 1px #eceff1, 0 2px 2px #cfd8dc;
+}
+
+em{
+    font-weight: 700;
+    font-style: normal;
+}
+
+input{
+    margin-right: 1vw;
 }

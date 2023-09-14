@@ -7,7 +7,7 @@
         <title>DNOO37</title>
     </head>
     <body>
-        <header>
+        <nav>
             <h1><a href="index.html">Nombre Apellido</a></h1>
             <select onchange="location = this.value;">
                 <option value="index.html">PORTADA</option>
@@ -15,29 +15,74 @@
                 <option value="students.html" selected>STUDENTS</option>
                 <option value="weather.html">WEATHER</option>
             </select>
+        </nav>
+        <header id="app" style="display:none;">
+            <div><input type="radio" name="selecciona" value="aire" />Aire</div>
+            <div><input type="radio" name="selecciona" value="agua" />Agua</div>
+            <div><input type="radio" name="selecciona" value="fuego" />Fuego</div>
+            <div><input type="radio" name="selecciona" value="tierra" />Tierra</div>
         </header>
+        <aside id="about"></aside>
         <main>
-            <section></section>
+            <section id="resultado"></section>
         </main>
         <footer>
-            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a> 
+            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
             <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
         </footer>
 
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-        <!--Y ahora podemos usarlo-->
+        <!--esto es sin bibliotecas-->
         <script>
-            $(function () {
-                $.getJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/curso.json", function (data) {
-                    console.log(data);
-                    data.forEach(s => {
-                        if(s.github !== ""){
-                        $("section").append(
-                            `<article><div><img src="${s.avatar}"></div><div><p>${s.nombres.split(' ')[0]} ${s.apellidos.split(' ')[0]}</p><p><a href="${s.github}" target="_blank">${s.github.split('/')[3]}</a></p></div></article>`
-                        );
-                    }});
-                }); // cierro $.getJSON((){});
-            }); //cierro $(function(){});
+            const alternativas = document.querySelector("#app");
+            const detalles = document.querySelector("#about");
+            const respuesta = document.querySelector("#resultado");
+            var datos;
+            async function estudiantes() {
+                const data = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/curso.json");
+                datos = await data.json();
+                alternativas.removeAttribute("style");  
+            }
+            estudiantes().catch((error) => console.error(error));
+
+            function compatibilidad(valor) {
+                respuesta.innerHTML = ``;
+                detalles.innerHTML = ``;
+
+                if (valor == "fuego") {
+                    about =
+                        "<em>Con signo de fuego (Aries, Leo y Sagitario)</em>: Amantes del deseo y de los nuevos comienzos. Además, la astrología dice que son personas muy entusiastas y confiables, lo que lo convertiría en personas que siguen su intuición. De igual manera, son arriesgados y muy apasionados. Siguen su esencia y su picardía siempre estaría presente.";
+                } else if (valor == "agua") {
+                    about =
+                        "<em>Con signo de agua (Cáncer, Escorpio y Piscis)</em>: Lo suyo son las emociones, pues como el agua es transmisora de energía, igualmente se considera así para las conexiones psíquicas, como la intuición. Además, representaría la claridad, sin embargo, cuando los signos de agua se agobian, podrían hacer una tormenta en un vaso de agua, según la astrología.";
+                } else if (valor == "aire") {
+                    about =
+                        "<em>Con signo de aire (Géminis, Libra y Acuario)</em>: Racionales e intelectuales y, además, poseerían habilidades comunicativas. Se les considera desde su carta como versátiles , curiosos y con gran sentido del humor. De igual manera, serían personas muy vitales.";
+                } else {
+                    about =
+                        "<em>Con signo de tierra (Tauro, Virgo, Capricornio)</em>: Son el enraizamiento y la abundancia. Representarían además la practicidad, la organización y la ambición. Son amantes de la rutina, la limpieza y la agenda. Son personas que les encanta las estrategias, ya que necesitarían sentir estabilidad.";
+                }
+
+
+                    detalles.innerHTML += `<div><p>${about}</p></div>`;
+                    
+                    datos.forEach((z) => {
+                        if (valor == z.horoscopo.elemento) {
+                            respuesta.innerHTML += `<article><div><img src="${z.avatar}"></div><div><p>${z.nombres.split(" ")[0]} ${z.apellidos.split(" ")[0]}</p><p><a href="${z.github}" target="_blank">${
+                                z.github.split("/")[3]
+                            }</a></p></div></article>`;
+                        }
+                    });
+            }
+
+            const seleccionado = document.querySelectorAll('input[name="selecciona"]');
+
+            seleccionado.forEach((i) => {
+                i.addEventListener("change", function () {
+                    var valor = this.value;
+                    console.log(valor);
+                    compatibilidad(valor);
+                });
+            });
         </script>
     </body>
 </html>
