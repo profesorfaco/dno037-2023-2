@@ -20,7 +20,7 @@
             <section></section>
         </main>
         <footer>
-            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a> 
+            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
             <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
         </footer>
 
@@ -33,24 +33,32 @@
                     //una pequeña función para convertir un dato de más abajo
                     function registro(unix_timestamp) {
                         var date = new Date(unix_timestamp);
-                        return `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()} a las ${(date.getHours()<10?'0':'') + date.getHours()}:${(date.getMinutes()<10?'0':'') + date.getMinutes()} hrs.`;
+                        return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()} a las ${(date.getHours() < 10 ? "0" : "") + date.getHours()}:${(date.getMinutes() < 10 ? "0" : "") + date.getMinutes()} hrs.`;
                     }
-
-
-
 
                     //un forEach para construir cada t
                     data.features.forEach(function (t, i) {
-                            if(t.properties.place.includes("Chile")){
-
-                        $("section").append(
-                            `<article><div><h3>${t.properties.mag.toFixed(1)}</h3></div><div><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${t.properties.place}</a> - ${registro(t.properties.time)}</p></div></article>`
-                        );
-                            }
-
+                        if (t.properties.place.includes("Chile")) {
+                            $("section").append(
+                                `<article><div><h3>${t.properties.mag.toFixed(1)}</h3></div><div><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${t.properties.place}</a> - ${registro(
+                                    t.properties.time
+                                )}</p></div></article>`
+                            );
+                        }
                     });
+
+                    reportWindowSize();
                 }); // cierro $.getJSON((){});
             }); //cierro $(function(){});
+
+            function reportWindowSize() {
+                var dato = document.querySelector("main").clientHeight;
+                console.log(dato);
+                if (dato > window.innerWidth) {
+                    document.querySelector("footer").style.position = "relative";
+                }
+            }
+            window.onresize = reportWindowSize;
         </script>
     </body>
 </html>
