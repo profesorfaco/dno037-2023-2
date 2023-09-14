@@ -64,6 +64,12 @@ header{
     justify-content: space-between;
 }
 
+
+header input{
+    width:calc(100% - .5rem);
+    padding:.25rem;
+}
+
 aside{
     width: 89vw;
     padding: 3vh 5.5vw;

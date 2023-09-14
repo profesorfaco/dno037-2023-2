@@ -16,40 +16,40 @@
                 <option value="weather.html" selected>WEATHER</option>
             </select>
         </nav>
+        <header id="app">
+            <input list="ciudades" name="ciudad" placeholder="Escriba el nombre de una ciudad…" >
+            <datalist id="ciudades"></datalist>
+        </header>
+        <aside id="about"></aside>
         <main>
-            <section>
-                <blockquote>Pendiente…</blockquote>
-            </section>
+            <section id="resultado"></section>
         </main>
         <footer>
-            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a> 
+            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
             <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
         </footer>
         <!--esto es sin bibliotecas-->
         <script>
-            const seleccionado = document.querySelector("#selector");
+            const input = document.querySelector("input");
+            const llenado = document.querySelector("#ciudades");
             const respuesta = document.querySelector("#resultado");
             //creando la función cities
             async function cities() {
-                seleccionado.disabled = false;
-                const primero = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-06/ciudades.json");
+                const primero = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/ciudades.json");
                 const ciudades = await primero.json();
                 console.log(ciudades);
-                ciudades.forEach((c) => (seleccionado.innerHTML += `<option>${c.name}</option>`));
+                ciudades.forEach((c) => (llenado.innerHTML += `<option value="${c.name}">`));
             }
-            //iniciando la función cities
             cities().catch((error) => console.error(error));
-            //creando la función weather
             async function weather(ciudad) {
-                const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid={PonerAquiApiKey}}&lang=es");
+                const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid=SUAPIKEY&lang=es");
                 const tiempo = await segundo.json();
                 console.log(tiempo);
-                respuesta.innerHTML = `<div><img src="https://openweathermap.org/img/wn/${tiempo.weather[0].icon}.png"></div><div>Temperatura: <strong>${tiempo.main.temp}</strong> ºC</div><div>Humedad: <strong>${tiempo.main.humidity}</strong>%&nbsp;&nbsp;</div>`;
+                respuesta.innerHTML = `${tiempo.main.temp}ºC`;
             }
-            seleccionado.addEventListener("change", function (event) {
-                let valor = seleccionado.value;
+            input.addEventListener("change", function (event) {
+                let valor = input.value;
                 console.log(valor);
-                //iniciando la función weather
                 weather(valor).catch((error) => console.error(error));
             });
         </script>
