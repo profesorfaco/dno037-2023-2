@@ -57,7 +57,7 @@ Considerando los días **miércoles** entre 9 de agosto y 29 de noviembre, resul
 
 [Clase 05 → 06/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-05) → HTML5 + CSS3 + otras bibliotecas de JS ✓
 
-[Clase 06 → 13/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-06) → HTML5 + CSS3 + JS sin bibliotecas
+[Clase 06 → 13/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-06) → HTML5 + CSS3 + JS sin bibliotecas ✓
 
 [Clase 07 → 20/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07) → HTML5 + CSS3 + JS sin bibliotecas
 
