@@ -128,11 +128,37 @@ blockquote span{
     font-weight: bold;
 }
 
-section div{
+
+main div#form, main div#stringify{
+    background:rgba(255,255,255,.9);
+    margin:.25rem;
+    padding:1rem;
+    border-radius: .4rem;
+    box-shadow: inset 0 0 1px #eceff1, 0 2px 2px #cfd8dc;
+    width:45.5vw;
+    align-self:start;
+}
+
+main div#form input, main div#form select, main div#form textarea{
+    width:calc(100% - 0.5rem);
+    padding:.25rem;
+    margin:.5rem 0;
+}
+
+main div#form textarea{
+    height:10vh;
+}
+
+pre {
+ white-space: pre-wrap;
+ word-wrap: break-word;
+}
+
+section article div{
     padding:.5rem;
 }
 
-article {
+section article {
     background:rgba(255,255,255,.9);
     margin:.25rem;
     border-radius: .4rem;
@@ -140,23 +166,25 @@ article {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-basis: calc(100% - .5rem);    
+    flex-basis: calc(50% - .5rem);    
 }
 
+
+
 @media (min-width: 550px) { 
-    article { 
+    section article { 
         flex-basis: calc(50% - .5rem); 
     }
 }
 
 @media (min-width: 775px) { 
-    article { 
+    section article { 
         flex-basis: calc(33.3% - .5rem); 
     }
 }
 
 @media (min-width: 1000px) { 
-    article { 
+    section article { 
         flex-basis: calc(25% - .5rem); 
     }
 }

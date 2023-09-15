@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <title>DNOO37</title>
+    </head>
+    <body>
+        <nav>
+            <h1><a href="index.html">Nombre Apellido</a></h1>
+            <select onchange="location = this.value;">
+                <option value="index.html">PORTADA</option>
+                <option value="earthquakes.html">M2.5+ EARTHQUAKES</option>
+                <option value="students.html">STUDENTS</option>
+                <option value="weather.html">WEATHER</option>
+                <option value="extra.html" selected>EXTRA</option>
+            </select>
+        </nav>
+        <main>
+            <div id="form">
+                <form id="datos">
+                    <label for="nombres">Nombre(s):</label><br />
+                    <input type="text" name="nombres" /><br />
+                    <label for="apellidos">Apellidos:</label><br />
+                    <input type="text" name="apellidos" /><br />
+                    <label for="github">User de Github:</label><br />
+                    <input type="text" name="github" /><br />
+                    <label for="signo">Signo Zodiacal:</label><br />
+                    <select name="signo">
+                        <option>Escoge…</option>
+                        <option>Aries</option>
+                        <option>Tauro</option>
+                        <option>Géminis</option>
+                        <option>Cáncer</option>
+                        <option>Leo</option>
+                        <option>Virgo</option>
+                        <option>Libra</option>
+                        <option>Escorpio</option>
+                        <option>Sagitario</option>
+                        <option>Capricornio</option>
+                        <option>Acuario</option>
+                        <option>Piscis</option>
+                    </select>
+                    <br />
+                    <label for="razon">Razón por la que sigues en el OPR:</label><br />
+                    <textarea name="razon"></textarea><br />
+                    <input type="submit" value="Submit" />
+                </form>
+            </div>
+            <div id="stringify">
+                <pre id="output">{…}</pre>
+            </div>
+        </main>
+        <footer>
+            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
+            <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
+        </footer>
+        <!--esto es sin bibliotecas-->
+        <script>
+            document.getElementById("datos").addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                let nombres = document.querySelector('input[name="nombres"]').value;
+                let apellidos = document.querySelector('input[name="apellidos"]').value;
+                let github = document.querySelector('input[name="github"]').value;
+                let signo = document.querySelector('select[name="signo"]').value;
+                let motivo = document.querySelector("textarea").value;
+
+                var data = { apellidos: "", nombres: "", github:"",avatar:"", zodiaco: { signo: "", elemento: "", modalidad: "" }, motivo: "" };
+
+                data.apellidos = apellidos.toUpperCase();
+                data.nombres = nombres.toUpperCase();
+                data.github = "https://github.com/"+github;
+                data.avatar = "https://github.com/"+github+".png?size=200";                
+                data.zodiaco.signo = signo;
+                data.motivo = motivo;
+
+                //más información
+
+                var zodiacales = {
+                    aire: ["Géminis", "Libra", "Acuario"],
+                    agua: ["Cáncer", "Escorpio", "Piscis"],
+                    fuego: ["Aries", "Leo", "Sagitario"],
+                    tierra: ["Tauro", "Virgo", "Capricornio"],
+                    cardinales: ["Aries", "Cáncer", "Libra", "Capricornio"],
+                    fijos: ["Tauro", "Leo", "Escorpio", "Acuario"],
+                    mutables: ["Géminis", "Virgo", "Sagitario", "Piscis"],
+                };
+
+                //agrego su elemento
+
+                if (zodiacales.aire.includes(signo)) {
+                    data.zodiaco.elemento = "aire";
+                }
+
+                if (zodiacales.agua.includes(signo)) {
+                    data.zodiaco.elemento = "agua";
+                }
+
+                if (zodiacales.fuego.includes(signo)) {
+                    data.zodiaco.elemento = "fuego";
+                }
+
+                if (zodiacales.tierra.includes(signo)) {
+                    data.zodiaco.elemento = "tierra";
+                }
+
+                //agrego su modalidad
+
+                if (zodiacales.cardinales.includes(signo)) {
+                    data.zodiaco.modalidad = "cardinales";
+                }
+
+                if (zodiacales.fijos.includes(signo)) {
+                    data.zodiaco.modalidad = "fijos";
+                }
+
+                if (zodiacales.mutables.includes(signo)) {
+                    data.zodiaco.modalidad = "mutables";
+                }
+
+                document.querySelector("#output").innerHTML = JSON.stringify(data, undefined, 2);
+            });
+        </script>
+    </body>
+</html>
