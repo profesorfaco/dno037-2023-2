@@ -11,13 +11,15 @@
             <h1><a href="index.html">Nombre Apellido</a></h1>
             <select onchange="location = this.value;">
                 <option value="index.html">PORTADA</option>
-                <option value="earthquakes.html" selected>M2.5+ EARTHQUAKES</option>
+                <option value="earthquakes.html" selected>M4.0+ EARTHQUAKES</option>
                 <option value="students.html">STUDENTS</option>
                 <option value="weather.html">WEATHER</option>
                 <option value="extra.html">EXTRA</option>
             </select>
         </nav>
-        <header><p>Sólo Chile, <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_blank" rel="noreferrer noopener">registrados por la USGS</a> en el último mes.</p></header>
+        <header>
+            <p>Sólo Chile, <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_blank" rel="noreferrer noopener">registrados por la USGS</a> en el último mes.</p>
+        </header>
         <main>
             <section></section>
         </main>
@@ -25,33 +27,31 @@
             <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
             <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
         </footer>
-
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-        <!--Y ahora podemos usarlo-->
         <script>
-            $(function () {
-                $.getJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.geojson", function (data) {
-                    console.log(data);
-                    //una pequeña función para convertir un dato de más abajo
-                    function registro(unix_timestamp) {
-                        var date = new Date(unix_timestamp);
-                        return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()} a las ${(date.getHours() < 10 ? "0" : "") + date.getHours()}:${(date.getMinutes() < 10 ? "0" : "") + date.getMinutes()} hrs.`;
+            const seccion = document.querySelector("section");
+
+            // Una función asincrónica para el fetch
+            
+            async function temblores() {
+                const data = await fetch("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.geojson");
+                datos = await data.json();
+                datos.features.forEach((t, i) => {
+                    if (t.properties.place.includes("Chile") && t.properties.mag > 4.0) {
+                        seccion.innerHTML += `<article><div><h3>${t.properties.mag.toFixed(1)}</h3></div><div><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${t.properties.place}</a> - ${registro(t.properties.time)}</p></div></article>`;
                     }
+                });
+                ajustaFooter();
+            }
+            temblores().catch((error) => console.error(error));
 
-                    //un forEach para construir cada t
-                    data.features.forEach(function (t, i) {
-                        if (t.properties.place.includes("Chile")) {
-                            $("section").append(
-                                `<article><div><h3>${t.properties.mag.toFixed(1)}</h3></div><div><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${t.properties.place}</a> - ${registro(
-                                    t.properties.time
-                                )}</p></div></article>`
-                            );
-                        }
-                    });
+            // Una función que me ajusta la hora
 
-                    ajustaFooter();
-                }); // cierro $.getJSON((){});
-            }); //cierro $(function(){});
+            function registro(unix_timestamp) {
+                var date = new Date(unix_timestamp);
+                return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()} a las ${(date.getHours() < 10 ? "0" : "") + date.getHours()}:${(date.getMinutes() < 10 ? "0" : "") + date.getMinutes()} hrs.`;
+            }
+
+            // Una función que me ajusta el footer
 
             function ajustaFooter() {
                 var dato = document.querySelector("main").clientHeight;
@@ -61,7 +61,7 @@
                     document.querySelector("footer").style.marginTop = "1rem";
                 }
             }
-            window.onresize = ajustaFooter;
+            window.onresize = ajustaFooter();
         </script>
     </body>
 </html>

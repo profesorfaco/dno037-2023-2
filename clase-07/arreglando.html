@@ -3474,20 +3474,26 @@
                     },
                 },
             ];
+            
             // arreglo alfabéticamente el arreglo, con atención al name de cada ciudad
-            data.sort((a, b) => (a.color > b.color ? 1 : -1));
-            console.log(data);
-            // declaro una nueva variable, la que contendrá un arreglo
+            data.sort((a, b) => (a.name > b.name ? 1 : -1));
+            
+            // creo una nueva variable, la que contendrá un arreglo
             var acotada = [];
+            
             // reviso toda la data ya ordenada
             data.forEach((x) => {
-                // hago un push a la variable recién creada, sin considerar lo que incluya Provincia ni Región
+                // meto datos a la variable recién creada, con ciertas exclusiones
                 if (!x.name.includes("Provincia") && !x.name.includes("Región")) {
                     acotada.push(x);
                 }
             });
-            // imprimo el contenido de la variable
-            document.querySelector("#todo").innerHTML = JSON.stringify(acotada);
+            
+            // Le meto un dato más a cada elemento del arreglo
+            acotada.forEach((x,i) => x.place = i);
+
+            // imprimo el contenido de la variable en todo
+            document.querySelector("#todo").innerHTML = `<pre>${JSON.stringify(acotada, undefined, 2)}</pre>`;
         </script>
     </body>
 </html>

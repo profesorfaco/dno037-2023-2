@@ -47,7 +47,7 @@ nav h1 a{
     line-height: 1;
 }
 
-nav select{
+nav > select{
     font-size:.8rem;
     padding:.35rem 1.4rem .35rem .7rem;
     color: #777;
@@ -142,17 +142,21 @@ main div#form, main div#stringify{
 main div#form input, main div#form select, main div#form textarea{
     width:calc(100% - 0.5rem);
     padding:.25rem;
-    margin:.5rem 0;
+    margin:.4rem 0 .8rem 0;
 }
 
 main div#form textarea{
     height:10vh;
 }
 
-pre {
+main div#stringify pre#output{
+    border-radius: 0.2rem;
+    color:#555;
+    background:rgba(255,255,255,.5);
  white-space: pre-wrap;
  word-wrap: break-word;
 }
+
 
 section article div{
     padding:.5rem;

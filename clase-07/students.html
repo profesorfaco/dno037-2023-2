@@ -71,9 +71,9 @@
                     
                     datos.forEach((z) => {
                         if (valor == z.zodiaco.elemento) {
-                            respuesta.innerHTML += `<article><div><img src="${z.avatar}"></div><div><p>${z.nombres.split(" ")[0]} ${z.apellidos.split(" ")[0]}</p><p><a href="${z.github}" target="_blank">${
+                            respuesta.innerHTML += `<article><div><img src="${z.avatar}"></div><div><p><a href="student.html">${z.nombres.split(" ")[0]} ${z.apellidos.split(" ")[0]}</a></p><p>${
                                 z.github.split("/")[3]
-                            }</a></p></div></article>`;
+                            }</p></div></article>`;
                         }
                     });
                 ajustaFooter();

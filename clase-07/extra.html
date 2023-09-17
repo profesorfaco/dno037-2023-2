@@ -11,7 +11,7 @@
             <h1><a href="index.html">Nombre Apellido</a></h1>
             <select onchange="location = this.value;">
                 <option value="index.html">PORTADA</option>
-                <option value="earthquakes.html">M2.5+ EARTHQUAKES</option>
+                <option value="earthquakes.html">M4.0+ EARTHQUAKES</option>
                 <option value="students.html">STUDENTS</option>
                 <option value="weather.html">WEATHER</option>
                 <option value="extra.html" selected>EXTRA</option>
@@ -20,29 +20,18 @@
         <main>
             <div id="form">
                 <form id="datos">
-                    <label for="apellidop">Apellido paterno:</label><br />
+                    <label for="github">User de Github:</label><br />
+                    <input list="cuentas" type="text" name="github" />
+                    <datalist id="cuentas"></datalist>
+                    <br />
+                    <label for="apellidop">Apellido <em>paterno</em>:</label><br />
                     <input type="text" name="apellidop" /><br />
-                    <label for="apellidom">Apellidos materno:</label><br />
+                    <label for="apellidom">Apellidos <em>materno</em>:</label><br />
                     <input type="text" name="apellidom" /><br />
                     <label for="nombres">Nombre(s):</label><br />
                     <input type="text" name="nombres" /><br />
-                    <label for="github">User de Github:</label><br />
-                    <input type="text" name="github" /><br />
-                    <label for="signo">Signo Zodiacal:</label><br />
+                    <label for="signo">Signo Zodiacal:</label>
                     <select name="signo">
-                        <option>Escoge…</option>
-                        <option>Aries</option>
-                        <option>Tauro</option>
-                        <option>Géminis</option>
-                        <option>Cáncer</option>
-                        <option>Leo</option>
-                        <option>Virgo</option>
-                        <option>Libra</option>
-                        <option>Escorpio</option>
-                        <option>Sagitario</option>
-                        <option>Capricornio</option>
-                        <option>Acuario</option>
-                        <option>Piscis</option>
                     </select>
                     <br />
                     <label for="razon">Razón por la que sigues en el OPR:</label><br />
@@ -58,72 +47,84 @@
             <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
             <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
         </footer>
-        <!--esto es sin bibliotecas-->
         <script>
+            // Primero unas variables que no varían, que son CONSTantes:
+
+            const cuentas_github = document.querySelector("#cuentas");
+
+            const users = ["belensilvaf","catalinakoller","claurj","dani-esp","daviidfdezz","duzacs","emilgatica","flospot","gabivallejosb","gabycss","gjarryt","imenesesm","isacicarelli","isidoramunoz","jimschenetzky","karlabo","kasu-exe","lucasgongorar","mjosegaete","nachooozzz","nicru","paulaluquej","profesorfaco","saragoldzveig","sbirchmeier","tamarascarletteg","trinirodriguez","vlecrz",];
+
+            const zodiacales = {
+                todos: ["Aries", "Tauro", "Géminis", "Cáncer", "Leo", "Virgo", "Libra", "Escorpio", "Sagitario", "Capricornio", "Acuario", "Piscis"],
+                aire: ["Géminis", "Libra", "Acuario"],
+                agua: ["Cáncer", "Escorpio", "Piscis"],
+                fuego: ["Aries", "Leo", "Sagitario"],
+                tierra: ["Tauro", "Virgo", "Capricornio"],
+                cardinal: ["Aries", "Cáncer", "Libra", "Capricornio"],
+                fijo: ["Tauro", "Leo", "Escorpio", "Acuario"],
+                mutable: ["Géminis", "Virgo", "Sagitario", "Piscis"],
+            };
+
+            const github = document.querySelector('input[name="github"]');
+
+            const signo = document.querySelector('select[name="signo"]');
+
+            // Ahora un par de loops
+
+            users.forEach(x => (cuentas_github.innerHTML += `<option value="${x}"></option>`));
+
+            zodiacales.todos.forEach((x,i) => {
+                if (i == 0){
+                    signo.innerHTML += `<option>Escoge…</option>`
+                } else {
+                    signo.innerHTML += `<option>${x}</option>`
+                }
+            });
+
+            // Todo lo anterior sirve para construir el formulario, lo que sigue lo hace funcionar
+
             document.getElementById("datos").addEventListener("submit", function (e) {
+
                 e.preventDefault();
 
-                let nombres = document.querySelector('input[name="nombres"]').value;
-                let apellido_materno = document.querySelector('input[name="apellidom"]').value;
-                let apellido_paterno = document.querySelector('input[name="apellidop"]').value;
-                let github = document.querySelector('input[name="github"]').value;
-                let signo = document.querySelector('select[name="signo"]').value;
-                let motivo = document.querySelector("textarea").value;
+                // más variables
 
-                var data = { apellidos: "", nombres: "", github:"",avatar:"", zodiaco: { signo: "", elemento: "", modalidad: "" }, motivo: "" };
+                let github_escogido = github.value;
+                let signo_escogido = signo.value;
 
-                data.apellidos = apellido_paterno.toUpperCase() + " " + apellido_materno.toUpperCase();
-                data.nombres = nombres.toUpperCase();
-                data.github = "https://github.com/"+github;
-                data.avatar = "https://github.com/"+github+".png?size=200";                
-                data.zodiaco.signo = signo;
-                data.motivo = motivo;
+                let data = { apellidos: "", nombres: "", github: "", avatar: "", user:"", zodiaco: { signo: "", elemento: "", modalidad: ""}, motivo: "" };
 
-                //más información
+                data.apellidos = document.querySelector('input[name="apellidop"]').value.toUpperCase() + " " + document.querySelector('input[name="apellidom"]').value.toUpperCase();
+                data.nombres = document.querySelector('input[name="nombres"]').value.toUpperCase();
+                data.github = "https://github.com/" + github_escogido;
+                data.avatar = "https://github.com/" + github_escogido + ".png?size=200";
+                data.user = "https://api.github.com/users/" + github_escogido;
+                data.zodiaco.signo = signo_escogido;
+                data.motivo = document.querySelector("textarea").value;
 
-                var zodiacales = {
-                    aire: ["Géminis", "Libra", "Acuario"],
-                    agua: ["Cáncer", "Escorpio", "Piscis"],
-                    fuego: ["Aries", "Leo", "Sagitario"],
-                    tierra: ["Tauro", "Virgo", "Capricornio"],
-                    cardinales: ["Aries", "Cáncer", "Libra", "Capricornio"],
-                    fijos: ["Tauro", "Leo", "Escorpio", "Acuario"],
-                    mutables: ["Géminis", "Virgo", "Sagitario", "Piscis"],
-                };
+                //complementando data.zodiaco
 
-                //agrego su elemento
+                if (zodiacales.aire.includes(signo_escogido)) { data.zodiaco.elemento = "aire"; }
 
-                if (zodiacales.aire.includes(signo)) {
-                    data.zodiaco.elemento = "aire";
+                if (zodiacales.agua.includes(signo_escogido)) { data.zodiaco.elemento = "agua"; }
+
+                if (zodiacales.fuego.includes(signo_escogido)) { data.zodiaco.elemento = "fuego"; }
+
+                if (zodiacales.tierra.includes(signo_escogido)) { data.zodiaco.elemento = "tierra"; }
+
+                if (zodiacales.cardinal.includes(signo_escogido)) { data.zodiaco.modalidad = "cardinal";}
+
+                if (zodiacales.fijo.includes(signo_escogido)) { data.zodiaco.modalidad = "fijo"; }
+
+                if (zodiacales.mutable.includes(signo_escogido)) { data.zodiaco.modalidad = "mutable"; }
+
+                // una condición para lo que se agregaría al #output con el submit
+
+                if (github_escogido !== "" && users.includes(github_escogido)) {
+                    document.querySelector("#output").innerHTML = JSON.stringify(data, undefined, 2);
+                } else {
+                    github.style.background = "pink";
                 }
-
-                if (zodiacales.agua.includes(signo)) {
-                    data.zodiaco.elemento = "agua";
-                }
-
-                if (zodiacales.fuego.includes(signo)) {
-                    data.zodiaco.elemento = "fuego";
-                }
-
-                if (zodiacales.tierra.includes(signo)) {
-                    data.zodiaco.elemento = "tierra";
-                }
-
-                //agrego su modalidad
-
-                if (zodiacales.cardinales.includes(signo)) {
-                    data.zodiaco.modalidad = "cardinales";
-                }
-
-                if (zodiacales.fijos.includes(signo)) {
-                    data.zodiaco.modalidad = "fijos";
-                }
-
-                if (zodiacales.mutables.includes(signo)) {
-                    data.zodiaco.modalidad = "mutables";
-                }
-
-                document.querySelector("#output").innerHTML = JSON.stringify(data, undefined, 2);
             });
         </script>
     </body>
