@@ -390,5 +390,19 @@
         "user": "https://api.github.com/users/gabivallejosb",
         "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "lista": 28
+    },
+    {
+        "apellidos": "CORTEZ ORELLANA",
+        "nombres": "FELIPE ALBERTO",
+        "github": "https://github.com/profesorfaco",
+        "avatar": "https://github.com/profesorfaco.png?size=200",
+        "zodiaco": {
+            "signo": "Géminis",
+            "elemento": "aire",
+            "mutable": "mutable"
+        },
+        "user": "https://api.github.com/users/profesorfaco",
+        "motivo": "Porque soy el profesor.",
+        "lista": 29
     }
 ]
