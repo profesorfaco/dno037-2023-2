@@ -17,7 +17,7 @@
                 <option value="extra.html">EXTRA</option>
             </select>
         </nav>
-        <header id="app" style="display:none;">
+        <header id="app" style="display: none;">
             <div>Marque uno:</div>
             <div><input type="radio" name="selecciona" value="aire" />Aire</div>
             <div><input type="radio" name="selecciona" value="agua" />Agua</div>
@@ -32,8 +32,6 @@
             <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
             <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
         </footer>
-
-        <!--esto es sin bibliotecas-->
         <script>
             const alternativas = document.querySelector("#app");
             const detalles = document.querySelector("#about");
@@ -42,7 +40,7 @@
             async function estudiantes() {
                 const data = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/curso.json");
                 datos = await data.json();
-                alternativas.removeAttribute("style");  
+                alternativas.removeAttribute("style");
             }
             estudiantes().catch((error) => console.error(error));
 
@@ -66,20 +64,17 @@
                         "<em>Con signo de tierra (Tauro, Virgo, Capricornio)</em>: Son los que más cerca pueden estar de ser adictos al trabajo. Al igual que en otros aspectos de su vida, son prácticos y entregados, pudiendo llegar a ser especialmente exigentes consigo mismo. Dado que son signos particularmente materialistas y terrenales, para los que nacen bajo el elemento de tierra es muy importante mantener una buena posición laboral, y necesitan sentir que sus esfuerzos se ven recompensados de manera tangible.";
                 }
 
+                detalles.innerHTML += `<div><p>${about}</p></div>`;
 
-                    detalles.innerHTML += `<div><p>${about}</p></div>`;
-                    
-                    datos.forEach((z,i) => {
-                        if (valor == z.zodiaco.elemento) {
-                            respuesta.innerHTML += `<article><div><img src="${z.avatar}"></div><div><p><a href="single.html?data=${i}">${z.nombres.split(" ")[0]} ${z.apellidos.split(" ")[0]}</a></p><p>${z.github.split("/")[3]
-                            }</p></div></article>`;
-                        }
-                    });
+                datos.forEach((z, i) => {
+                    if (valor == z.zodiaco.elemento) {
+                        respuesta.innerHTML += `<article><div><img src="${z.avatar}"></div><div><p><a href="single.html?data=${i}">${z.nombres.split(" ")[0]} ${z.apellidos.split(" ")[0]}</a></p><p>${
+                            z.github.split("/")[3]
+                        }</p></div></article>`;
+                    }
+                });
                 ajustaFooter();
             }
-
-
-            
 
             const seleccionado = document.querySelectorAll('input[name="selecciona"]');
 
@@ -100,7 +95,6 @@
                 }
             }
             window.onresize = ajustaFooter;
-
         </script>
     </body>
 </html>

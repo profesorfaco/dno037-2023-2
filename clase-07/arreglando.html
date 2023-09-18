@@ -7,7 +7,7 @@
         <title>DNOO37</title>
     </head>
     <body>
-        <div style="margin:2rem; padding: 1rem; background:#fff">
+        <div style="margin: 2rem; padding: 1rem; background: #fff;">
             <code id="todo"></code>
         </div>
         <script>
@@ -3474,13 +3474,13 @@
                     },
                 },
             ];
-            
+
             // arreglo alfabéticamente el arreglo, con atención al name de cada ciudad
-            data.sort((a, b) => (a.name > b.name ? 1 : -1));
-            
+            data.sort((x, y) => (x.name > y.name ? 1 : -1));
+
             // creo una nueva variable, la que contendrá un arreglo
             var acotada = [];
-            
+
             // reviso toda la data ya ordenada
             data.forEach((x) => {
                 // meto datos a la variable recién creada, con ciertas exclusiones
@@ -3488,12 +3488,15 @@
                     acotada.push(x);
                 }
             });
-            
+
             // Le meto un dato más a cada elemento del arreglo
-            acotada.forEach((x,i) => x.place = i);
+            acotada.forEach((x, n) => {
+                x.puesto = n;
+                delete x.state;
+            });
 
             // imprimo el contenido de la variable en todo
-            document.querySelector("#todo").innerHTML = `<pre>${JSON.stringify(acotada, undefined, 2)}</pre>`;
+            document.querySelector("#todo").innerHTML = `<pre>${JSON.stringify(acotada, undefined, "    ")}</pre>`;
         </script>
     </body>
 </html>

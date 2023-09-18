@@ -23,19 +23,16 @@
                     <label for="github">User de Github:</label><br />
                     <input list="cuentas" type="text" name="github" />
                     <datalist id="cuentas"></datalist>
-                    <br />
                     <label for="apellidop">Apellido <em>paterno</em>:</label><br />
-                    <input type="text" name="apellidop" /><br />
+                    <input type="text" name="apellidop" />
                     <label for="apellidom">Apellidos <em>materno</em>:</label><br />
-                    <input type="text" name="apellidom" /><br />
+                    <input type="text" name="apellidom" />
                     <label for="nombres">Nombre(s):</label><br />
-                    <input type="text" name="nombres" /><br />
-                    <label for="signo">Signo Zodiacal:</label>
-                    <select name="signo">
-                    </select>
-                    <br />
+                    <input type="text" name="nombres" />
+                    <label for="signo">Signo Zodiacal:</label><br />
+                    <select name="signo"></select>
                     <label for="razon">Razón por la que sigues en el OPR:</label><br />
-                    <textarea name="razon"></textarea><br />
+                    <textarea name="razon"></textarea>
                     <input type="submit" value="Submit" />
                 </form>
             </div>
@@ -52,7 +49,36 @@
 
             const cuentas_github = document.querySelector("#cuentas");
 
-            const users = ["belensilvaf","catalinakoller","claurj","dani-esp","daviidfdezz","duzacs","emilgatica","flospot","gabivallejosb","gabycss","gjarryt","imenesesm","isacicarelli","isidoramunoz","jimschenetzky","karlabo","kasu-exe","lucasgongorar","mjosegaete","nachooozzz","nicru","paulaluquej","profesorfaco","saragoldzveig","sbirchmeier","tamarascarletteg","trinirodriguez","vlecrz",];
+            const users = [
+                "belensilvaf",
+                "catalinakoller",
+                "claurj",
+                "dani-esp",
+                "daviidfdezz",
+                "duzacs",
+                "emilgatica",
+                "flospot",
+                "gabivallejosb",
+                "gabycss",
+                "gjarryt",
+                "imenesesm",
+                "isacicarelli",
+                "isidoramunoz",
+                "jimschenetzky",
+                "karlabo",
+                "kasu-exe",
+                "lucasgongorar",
+                "mjosegaete",
+                "nachooozzz",
+                "nicru",
+                "paulaluquej",
+                "profesorfaco",
+                "saragoldzveig",
+                "sbirchmeier",
+                "tamarascarletteg",
+                "trinirodriguez",
+                "vlecrz",
+            ];
 
             const zodiacales = {
                 todos: ["Aries", "Tauro", "Géminis", "Cáncer", "Leo", "Virgo", "Libra", "Escorpio", "Sagitario", "Capricornio", "Acuario", "Piscis"],
@@ -71,20 +97,19 @@
 
             // Ahora un par de loops
 
-            users.forEach(x => (cuentas_github.innerHTML += `<option value="${x}"></option>`));
+            users.forEach((x) => (cuentas_github.innerHTML += `<option value="${x}"></option>`));
 
-            zodiacales.todos.forEach((x,i) => {
-                if (i == 0){
-                    signo.innerHTML += `<option>Escoge…</option>`
+            zodiacales.todos.forEach((x, i) => {
+                if (i == 0) {
+                    signo.innerHTML += `<option>Escoge…</option>`;
                 } else {
-                    signo.innerHTML += `<option>${x}</option>`
+                    signo.innerHTML += `<option>${x}</option>`;
                 }
             });
 
             // Todo lo anterior sirve para construir el formulario, lo que sigue lo hace funcionar
 
             document.getElementById("datos").addEventListener("submit", function (e) {
-
                 e.preventDefault();
 
                 // más variables
@@ -92,7 +117,7 @@
                 let github_escogido = github.value;
                 let signo_escogido = signo.value;
 
-                let data = { apellidos: "", nombres: "", github: "", avatar: "", user:"", zodiaco: { signo: "", elemento: "", modalidad: ""}, motivo: "" };
+                let data = { apellidos: "", nombres: "", github: "", avatar: "", user: "", zodiaco: { signo: "", elemento: "", modalidad: "" }, motivo: "" };
 
                 data.apellidos = document.querySelector('input[name="apellidop"]').value.toUpperCase() + " " + document.querySelector('input[name="apellidom"]').value.toUpperCase();
                 data.nombres = document.querySelector('input[name="nombres"]').value.toUpperCase();
@@ -104,19 +129,27 @@
 
                 //complementando data.zodiaco
 
-                if (zodiacales.aire.includes(signo_escogido)) { data.zodiaco.elemento = "aire"; }
-
-                if (zodiacales.agua.includes(signo_escogido)) { data.zodiaco.elemento = "agua"; }
-
-                if (zodiacales.fuego.includes(signo_escogido)) { data.zodiaco.elemento = "fuego"; }
-
-                if (zodiacales.tierra.includes(signo_escogido)) { data.zodiaco.elemento = "tierra"; }
-
-                if (zodiacales.cardinal.includes(signo_escogido)) { data.zodiaco.modalidad = "cardinal";}
-
-                if (zodiacales.fijo.includes(signo_escogido)) { data.zodiaco.modalidad = "fijo"; }
-
-                if (zodiacales.mutable.includes(signo_escogido)) { data.zodiaco.modalidad = "mutable"; }
+                if (zodiacales.aire.includes(signo_escogido)) {
+                    data.zodiaco.elemento = "aire";
+                }
+                if (zodiacales.agua.includes(signo_escogido)) {
+                    data.zodiaco.elemento = "agua";
+                }
+                if (zodiacales.fuego.includes(signo_escogido)) {
+                    data.zodiaco.elemento = "fuego";
+                }
+                if (zodiacales.tierra.includes(signo_escogido)) {
+                    data.zodiaco.elemento = "tierra";
+                }
+                if (zodiacales.cardinal.includes(signo_escogido)) {
+                    data.zodiaco.modalidad = "cardinal";
+                }
+                if (zodiacales.fijo.includes(signo_escogido)) {
+                    data.zodiaco.modalidad = "fijo";
+                }
+                if (zodiacales.mutable.includes(signo_escogido)) {
+                    data.zodiaco.modalidad = "mutable";
+                }
 
                 // una condición para lo que se agregaría al #output con el submit
 

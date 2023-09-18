@@ -18,22 +18,21 @@
             </select>
         </nav>
         <header id="app">
-            <input list="ciudades" name="ciudad" placeholder="Escriba el nombre de una ciudad chilena…" >
+            <input list="ciudades" name="ciudad" placeholder="Escriba el nombre de una ciudad chilena…" />
             <datalist id="ciudades"></datalist>
-            <input type="button" onclick="consulta()" value="Ver">
+            <input type="button" onclick="consulta()" value="Ver" />
         </header>
         <main style="min-height: 62vh;">
-            <blockquote style="display:none">La temperatura en <span id="lugar"></span> es de <span id="temperatura"></span></blockquote>
+            <blockquote style="display: none;">La temperatura en <span id="lugar"></span> es de <span id="temperatura"></span></blockquote>
         </main>
         <footer>
             <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
             <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
         </footer>
-        <!--esto es sin bibliotecas-->
         <script>
             const input = document.querySelector("input");
             const llenado = document.querySelector("#ciudades");
-            const respuesta = document.querySelector("blockquote")
+            const respuesta = document.querySelector("blockquote");
             const lugar = document.querySelector("#lugar");
             const temperatura = document.querySelector("#temperatura");
             var listaCiudades = [];
@@ -43,8 +42,8 @@
                 const ciudades = await primero.json();
                 console.log(ciudades);
                 ciudades.forEach((c) => {
-                        llenado.innerHTML += `<option value="${c.name}">`;
-                        listaCiudades.push(c.name);
+                    llenado.innerHTML += `<option value="${c.name}">`;
+                    listaCiudades.push(c.name);
                 });
             }
             cities().catch((error) => console.error(error));
@@ -61,13 +60,13 @@
             function consulta() {
                 let valor = input.value;
                 console.log(valor);
-                if (valor !== "" && listaCiudades.includes(valor)){
+                if (valor !== "" && listaCiudades.includes(valor)) {
                     input.style.background = "#fff";
-                    weather(valor).catch((error) => console.error(error))
+                    weather(valor).catch((error) => console.error(error));
                 } else {
                     input.style.background = "#ffc";
                 }
-            };
+            }
         </script>
     </body>
 </html>

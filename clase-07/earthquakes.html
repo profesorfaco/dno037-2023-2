@@ -31,13 +31,15 @@
             const seccion = document.querySelector("section");
 
             // Una función asincrónica para el fetch
-            
+
             async function temblores() {
                 const data = await fetch("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.geojson");
                 datos = await data.json();
                 datos.features.forEach((t, i) => {
                     if (t.properties.place.includes("Chile") && t.properties.mag > 4.0) {
-                        seccion.innerHTML += `<article><div><h3>${t.properties.mag.toFixed(1)}</h3></div><div><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${t.properties.place}</a> - ${registro(t.properties.time)}</p></div></article>`;
+                        seccion.innerHTML += `<article><div><h3>${t.properties.mag.toFixed(1)}</h3></div><div><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${t.properties.place}</a> - ${registro(
+                            t.properties.time
+                        )}</p></div></article>`;
                     }
                 });
                 ajustaFooter();

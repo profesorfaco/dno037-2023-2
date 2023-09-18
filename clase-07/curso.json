@@ -1,310 +1,394 @@
 [
-	{
-		"apellidos": "ALARCÓN PARRA",
-		"nombres": "IGNACIO ANDRÉS",
-		"curriculum": 590001,
-		"github": "https://github.com/nachooozzz",
-		"avatar": "https://avatars.githubusercontent.com/u/141789500?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "fuego"
-		}
-	},
-	{
-		"apellidos": "ANDRADE BRAVO",
-		"nombres": "GABRIELA FERNANDA",
-		"curriculum": 590001,
-		"github": "https://github.com/gabycss",
-		"avatar": "https://avatars.githubusercontent.com/u/142370764?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "tierra"
-		}
-	},
-	{
-		"apellidos": "BIRCHMEIER MONASTERIO",
-		"nombres": "SOFÍA TRINIDAD",
-		"curriculum": 590001,
-		"github": "https://github.com/sbirchmeier",
-		"avatar": "https://avatars.githubusercontent.com/u/141850677?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "aire"
-		}
-	},
-	{
-		"apellidos": "BONILLA MEYER",
-		"nombres": "KARLA ALEXANDRA MARGARITA",
-		"curriculum": 590001,
-		"github": "https://github.com/karlabo",
-		"avatar": "https://avatars.githubusercontent.com/u/87454037?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "agua"
-		}
-	},
-	{
-		"apellidos": "CICARELLI SEPÚLVEDA",
-		"nombres": "ISABELLA FABIOLA",
-		"curriculum": 590001,
-		"github": "https://github.com/isacicarelli",
-		"avatar": "https://avatars.githubusercontent.com/u/141692955?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "fuego"
-		}
-	},
-	{
-		"apellidos": "CRUZ TAPIA",
-		"nombres": "VALENTINA PAZ",
-		"curriculum": 590001,
-		"github": "https://github.com/vlecrz",
-		"avatar": "https://avatars.githubusercontent.com/u/141838196?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "tierra"
-		}
-	},
-	{
-		"apellidos": "CRUZAT VERDUGO",
-		"nombres": "NICOLÁS ANDRÉS",
-		"curriculum": 590001,
-		"github": "https://github.com/nicru",
-		"avatar": "https://avatars.githubusercontent.com/u/48329013?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "aire"
-		}
-	},
-	{
-		"apellidos": "ESPINOZA VILLAGRA",
-		"nombres": "DANIELA VICTORIA",
-		"curriculum": 590001,
-		"github": "https://github.com/dani-esp",
-		"avatar": "https://avatars.githubusercontent.com/u/141794563?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "agua"
-		}
-	},
-	{
-		"apellidos": "FERNÁNDEZ SALAZAR",
-		"nombres": "DAVID ESTEBAN",
-		"curriculum": 590001,
-		"github": "https://github.com/daviidfdezz",
-		"avatar": "https://avatars.githubusercontent.com/u/141695510?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "fuego"
-		}
-	},
-	{
-		"apellidos": "GAETE LLANOS",
-		"nombres": "MARÍA JOSÉ VALENTINA",
-		"curriculum": 590001,
-		"github": "https://github.com/mjosegaete",
-		"avatar": "https://avatars.githubusercontent.com/u/141796868?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "tierra"
-		}
-	},
-	{
-		"apellidos": "GATICA MATURANA",
-		"nombres": "EMIL",
-		"curriculum": 590001,
-		"github": "https://github.com/emilgatica",
-		"avatar": "https://avatars.githubusercontent.com/u/141852138?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "aire"
-		}
-	},
-	{
-		"apellidos": "GOLDZVEIG SALAYA",
-		"nombres": "SARA",
-		"curriculum": 590001,
-		"github": "https://github.com/saragoldzveig",
-		"avatar": "https://avatars.githubusercontent.com/u/142369014?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "agua"
-		}
-	},
-	{
-		"apellidos": "GÓMEZ PÉREZ",
-		"nombres": "ISIDORA GERALDINE",
-		"curriculum": 590001,
-		"github": "https://github.com/kasu-exe",
-		"avatar": "https://avatars.githubusercontent.com/u/141890296?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "fuego"
-		}
-	},
-	{
-		"apellidos": "GÓNGORA ROCHA",
-		"nombres": "LUCAS GABRIEL",
-		"curriculum": 590001,
-		"github": "https://github.com/lucasgongorar",
-		"avatar": "https://avatars.githubusercontent.com/u/110742490?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "tierra"
-		}
-	},
-	{
-		"apellidos": "GUAJARDO CARRASCO",
-		"nombres": "TAMARA SCARLETTE",
-		"curriculum": 90101,
-		"github": "https://github.com/tamarascarletteg",
-		"avatar": "https://avatars.githubusercontent.com/u/141695860?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "aire"
-		}
-	},
-	{
-		"apellidos": "IMSCHENETZKY RODRÍGUEZ",
-		"nombres": "JOSEFINA MARÍA",
-		"curriculum": 590001,
-		"github": "https://github.com/jimschenetzky",
-		"avatar": "https://avatars.githubusercontent.com/u/87721128?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "agua"
-		}
-	},
-	{
-		"apellidos": "IVELIC LUNA",
-		"nombres": "DUSAN IVÁN",
-		"curriculum": 590001,
-		"github": "https://github.com/duzacs",
-		"avatar": "https://avatars.githubusercontent.com/u/141802434?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "fuego"
-		}
-	},
-	{
-		"apellidos": "JARRY TRUJILLO",
-		"nombres": "GASPAR FELIPE",
-		"curriculum": 590001,
-		"github": "https://github.com/gjarryt",
-		"avatar": "https://avatars.githubusercontent.com/u/91491383?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "tierra"
-		}
-	},
-	{
-		"apellidos": "KOLLER FABRES",
-		"nombres": "CATALINA ISABEL",
-		"curriculum": 590001,
-		"github": "https://github.com/catalinakoller",
-		"avatar": "https://avatars.githubusercontent.com/u/141850128?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "aire"
-		}
-	},
-	{
-		"apellidos": "LUQUE JARA",
-		"nombres": "PAULA ANDREA",
-		"curriculum": 590001,
-		"github": "https://github.com/paulaluquej",
-		"avatar": "https://avatars.githubusercontent.com/u/110791788?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "agua"
-		}
-	},
-	{
-		"apellidos": "MENESES MUSALEM",
-		"nombres": "ISABEL FRANCISCA",
-		"curriculum": 590099,
-		"github": "https://github.com/imenesesm",
-		"avatar": "https://avatars.githubusercontent.com/u/141852832?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "fuego"
-		}
-	},
-	{
-		"apellidos": "MUÑOZ MUÑOZ",
-		"nombres": "ISIDORA IGNACIA",
-		"curriculum": 590001,
-		"github": "https://github.com/isidoramunoz",
-		"avatar": "https://avatars.githubusercontent.com/u/141790888?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "tierra"
-		}
-	},
-	{
-		"apellidos": "ROBLES ESPINOZA",
-		"nombres": "SUSAN LUCÍA",
-		"curriculum": 110020,
-		"github": "https://github.com/susanrobles",
-		"avatar": "https://avatars.githubusercontent.com/u/141789603?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "aire"
-		}
-	},
-	{
-		"apellidos": "RODRÍGUEZ CANOBRA",
-		"nombres": "TRINIDAD FRANCISCA",
-		"curriculum": 590001,
-		"github": "https://github.com/trinirodriguez",
-		"avatar": "https://avatars.githubusercontent.com/u/141793297?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "agua"
-		}
-	},
-	{
-		"apellidos": "RODRÍGUEZ JIMÉNEZ",
-		"nombres": "CLAUDIA ELIZABETH",
-		"curriculum": 590001,
-		"github": "https://github.com/claurj",
-		"avatar": "https://avatars.githubusercontent.com/u/141793297?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "fuego"
-		}
-	},
-	{
-		"apellidos": "SILVA FIGUEROA",
-		"nombres": "BELÉN ESPERANZA",
-		"curriculum": 590001,
-		"github": "https://github.com/belensilvaf",
-		"avatar": "https://avatars.githubusercontent.com/u/141855105?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "tierra"
-		}
-	},
-	{
-		"apellidos": "SPOTORNO CARVAJAL",
-		"nombres": "FLORENCIA PAZ",
-		"curriculum": 590001,
-		"github": "https://github.com/flospot",
-		"avatar": "https://avatars.githubusercontent.com/u/116756309?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "aire"
-		}
-	},
-	{
-		"apellidos": "VALLEJOS BURGOS",
-		"nombres": "GABRIELA ANTONIA",
-		"curriculum": 590001,
-		"github": "https://github.com/gabivallejosb",
-		"avatar": "https://avatars.githubusercontent.com/u/91471184?v=4",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "agua"
-		}
-	}
+    {
+        "apellidos": "ALARCÓN PARRA",
+        "nombres": "IGNACIO ANDRÉS",
+        "github": "https://github.com/nachooozzz",
+        "avatar": "https://github.com/nachooozzz.png?size=200",
+        "user": "https://api.github.com/users/nachooozzz",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "agua",
+            "modalidad": "cardinal"
+        },
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 1
+    },
+    {
+        "apellidos": "ANDRADE BRAVO",
+        "nombres": "GABRIELA FERNANDA",
+        "github": "https://github.com/gabycss",
+        "avatar": "https://github.com/gabycss.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "agua",
+            "modalidad": "cardinal"
+        },
+        "user": "https://api.github.com/users/gabycss",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 2
+    },
+    {
+        "apellidos": "BIRCHMEIER MONASTERIO",
+        "nombres": "SOFÍA TRINIDAD",
+        "github": "https://github.com/sbirchmeier",
+        "avatar": "https://github.com/sbirchmeier.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "agua",
+            "modalidad": "cardinal"
+        },
+        "user": "https://api.github.com/users/sbirchmeier",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 3
+    },
+    {
+        "apellidos": "BONILLA MEYER",
+        "nombres": "KARLA ALEXANDRA MARGARITA",
+        "github": "https://github.com/karlabo",
+        "avatar": "https://github.com/karlabo.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "agua",
+            "modalidad": "cardinal"
+        },
+        "user": "https://api.github.com/users/karlabo",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 4
+    },
+    {
+        "apellidos": "CICARELLI SEPÚLVEDA",
+        "nombres": "ISABELLA FABIOLA",
+        "github": "https://github.com/isacicarelli",
+        "avatar": "https://github.com/isacicarelli.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "agua",
+            "modalidad": "cardinal"
+        },
+        "user": "https://api.github.com/users/isacicarelli",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 5
+    },
+    {
+        "apellidos": "CRUZ TAPIA",
+        "nombres": "VALENTINA PAZ",
+        "github": "https://github.com/vlecrz",
+        "avatar": "https://github.com/vlecrz.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "agua",
+            "modalidad": "cardinal"
+        },
+        "user": "https://api.github.com/users/vlecrz",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 6
+    },
+    {
+        "apellidos": "CRUZAT VERDUGO",
+        "nombres": "NICOLÁS ANDRÉS",
+        "github": "https://github.com/nicru",
+        "avatar": "https://github.com/nicru.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "agua",
+            "modalidad": "cardinal"
+        },
+        "user": "https://api.github.com/users/nicru",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 7
+    },
+    {
+        "apellidos": "ESPINOZA VILLAGRA",
+        "nombres": "DANIELA VICTORIA",
+        "github": "https://github.com/dani-esp",
+        "avatar": "https://github.com/dani-esp.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "agua",
+            "modalidad": "cardinal"
+        },
+        "user": "https://api.github.com/users/dani-esp",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 8
+    },
+    {
+        "apellidos": "EYZAGUIRRE PIZARRO",
+        "nombres": "AMPARO EMILIA",
+        "github": "",
+        "avatar": "",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "",
+            "modalidad": ""
+        },
+        "user": "",
+        "motivo": "",
+        "lista": 9
+    },
+    {
+        "apellidos": "FERNÁNDEZ SALAZAR",
+        "nombres": "DAVID ESTEBAN",
+        "github": "https://github.com/daviidfdezz",
+        "avatar": "https://github.com/daviidfdezz.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "aire",
+            "modalidad": "cardinal"
+        },
+        "user": "https://api.github.com/users/daviidfdezz",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 10
+    },
+    {
+        "apellidos": "GAETE LLANOS",
+        "nombres": "MARÍA JOSÉ VALENTINA",
+        "github": "https://github.com/mjosegaete",
+        "avatar": "https://github.com/mjosegaete.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "aire",
+            "modalidad": "fijo"
+        },
+        "user": "https://api.github.com/users/mjosegaete",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 11
+    },
+    {
+        "apellidos": "GATICA MATURANA",
+        "nombres": "EMIL",
+        "github": "https://github.com/emilgatica",
+        "avatar": "https://github.com/emilgatica.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "aire",
+            "modalidad": "fijo"
+        },
+        "user": "https://api.github.com/users/emilgatica",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 12
+    },
+    {
+        "apellidos": "GOLDZVEIG SALAYA",
+        "nombres": "SARA",
+        "github": "https://github.com/saragoldzveig",
+        "avatar": "https://github.com/saragoldzveig.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "aire",
+            "modalidad": "fijo"
+        },
+        "user": "https://api.github.com/users/saragoldzveig",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 13
+    },
+    {
+        "apellidos": "GÓMEZ PÉREZ",
+        "nombres": "ISIDORA GERALDINE",
+        "github": "https://github.com/kasu-exe",
+        "avatar": "https://github.com/kasu-exe.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "aire",
+            "modalidad": "fijo"
+        },
+        "user": "https://api.github.com/users/kasu-exe",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 14
+    },
+    {
+        "apellidos": "GÓNGORA ROCHA",
+        "nombres": "LUCAS GABRIEL",
+        "github": "https://github.com/lucasgongorar",
+        "avatar": "https://github.com/lucasgongorar.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "aire",
+            "modalidad": "fijo"
+        },
+        "user": "https://api.github.com/users/lucasgongorar",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 15
+    },
+    {
+        "apellidos": "GUAJARDO CARRASCO",
+        "nombres": "TAMARA SCARLETTE",
+        "github": "https://github.com/tamarascarletteg",
+        "avatar": "https://github.com/tamarascarletteg.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "fuego",
+            "modalidad": "fijo"
+        },
+        "user": "https://api.github.com/users/tamarascarletteg",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 16
+    },
+    {
+        "apellidos": "IMSCHENETZKY RODRÍGUEZ",
+        "nombres": "JOSEFINA MARÍA",
+        "github": "https://github.com/jimschenetzky",
+        "avatar": "https://github.com/jimschenetzky.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "fuego",
+            "modalidad": "fijo"
+        },
+        "user": "https://api.github.com/users/jimschenetzky",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 17
+    },
+    {
+        "apellidos": "IVELIC LUNA",
+        "nombres": "DUSAN IVÁN",
+        "github": "https://github.com/duzacs",
+        "avatar": "https://github.com/duzacs.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "fuego",
+            "modalidad": "fijo"
+        },
+        "user": "https://api.github.com/users/duzacs",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 18
+    },
+    {
+        "apellidos": "JARRY TRUJILLO",
+        "nombres": "GASPAR FELIPE",
+        "github": "https://github.com/gjarryt",
+        "avatar": "https://github.com/gjarryt.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "fuego",
+            "modalidad": "fijo"
+        },
+        "user": "https://api.github.com/users/gjarryt",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 19
+    },
+    {
+        "apellidos": "KOLLER FABRES",
+        "nombres": "CATALINA ISABEL",
+        "github": "https://github.com/catalinakoller",
+        "avatar": "https://github.com/catalinakoller.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "fuego",
+            "mutable": "mutable"
+        },
+        "user": "https://api.github.com/users/catalinakoller",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 20
+    },
+    {
+        "apellidos": "LUQUE JARA",
+        "nombres": "PAULA ANDREA",
+        "github": "https://github.com/paulaluquej",
+        "avatar": "https://github.com/paulaluquej.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "fuego",
+            "mutable": "mutable"
+        },
+        "user": "https://api.github.com/users/paulaluquej",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 21
+    },
+    {
+        "apellidos": "MENESES MUSALEM",
+        "nombres": "ISABEL FRANCISCA",
+        "github": "https://github.com/imenesesm",
+        "avatar": "https://github.com/imenesesm.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "fuego",
+            "mutable": "mutable"
+        },
+        "user": "https://api.github.com/users/imenesesm",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 22
+    },
+    {
+        "apellidos": "MUÑOZ MUÑOZ",
+        "nombres": "ISIDORA IGNACIA",
+        "github": "https://github.com/isidoramunoz",
+        "avatar": "https://github.com/isidoramunoz.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "tierra",
+            "mutable": "mutable"
+        },
+        "user": "https://api.github.com/users/isidoramunoz",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 23
+    },
+    {
+        "apellidos": "RODRÍGUEZ CANOBRA",
+        "nombres": "TRINIDAD FRANCISCA",
+        "github": "https://github.com/trinirodriguez",
+        "avatar": "https://github.com/trinirodriguez.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "tierra",
+            "mutable": "mutable"
+        },
+        "user": "https://api.github.com/users/trinirodriguez",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 24
+    },
+    {
+        "apellidos": "RODRÍGUEZ JIMÉNEZ",
+        "nombres": "CLAUDIA ELIZABETH",
+        "github": "https://github.com/claurj",
+        "avatar": "https://github.com/claurj.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "tierra",
+            "mutable": "mutable"
+        },
+        "user": "https://api.github.com/users/claurj",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 25
+    },
+    {
+        "apellidos": "SILVA FIGUEROA",
+        "nombres": "BELÉN ESPERANZA",
+        "github": "https://github.com/belensilvaf",
+        "avatar": "https://github.com/belensilvaf.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "tierra",
+            "mutable": "mutable"
+        },
+        "user": "https://api.github.com/users/belensilvaf",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 26
+    },
+    {
+        "apellidos": "SPOTORNO CARVAJAL",
+        "nombres": "FLORENCIA PAZ",
+        "github": "https://github.com/flospot",
+        "avatar": "https://github.com/flospot.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "tierra",
+            "mutable": "mutable"
+        },
+        "user": "https://api.github.com/users/flospot",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 27
+    },
+    {
+        "apellidos": "VALLEJOS BURGOS",
+        "nombres": "GABRIELA ANTONIA",
+        "github": "https://github.com/gabivallejosb",
+        "avatar": "https://github.com/gabivallejosb.png?size=200",
+        "zodiaco": {
+            "signo": "",
+            "elemento": "tierra",
+            "mutable": "mutable"
+        },
+        "user": "https://api.github.com/users/gabivallejosb",
+        "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lista": 28
+    }
 ]
