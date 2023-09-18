@@ -10,7 +10,8 @@
         <nav>
             <h1><a href="index.html">Nombre Apellido</a></h1>
             <select onchange="location = this.value;">
-                <option value="index.html">PORTADA</option>
+                <option value="index.html">INDEX</option>
+                <option value="astronomy.html">ASTRONOMY</option>
                 <option value="earthquakes.html">M4.0+ EARTHQUAKES</option>
                 <option value="students.html">STUDENTS</option>
                 <option value="weather.html" selected>WEATHER</option>
@@ -35,7 +36,7 @@
             var listaCiudades = [];
             //creando la función cities
             async function cities() {
-                const primero = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/ciudades.json");
+                const primero = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/_ciudades.json");
                 const ciudades = await primero.json();
                 console.log(ciudades);
                 ciudades.forEach((c) => {

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            main{ padding-bottom: 2rem; }
+        </style>
+        <title>DNOO37</title>
+    </head>
+    <body>
+        <nav>
+            <h1><a href="index.html">Nombre Apellido</a></h1>
+            <select onchange="location = this.value;">
+                <option value="index.html">INDEX</option>
+                <option value="astronomy.html" selected>ASTRONOMY</option>
+                <option value="earthquakes.html">M4.0+ EARTHQUAKES</option>
+                <option value="students.html">STUDENTS</option>
+                <option value="weather.html">WEATHER</option>
+                <option value="extra.html">EXTRA</option>
+            </select>
+        </nav>
+        <header>
+            <div>
+                <label for="start">Astronomy Picture of the Day</label>
+                <input type="date" id="start" name="date" onchange="consulta()" />
+            </div>
+        </header>
+        <aside></aside>
+        <main></main>
+        <footer></footer>
+        <script>
+            const input = document.querySelector("input[type=date]");
+            const d = new Date();
+            input.setAttribute("min", `2000-01-01`);
+            input.setAttribute("max", `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${d.getDate()}`);
+
+            function consulta() {
+                let fecha = input.value;
+                console.log(fecha);
+                foto(fecha).catch((error) => console.error(error));
+            }
+
+            // https://api.nasa.gov/
+            // https://apod.nasa.gov/apod/calendar/allyears.html
+            // https://github.com/nasa/apod-api
+
+            async function foto(x) {
+                const url = "";
+                const key = "";
+                const data = await fetch(url + "?api_key=" + key + "&date=" + x);
+                const datos = await data.json();
+                console.log(datos);
+                document.body;
+            }
+        </script>
+    </body>
+</html>

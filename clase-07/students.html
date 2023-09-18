@@ -13,8 +13,9 @@
         <nav>
             <h1><a href="index.html">Nombre Apellido</a></h1>
             <select onchange="location = this.value;">
-                <option value="index.html">PORTADA</option>
-                <option value="earthquakes.html">M2.5+ EARTHQUAKES</option>
+                <option value="index.html">INDEX</option>
+                <option value="astronomy.html">ASTRONOMY</option>
+                <option value="earthquakes.html">M4.0+ EARTHQUAKES</option>
                 <option value="students.html" selected>STUDENTS</option>
                 <option value="weather.html">WEATHER</option>
                 <option value="extra.html">EXTRA</option>
@@ -39,7 +40,7 @@
             const respuesta = document.querySelector("#resultado");
             var datos;
             async function estudiantes() {
-                const data = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/curso.json");
+                const data = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/_curso.json");
                 datos = await data.json();
                 alternativas.removeAttribute("style");
 
