@@ -25,10 +25,7 @@
         <main style="min-height: 62vh;">
             <blockquote style="display: none;">La temperatura en <span id="lugar"></span> es de <span id="temperatura"></span></blockquote>
         </main>
-        <footer>
-            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
-            <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
-        </footer>
+        <footer></footer>
         <script>
             const input = document.querySelector("input");
             const llenado = document.querySelector("#ciudades");
@@ -48,7 +45,7 @@
             }
             cities().catch((error) => console.error(error));
             async function weather(ciudad) {
-                const key = "9b4a5fa672170dc5e4480283a4469256";
+                const key = "AQUI_VA_SU_API_KEY";
                 const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid=" + key + "&lang=es");
                 const tiempo = await segundo.json();
                 console.log(tiempo);

@@ -4,6 +4,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="style.css" />
+        <style>
+            main{ padding-bottom: 2rem; }
+        </style>
         <title>DNOO37</title>
     </head>
     <body>
@@ -19,8 +22,9 @@
         </nav>
         <header id="app" style="display: none;">
             <div>Marque uno:</div>
-            <div><input type="radio" name="selecciona" value="aire" />Aire</div>
+            <div><input type="radio" name="selecciona" value="todos" checked />Todos</div>
             <div><input type="radio" name="selecciona" value="agua" />Agua</div>
+            <div><input type="radio" name="selecciona" value="aire" />Aire</div>
             <div><input type="radio" name="selecciona" value="fuego" />Fuego</div>
             <div><input type="radio" name="selecciona" value="tierra" />Tierra</div>
         </header>
@@ -28,10 +32,7 @@
         <main>
             <section id="resultado"></section>
         </main>
-        <footer>
-            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
-            <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
-        </footer>
+        <footer></footer>
         <script>
             const alternativas = document.querySelector("#app");
             const detalles = document.querySelector("#about");
@@ -41,6 +42,15 @@
                 const data = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/curso.json");
                 datos = await data.json();
                 alternativas.removeAttribute("style");
+
+                datos.forEach((x) => {
+                    if(x.github !== ""){
+                        respuesta.innerHTML += `<article><div><img src="${x.avatar}"></div><div><p><a href="student-single.html?lista=${x.lista}">${x.nombres.split(" ")[0]} ${x.apellidos.split(" ")[0]}</a></p><p>${
+                            x.github.split("/")[3]
+                        }</p></div></article>`;
+                    }
+                });
+
             }
             estudiantes().catch((error) => console.error(error));
 
@@ -59,21 +69,22 @@
                 } else if (valor == "aire") {
                     about =
                         "<em>Con signo de aire (Géminis, Libra y Acuario)</em>: Son idealistas por naturaleza. Aportan gran entusiasmo y dedicación a aquello que les interesa, aportando ideas renovadoras que pueden cambiar un puesto de trabajo. Son sociables y muy buenos compañeros, pero algo volátiles. Y es que el punto flojo de los signos de aire es que les cuesta ser constante, lo que les complica terminar los proyectos que empiezan.";
-                } else {
+                } else if (valor == "tierra"){
                     about =
                         "<em>Con signo de tierra (Tauro, Virgo, Capricornio)</em>: Son los que más cerca pueden estar de ser adictos al trabajo. Al igual que en otros aspectos de su vida, son prácticos y entregados, pudiendo llegar a ser especialmente exigentes consigo mismo. Dado que son signos particularmente materialistas y terrenales, para los que nacen bajo el elemento de tierra es muy importante mantener una buena posición laboral, y necesitan sentir que sus esfuerzos se ven recompensados de manera tangible.";
+                } else {
+                    about = "Diseño y nuevos medios."
                 }
 
                 detalles.innerHTML += `<div><p>${about}</p></div>`;
 
-                datos.forEach((z, i) => {
-                    if (valor == z.zodiaco.elemento) {
-                        respuesta.innerHTML += `<article><div><img src="${z.avatar}"></div><div><p><a href="single.html?data=${i}">${z.nombres.split(" ")[0]} ${z.apellidos.split(" ")[0]}</a></p><p>${
-                            z.github.split("/")[3]
+                datos.forEach((x) => {
+                    if (valor == x.zodiaco.elemento) {
+                        respuesta.innerHTML += `<article><div><img src="${x.avatar}"></div><div><p><a href="student-single.html?lista=${x.lista}">${x.nombres.split(" ")[0]} ${x.apellidos.split(" ")[0]}</a></p><p>${
+                            x.github.split("/")[3]
                         }</p></div></article>`;
                     }
                 });
-                ajustaFooter();
             }
 
             const seleccionado = document.querySelectorAll('input[name="selecciona"]');
@@ -81,20 +92,14 @@
             seleccionado.forEach((i) => {
                 i.addEventListener("change", function () {
                     var valor = this.value;
-                    console.log(valor);
-                    compatibilidad(valor);
+                    if (valor !== "todos"){
+                        console.log(valor);
+                        compatibilidad(valor);
+                    } else {
+                        window.location.reload();
+                    }
                 });
             });
-
-            function ajustaFooter() {
-                var dato = document.querySelector("main").clientHeight;
-                console.log(dato);
-                if (dato > window.innerWidth) {
-                    document.querySelector("footer").style.position = "relative";
-                    document.querySelector("footer").style.marginTop = "1rem";
-                }
-            }
-            window.onresize = ajustaFooter;
         </script>
     </body>
 </html>

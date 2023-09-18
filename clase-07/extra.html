@@ -40,10 +40,7 @@
                 <pre id="output">{…}</pre>
             </div>
         </main>
-        <footer>
-            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
-            <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
-        </footer>
+        <footer></footer>
         <script>
             // Primero unas variables que no varían, que son CONSTantes:
 
@@ -95,17 +92,13 @@
 
             const signo = document.querySelector('select[name="signo"]');
 
+            signo.innerHTML += `<option>Escoge…</option>`
+
             // Ahora un par de loops
 
-            users.forEach((x) => (cuentas_github.innerHTML += `<option value="${x}"></option>`));
+            users.forEach(x => (cuentas_github.innerHTML += `<option value="${x}"></option>`));
 
-            zodiacales.todos.forEach((x, i) => {
-                if (i == 0) {
-                    signo.innerHTML += `<option>Escoge…</option>`;
-                } else {
-                    signo.innerHTML += `<option>${x}</option>`;
-                }
-            });
+            zodiacales.todos.forEach(x => signo.innerHTML += `<option>${x}</option>`);
 
             // Todo lo anterior sirve para construir el formulario, lo que sigue lo hace funcionar
 
@@ -154,7 +147,7 @@
                 // una condición para lo que se agregaría al #output con el submit
 
                 if (github_escogido !== "" && users.includes(github_escogido)) {
-                    document.querySelector("#output").innerHTML = JSON.stringify(data, undefined, 2);
+                    document.querySelector("#output").innerHTML = JSON.stringify(data, undefined, 3);
                 } else {
                     github.style.background = "pink";
                 }
