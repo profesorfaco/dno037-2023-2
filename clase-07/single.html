@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <title>DNOO37</title>
+    </head>
+    <body>
+        <nav>
+            <h1><a href="index.html">Nombre Apellido</a></h1>
+            <select onchange="location = this.value;">
+                <option value="index.html">PORTADA</option>
+                <option value="earthquakes.html">M4.0+ EARTHQUAKES</option>
+                <option value="students.html">STUDENTS</option>
+                <option value="weather.html">WEATHER</option>
+                <option value="extra.html">EXTRA</option>
+            </select>
+        </nav>
+        <header id="app" style="display:none;">
+            <div>Marque uno:</div>
+            <div><input type="radio" name="selecciona" value="aire" />Aire</div>
+            <div><input type="radio" name="selecciona" value="agua" />Agua</div>
+            <div><input type="radio" name="selecciona" value="fuego" />Fuego</div>
+            <div><input type="radio" name="selecciona" value="tierra" />Tierra</div>
+        </header>
+        <aside id="about"></aside>
+        <main>
+            <section id="resultado"></section>
+        </main>
+        <footer>
+            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
+            <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
+        </footer>
+
+        <!--esto es sin bibliotecas-->
+        <script>
+            
+            //¿Recuerdan cuando tomaban un dato desde la URL?
+
+            document.querySelector("#about").innerHTML = `<p>Les encargo resolver esto…</p>`
+        </script>
+    </body>
+</html>

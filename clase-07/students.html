@@ -69,15 +69,17 @@
 
                     detalles.innerHTML += `<div><p>${about}</p></div>`;
                     
-                    datos.forEach((z) => {
+                    datos.forEach((z,i) => {
                         if (valor == z.zodiaco.elemento) {
-                            respuesta.innerHTML += `<article><div><img src="${z.avatar}"></div><div><p><a href="student.html">${z.nombres.split(" ")[0]} ${z.apellidos.split(" ")[0]}</a></p><p>${
-                                z.github.split("/")[3]
+                            respuesta.innerHTML += `<article><div><img src="${z.avatar}"></div><div><p><a href="single.html?data=${i}">${z.nombres.split(" ")[0]} ${z.apellidos.split(" ")[0]}</a></p><p>${z.github.split("/")[3]
                             }</p></div></article>`;
                         }
                     });
                 ajustaFooter();
             }
+
+
+            
 
             const seleccionado = document.querySelectorAll('input[name="selecciona"]');
 
