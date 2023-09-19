@@ -3,8 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="_style.css" />
-        <style> main{ padding-bottom: 5vh; } </style>
+        <link rel="stylesheet" href="style.css" />
         <title>DNOO37</title>
     </head>
     <body>
@@ -38,7 +37,6 @@
                 const data = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/_curso.json");
                 datos = await data.json();
                 alternativas.removeAttribute("style");
-
                 datos.forEach((x) => {
                     if(x.github !== ""){
                         respuesta.innerHTML += `<article><div><img src="${x.avatar}"></div><div><p><a href="integrante.html?lista=${x.lista}">${x.nombres.split(" ")[0]} ${x.apellidos.split(" ")[0]}</a></p><p>${
@@ -46,7 +44,6 @@
                         }</p></div></article>`;
                     }
                 });
-
             }
             estudiantes().catch((error) => console.error(error));
 

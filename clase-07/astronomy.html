@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="_style.css" />
+        <link rel="stylesheet" href="style.css" />
         <title>DNOO37</title>
     </head>
     <body>
@@ -27,9 +27,10 @@
         <aside></aside>
         <script>
             const input = document.querySelector("input[type=date]");
+            const aside = document.querySelector("aside");
             const d = new Date();
             input.setAttribute("min", `2000-01-01`);
-            input.setAttribute("max", `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${d.getDate()}`);
+            input.setAttribute("max", `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${d.getDate()-1}`);
 
             function consulta() {
                 let fecha = input.value;
@@ -47,7 +48,7 @@
                 const data = await fetch(url + "?api_key=" + key + "&date=" + x);
                 const datos = await data.json();
                 console.log(datos);
-                document.body;
+                aside.innerHTML = `<p>${datos.explanation}</p><img src="${datos.url}" width="100%" style="margin-bottom:5vh">`
             }
         </script>
     </body>

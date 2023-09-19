@@ -3,8 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="_style.css" />
-        <style> main{ padding-bottom: 5vh; } </style>
+        <link rel="stylesheet" href="style.css" />
         <title>DNOO37</title>
     </head>
     <body>
@@ -38,19 +37,22 @@
                 datos = await data.json();
                 datos.features.forEach((t, i) => {
                     if (t.properties.place.includes("Chile") && t.properties.mag > 4.0) {
-                        seccion.innerHTML += `<article><div><h3>${t.properties.mag.toFixed(1)}</h3></div><div><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${t.properties.place}</a> - ${registro(
-                            t.properties.time
-                        )}</p></div></article>`;
+                        if(t.properties.mag > 4.9){
+                        seccion.innerHTML += `<article><div><h3 style="color:black">${t.properties.mag.toFixed(1)}</h3></div><div><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${t.properties.place}</a> - ${registro(t.properties.time)}</p></div></article>`;
+                    } else {
+                        seccion.innerHTML += `<article><div><h3>${t.properties.mag.toFixed(1)}</h3></div><div><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${t.properties.place}</a> - ${registro(t.properties.time)}</p></div></article>`;
+                    }
+
                     }
                 });
                 cargador.style.display = "none";
             }
             temblores().catch((error) => console.error(error));
 
-            // Una función que me ajusta la hora
+            // Una función que ajusta la hora
 
-            function registro(unix_timestamp) {
-                var date = new Date(unix_timestamp);
+            function registro(timestamp) {
+                var date = new Date(timestamp);
                 return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()} a las ${(date.getHours() < 10 ? "0" : "") + date.getHours()}:${(date.getMinutes() < 10 ? "0" : "") + date.getMinutes()} hrs.`;
             }
         </script>

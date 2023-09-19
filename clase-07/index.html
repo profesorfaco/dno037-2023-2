@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="_style.css" />
+        <link rel="stylesheet" href="style.css" />
         <title>DNOO37</title>
     </head>
     <body>
@@ -19,33 +19,16 @@
             </select>
         </nav>
         <section style="min-height: 80vh">
-            <blockquote><div id="loader"></div>
-                Siendo las <span id="horas"></span>:<span id="minutos"></span>, recuerdo el tema <span id="cancion"></span> de Taylor Swift. En este tema, del disco <span id="disco"></span>, ella canta: <span id="letra"></span>
-            </blockquote>
+            <blockquote><div id="loader"></div></blockquote>
         </section>
         <footer>
             <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
             <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
         </footer>
         <script>
-            /*
-                Tiene que adaptar el código en la evaluación nº1 para construir la mismas frase sin usar bibliotecas de Javascript: Sólo con fetch() en una función asincrónica.
-            */
-            document.querySelector("#horas").innerHTML = "hh";
-            document.querySelector("#minutos").innerHTML = "mm";
-            document.querySelector("#cancion").innerHTML = "song";
-            document.querySelector("#disco").innerHTML = "album";
-            document.querySelector("#letra").innerHTML = "quote";
-
-
-            async function swiftie() {
-                const data = await fetch("https://taylorswiftapi.onrender.com/get");
-                const datos = await data.json();
-                console.log(data);
-                document.querySelector("#loader").style.display = "none";
-            }
-            swiftie().catch((error) => console.error(error));
-
+            const datos = {motivo:"Como es habitual, aquí irá el motivo por el que siguen en el OPR, pero tendrán que buscar la manera de resolverlo con una consulta al JSON que prepararán como curso, partiendo en la página <a href='extra.html'>*EXTRA</a>"}
+            document.querySelector("#loader").style.display = "none";
+            document.querySelector("blockquote").innerHTML = `${datos.motivo}`;
         </script>
     </body>
 </html>

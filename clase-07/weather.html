@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="_style.css" />
+        <link rel="stylesheet" href="style.css" />
         <title>DNOO37</title>
     </head>
     <body>
@@ -45,7 +45,7 @@
             }
             cities().catch((error) => console.error(error));
             async function weather(ciudad) {
-                const key = "AQUI_VA_SU_API_KEY";
+                const key = "";
                 const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid=" + key + "&lang=es");
                 const tiempo = await segundo.json();
                 console.log(tiempo);
