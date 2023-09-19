@@ -3,26 +3,26 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="_style.css" />
         <title>DNOO37</title>
     </head>
     <body>
         <nav>
-            <h1><a href="index.html">Nombre Apellido</a></h1>
+            <h1><a href="index.html">NOMBRE APELLIDO</a></h1>
             <select onchange="location = this.value;">
                 <option value="index.html" selected>INDEX</option>
                 <option value="astronomy.html">ASTRONOMY</option>
-                <option value="earthquakes.html">M4.0+ EARTHQUAKES</option>
-                <option value="students.html">STUDENTS</option>
+                <option value="dno037.html">DNO037</option>
+                <option value="earthquakes.html">EARTHQUAKES</option>
                 <option value="weather.html">WEATHER</option>
-                <option value="extra.html">EXTRA</option>
+                <option value="extra.html">*EXTRA</option>
             </select>
         </nav>
-        <main style="min-height: 62vh;">
-            <blockquote>
+        <section style="min-height: 80vh">
+            <blockquote><div id="loader"></div>
                 Siendo las <span id="horas"></span>:<span id="minutos"></span>, recuerdo el tema <span id="cancion"></span> de Taylor Swift. En este tema, del disco <span id="disco"></span>, ella canta: <span id="letra"></span>
             </blockquote>
-        </main>
+        </section>
         <footer>
             <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
             <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
@@ -36,6 +36,16 @@
             document.querySelector("#cancion").innerHTML = "song";
             document.querySelector("#disco").innerHTML = "album";
             document.querySelector("#letra").innerHTML = "quote";
+
+
+            async function swiftie() {
+                const data = await fetch("https://taylorswiftapi.onrender.com/get");
+                const datos = await data.json();
+                console.log(data);
+                document.querySelector("#loader").style.display = "none";
+            }
+            swiftie().catch((error) => console.error(error));
+
         </script>
     </body>
 </html>

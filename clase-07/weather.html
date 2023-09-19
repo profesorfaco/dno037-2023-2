@@ -3,30 +3,29 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="_style.css" />
         <title>DNOO37</title>
     </head>
     <body>
         <nav>
-            <h1><a href="index.html">Nombre Apellido</a></h1>
+            <h1><a href="index.html">NOMBRE APELLIDO</a></h1>
             <select onchange="location = this.value;">
                 <option value="index.html">INDEX</option>
                 <option value="astronomy.html">ASTRONOMY</option>
-                <option value="earthquakes.html">M4.0+ EARTHQUAKES</option>
-                <option value="students.html">STUDENTS</option>
+                <option value="dno037.html">DNO037</option>
+                <option value="earthquakes.html">EARTHQUAKES</option>
                 <option value="weather.html" selected>WEATHER</option>
-                <option value="extra.html">EXTRA</option>
+                <option value="extra.html">*EXTRA</option>
             </select>
         </nav>
-        <header id="app">
+        <header>
             <input list="ciudades" name="ciudad" placeholder="Escriba el nombre de una ciudad chilena…" />
             <datalist id="ciudades"></datalist>
             <input type="button" onclick="consulta()" value="Ver" />
         </header>
-        <main style="min-height: 62vh;">
+        <section style="min-height: 70vh">
             <blockquote style="display: none;">La temperatura en <span id="lugar"></span> es de <span id="temperatura"></span></blockquote>
         </main>
-        <footer></footer>
         <script>
             const input = document.querySelector("input");
             const llenado = document.querySelector("#ciudades");

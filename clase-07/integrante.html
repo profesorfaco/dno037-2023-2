@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="_style.css" />
+        <title>DNOO37</title>
+    </head>
+    <body>
+        <nav>
+            <h1><a href="index.html">NOMBRE APELLIDO</a></h1>
+            <select onchange="location = this.value;">
+                <option value="index.html">INDEX</option>
+                <option value="astronomy.html">ASTRONOMY</option>
+                <option value="dno037.html">DNO037</option>
+                <option value="earthquakes.html">EARTHQUAKES</option>
+                <option value="weather.html">WEATHER</option>
+                <option value="extra.html">*EXTRA</option>
+            </select>
+        </nav>
+        <header>
+            <p><a href="dno037.html">Volver</a></p>
+        </header>
+        <aside></aside>
+        <section></section>
+        <script>
+            var quien = new URLSearchParams(window.location.search).get('lista');
+            
+            if(quien == null){
+                window.location.href = 'dno037.html';
+            }
+            
+            var url, plural, singular;
+            
+            async function estudiantes(x) {
+                const curso = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/_curso.json");
+                plural = await curso.json();
+                let p = x-1
+                console.log(plural[p]);
+                estudiante(plural[p].user).catch((error) => console.error(error));
+            }
+            
+            estudiantes(quien).catch((error) => console.error(error));
+
+            async function estudiante(url) {
+                const estudiante = await fetch(url);
+                singular = await estudiante.json();
+                console.log(singular);
+                document.body.style.backgroundImage = `linear-gradient(to bottom, rgba(235,235,235,0.85), rgba(250,250,250, 0.95)),url('${singular.avatar_url}')`;
+                document.body.style.backgroundPosition = "center center"; 
+                document.body.style.backgroundSize = "cover";
+            }
+        </script>
+    </body>
+</html>

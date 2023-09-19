@@ -3,33 +3,33 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="style.css" />
-        <style>
-            main{ padding-bottom: 2rem; }
-        </style>
+        <link rel="stylesheet" href="_style.css" />
+        <style> main{ padding-bottom: 5vh; } </style>
         <title>DNOO37</title>
     </head>
     <body>
         <nav>
-            <h1><a href="index.html">Nombre Apellido</a></h1>
+            <h1><a href="index.html">NOMBRE APELLIDO</a></h1>
             <select onchange="location = this.value;">
                 <option value="index.html">INDEX</option>
                 <option value="astronomy.html">ASTRONOMY</option>
-                <option value="earthquakes.html" selected>M4.0+ EARTHQUAKES</option>
-                <option value="students.html">STUDENTS</option>
+                <option value="dno037.html">DNO037</option>
+                <option value="earthquakes.html" selected>EARTHQUAKES</option>
                 <option value="weather.html">WEATHER</option>
-                <option value="extra.html">EXTRA</option>
+                <option value="extra.html">*EXTRA</option>
             </select>
         </nav>
         <header>
-            <p>Sólo Chile, <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_blank" rel="noreferrer noopener">registrados por la USGS</a> en el último mes.</p>
+            <div>Sólo Chile, <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_blank" rel="noreferrer noopener">registrados por la USGS</a> en el último mes.</div>
         </header>
+        <aside>
+            <div id="loader"></div>
+        </aside>
         <main>
-            <section></section>
         </main>
-        <footer></footer>
         <script>
-            const seccion = document.querySelector("section");
+            const seccion = document.querySelector("main");
+            const cargador = document.querySelector("#loader");
 
             // Una función asincrónica para el fetch
 
@@ -43,7 +43,7 @@
                         )}</p></div></article>`;
                     }
                 });
-                ajustaFooter();
+                cargador.style.display = "none";
             }
             temblores().catch((error) => console.error(error));
 
