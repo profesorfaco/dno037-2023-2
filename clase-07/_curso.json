@@ -397,9 +397,9 @@
         "github": "https://github.com/profesorfaco",
         "avatar": "https://github.com/profesorfaco.png?size=200",
         "zodiaco": {
-            "signo": "",
-            "elemento": "tierra",
-            "mutable": "mutable"
+            "signo": "Géminis",
+            "elemento": "aire",
+            "modalidad": "mutable"
         },
         "user": "https://api.github.com/users/profesorfaco",
         "motivo": "Sigo en el curso porque soy el profesor y el grupo de estudiante me simpatiza.",
