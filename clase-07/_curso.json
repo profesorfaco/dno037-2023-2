@@ -397,9 +397,9 @@
         "github": "https://github.com/profesorfaco",
         "avatar": "https://github.com/profesorfaco.png?size=200",
         "zodiaco": {
-            "signo": "",
-            "elemento": "tierra",
-            "mutable": "mutable"
+            "signo": "Géminis",
+            "elemento": "aire",
+            "modalidad": "mutable"
         },
         "user": "https://api.github.com/users/profesorfaco",
         "motivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et risus orci. Etiam fermentum sapien sit amet arcu tincidunt dictum. Integer efficitur tortor eget pharetra luctus. Morbi lectus.",
