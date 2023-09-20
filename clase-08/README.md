@@ -10,17 +10,17 @@ Cada versión debe ajustarse a la siguiente pauta de cotejo:
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
-| Página 0 (portada) | 0.5 |
-| Página 1 | 0.5 |
-| Página 2 | 0.5 |
-| Página 3 | 0.5 |
-| Página 4 | 0.5 |
-| Página 5 | 0.5 |
+| Página 0 → index.html → pendiente | 0.5 |
+| Página 1 → integramtes.html → pendiente | 0.5 |
+| Página 2 → integramte.html → pendiente | 0.5 |
+| Página 3 → openweather.html → pendiente | 0.5 |
+| Página 4 → picture.html → pendiente | 0.5 |
+| Página 5 → registros.html → pendiente| 0.5 |
 | Puntos acumulados por trabajo desarrollado entre las clases [5](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-05), [6](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-06) y [7](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07) | 3.0 |
 | Punto base | 1.0 |
 | NOTA  | 7.0 |
 
-### Para entregar:
+### Para entregar:→
 
 **Ingrese al foro de Canvas y deje su respuesta**: Pendiente
 
