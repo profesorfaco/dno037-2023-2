@@ -28,7 +28,7 @@
 
         <nav>
             <h1><a href="index.html">NOMBRE APELLIDO</a></h1>
-            <button onclick="location.href = 'dno037.html'">VOLVER</button>
+            <button onclick="location.href = 'astrology.html'">VOLVER</button>
             </select>
         </nav>
         <aside></aside>
@@ -37,7 +37,7 @@
             var quien = new URLSearchParams(window.location.search).get("lista");
 
             if (quien == null) {
-                window.location.href = "dno037.html";
+                window.location.href = "astrology.html";
             } else {
                 estudiantes(quien).catch((error) => console.error(error));
             }

@@ -5,9 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="style.css" />
         <title>DNOO37</title>
+        <style>
+            div{
+                margin:0.8rem 3.25rem 3rem 4.25rem; 
+                padding: 1rem; 
+                background: rgb(250,250,250);
+                border-radius: 0.4rem;
+                box-shadow: inset 1px 1px 2px rgba(55,55,55,.25);
+            }
+        </style>
     </head>
     <body>
-        <div style="margin: 2rem; padding: 1rem; background: #fff;">
+        <nav>
+            <h1><a href="index.html">NOMBRE APELLIDO</a></h1>
+            <select onchange="location = this.value;">
+                <option value="index.html">INDEX</option>
+                <option value="astrology.html">ASTROLOGY</option>
+                <option value="astronomy.html">ASTRONOMY</option>
+                <option value="earthquakes.html">EARTHQUAKES</option>
+                <option value="weather.html">WEATHER</option>
+                <option value="extra.html">*EXTRA</option>
+                <option value="fixing.html" selected>**FIXING</option>
+            </select>
+        </nav>
+        <div>
             <code id="todo"></code>
         </div>
         <script>

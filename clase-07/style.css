@@ -100,7 +100,7 @@ footer {
 }
 
 nav h1 a {
-    font-size: 140%;
+    font-size: var(--mediano);
     letter-spacing: 0.05rem;
     text-decoration: none;
     line-height: 1;
