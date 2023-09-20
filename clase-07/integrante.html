@@ -52,7 +52,7 @@
                 let p = x - 1;
                 console.log(plural[p]);
                 estudiante(plural[p].user).catch((error) => console.error(error));
-                aside.innerHTML += `<h2><a href="${plural[p].github}">${plural[p].nombres.split(" ")[0]} ${plural[p].apellidos.split(" ")[0]}</a></h2>
+                aside.innerHTML += `<h2><a href="${plural[p].github}" target="_blank">${plural[p].nombres.split(" ")[0]} ${plural[p].apellidos.split(" ")[0]}</a></h2>
                 <p id="bio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><use href="#tarjeta"/></svg></p>
                 <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><use href="#comentario"/></svg> ${plural[p].motivo}</p>
                 <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><use href="#afinidad"/></svg> Podría trabajar con otros signos zodiacales de ${plural[p].zodiaco.elemento}:</p>`;
