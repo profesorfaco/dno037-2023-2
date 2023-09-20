@@ -97,18 +97,18 @@
 		"lista": 7
 	},
 	{
-		"apellidos": "ESPINOZA VILLAGRA",
-		"nombres": "DANIELA VICTORIA",
-		"github": "",
-		"avatar": "",
-		"user": "",
-		"zodiaco": {
-			"signo": "",
-			"elemento": "",
-			"modalidad": ""
-		},
-		"motivo": "",
-		"lista": 8
+	"apellidos": "ESPINOZA VILLAGRA",
+	"nombres": "DANIELA",
+	"github": "https://github.com/dani-esp",
+	"avatar": "https://github.com/dani-esp.png?size=200",
+	"user": "https://api.github.com/users/dani-esp",
+	"zodiaco": {
+		"signo": "Leo",
+		"elemento": "fuego",
+		"modalidad": "fijo"
+	},
+	"motivo": "Creo que entrega herramientas muy útiles."
+	"lista":8
 	},
 	{
 		"apellidos": "EYZAGUIRRE PIZARRO",
