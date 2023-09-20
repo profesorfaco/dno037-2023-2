@@ -15,7 +15,7 @@ Cada versión debe ajustarse a la siguiente pauta de cotejo:
 | Página 2 → integrante.html → pendiente | 0.5 |
 | Página 3 → openweather.html → pendiente | 0.5 |
 | Página 4 → picture.html → pendiente | 0.5 |
-| Página 5 → registros.html → pendiente| 0.5 |
+| Página 5 → sismico.html → pendiente| 0.5 |
 | Puntos acumulados por trabajo desarrollado entre las clases [5](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-05), [6](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-06) y [7](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07) | 3.0 |
 | Punto base | 1.0 |
 | NOTA  | 7.0 |
