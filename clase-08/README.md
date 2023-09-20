@@ -11,8 +11,8 @@ Cada versión debe ajustarse a la siguiente pauta de cotejo:
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
 | Página 0 → index.html → pendiente | 0.5 |
-| Página 1 → integramtes.html → pendiente | 0.5 |
-| Página 2 → integramte.html → pendiente | 0.5 |
+| Página 1 → integrantes.html → pendiente | 0.5 |
+| Página 2 → integrante.html → pendiente | 0.5 |
 | Página 3 → openweather.html → pendiente | 0.5 |
 | Página 4 → picture.html → pendiente | 0.5 |
 | Página 5 → registros.html → pendiente| 0.5 |
