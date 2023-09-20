@@ -52,10 +52,10 @@
                 let p = x - 1;
                 console.log(plural[p]);
                 estudiante(plural[p].user).catch((error) => console.error(error));
-                aside.innerHTML += `<h2><a href="${plural[p].github}" target="_blank">${plural[p].nombres.split(" ")[0]} ${plural[p].apellidos.split(" ")[0]}</a></h2>
+                aside.innerHTML += `<h2><a href="#" target="_blank">NOMBRE APELLIDO</a></h2>
                 <p id="bio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><use href="#tarjeta"/></svg></p>
-                <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><use href="#comentario"/></svg> ${plural[p].motivo}</p>
-                <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><use href="#afinidad"/></svg> Podría trabajar con otros signos zodiacales de ${plural[p].zodiaco.elemento}:</p>`;
+                <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><use href="#comentario"/></svg> Motivo por el que sigue en el curso</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><use href="#afinidad"/></svg> Podría trabajar con otros signos zodiacales de ???:</p>`;
                 plural.forEach((x, i) => {
                     if (x.zodiaco.elemento == plural[p].zodiaco.elemento && i !== p) {
                         main.innerHTML += `<article><div><img src="${x.avatar}"></div><div><p><a href="integrante.html?lista=${x.lista}">${x.nombres.split(" ")[0]} ${x.apellidos.split(" ")[0]}</a></p><p>${
@@ -69,7 +69,7 @@
                 const estudiante = await fetch(url);
                 singular = await estudiante.json();
                 console.log(singular);
-                document.querySelector("#bio").innerHTML += ` ${singular.bio}`;
+                document.querySelector("#bio").innerHTML += ` Texto de la bio en GitHub`;
                 document.body.style.backgroundImage = `linear-gradient(to bottom, rgba(235,235,235,0.85), rgba(250,250,250, 0.95)),url('${singular.avatar_url}')`;
                 document.body.style.backgroundPosition = "center center";
                 document.body.style.backgroundSize = "cover";
