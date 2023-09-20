@@ -1,310 +1,406 @@
-[
-    {
-        "apellidos": "GÓNGORA ROCHA",
-        "nombres": "LUCAS GABRIEL",
-        "github": "https://github.com/lucasgongorar",
-        "avatar": "https://github.com/lucasgongorar.png?size=200",
-        "user": "https://api.github.com/users/lucasgongorar",
-        "zodiaco": {
-            "signo": "Libra",
-            "elemento": "aire",
-            "modalidad": "cardinal"
-        },
-        "motivo": "Sigo porque me gusta aprender más de códigos, poder desarrollar una página web con mis intereses tipográficos y biomateriales :) y también que el ramo sea más autónomo ",
-        "lista": 1
-    },
-    {
-        "apellidos": "LUQUE JARA",
-        "nombres": "PAULA ANDREA",
-        "github": "https://github.com/paulaluquej",
-        "avatar": "https://github.com/paulaluquej.png?size=200",
-        "user": "https://api.github.com/users/paulaluquej",
-        "zodiaco": {
-            "signo": "Tauro",
-            "elemento": "tierra",
-            "modalidad": "fijo"
-        },
-        "motivo": "Quiero tener un portafolio de diseño bonito c:, igual me cuesta seguirle el ritmo a las clase :c, pero ánimo ánimo ánimo",
-        "lista": 2
-    },
-    {
-        "apellidos": "IVELIC LUNA",
-        "nombres": "DUSAN IVÁN",
-        "github": "https://github.com/duzacs",
-        "avatar": "https://github.com/duzacs.png?size=200",
-        "user": "https://api.github.com/users/duzacs",
-        "zodiaco": {
-            "signo": "Leo",
-            "elemento": "fuego",
-            "modalidad": "fijo"
-        },
-        "motivo": "Porque estoy comprometido a aprender de programación para complementar mis conocimientos de diseño.",
-        "lista": 3
-    },
-    {
-        "apellidos": "ALARCÓN PARRA",
-        "nombres": "IGNACIO ANDRÉS",
-        "github": "https://github.com/nachooozzz",
-        "avatar": "https://github.com/nachooozzz.png?size=200",
-        "user": "https://api.github.com/users/nachooozzz",
-        "zodiaco": {
-            "signo": "Escorpio",
-            "elemento": "agua",
-            "modalidad": "fijo"
-        },
-        "motivo": "Las razones por la que sigo en este OPR es porque realmente he visto resultados de aprendizaje, gracias a la forma en que se desarrolla el curso, y además porque no me quiero atrasar en los créditos.",
-        "lista": 4
-    },
-    {
-        "apellidos": "RODRIGUEZ JIMENEZ",
-        "nombres": "CLAUDIA ELIZABETH",
-        "github": "https://github.com/claurj",
-        "avatar": "https://github.com/claurj.png?size=200",
-        "user": "https://api.github.com/users/claurj",
-        "zodiaco": {
-            "signo": "Géminis",
-            "elemento": "aire",
-            "modalidad": "mutable"
-        },
-        "motivo": "Sigo en este OPR porque aún me interesa aprender a diseñar y programar páginas web, es bacan terminar con una página cada clase :)",
-        "lista": 5
-    },
-    {
-        "apellidos": "BONILLA MEYER",
-        "nombres": "KARLA ALEXANDRA",
-        "github": "https://github.com/karlabo",
-        "avatar": "https://github.com/karlabo.png?size=200",
-        "user": "https://api.github.com/users/karlabo",
-        "zodiaco": {
-            "signo": "Leo",
-            "elemento": "fuego",
-            "modalidad": "fijo"
-        },
-        "motivo": "Sigo en este curso porque me acomoda el horario y no puedo botar más ramos :c pero de igual modo me ha interesado poder entender los elementos de programación para un diseñador y poder dominar  nuevas habilidades ",
-        "lista": 6
-    },
-    {
-        "apellidos": "SPOTORNO CARVAJAL",
-        "nombres": "FLORENCIA PAZ",
-        "github": "https://github.com/flospot",
-        "avatar": "https://github.com/flospot.png?size=200",
-        "user": "https://api.github.com/users/flospot",
-        "zodiaco": {
-            "signo": "Géminis",
-            "elemento": "aire",
-            "modalidad": "mutable"
-        },
-        "motivo": "Prácticamente porque no puedo botar ningún opr pero, principalmente me interesa este ramo por los contenidos que entrega y además me rio mucho con mi amiga, así que comedia y aprendizaje best duo.",
-        "lista": 7
-    },
-    {
-        "apellidos": "FERNÁNDEZ SALAZAR",
-        "nombres": "DAVID ESTEBAN ",
-        "github": "https://github.com/daviidfdezz",
-        "avatar": "https://github.com/daviidfdezz.png?size=200",
-        "user": "https://api.github.com/users/daviidfdezz",
-        "zodiaco": {
-            "signo": "Sagitario",
-            "elemento": "fuego",
-            "modalidad": "mutable"
-        },
-        "motivo": "La razón por la que sigo en este OPR es que siento que he estado aprendiendo algunas cosas de la lógica en el lenguaje de programación web, pese a que me cueste. Me parece un ramo que no me está exigiendo demasiado y me parece bueno quedarme para no atrasarme con mis otros cursos. ",
-        "lista": 8
-    },
-    {
-        "apellidos": "GÓMEZ  PÉREZ ",
-        "nombres": "ISIDORA",
-        "github": "https://github.com/kasu-exe",
-        "avatar": "https://github.com/kasu-exe.png?size=200",
-        "user": "https://api.github.com/users/kasu-exe",
-        "zodiaco": {
-            "signo": "Escorpio",
-            "elemento": "agua",
-            "modalidad": "fijo"
-        },
-        "motivo": "Sigo en el opr porque quiero hacer mi portafolio (y debo muchos créditos así que no me conviene botarlo)",
-        "lista": 9
-    },
-    {
-        "apellidos": "KOLLER FABRES",
-        "nombres": "CAIS ",
-        "github": "https://github.com/catalinakoller",
-        "avatar": "https://github.com/catalinakoller.png?size=200",
-        "user": "https://api.github.com/users/catalinakoller",
-        "zodiaco": {
-            "signo": "Aries",
-            "elemento": "fuego",
-            "modalidad": "cardinal"
-        },
-        "motivo": "Porque me interesaba aprender de programación y si bien es desafiante sigo queriendo aprender más.",
-        "lista": 10
-    },
-    {
-        "apellidos": "GOLDZVEIG SALAYA",
-        "nombres": "SARA",
-        "github": "https://github.com/saragoldzveig",
-        "avatar": "https://github.com/saragoldzveig.png?size=200",
-        "user": "https://api.github.com/users/saragoldzveig",
-        "zodiaco": {
-            "signo": "Tauro",
-            "elemento": "tierra",
-            "modalidad": "fijo"
-        },
-        "motivo": "Sigo en este OPR porque creo que es súper útil para el futuro saber y entender como programar:)",
-        "lista": 11
-    },
-    {
-        "apellidos": "SILVA FIGUEROA",
-        "nombres": "BELÉN ESPERANZA",
-        "github": "https://github.com/belensilvaf",
-        "avatar": "https://github.com/belensilvaf.png?size=200",
-        "user": "https://api.github.com/users/belensilvaf",
-        "zodiaco": {
-            "signo": "Virgo",
-            "elemento": "tierra",
-            "modalidad": "mutable"
-        },
-        "motivo": "Sigo en este OPR porque encuentro muy útil crear páginas web, aunque me parece complicado",
-        "lista": 12
-    },
-    {
-        "apellidos": "MENESES MUSALEM",
-        "nombres": "ISABEL",
-        "github": "https://github.com/imenesesm",
-        "avatar": "https://github.com/imenesesm.png?size=200",
-        "user": "https://api.github.com/users/imenesesm",
-        "zodiaco": {
-            "signo": "Sagitario",
-            "elemento": "fuego",
-            "modalidad": "mutable"
-        },
-        "motivo": "Sigo en este OPR porque me gustan los desafíos.",
-        "lista": 13
-    },
-    {
-        "apellidos": "MUÑOZ MUÑOZ",
-        "nombres": "ISIDORA",
-        "github": "https://github.com/isidoramunoz",
-        "avatar": "https://github.com/isidoramunoz.png?size=200",
-        "user": "https://api.github.com/users/isidoramunoz",
-        "zodiaco": {
-            "signo": "Tauro",
-            "elemento": "tierra",
-            "modalidad": "fijo"
-        },
-        "motivo": "Sigo en este opr porque me parece muy desafiante y estoy aprendiendo cosas nuevas :)",
-        "lista": 14
-    },
-    {
-        "apellidos": "RODRÍGUEZ CANOBRA",
-        "nombres": "TRINIDAD",
-        "github": "https://github.com/trinirodriguez",
-        "avatar": "https://github.com/trinirodriguez.png?size=200",
-        "user": "https://api.github.com/users/trinirodriguez",
-        "zodiaco": {
-            "signo": "Géminis",
-            "elemento": "aire",
-            "modalidad": "mutable"
-        },
-        "motivo": "Sigo aquí por que quiero lograr hacer una página web desde cero.",
-        "lista": 15
-    },
-    {
-        "apellidos": "CRUZ TAPIA",
-        "nombres": "VALENTINA",
-        "github": "https://github.com/vlecrz",
-        "avatar": "https://github.com/vlecrz.png?size=200",
-        "user": "https://api.github.com/users/vlecrz",
-        "zodiaco": {
-            "signo": "Aries",
-            "elemento": "fuego",
-            "modalidad": "cardinal"
-        },
-        "motivo": "No puedo botar ramos inserte meme de la hormiga",
-        "lista": 16
-    },
-    {
-        "apellidos": "GAETE LLANOS",
-        "nombres": "MARÍA JOSÉ",
-        "github": "https://github.com/mjosegaete",
-        "avatar": "https://github.com/mjosegaete.png?size=200",
-        "user": "https://api.github.com/users/mjosegaete",
-        "zodiaco": {
-            "signo": "Acuario",
-            "elemento": "aire",
-            "modalidad": "fijo"
-        },
-        "motivo": "Sigo en el curso porque continúa capturando mi curiosidad por la programación y me ha servido para ayudar a las niñas de las que soy mentora",
-        "lista": 17
-    },
-    {
-        "apellidos": "CRUZAT VERDUGO",
-        "nombres": "NICOLÁS",
-        "github": "https://github.com/nicru",
-        "avatar": "https://github.com/nicru.png?size=200",
-        "user": "https://api.github.com/users/nicru",
-        "zodiaco": {
-            "signo": "Piscis",
-            "elemento": "agua",
-            "modalidad": "mutable"
-        },
-        "motivo": "Refuerzo contenidos pasados y aprendo nuevas cosas, es entretenido diseñar y programar :)",
-        "lista": 18
-    },
-    {
-        "apellidos": "GATICA MATURANA",
-        "nombres": "EMIL",
-        "github": "https://github.com/emilgatica",
-        "avatar": "https://github.com/emilgatica.png?size=200",
-        "user": "https://api.github.com/users/emilgatica",
-        "zodiaco": {
-            "signo": "Aries",
-            "elemento": "fuego",
-            "modalidad": "cardinal"
-        },
-        "motivo": "Los contenidos y aprendizajes del curso son de mi interés, si bien me cuesta un poco seguir el ritmo de las clases tengo motivación en seguir aprendiendo.",
-        "lista": 19
-    },
-    {
-        "apellidos": "JARRY TRUJILLO",
-        "nombres": "GASPAR",
-        "github": "https://github.com/gjarryt",
-        "avatar": "https://github.com/gjarryt.png?size=200",
-        "user": "https://api.github.com/users/gjarryt",
-        "zodiaco": {
-            "signo": "Tauro",
-            "elemento": "tierra",
-            "modalidad": "fijo"
-        },
-        "motivo": "Sigo en el OPR porque me ha entregado herramientas para construir sitios web por mi cuenta, más interactivos y basados en datos, y así poder expandir mis habilidades como diseñador. Además me permite aprender de forma disciplinada y paso a paso. ",
-        "lista": 20
-    },
-    {
-        "apellidos": "VALLEJOS BURGOS",
-        "nombres": "GABRIELA",
-        "github": "https://github.com/gabivallejosb",
-        "avatar": "https://github.com/gabivallejosb.png?size=200",
-        "user": "https://api.github.com/users/gabivallejosb",
-        "zodiaco": {
-            "signo": "Escorpio",
-            "elemento": "agua",
-            "modalidad": "fijo"
-        },
-        "motivo": "En este minuto es más por los créditos que necesito para titularme. Todavía es entretenida la clase, pero cada vez más difícil seguirle el ritmo. ¡Ánimo de acá a diciembre!",
-        "lista": 21
-    },
-    {
-        "apellidos": "ANDRADE BRAVO",
-        "nombres": "GABRIELA ",
-        "github": "https://github.com/gabycss",
-        "avatar": "https://github.com/gabycss.png?size=200",
-        "user": "https://api.github.com/users/gabycss",
-        "zodiaco": {
-            "signo": "Libra",
-            "elemento": "aire",
-            "modalidad": "cardinal"
-        },
-        "motivo": "Sigo en este curso porque me desafié a mi misma a ser buena en esto.",
-        "lista": 22
-    }
+[{
+		"apellidos": "ALARCÓN PARRA",
+		"nombres": "IGNACIO ANDRÉS",
+		"github": "https://github.com/nachooozzz",
+		"avatar": "https://github.com/nachooozzz.png?size=200",
+		"user": "https://api.github.com/users/nachooozzz",
+		"zodiaco": {
+			"signo": "Escorpio",
+			"elemento": "agua",
+			"modalidad": "fijo"
+		},
+		"motivo": "Las razones por la que sigo en este OPR es porque realmente he visto resultados de aprendizaje, gracias a la forma en que se desarrolla el curso, y además porque no me quiero atrasar en los créditos.",
+		"lista": 1
+	},
+	{
+		"apellidos": "ANDRADE BRAVO",
+		"nombres": "GABRIELA",
+		"github": "https://github.com/gabycss",
+		"avatar": "https://github.com/gabycss.png?size=200",
+		"user": "https://api.github.com/users/gabycss",
+		"zodiaco": {
+			"signo": "Libra",
+			"elemento": "aire",
+			"modalidad": "cardinal"
+		},
+		"motivo": "Sigo en este curso porque me desafié a mi misma a ser buena en esto.",
+		"lista": 2
+	},
+	{
+		"apellidos": "BIRCHMEIER MONASTERIO",
+		"nombres": "SOFÍA TRINIDAD",
+		"github": "",
+		"avatar": "",
+		"user": "",
+		"zodiaco": {
+			"signo": "",
+			"elemento": "",
+			"modalidad": ""
+		},
+		"motivo": "",
+		"lista": 3
+	},
+	{
+		"apellidos": "BONILLA MEYER",
+		"nombres": "KARLA ALEXANDRA",
+		"github": "https://github.com/karlabo",
+		"avatar": "https://github.com/karlabo.png?size=200",
+		"user": "https://api.github.com/users/karlabo",
+		"zodiaco": {
+			"signo": "Leo",
+			"elemento": "fuego",
+			"modalidad": "fijo"
+		},
+		"motivo": "Sigo en este curso porque me acomoda el horario y no puedo botar más ramos :c pero de igual modo me ha interesado poder entender los elementos de programación para un diseñador y poder dominar  nuevas habilidades ",
+		"lista": 4
+	},
+	{
+		"apellidos": "CICARELLI SEPÚLVEDA",
+		"nombres": "ISABELLA FABIOLA",
+		"github": "",
+		"avatar": "",
+		"user": "",
+		"zodiaco": {
+			"signo": "",
+			"elemento": "",
+			"modalidad": ""
+		},
+		"motivo": "",
+		"lista": 5
+	},
+	{
+		"apellidos": "CRUZ TAPIA",
+		"nombres": "VALENTINA",
+		"github": "https://github.com/vlecrz",
+		"avatar": "https://github.com/vlecrz.png?size=200",
+		"user": "https://api.github.com/users/vlecrz",
+		"zodiaco": {
+			"signo": "Aries",
+			"elemento": "fuego",
+			"modalidad": "cardinal"
+		},
+		"motivo": "No puedo botar ramos inserte meme de la hormiga",
+		"lista": 6
+	},
+	{
+		"apellidos": "CRUZAT VERDUGO",
+		"nombres": "NICOLÁS",
+		"github": "https://github.com/nicru",
+		"avatar": "https://github.com/nicru.png?size=200",
+		"user": "https://api.github.com/users/nicru",
+		"zodiaco": {
+			"signo": "Piscis",
+			"elemento": "agua",
+			"modalidad": "mutable"
+		},
+		"motivo": "Refuerzo contenidos pasados y aprendo nuevas cosas, es entretenido diseñar y programar :)",
+		"lista": 7
+	},
+	{
+		"apellidos": "ESPINOZA VILLAGRA",
+		"nombres": "DANIELA VICTORIA",
+		"github": "",
+		"avatar": "",
+		"user": "",
+		"zodiaco": {
+			"signo": "",
+			"elemento": "",
+			"modalidad": ""
+		},
+		"motivo": "",
+		"lista": 8
+	},
+	{
+		"apellidos": "EYZAGUIRRE PIZARRO",
+		"nombres": "AMPARO EMILIA",
+		"github": "",
+		"avatar": "",
+		"user": "",
+		"zodiaco": {
+			"signo": "",
+			"elemento": "",
+			"modalidad": ""
+		},
+		"motivo": "",
+		"lista": 9
+	},
+	{
+		"apellidos": "FERNÁNDEZ SALAZAR",
+		"nombres": "DAVID ESTEBAN ",
+		"github": "https://github.com/daviidfdezz",
+		"avatar": "https://github.com/daviidfdezz.png?size=200",
+		"user": "https://api.github.com/users/daviidfdezz",
+		"zodiaco": {
+			"signo": "Sagitario",
+			"elemento": "fuego",
+			"modalidad": "mutable"
+		},
+		"motivo": "La razón por la que sigo en este OPR es que siento que he estado aprendiendo algunas cosas de la lógica en el lenguaje de programación web, pese a que me cueste. Me parece un ramo que no me está exigiendo demasiado y me parece bueno quedarme para no atrasarme con mis otros cursos. ",
+		"lista": 10
+	},
+	{
+		"apellidos": "GAETE LLANOS",
+		"nombres": "MARÍA JOSÉ",
+		"github": "https://github.com/mjosegaete",
+		"avatar": "https://github.com/mjosegaete.png?size=200",
+		"user": "https://api.github.com/users/mjosegaete",
+		"zodiaco": {
+			"signo": "Acuario",
+			"elemento": "aire",
+			"modalidad": "fijo"
+		},
+		"motivo": "Sigo en el curso porque continúa capturando mi curiosidad por la programación y me ha servido para ayudar a las niñas de las que soy mentora",
+		"lista": 11
+	},
+	{
+		"apellidos": "GATICA MATURANA",
+		"nombres": "EMIL",
+		"github": "https://github.com/emilgatica",
+		"avatar": "https://github.com/emilgatica.png?size=200",
+		"user": "https://api.github.com/users/emilgatica",
+		"zodiaco": {
+			"signo": "Aries",
+			"elemento": "fuego",
+			"modalidad": "cardinal"
+		},
+		"motivo": "Los contenidos y aprendizajes del curso son de mi interés, si bien me cuesta un poco seguir el ritmo de las clases tengo motivación en seguir aprendiendo.",
+		"lista": 12
+	},
+	{
+		"apellidos": "GOLDZVEIG SALAYA",
+		"nombres": "SARA",
+		"github": "https://github.com/saragoldzveig",
+		"avatar": "https://github.com/saragoldzveig.png?size=200",
+		"user": "https://api.github.com/users/saragoldzveig",
+		"zodiaco": {
+			"signo": "Tauro",
+			"elemento": "tierra",
+			"modalidad": "fijo"
+		},
+		"motivo": "Sigo en este OPR porque creo que es súper útil para el futuro saber y entender como programar:)",
+		"lista": 13
+	},
+	{
+		"apellidos": "GÓMEZ  PÉREZ",
+		"nombres": "ISIDORA",
+		"github": "https://github.com/kasu-exe",
+		"avatar": "https://github.com/kasu-exe.png?size=200",
+		"user": "https://api.github.com/users/kasu-exe",
+		"zodiaco": {
+			"signo": "Escorpio",
+			"elemento": "agua",
+			"modalidad": "fijo"
+		},
+		"motivo": "Sigo en el opr porque quiero hacer mi portafolio (y debo muchos créditos así que no me conviene botarlo)",
+		"lista": 14
+	},
+	{
+		"apellidos": "GÓNGORA ROCHA",
+		"nombres": "LUCAS GABRIEL",
+		"github": "https://github.com/lucasgongorar",
+		"avatar": "https://github.com/lucasgongorar.png?size=200",
+		"user": "https://api.github.com/users/lucasgongorar",
+		"zodiaco": {
+			"signo": "Libra",
+			"elemento": "aire",
+			"modalidad": "cardinal"
+		},
+		"motivo": "Sigo porque me gusta aprender más de códigos, poder desarrollar una página web con mis intereses tipográficos y biomateriales :) y también que el ramo sea más autónomo ",
+		"lista": 15
+	},
+	{
+		"apellidos": "GUAJARDO CARRASCO",
+		"nombres": "TAMARA SCARLETTE",
+		"github": "",
+		"avatar": "",
+		"user": "",
+		"zodiaco": {
+			"signo": "",
+			"elemento": "",
+			"modalidad": ""
+		},
+		"motivo": "",
+		"lista": 16
+	},
+	{
+		"apellidos": "IMSCHENETZKY RODRÍGUEZ",
+		"nombres": "JOSEFINA MARÍA",
+		"github": "",
+		"avatar": "",
+		"user": "",
+		"zodiaco": {
+			"signo": "",
+			"elemento": "",
+			"modalidad": ""
+		},
+		"motivo": "",
+		"lista": 17
+	},
+	{
+		"apellidos": "IVELIC LUNA",
+		"nombres": "DUSAN IVÁN",
+		"github": "https://github.com/duzacs",
+		"avatar": "https://github.com/duzacs.png?size=200",
+		"user": "https://api.github.com/users/duzacs",
+		"zodiaco": {
+			"signo": "Leo",
+			"elemento": "fuego",
+			"modalidad": "fijo"
+		},
+		"motivo": "Porque estoy comprometido a aprender de programación para complementar mis conocimientos de diseño.",
+		"lista": 18
+	},
+	{
+		"apellidos": "JARRY TRUJILLO",
+		"nombres": "GASPAR",
+		"github": "https://github.com/gjarryt",
+		"avatar": "https://github.com/gjarryt.png?size=200",
+		"user": "https://api.github.com/users/gjarryt",
+		"zodiaco": {
+			"signo": "Tauro",
+			"elemento": "tierra",
+			"modalidad": "fijo"
+		},
+		"motivo": "Sigo en el OPR porque me ha entregado herramientas para construir sitios web por mi cuenta, más interactivos y basados en datos, y así poder expandir mis habilidades como diseñador. Además me permite aprender de forma disciplinada y paso a paso. ",
+		"lista": 19
+	},
+	{
+		"apellidos": "KOLLER FABRES",
+		"nombres": "CAIS ",
+		"github": "https://github.com/catalinakoller",
+		"avatar": "https://github.com/catalinakoller.png?size=200",
+		"user": "https://api.github.com/users/catalinakoller",
+		"zodiaco": {
+			"signo": "Aries",
+			"elemento": "fuego",
+			"modalidad": "cardinal"
+		},
+		"motivo": "Porque me interesaba aprender de programación y si bien es desafiante sigo queriendo aprender más.",
+		"lista": 20
+	},
+	{
+		"apellidos": "LUQUE JARA",
+		"nombres": "PAULA ANDREA",
+		"github": "https://github.com/paulaluquej",
+		"avatar": "https://github.com/paulaluquej.png?size=200",
+		"user": "https://api.github.com/users/paulaluquej",
+		"zodiaco": {
+			"signo": "Tauro",
+			"elemento": "tierra",
+			"modalidad": "fijo"
+		},
+		"motivo": "Quiero tener un portafolio de diseño bonito c:, igual me cuesta seguirle el ritmo a las clase :c, pero ánimo ánimo ánimo",
+		"lista": 21
+	},
+	{
+		"apellidos": "MENESES MUSALEM",
+		"nombres": "ISABEL",
+		"github": "https://github.com/imenesesm",
+		"avatar": "https://github.com/imenesesm.png?size=200",
+		"user": "https://api.github.com/users/imenesesm",
+		"zodiaco": {
+			"signo": "Sagitario",
+			"elemento": "fuego",
+			"modalidad": "mutable"
+		},
+		"motivo": "Sigo en este OPR porque me gustan los desafíos.",
+		"lista": 22
+	},
+	{
+		"apellidos": "MUÑOZ MUÑOZ",
+		"nombres": "ISIDORA",
+		"github": "https://github.com/isidoramunoz",
+		"avatar": "https://github.com/isidoramunoz.png?size=200",
+		"user": "https://api.github.com/users/isidoramunoz",
+		"zodiaco": {
+			"signo": "Tauro",
+			"elemento": "tierra",
+			"modalidad": "fijo"
+		},
+		"motivo": "Sigo en este opr porque me parece muy desafiante y estoy aprendiendo cosas nuevas :)",
+		"lista": 23
+	},
+	{
+		"apellidos": "RODRIGUEZ JIMENEZ",
+		"nombres": "CLAUDIA ELIZABETH",
+		"github": "https://github.com/claurj",
+		"avatar": "https://github.com/claurj.png?size=200",
+		"user": "https://api.github.com/users/claurj",
+		"zodiaco": {
+			"signo": "Géminis",
+			"elemento": "aire",
+			"modalidad": "mutable"
+		},
+		"motivo": "Sigo en este OPR porque aún me interesa aprender a diseñar y programar páginas web, es bacan terminar con una página cada clase :)",
+		"lista": 24
+	},
+	{
+		"apellidos": "RODRÍGUEZ CANOBRA",
+		"nombres": "TRINIDAD",
+		"github": "https://github.com/trinirodriguez",
+		"avatar": "https://github.com/trinirodriguez.png?size=200",
+		"user": "https://api.github.com/users/trinirodriguez",
+		"zodiaco": {
+			"signo": "Géminis",
+			"elemento": "aire",
+			"modalidad": "mutable"
+		},
+		"motivo": "Sigo aquí por que quiero lograr hacer una página web desde cero.",
+		"lista": 25
+	},
+	{
+		"apellidos": "SILVA FIGUEROA",
+		"nombres": "BELÉN ESPERANZA",
+		"github": "https://github.com/belensilvaf",
+		"avatar": "https://github.com/belensilvaf.png?size=200",
+		"user": "https://api.github.com/users/belensilvaf",
+		"zodiaco": {
+			"signo": "Virgo",
+			"elemento": "tierra",
+			"modalidad": "mutable"
+		},
+		"motivo": "Sigo en este OPR porque encuentro muy útil crear páginas web, aunque me parece complicado",
+		"lista": 26
+	},
+	{
+		"apellidos": "SPOTORNO CARVAJAL",
+		"nombres": "FLORENCIA PAZ",
+		"github": "https://github.com/flospot",
+		"avatar": "https://github.com/flospot.png?size=200",
+		"user": "https://api.github.com/users/flospot",
+		"zodiaco": {
+			"signo": "Géminis",
+			"elemento": "aire",
+			"modalidad": "mutable"
+		},
+		"motivo": "Prácticamente porque no puedo botar ningún opr pero, principalmente me interesa este ramo por los contenidos que entrega y además me rio mucho con mi amiga, así que comedia y aprendizaje best duo.",
+		"lista": 27
+	},
+	{
+		"apellidos": "VALLEJOS BURGOS",
+		"nombres": "GABRIELA",
+		"github": "https://github.com/gabivallejosb",
+		"avatar": "https://github.com/gabivallejosb.png?size=200",
+		"user": "https://api.github.com/users/gabivallejosb",
+		"zodiaco": {
+			"signo": "Escorpio",
+			"elemento": "agua",
+			"modalidad": "fijo"
+		},
+		"motivo": "En este minuto es más por los créditos que necesito para titularme. Todavía es entretenida la clase, pero cada vez más difícil seguirle el ritmo. ¡Ánimo de acá a diciembre!",
+		"lista": 28
+	}, {
+		"apellidos": "CORTEZ ORELLANA",
+		"nombres": "FELIPE ALBERTO",
+		"github": "https://github.com/profesorfaco",
+		"avatar": "https://github.com/profesorfaco.png?size=200",
+		"user": "https://api.github.com/users/profesorfaco",
+		"zodiaco": {
+			"signo": "Géminis",
+			"elemento": "aire",
+			"modalidad": "mutable"
+		},
+		"motivo": "Porque soy el profesor. Y en esta posición me encanta apurar el ritmo de lo que enseño hasta la mitad del semestre, para que en la otra mitad cada estudiante pueda aprovechar lo aprendido.",
+		"lista": 29
+	}
 ]
