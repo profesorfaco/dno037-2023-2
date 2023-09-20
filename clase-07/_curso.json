@@ -57,16 +57,16 @@
 	},
 	{
 		"apellidos": "CICARELLI SEPÚLVEDA",
-		"nombres": "ISABELLA FABIOLA",
-		"github": "",
-		"avatar": "",
-		"user": "",
+		"nombres": "ISABELLA",
+		"github": "https://github.com/isacicarelli",
+		"avatar": "https://github.com/isacicarelli.png?size=200",
+		"user": "https://api.github.com/users/isacicarelli",
 		"zodiaco": {
-			"signo": "",
-			"elemento": "",
-			"modalidad": ""
+			"signo": "Sagitario",
+			"elemento": "fuego",
+			"modalidad": "mutable"
 		},
-		"motivo": "",
+		"motivo": "Me gusta lo que he aprendido y siento que me ayuda a salir de mi zona de comfort",
 		"lista": 5
 	},
 	{
