@@ -20,7 +20,7 @@ Cada versión debe ajustarse a la siguiente pauta de cotejo:
 
 ### Para entregar:
 
-**Ingrese al foro de Canvas y deje su respuesta**: Pendiente
+**Ingrese al foro de Canvas y deje su respuesta**: https://cursos.canvas.uc.cl/courses/66086/discussion_topics/688296
 
 - - - - - - - - - - - - -
 
