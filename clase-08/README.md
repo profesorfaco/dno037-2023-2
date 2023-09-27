@@ -4,13 +4,11 @@
 
 Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión del sitio web que se base en lo que pudo resolverse [la clase recién pasada](https://profesorfaco.github.io/dno037-2023-2/clase-07/), poniendo atención a las siguientes instrucciones diferenciadas:
 
-PENDIENTE
-
 Cada versión debe ajustarse a la siguiente pauta de cotejo:
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
-| Página 0 → index.html → pendiente | 0.5 |
+| Página 0 → index.html → Consulta el JSON del curso para obtener desde ahí su motivo para seguir en la asignatura. En el mismo párrafo, después de un punto seguido, agrega un vínculo al "tab" de sus respositorios; esto último sería algo como: https://github.com/profesorfaco?tab=repositories | 0.5 |
 | Página 1 → integrantes.html → pendiente | 0.5 |
 | Página 2 → integrante.html → pendiente | 0.5 |
 | Página 3 → openweather.html → pendiente | 0.5 |
