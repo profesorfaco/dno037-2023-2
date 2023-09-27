@@ -17,40 +17,11 @@
                 <option value="sismico.html">SÍSMICO</option>
             </select>
         </nav>
-        <header>
-            <div>
-                <label for="start">Astronomy Picture of the Day</label>
-                <input type="date" id="start" name="date" onchange="consulta()" />
-            </div>
-        </header>
         <section style="min-height: 80vh">
             <blockquote></blockquote>
         </section>
         <script>
-            const input = document.querySelector("input[type=date]");
-            const texto = document.querySelector("blockquote");
-            const d = new Date();
-            input.setAttribute("min", `2000-01-01`);
-            input.setAttribute("max", `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${d.getDate()-1}`);
-
-            function consulta() {
-                let fecha = input.value;
-                console.log(fecha);
-                foto(fecha).catch((error) => console.error(error));
-            }
-
-            // https://api.nasa.gov/
-            // https://apod.nasa.gov/apod/calendar/allyears.html
-            // https://github.com/nasa/apod-api
-
-            async function foto(x) {
-                const url = "https://api.nasa.gov/planetary/apod";
-                const key = "UfgFx4aDawBpe6UTEgbnBwDA4GSWKCFK32B2tbVS";
-                const data = await fetch(url + "?api_key=" + key + "&date=" + x);
-                const datos = await data.json();
-                console.log(datos);
-                texto.innerHTML = `${datos.explanation}`
-            }
+            document.querySelector("blockquote").innerHTML = "Reemplace este párrafo con una fecha que le resulte significativa, seguida de la explanation que se ofrece para la Picture of the Day, la cual debe colocar como background en este página. Cuide la legibilidad del texto sobre la imagen. Ejemplo para el párrafo de reemplazo: <em>September 11, 2001</em>: The party is still going on in spiral galaxy NGC 3310…"
         </script>
     </body>
 </html>
