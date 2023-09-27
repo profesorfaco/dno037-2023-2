@@ -10,7 +10,7 @@ Cada versión debe ajustarse a la siguiente pauta de cotejo:
 |:------------------------|:--------:|
 | Página 0 → index.html → Consulta el JSON del curso para obtener desde ahí su motivo para seguir en la asignatura. En el mismo párrafo, después de un punto seguido, agrega un vínculo al "tab" de sus respositorios; esto último sería algo como: https://github.com/profesorfaco?tab=repositories | 0.5 |
 | Página 1 → integrantes.html → Modificar las opciones para marcar "Todos", nombre de su signo zodiacal y dos nombres de signos zodiacales más. Los dos signos más pueden corresponde a su mismo elemento (agua, aire, fuego, tierra) o misma modalidad (cardinales, fijos, mutables), según lo que convenga a que cada selección despliegue integrantes. | 0.5 |
-| Página 2 → integrante.html → pendiente | 0.5 |
+| Página 2 → integrante.html → Asegúrese de que cada integrante tenga su avatar y bio. Si alguien no lo tiene: Avísele y que haga la modificación en su perfil de GitHub. | 0.5 |
 | Página 3 → openweather.html → pendiente | 0.5 |
 | Página 4 → picture.html → pendiente | 0.5 |
 | Página 5 → sismico.html → pendiente| 0.5 |
