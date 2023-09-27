@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <title>DNOO37 | EVALUACIÓN Nº2</title>
+    </head>
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" style="display: none;">
+            <symbol id="comentario" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </symbol>
+            <symbol id="tarjeta" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+            </symbol>
+            <symbol id="afinidad" viewBox="0 0 16 16">
+                <path d="M0 6.5a6.5 6.5 0 0 1 12.346-2.846 6.5 6.5 0 1 1-8.691 8.691A6.5 6.5 0 0 1 0 6.5Zm5.144 6.358a5.5 5.5 0 1 0 7.714-7.714 6.5 6.5 0 0 1-7.714 7.714Zm-.733-1.269c.363.15.746.261 1.144.33l-1.474-1.474c.069.398.18.78.33 1.144Zm2.614.386a5.47 5.47 0 0 0 1.173-.242L4.374 7.91a5.958 5.958 0 0 0-.296 1.118l2.947 2.947Zm2.157-.672c.297-.166.577-.36.838-.576L5.418 6.126a6.016 6.016 0 0 0-.587.826l4.35 4.351Zm1.545-1.284c.216-.26.41-.54.576-.837L6.953 4.83a5.97 5.97 0 0 0-.827.587l4.6 4.602Zm1.006-1.822c.121-.374.204-.766.242-1.172L9.028 4.078c-.386.063-.76.163-1.118.296l3.823 3.824Zm.186-2.642a5.463 5.463 0 0 0-.33-1.144 5.46 5.46 0 0 0-1.144-.33l1.474 1.474Z"/>
+            </symbol>
+        </svg>
+
+        <nav>
+            <button onclick="location.href = 'integrantes.html'">INTEGRANTES</button>
+        </nav>
+        <aside></aside>
+        <main></main>
+        <script>
+            var quien = new URLSearchParams(window.location.search).get("lista");
+
+            if (quien == null) {
+                window.location.href = "integrantes.html";
+            } else {
+                estudiantes(quien).catch((error) => console.error(error));
+            }
+
+            var url, plural, singular;
+
+            const header = document.querySelector("header");
+            const aside = document.querySelector("aside");
+            const main = document.querySelector("main");
+
+            async function estudiantes(x) {
+                const curso = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/_curso.json");
+                plural = await curso.json();
+                let p = x - 1;
+                console.log(plural[p]);
+                estudiante(plural[p].user).catch((error) => console.error(error));
+                aside.innerHTML += `<h2><a href="${plural[p].github}" target="_blank">${plural[p].nombres.split(" ")[0]} ${plural[p].apellidos.split(" ")[0]}</a></h2>
+                <p id="bio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><use href="#tarjeta"/></svg></p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><use href="#comentario"/></svg> ${plural[p].motivo}</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><use href="#afinidad"/></svg> Podría trabajar con otros signos zodiacales de ${plural[p].zodiaco.elemento}:</p>`;
+                plural.forEach((x, i) => {
+                    if (x.zodiaco.elemento == plural[p].zodiaco.elemento && i !== p) {
+                        main.innerHTML += `<article><div><img src="${x.avatar}"></div><div><p><a href="integrante.html?lista=${x.lista}">${x.nombres.split(" ")[0]} ${x.apellidos.split(" ")[0]}</a></p><p>${
+                            x.zodiaco.signo
+                        }</p></div></article>`;
+                    }
+                });
+            }
+
+            async function estudiante(url) {
+                const estudiante = await fetch(url);
+                singular = await estudiante.json();
+                console.log(singular);
+                document.querySelector("#bio").innerHTML += ` ${singular.bio}`;
+                document.body.style.backgroundImage = `linear-gradient(to bottom, rgba(235,235,235,0.85), rgba(250,250,250, 0.95)),url('${singular.avatar_url}')`;
+                document.body.style.backgroundPosition = "center center";
+                document.body.style.backgroundSize = "cover";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <title>DNOO37 | EVALUACIÓN Nº2</title>
+    </head>
+    <body>
+        <nav>
+            <h1><a href="index.html">NOMBRE APELLIDO</a></h1>
+            <select onchange="location = this.value;">
+                <option value="index.html" selected>INDEX</option>
+                <option value="integrantes.html">INTEGRANTES</option>
+                <option value="openweather.html">OPEN WEATHER</option>
+                <option value="picture.html">PICTURE OF THE DAY</option>
+                <option value="sismico.html">SÍSMICO</option>
+            </select>
+        </nav>
+        <section style="min-height: 80vh">
+            <blockquote class="index"></blockquote>
+        </section>
+        <footer>
+            <a href="https://github.com/profesorfaco/dno037-2023-2">Diseño y nuevos medios</a>
+            <a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07">20 de septiembre, 2023</a>
+        </footer>
+        <script>
+            document.querySelector("blockquote").innerHTML = "Consulte el JSON del curso y obtenga desde ahí su motivo para seguir en la asignatura. Agregue en el mismo párrafo, después de un punto seguido, un vínculo a sus respositorios.";
+        </script>
+    </body>
+</html>

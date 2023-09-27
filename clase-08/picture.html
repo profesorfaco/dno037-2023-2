@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <title>DNOO37 | EVALUACIÓN Nº2</title>
+    </head>
+    <body>
+        <nav>
+            <h1><a href="index.html">NOMBRE APELLIDO</a></h1>
+            <select onchange="location = this.value;">
+                <option value="index.html">INDEX</option>
+                <option value="integrantes.html">INTEGRANTES</option>
+                <option value="openweather.html">OPEN WEATHER</option>
+                <option value="picture.html" selected>PICTURE OF THE DAY</option>
+                <option value="sismico.html">SÍSMICO</option>
+            </select>
+        </nav>
+        <header>
+            <div>
+                <label for="start">Astronomy Picture of the Day</label>
+                <input type="date" id="start" name="date" onchange="consulta()" />
+            </div>
+        </header>
+        <section style="min-height: 80vh">
+            <blockquote></blockquote>
+        </section>
+        <script>
+            const input = document.querySelector("input[type=date]");
+            const texto = document.querySelector("blockquote");
+            const d = new Date();
+            input.setAttribute("min", `2000-01-01`);
+            input.setAttribute("max", `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${d.getDate()-1}`);
+
+            function consulta() {
+                let fecha = input.value;
+                console.log(fecha);
+                foto(fecha).catch((error) => console.error(error));
+            }
+
+            // https://api.nasa.gov/
+            // https://apod.nasa.gov/apod/calendar/allyears.html
+            // https://github.com/nasa/apod-api
+
+            async function foto(x) {
+                const url = "https://api.nasa.gov/planetary/apod";
+                const key = "UfgFx4aDawBpe6UTEgbnBwDA4GSWKCFK32B2tbVS";
+                const data = await fetch(url + "?api_key=" + key + "&date=" + x);
+                const datos = await data.json();
+                console.log(datos);
+                texto.innerHTML = `${datos.explanation}`
+            }
+        </script>
+    </body>
+</html>

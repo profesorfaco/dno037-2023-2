@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <title>DNOO37 | EVALUACIÓN Nº2</title>
+    </head>
+    <body>
+        <nav>
+            <h1><a href="index.html">NOMBRE APELLIDO</a></h1>
+            <select onchange="location = this.value;">
+                <option value="index.html">INDEX</option>
+                <option value="integrantes.html">INTEGRANTES</option>
+                <option value="openweather.html">OPEN WEATHER</option>
+                <option value="picture.html">PICTURE OF THE DAY</option>
+                <option value="sismico.html" selected>SÍSMICO</option>
+            </select>
+        </nav>
+        <header>
+            <div>Sólo Chile, <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_blank" rel="noreferrer noopener">registrados por la USGS</a> en el último mes.</div>
+        </header>
+        <aside>
+            <div id="loader"></div>
+        </aside>
+        <main>
+        </main>
+        <script>
+            const seccion = document.querySelector("main");
+            const cargador = document.querySelector("#loader");
+
+            // Una función asincrónica para el fetch
+
+            async function temblores() {
+                const data = await fetch("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.geojson");
+                datos = await data.json();
+                datos.features.forEach((t, i) => {
+                    if (t.properties.place.includes("Chile") && t.properties.mag > 4.0) {
+                        seccion.innerHTML += `<article><div><h3>${t.properties.mag.toFixed(1)}</h3></div><div><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${t.properties.place}</a> - ${registro(t.properties.time)}</p></div></article>`;
+                    }
+                });
+                cargador.style.display = "none";
+            }
+            temblores().catch((error) => console.error(error));
+
+            // Una función que ajusta la hora
+
+            function registro(timestamp) {
+                var date = new Date(timestamp);
+                return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()} a las ${(date.getHours() < 10 ? "0" : "") + date.getHours()}:${(date.getMinutes() < 10 ? "0" : "") + date.getMinutes()} hrs.`;
+            }
+        </script>
+    </body>
+</html>

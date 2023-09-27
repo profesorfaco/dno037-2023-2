@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <title>DNOO37 | EVALUACIÓN Nº2</title>
+    </head>
+    <body>
+        <nav>
+            <h1><a href="index.html">NOMBRE APELLIDO</a></h1>
+            <select onchange="location = this.value;">
+                <option value="index.html">INDEX</option>
+                <option value="integrantes.html">INTEGRANTES</option>
+                <option value="openweather.html" selected>OPEN WEATHER</option>
+                <option value="picture.html">PICTURE OF THE DAY</option>
+                <option value="sismico.html">SÍSMICO</option>
+            </select>
+        </nav>
+        <header>
+            <input list="ciudades" name="ciudad" placeholder="Escriba el nombre de una ciudad chilena…" />
+            <datalist id="ciudades"></datalist>
+            <input type="button" onclick="consulta()" value="Ver" />
+        </header>
+        <section style="min-height: 70vh">
+            <blockquote style="display: none;">La temperatura en <span id="lugar"></span> es de <span id="temperatura"></span></blockquote>
+        </main>
+        <script>
+            const input = document.querySelector("input");
+            const llenado = document.querySelector("#ciudades");
+            const respuesta = document.querySelector("blockquote");
+            const lugar = document.querySelector("#lugar");
+            const temperatura = document.querySelector("#temperatura");
+            var listaCiudades = [];
+            //creando la función cities
+            async function cities() {
+                const primero = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/_ciudades.json");
+                const ciudades = await primero.json();
+                console.log(ciudades);
+                ciudades.forEach((c) => {
+                    llenado.innerHTML += `<option value="${c.name}">`;
+                    listaCiudades.push(c.name);
+                });
+            }
+            cities().catch((error) => console.error(error));
+            async function weather(ciudad) {
+                const key = "9eaf12bd13c5deb3d69a49a2e98b458f";
+                const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid=" + key + "&lang=es");
+                const tiempo = await segundo.json();
+                console.log(tiempo);
+                respuesta.removeAttribute("style");
+                lugar.innerHTML = tiempo.name;
+                temperatura.innerHTML = Math.round(tiempo.main.temp) + "ºC";
+                if(tiempo.coord.lat >= -27){
+                    document.body.style.background = "#fa9b93";
+                } else if(tiempo.coord.lat < -27 && tiempo.coord.lat >= -33){
+                    document.body.style.background = "#ffc39b";                    
+                } else if((tiempo.coord.lat < -33 && tiempo.coord.lat >= -37)){
+                    document.body.style.background = "#ddf19f";
+                } else if((tiempo.coord.lat < -37 && tiempo.coord.lat >= -42)){
+                    document.body.style.background = "#9bdcaa";
+                } else {
+                    document.body.style.background = "#8eac88";
+                }                                       
+            }
+            function consulta() {
+                let valor = input.value;
+                console.log(valor);
+                if (valor !== "" && listaCiudades.includes(valor)) {
+                    input.style.background = "#fff";
+                    weather(valor).catch((error) => console.error(error));
+                } else {
+                    input.style.background = "#f00";
+                }
+            }
+        </script>
+    </body>
+</html>
