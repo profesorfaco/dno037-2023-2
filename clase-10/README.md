@@ -58,9 +58,7 @@ Para más detalles sobre tamaños, conviene consultar directamente a la document
 
 ### Práctica
 
-Los archivos contenidos en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2023-2/clase-10/index.html) servirán de base para volver al portafolio para el que ya comenzaron a preparar un datos.json en la [clase-07](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07).
-
-Para completar este "remake" conviene tener a mano la [documentación de Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
+Los archivos contenidos en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2023-2/clase-10/index.html) servirán de base para un "remake" de la evaluación N°2, para el que conviene tener a mano la [documentación de Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
 
 #### Ejercicio
 
