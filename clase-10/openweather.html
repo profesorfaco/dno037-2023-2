@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DNOO37 | BOOTSTRAP 5.3.2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+    <body class="bg-body-tertiary">
+        <!--navegación con bootstrap-->
+        <nav class="navbar navbar-expand-lg navbar-ligth fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">NOMBRE APELLIDO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">INDEX</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="integrantes.html">INTEGRANTES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="openweather.html">OPEN WEATHER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="picture.html">PICTURE OF THE DAY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sismico.html">SÍSMICO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <input list="ciudades" name="ciudad" placeholder="Escriba el nombre de una ciudad chilena…" />
+            <datalist id="ciudades"></datalist>
+            <input type="button" onclick="consulta()" value="Ver" />
+        </header>
+        <section style="min-height: 70vh">
+            <blockquote style="display: none;">La temperatura en <span id="lugar"></span> es de <span id="temperatura"></span></blockquote>
+        </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+        <script>
+            const input = document.querySelector("input");
+            const llenado = document.querySelector("#ciudades");
+            const respuesta = document.querySelector("blockquote");
+            const lugar = document.querySelector("#lugar");
+            const temperatura = document.querySelector("#temperatura");
+            var listaCiudades = [];
+            //creando la función cities
+            async function cities() {
+                const primero = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/_ciudades.json");
+                const ciudades = await primero.json();
+                console.log(ciudades);
+                ciudades.forEach((c) => {
+                    llenado.innerHTML += `<option value="${c.name}">`;
+                    listaCiudades.push(c.name);
+                });
+            }
+            cities().catch((error) => console.error(error));
+            async function weather(ciudad) {
+                const key = "9eaf12bd13c5deb3d69a49a2e98b458f";
+                const segundo = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + ",cl&units=metric&appid=" + key + "&lang=es");
+                const tiempo = await segundo.json();
+                console.log(tiempo);
+                respuesta.removeAttribute("style");
+                lugar.innerHTML = tiempo.name;
+                temperatura.innerHTML = Math.round(tiempo.main.temp) + "ºC";
+                if(tiempo.coord.lat >= -27){
+                    document.body.style.background = "#fa9b93";
+                } else if(tiempo.coord.lat < -27 && tiempo.coord.lat >= -33){
+                    document.body.style.background = "#ffc39b";                    
+                } else if((tiempo.coord.lat < -33 && tiempo.coord.lat >= -37)){
+                    document.body.style.background = "#ddf19f";
+                } else if((tiempo.coord.lat < -37 && tiempo.coord.lat >= -42)){
+                    document.body.style.background = "#9bdcaa";
+                } else {
+                    document.body.style.background = "#8eac88";
+                }                                       
+            }
+            function consulta() {
+                let valor = input.value;
+                console.log(valor);
+                if (valor !== "" && listaCiudades.includes(valor)) {
+                    input.style.background = "#fff";
+                    weather(valor).catch((error) => console.error(error));
+                } else {
+                    input.style.background = "#f00";
+                }
+            }
+        </script>
+    </body>
+</html>

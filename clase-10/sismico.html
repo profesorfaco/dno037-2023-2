@@ -35,24 +35,42 @@
                 </div>
             </div>
         </nav>
-        <main class="container my-5">
-            <div class="row" style="min-height: 80vh;">
-                <div class="align-self-center display-4" id="texto"></div>
-            </div>
-        </main>
-        <footer class="fixed-bottom mt-auto py-3">
-            <div class="container">
-                <div class="row d-flex">
-                    <div class="col"><a href="https://github.com/profesorfaco/dno037-2023-2" class="link-dark">Diseño y nuevos medios</a></div>
-                    <div class="col text-end"><a href="https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-10" class="link-dark">11 de octubre, 2023</a></div>
-                </div>
-            </div>
-        </footer>
+        <header>
+            <div>Sólo Chile, <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_blank" rel="noreferrer noopener">registrados por la USGS</a> en el último mes.</div>
+        </header>
+        <aside>
+            <div id="loader"></div>
+        </aside>
+        <main></main>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
         <script>
-            document.querySelector("#texto").innerHTML = "Consulte el JSON del curso y obtenga desde ahí su motivo para seguir en la asignatura. Agregue en el mismo párrafo, después de un punto seguido, un vínculo a sus respositorios.";
+            const seccion = document.querySelector("main");
+            const cargador = document.querySelector("#loader");
+
+            // Una función asincrónica para el fetch
+
+            async function temblores() {
+                const data = await fetch("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.geojson");
+                datos = await data.json();
+                datos.features.forEach((t, i) => {
+                    if (t.properties.place.includes("Chile") && t.properties.mag > 4.0) {
+                        seccion.innerHTML += `<article><div><h3>${t.properties.mag.toFixed(1)}</h3></div><div><p><a href="${t.properties.url}" target="_blank" rel="noopener noreferrer">${t.properties.place}</a> - ${registro(
+                            t.properties.time
+                        )}</p></div></article>`;
+                    }
+                });
+                cargador.style.display = "none";
+            }
+            temblores().catch((error) => console.error(error));
+
+            // Una función que ajusta la hora
+
+            function registro(timestamp) {
+                var date = new Date(timestamp);
+                return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()} a las ${(date.getHours() < 10 ? "0" : "") + date.getHours()}:${(date.getMinutes() < 10 ? "0" : "") + date.getMinutes()} hrs.`;
+            }
         </script>
     </body>
 </html>
