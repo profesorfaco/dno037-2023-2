@@ -59,11 +59,11 @@ Considerando los días **miércoles** entre 9 de agosto y 29 de noviembre, resul
 
 [Clase 06 → 13/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-06) → HTML5 + CSS3 + JS sin bibliotecas ✓
 
-[Clase 07 → 20/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07) → HTML5 + CSS3 + JS sin bibliotecas
+[Clase 07 → 20/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-07) → HTML5 + CSS3 + JS sin bibliotecas ✓
 
-**[Clase 08 → 27/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-08) → Evaluación Nº2**
+**[Clase 08 → 27/09/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-08) → Evaluación Nº2 ✓**
 
-Clase 09 → 04/10/2023 → Receso de docencia bimestral. Se suspenden las clases. Las evaluaciones académicas quedarán suspendidas entre el lunes 2 y el martes 10 de octubre inclusive.
+Clase 09 → 04/10/2023 → Receso de docencia bimestral. Se suspenden las clases. Las evaluaciones académicas quedarán suspendidas entre el lunes 2 y el martes 10 de octubre inclusive. ✓
 
 [Clase 10 → 11/10/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-10) → Bootstrap v5.3
 
