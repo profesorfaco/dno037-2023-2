@@ -4,7 +4,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>DNOO37 | BOOTSTRAP 5.3.2</title>
+        <!--El CSS de Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <!--Que luego puedo complementar-->
         <style>
             .active {
                 text-decoration: underline;
@@ -12,8 +14,7 @@
         </style>
     </head>
     <body class="bg-body-tertiary">
-        <!--navegación con bootstrap-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="backdrop-filter: blur(10px)">
             <div class="container">
                 <a class="navbar-brand" href="index.html">NOMBRE APELLIDO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,31 +42,30 @@
             </div>
         </nav>
         <header class="container mt-5">
-              <div class="row row-cols-1 row-cols-md-5 pt-5">
-                <div class="col"><input type="radio" name="selecciona" value="todos" checked /> Todos</div>
-                <div class="col"><input type="radio" name="selecciona" value="cardinal" /> Cardinales</div>
-                <div class="col"><input type="radio" name="selecciona" value="fijo" /> Fijos</div>
-                <div class="col"><input type="radio" name="selecciona" value="mutable" /> Mutables</div>
-            </div>
+              <div class="row pt-5">
+                <div class="col col-sm-11 col-md-7 col-lg-5 d-flex justify-content-between">
+                    <span><input type="radio" name="selecciona" value="todos" checked /> Todos</span>
+                    <span><input type="radio" name="selecciona" value="cardinal" /> Cardinales</span>
+                    <span><input type="radio" name="selecciona" value="fijo" /> Fijos</span>
+                    <span><input type="radio" name="selecciona" value="mutable" /> Mutables</span>
+                </div>
         </header>
         <aside class="container my-4"></aside>
         <main class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" id="tarjetas">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 pb-5" id="todes">
             </div>
         </main>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 
-
-
         <script>
             const alternativas = document.querySelector("header");
             const detalles = document.querySelector("aside");
-            const respuesta = document.querySelector("#tarjetas");
+            const respuesta = document.querySelector("#todes");
             var datos;
             async function estudiantes() {
-                const data = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-07/_curso.json");
+                const data = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023-2/main/clase-10/_curso.json");
                 datos = await data.json();
                 alternativas.removeAttribute("style");
                 console.log(datos);
@@ -82,18 +82,15 @@
             function compatibilidad(valor) {
                 respuesta.innerHTML = ``;
                 detalles.innerHTML = ``;
-
-                //Lo que sigue lo saqué de https://www.clara.es/
-
                 if (valor == "cardinal") {
                     about =
-                        "Los signos cardinales se caracterizan por su inclinación a iniciar cosas nuevas. Su energía busca emprender y asumir nuevos retos. Las personas nacidas bajo estos signos tiene la facilidad de ser proactivos, decididos y con el gusto por iniciar cambios. Suelen ser buenos líderes pero también tienen un lado agresivo que puede salir con más facilidad que otros signos.";
+                        "<span class=\"text-decoration-underline\">Los signos cardinales</span> se caracterizan por su inclinación a iniciar cosas nuevas. Su energía busca emprender y asumir nuevos retos. Las personas nacidas bajo estos signos tiene la facilidad de ser proactivos, decididos y con el gusto por iniciar cambios. Suelen ser buenos líderes pero también tienen un lado agresivo que puede salir con más facilidad que otros signos.";
                 } else if (valor == "fijo") {
                     about =
-                        "Los signos fijos poseen el gusto por el respeto y seguimiento del orden y las estructuras para lograr sus objetivos. Las personas con muchos signos fijos en su carta astral suelen ser leales, consistentes, sensatos y estables. No son muy amigos de los cambios y prefieren tener ideas claras y precisas con las cuáles vivir y crear.";
+                        "<span class=\"text-decoration-underline\">Los signos fijos</span> poseen el gusto por el respeto y seguimiento del orden y las estructuras para lograr sus objetivos. Las personas con muchos signos fijos en su carta astral suelen ser leales, consistentes, sensatos y estables. No son muy amigos de los cambios y prefieren tener ideas claras y precisas con las cuáles vivir y crear.";
                 } else if (valor == "mutable") {
                     about =
-                        "Los signo mutables  tienen el increíble don de la adaptabilidad, ellos no se encasillan en una sola definición o norma. Les suele ser fácil el transformarse según las necesidades la situación sin por ello traicionarse. En ellos coexisten las contradicciones que a ojos de otros observadores serían irreconciliables. Son espontáneos, impredecibles y flexibles. Aunque también podrían llegar a pecar de superficialidad, inestabilidad o dificultad para decidir.";
+                        "<span class=\"text-decoration-underline\">Los signos mutables</span>  tienen el increíble don de la adaptabilidad, ellos no se encasillan en una sola definición o norma. Les suele ser fácil el transformarse según las necesidades la situación sin por ello traicionarse. En ellos coexisten las contradicciones que a ojos de otros observadores serían irreconciliables. Son espontáneos, impredecibles y flexibles. Aunque también podrían llegar a pecar de superficialidad, inestabilidad o dificultad para decidir.";
                 } else {
                     about = "Diseño y nuevos medios.";
                 }
@@ -107,13 +104,12 @@
                 });
             }
 
-            const seleccionado = document.querySelectorAll('input[name="selecciona"]');
+            const seleccion = document.querySelectorAll('input[name="selecciona"]');
 
-            seleccionado.forEach((i) => {
-                i.addEventListener("change", function () {
+            seleccion.forEach((s) => {
+                s.addEventListener("change", function () {
                     var valor = this.value;
                     if (valor !== "todos") {
-                        console.log(valor);
                         compatibilidad(valor);
                     } else {
                         window.location.reload();
