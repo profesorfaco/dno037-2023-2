@@ -10,7 +10,7 @@ Con [Bootstrap](https://getbootstrap.com/) puedes implementar tanto prototipos r
 
 Nosotros trabajaremos con [la más reciente](https://getbootstrap.com/docs/versions/), la quinta versión (punto tres, punto dos). 
 
-Hay distintas maneras de comenzar a trabajar con Boostrap v5.3.2 Nosotros podemos partir con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start), con un documento HTML que debe verse así: 
+Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros podemos partir con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start), en un documento HTML que debe verse así: 
 
 ```
 <!DOCTYPE html>
