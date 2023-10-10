@@ -88,27 +88,32 @@
                 const tiempo = await segundo.json();
                 console.log(tiempo);
                 respuesta.classList.remove("d-none");
-                respuesta.classList.add("display-5");
+                respuesta.classList.add("display-5","text-white");
                 document.body.removeAttribute("class");
                 navegador.classList.remove("bg-body-tertiary","navbar-light");
                 navegador.classList.add("navbar-dark");
                 lugar.innerHTML = tiempo.name;
                 temperatura.innerHTML = Math.round(tiempo.main.temp) + "ºC";
                 if (tiempo.coord.lat >= -26) {
-                    document.body.style.background = "silver url('img/1.jpg') no-repeat 0 0";
-                    document.body.style.backgroundSize = "cover";
+                    document.body.style.background = "linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0, 0.9)), url('img/1.jpg')";
+                    document.body.style.backgroundPosition = "0 0";
+                    document.body.style.backgroundSize = "auto 120%";
                 } else if (tiempo.coord.lat < -26 && tiempo.coord.lat >= -33) {
-                    document.body.style.background = "silver url('img/2.jpg') no-repeat 0 0";
-                    document.body.style.backgroundSize = "cover";
+                    document.body.style.background = "linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0, 0.9)), url('img/2.jpg')";
+                    document.body.style.backgroundPosition = "0 0";
+                    document.body.style.backgroundSize = "auto 120%";
                 } else if (tiempo.coord.lat < -33 && tiempo.coord.lat >= -37) {
-                    document.body.style.background = "silver url('img/3.jpg') no-repeat 0 0";
-                    document.body.style.backgroundSize = "cover";
-                } else if (tiempo.coord.lat < -37 && tiempo.coord.lat >= -42) {
-                    document.body.style.background = "silver url('img/4.jpg') no-repeat 0 0";
-                    document.body.style.backgroundSize = "cover";                    
+                    document.body.style.background = "linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0, 0.9)), url('img/3.jpg')";
+                    document.body.style.backgroundPosition = "0 0";
+                    document.body.style.backgroundSize = "auto 120%";
+                } else if (tiempo.coord.lat < -37 && tiempo.coord.lat >= -43) {
+                    document.body.style.background = "linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0, 0.9)), url('img/4.jpg')";
+                    document.body.style.backgroundPosition = "0 0";
+                    document.body.style.backgroundSize = "auto 120%";                   
                 } else {
-                    document.body.style.background = "silver url('img/5.jpg') no-repeat 0 0";
-                    document.body.style.backgroundSize = "cover";
+                    document.body.style.background = "linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0, 0.9)), url('img/5.jpg')";
+                    document.body.style.backgroundPosition = "0 0";
+                    document.body.style.backgroundSize = "auto 120%";
                 }
             }
             function consulta() {
