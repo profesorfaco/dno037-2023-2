@@ -65,7 +65,7 @@ Considerando los días **miércoles** entre 9 de agosto y 29 de noviembre, resul
 
 Clase 09 → 04/10/2023 → Receso de docencia bimestral. Se suspenden las clases. Las evaluaciones académicas quedarán suspendidas entre el lunes 2 y el martes 10 de octubre inclusive. ✓
 
-[Clase 10 → 11/10/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-10) → Bootstrap v5.3
+[Clase 10 → 11/10/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-10) → Bootstrap v5.3 ✓
 
 [Clase 11 → 18/10/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-11) → Bootstrap v5.3
 
