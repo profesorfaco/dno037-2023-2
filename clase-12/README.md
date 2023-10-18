@@ -6,12 +6,12 @@ Pendiente
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
-| Clase 10 | 1.0 |
-| Clase 11 | 1.0 |
-| Pendiente | 1.0 |
-| Pendiente | 1.0 |
-| Pendiente | 1.0 |
-| Pendiente | 1.0 |
+| Punto por clase 10 | 1.0 |
+| Punto por clase 11 | 1.0 |
+| Punto por JSON | 1.0 |
+| punto por Imágenes de portafolio | 1.0 |
+| Punto por Texto real | 1.0 |
+| Implementa el modal | 1.0 |
 | Punto base | 1.0 |
 | NOTA  | 7.0 |
 
