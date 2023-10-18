@@ -2,16 +2,16 @@
 
 # Evaluación Nº3
 
-Descargue o copie todo el código necesario de [Stylish Portfolio](https://startbootstrap.com/theme/stylish-portfolio). Elimine del `index.html` las secciones que son antecedidas con los comentarios *About*, *Callout* y *Call to Action*. Elimine también la división antecedida con el comentario *Map* y todos los vínculos que se hacen inútiles con secciones y división eliminadas (revise menú y botones).
-
-Continúe con las modificaciones atendiendo a la siguiente pauta de evaluación:
+Pendiente
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
+| Clase 10 | 1.0 |
+| Clase 11 | 1.0 |
 | Pendiente | 1.0 |
 | Pendiente | 1.0 |
 | Pendiente | 1.0 |
-| Pendiente | 3.0 |
+| Pendiente | 1.0 |
 | Punto base | 1.0 |
 | NOTA  | 7.0 |
 
