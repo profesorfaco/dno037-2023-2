@@ -8,8 +8,8 @@ Pendiente
 |:------------------------|:--------:|
 | Punto por clase 10 | 1.0 |
 | Punto por clase 11 | 1.0 |
-| Punto por JSON | 1.0 |
-| punto por Imágenes de portafolio | 1.0 |
+| **Punto por JSON**: Debe considerar 8 trabajos (0,25). Al menos 4 de los trabajos deben ser reales y de su autoría (0,25). En cada trabajo real debe definir un nombre corto + preparar tres fotos (al menos una real, puede rellenar con dos fotos distintas de [picsum](https://picsum.photos/)) + definir un soporte + redactar un *abstract-ito* (máximo 10 palabras) + redactar un texto descriptivo del trabajo real, de unas 100 palabras (0,25). Cada soporte definido coincide con especialidades que declara (0,25). | 1.0 |
+| **Punto por Imágenes de portafolio**: Publica las imágenes reales en un repositorio de GitHub y obtiene desde allí cada URL (0,25). Mantiene las imágenes en una misma proporción de alto y ancho (0,25). Cuida el peso de cada imagen para su rápido despliegue sin pérdida de resolución (0,25). Usa el formato más adecuado en cada caso, sea PNG para imágenes simples, de pocos colores plano, JPG para imágenes más complejas o WEBP para mejorar optimización (0,25) | 1.0 |
 | Punto por Texto real | 1.0 |
 | Implementa el modal | 1.0 |
 | Punto base | 1.0 |
