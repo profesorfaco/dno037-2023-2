@@ -15,6 +15,12 @@ En esta clase no se entrega una plantilla. Se confía que cada estudiante tenga 
 | Punto base (condicionado) | 1.0 |
 | NOTA  | 7.0 |
 
+Para entregar, ingrese la URL de su sitio web puesto en línea con GitHub Pages en: https://cursos.canvas.uc.cl/courses/66086/discussion_topics/701450
+
+Como es evaluación: Tiene hasta las 13.29 hrs. para el ingreso.
+
+Buena suerte.
+
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-11) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-14)
