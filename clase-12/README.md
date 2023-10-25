@@ -2,6 +2,8 @@
 
 # Evaluación Nº3
 
+En esta clase no se entrega una plantilla. Se confía a cada estudiante tener su plantilla, basada en lo desarrollado [la clase recién pasada](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-11) y condicionada a que en JavaScript sólo tenga [plantillas literales (*literals*)](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Template_literals)
+
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
 | Punto por clase 10 | 1.0 |
