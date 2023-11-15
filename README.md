@@ -71,11 +71,11 @@ Clase 09 → 04/10/2023 → Receso de docencia bimestral. Se suspenden las clase
 
 **[Clase 12 → 25/10/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-12) → Evaluación Nº3 ✓**
 
-Clase 13 → 01/11/2023 → Día de Todos los Santos. Feriado legal.
+Clase 13 → 01/11/2023 → Día de Todos los Santos. Feriado legal ✓
 
-[Clase 14 → 08/11/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-14) → Diseño y desarrollo
+[Clase 14 → 08/11/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-14) → Diseño y desarrollo ✓
 
-[Clase 15 → 15/11/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-15) → Diseño y desarrollo
+[Clase 15 → 15/11/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-15) → Diseño y desarrollo ✓
 
 [Clase 16 → 22/11/2020](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-16) → Diseño y desarrollo
 
