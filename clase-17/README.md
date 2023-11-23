@@ -2,7 +2,7 @@
 
 # Pre-evaluación Nº4
 
-Comom ya fue indicado, la pre-entrega será evaluada si y solo si el trabajo ya está en su dominio definitivo.
+Como ya fue indicado, la pre-entrega será evaluada si y solo si el trabajo ya está en su dominio definitivo.
 
 | Criterio | Pts. |
 |:---------|:----:|
