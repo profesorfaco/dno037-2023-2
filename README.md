@@ -79,7 +79,7 @@ Clase 13 → 01/11/2023 → Día de Todos los Santos. Feriado legal ✓
 
 [Clase 16 → 22/11/2020](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-16) → Diseño y desarrollo ✓
 
-**[Clase 17 → 29/11/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) → Pre-evaluación Nº4**
+**[Clase 17 → 29/11/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-17) → Pre-evaluación Nº4 ✓**
 
 **[Clase 18 → 6/12/2023](https://github.com/profesorfaco/dno037-2023-2/tree/main/clase-18) → Evaluación Nº4**
 
