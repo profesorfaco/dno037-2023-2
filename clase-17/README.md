@@ -46,7 +46,7 @@ El reporte de LightHouse evalúa cada dimensión con un número entre 0 y 100. E
 | FLORENCIA SPOTORNO | PENDIENTE |
 | GABRIELA VALLEJOS | https://gabrielavallejos.cl/ |
 
-* Su primer sitio web profesional o prototipo avanzado de aplicación web (ver [descripción abreviada de curso](https://github.com/profesorfaco/dno037-2023-2#descripci%C3%B3n-abreviada-en-4-partes)).
+\* Su primer sitio web profesional o prototipo avanzado de aplicación web (ver [descripción abreviada de curso](https://github.com/profesorfaco/dno037-2023-2#descripci%C3%B3n-abreviada-en-4-partes)).
 
 
 
