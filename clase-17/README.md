@@ -31,7 +31,7 @@ El reporte de LightHouse evalúa cada dimensión con un número entre 0 y 100. E
 | MARÍA JOSÉ GAETE | PENDIENTE |
 | EMIL GATICA | https://emilgatica.cl/ |		
 | SARA GOLDZVEIG | https://saragoldz.cl/ |	
-| ISIDORA GÓMEZ | PENDIENTE |
+| ISIDORA GÓMEZ | https://igmez.cl/ |
 | LUCAS GÓNGORA | PENDIENTE |	
 | TAMARA GUAJARDO | PENDIENTE |
 | JOSEFINA IMSCHENETZKY | https://joseims.cl/ |	
@@ -40,7 +40,7 @@ El reporte de LightHouse evalúa cada dimensión con un número entre 0 y 100. E
 | CATALINA KOLLER | https://portafoliocais.cl/ |	
 | PAULA LUQUE | https://pluque.cl/ |	
 | ISABEL MENESES | https://isabelmeneses.cl/ |	
-| ISIDORA MUÑOZ | PENDIENTE |
+| ISIDORA MUÑOZ | https://isidoramunoz.cl/ |
 | TRINIDAD RODRÍGUEZ | https://trodriguez.cl/ |
 | CLAUDIA RODRÍGUEZ | http://portfolioclau.cl/ |	
 | FLORENCIA SPOTORNO | PENDIENTE |
