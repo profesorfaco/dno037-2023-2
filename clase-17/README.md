@@ -25,7 +25,7 @@ El reporte de LightHouse evalúa cada dimensión con un número entre 0 y 100. E
 | GABRIELA ANDRADE | PENDIENTE |
 | KARLA BONILLA | https://kbom.cl/ |
 | ISABELLA CICARELLI | https://ghiblimuseum.cl/ |	
-| VALENTINA CRUZ | https://valentinacruz.cl/ |  
+| VALENTINA CRUZ | PENDIENTE |  
 | NICOLÁS CRUZAT | https://design-driven.cl/ |
 | DAVID FERNÁNDEZ | PENDIENTE |
 | MARÍA JOSÉ GAETE | PENDIENTE |
