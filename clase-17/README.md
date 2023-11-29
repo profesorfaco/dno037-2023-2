@@ -35,7 +35,7 @@ El reporte de LightHouse evalúa cada dimensión con un número entre 0 y 100. E
 | LUCAS GÓNGORA | PENDIENTE |	
 | TAMARA GUAJARDO | PENDIENTE |
 | JOSEFINA IMSCHENETZKY | https://joseims.cl/ |	
-| DUSAN IVELIC | http://dusanivelic.cl/ |	
+| DUSAN IVELIC | https://dusanivelic.cl/ |	
 | GASPAR JARRY | https://gasparjarry.cl/ |	
 | CATALINA KOLLER | https://portafoliocais.cl/ |	
 | PAULA LUQUE | https://pluque.cl/ |	
